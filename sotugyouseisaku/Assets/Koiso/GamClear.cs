@@ -14,7 +14,7 @@ public class GamClear : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyUp("joystick button 0"))
         {
             SceneManager.LoadScene("title");
         }
