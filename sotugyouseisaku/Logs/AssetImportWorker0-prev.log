@@ -1,0 +1,430 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 17134.1304; Version 1803; 64bit' Language: 'ja' Physical Memory: 8057 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\Unity2020.3.11\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/小礒　仁志/Documents/seisaku2021/sotugyouseisaku
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56123
+Successfully changed project path to: C:/Users/小礒　仁志/Documents/seisaku2021/sotugyouseisaku
+C:/Users/小礒　仁志/Documents/seisaku2021/sotugyouseisaku
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 53.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path D:/Unity/Unity2020.3.11/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/小礒　仁志/Documents/seisaku2021/sotugyouseisaku/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Plus Graphics 640 (ID=0x5926)
+    Vendor:   
+    VRAM:     4028 MB
+    Driver:   27.20.100.8682
+Initialize mono
+Mono path[0] = 'D:/Unity/Unity2020.3.11/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Unity2020.3.11/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/Unity2020.3.11/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Unity2020.3.11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.028836 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\devenv.exe
+Mono: successfully reloaded assembly
+- Completed reload, in  4.622 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.026710 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.435 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2049 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.8 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 98 unused Assets to reduce memory usage. Loaded Objects now: 2482.
+Total: 5.665783 ms (FindLiveObjects: 0.317334 ms CreateObjectMapping: 0.117778 ms MarkObjects: 3.542670 ms  DeleteObjects: 1.686668 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Koiso/anim/Zombie Walk.fbx
+  artifactKey: Guid(85f8288da2bd34041b788681e0851a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/anim/Zombie Walk.fbx using Guid(85f8288da2bd34041b788681e0851a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa290b85dc3f1bcf1b1b9ebcb590f01') in 0.434766 seconds
+  Import took 0.440291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Koiso/EnemyMove.cs
+  artifactKey: Guid(1045cf4d1d57c444dbdc78a1230a698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/EnemyMove.cs using Guid(1045cf4d1d57c444dbdc78a1230a698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e75e6c66094fa1b83dae086eab58613') in 0.029607 seconds
+  Import took 0.037376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Koiso/anim/Zombie Idle.fbx
+  artifactKey: Guid(7921c8e94cba6e646beb7e44598c5e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/anim/Zombie Idle.fbx using Guid(7921c8e94cba6e646beb7e44598c5e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68895aa0d460900b3f95ab0cb6739e8a') in 0.078619 seconds
+  Import took 0.083965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Koiso
+  artifactKey: Guid(327f8a4e9fcd5b246a131a3d9fd40dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso using Guid(327f8a4e9fcd5b246a131a3d9fd40dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d34283afc5dd34989f037c0b56911fa') in 0.011112 seconds
+  Import took 0.015763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Koiso/TestEnemy.prefab
+  artifactKey: Guid(7bb42d61b7d20f442991ce7480880dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/TestEnemy.prefab using Guid(7bb42d61b7d20f442991ce7480880dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2504cb64e545be70186e98aaa8111143') in 0.044855 seconds
+  Import took 0.050979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Koiso/BROWN.mat
+  artifactKey: Guid(2205170ee60a7d141b17437687a5efd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/BROWN.mat using Guid(2205170ee60a7d141b17437687a5efd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377531c5b4671c5adaf7f04b24ffb049') in 0.074489 seconds
+  Import took 0.079403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Koiso/RED.mat
+  artifactKey: Guid(7731984a7ac98fa4ba223cc92c328e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/RED.mat using Guid(7731984a7ac98fa4ba223cc92c328e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732e41fe2bef780f68144e40c0b31c05') in 0.021965 seconds
+  Import took 0.029137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Koiso/crawler.prefab
+  artifactKey: Guid(824a7c91c70df0f4ca7f06bf0747fe8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/crawler.prefab using Guid(824a7c91c70df0f4ca7f06bf0747fe8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf401215e2e0a458e94974a30f8515b') in 0.080771 seconds
+  Import took 0.087569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Koiso/DestroyObj.cs
+  artifactKey: Guid(6ebf7848a1b06794bbddcd21cd62db59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/DestroyObj.cs using Guid(6ebf7848a1b06794bbddcd21cd62db59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc7b59653d9fcb80302fef7192a21d6') in 0.012009 seconds
+  Import took 0.017008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Koiso/anim/Zombie Dying.fbx
+  artifactKey: Guid(18eba9011e2ef73448caeac66e3aded3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/anim/Zombie Dying.fbx using Guid(18eba9011e2ef73448caeac66e3aded3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30f73a9d3e000be2d26421ae4f6d173') in 0.084064 seconds
+  Import took 0.089492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Koiso/ZombieRig.prefab
+  artifactKey: Guid(29241caa5870b624c9eeb8d4e83e66d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/ZombieRig.prefab using Guid(29241caa5870b624c9eeb8d4e83e66d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83dc8a92246152a9a23a3843e02ff82c') in 0.096714 seconds
+  Import took 0.102525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Koiso/anim
+  artifactKey: Guid(3bd10919ee27bbb4fb614d0b91a4608b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/anim using Guid(3bd10919ee27bbb4fb614d0b91a4608b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84b2b5c896758331857cbec3d4e13b8') in 0.010409 seconds
+  Import took 0.014294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Koiso/anim/Zombie Attack.fbx
+  artifactKey: Guid(2ec5a255ef2f25c4a8509aedf7152f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/anim/Zombie Attack.fbx using Guid(2ec5a255ef2f25c4a8509aedf7152f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feda6e10777ec8eb01cb5fd5a0e9a80f') in 0.094705 seconds
+  Import took 0.099431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.869547 seconds.
+  path: Assets/Koiso/SpiderEnemyMove.cs
+  artifactKey: Guid(e43c32da8d4df704f8b2c5289957d335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/SpiderEnemyMove.cs using Guid(e43c32da8d4df704f8b2c5289957d335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8ac9710a804b51c5c802186c9b364d') in 0.017324 seconds
+  Import took 0.022925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.291397 seconds.
+  path: Assets/Koiso/RayTest.cs
+  artifactKey: Guid(f5ce7c622acbee746ae637eed356744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/RayTest.cs using Guid(f5ce7c622acbee746ae637eed356744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bfff305522aef43defa16c464eac8c') in 0.021463 seconds
+  Import took 0.026472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.402784 seconds.
+  path: Assets/Koiso/Test.cs
+  artifactKey: Guid(0264af2d2afbcb04797a48c2aa94c1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/Test.cs using Guid(0264af2d2afbcb04797a48c2aa94c1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d3ff8ef8393c4fc5d0d2d54656ad34') in 0.029052 seconds
+  Import took 0.035660 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006240 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.067 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2039 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.8 MB.
+System memory in use after: 119.4 MB.
+
+Unloading 94 unused Assets to reduce memory usage. Loaded Objects now: 2530.
+Total: 52.160491 ms (FindLiveObjects: 40.755147 ms CreateObjectMapping: 0.916001 ms MarkObjects: 9.014230 ms  DeleteObjects: 1.473779 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.563488 seconds.
+  path: Assets/Koiso/BROWN.mat
+  artifactKey: Guid(2205170ee60a7d141b17437687a5efd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/BROWN.mat using Guid(2205170ee60a7d141b17437687a5efd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f525982145c37765d85f78ab0322db') in 0.142686 seconds
+  Import took 0.151866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Koiso/TestEnemy.prefab
+  artifactKey: Guid(7bb42d61b7d20f442991ce7480880dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/TestEnemy.prefab using Guid(7bb42d61b7d20f442991ce7480880dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0af33a4a3ecfeea7a2c914f4a5a9da') in 0.086129 seconds
+  Import took 0.091252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Koiso/RED.mat
+  artifactKey: Guid(7731984a7ac98fa4ba223cc92c328e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/RED.mat using Guid(7731984a7ac98fa4ba223cc92c328e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edb4467c579438e9b5b1d3a45764f04') in 0.026993 seconds
+  Import took 0.030754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Koiso/crawler.prefab
+  artifactKey: Guid(824a7c91c70df0f4ca7f06bf0747fe8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/crawler.prefab using Guid(824a7c91c70df0f4ca7f06bf0747fe8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf4ec942fccc2bed6589af9a5bb6988') in 0.075732 seconds
+  Import took 0.082260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Koiso/ZombieRig.prefab
+  artifactKey: Guid(29241caa5870b624c9eeb8d4e83e66d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/ZombieRig.prefab using Guid(29241caa5870b624c9eeb8d4e83e66d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da2a1ac0059dac4ca51d08434ed6d78') in 0.077664 seconds
+  Import took 0.082185 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005699 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.066 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2046 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.0 MB.
+System memory in use after: 119.5 MB.
+
+Unloading 94 unused Assets to reduce memory usage. Loaded Objects now: 2536.
+Total: 3.672003 ms (FindLiveObjects: 0.201334 ms CreateObjectMapping: 0.082222 ms MarkObjects: 2.174224 ms  DeleteObjects: 1.213334 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.174706 seconds.
+  path: Assets/Koiso/TestEnemy.prefab
+  artifactKey: Guid(7bb42d61b7d20f442991ce7480880dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/TestEnemy.prefab using Guid(7bb42d61b7d20f442991ce7480880dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a7f7d711fabe837ead37e6273cab15') in 0.073721 seconds
+  Import took 0.077255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Koiso/crawler.prefab
+  artifactKey: Guid(824a7c91c70df0f4ca7f06bf0747fe8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/crawler.prefab using Guid(824a7c91c70df0f4ca7f06bf0747fe8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f752bc018af15f11d522e3f09d4cfb') in 0.042776 seconds
+  Import took 0.046430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Koiso/ZombieRig.prefab
+  artifactKey: Guid(29241caa5870b624c9eeb8d4e83e66d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/ZombieRig.prefab using Guid(29241caa5870b624c9eeb8d4e83e66d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d181e558cc36163696776f939f8d00') in 0.058620 seconds
+  Import took 0.063230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081964 seconds.
+  path: Assets/Koiso/ZombieRig.prefab
+  artifactKey: Guid(29241caa5870b624c9eeb8d4e83e66d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/ZombieRig.prefab using Guid(29241caa5870b624c9eeb8d4e83e66d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d181e558cc36163696776f939f8d00') in 0.056219 seconds
+  Import took 0.060897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.852291 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(504db83c3e859a94886385c67de77fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(504db83c3e859a94886385c67de77fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c43e90f6cb4411418e1991f3ba714b8') in 0.018351 seconds
+  Import took 0.022676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004788 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(504db83c3e859a94886385c67de77fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(504db83c3e859a94886385c67de77fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c43e90f6cb4411418e1991f3ba714b8') in 0.010662 seconds
+  Import took 0.019311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.029471 seconds.
+  path: Assets/Scenes/Koiso.unity
+  artifactKey: Guid(f682ea5c290abf941ad5e70ba9e9701c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Koiso.unity using Guid(f682ea5c290abf941ad5e70ba9e9701c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5836e5615fa72c16e9bcd7d64d83912b') in 0.025421 seconds
+  Import took 0.030187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.721525 seconds.
+  path: Assets/Koiso/RayTest.cs
+  artifactKey: Guid(f5ce7c622acbee746ae637eed356744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/RayTest.cs using Guid(f5ce7c622acbee746ae637eed356744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc7addf4296c944efb1c6b758ea90d3') in 0.017805 seconds
+  Import took 0.022851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.333085 seconds.
+  path: Assets/Koiso/GamClear.cs
+  artifactKey: Guid(9ba6e19d59a61734c8229b0bf172fdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Koiso/GamClear.cs using Guid(9ba6e19d59a61734c8229b0bf172fdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197c932779cf642b65a9e7a90500084c') in 0.028058 seconds
+  Import took 0.035989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.076161 seconds.
+  path: Assets/Scenes/GameClear.unity
+  artifactKey: Guid(2a832fb0711a0ee4c80a59e65e9209cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameClear.unity using Guid(2a832fb0711a0ee4c80a59e65e9209cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a692ba25b471119f39de30f3d19a352') in 0.017902 seconds
+  Import took 0.022864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.867288 seconds.
+  path: Assets/Scenes/Koiso
+  artifactKey: Guid(bf1594b47ca88bd4181487355d7a6de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Koiso using Guid(bf1594b47ca88bd4181487355d7a6de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7e0c64b5c36a870dfce782e6ea818b') in 0.008328 seconds
+  Import took 0.015005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056777 seconds.
+  path: Assets/Scenes/Koiso/NavMesh.asset
+  artifactKey: Guid(87509dd47de734a45b0bc9302300eaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Koiso/NavMesh.asset using Guid(87509dd47de734a45b0bc9302300eaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0333417d3fd0ee2ce3f8df967b74ab3f') in 0.011679 seconds
+  Import took 0.017445 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008148 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.141 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2046 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.1 MB.
+System memory in use after: 119.6 MB.
+
+Unloading 94 unused Assets to reduce memory usage. Loaded Objects now: 2540.
+Total: 3.944004 ms (FindLiveObjects: 0.230667 ms CreateObjectMapping: 0.063111 ms MarkObjects: 2.383113 ms  DeleteObjects: 1.265779 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.642000 seconds.
+  path: Assets/Prefab
+  artifactKey: Guid(b4def744855ddd14f8b901a0497f8acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab using Guid(b4def744855ddd14f8b901a0497f8acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2ebba5c600da55afa1277e70f73449') in 0.016504 seconds
+  Import took 0.022768 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007168 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.127 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2046 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.1 MB.
+System memory in use after: 119.6 MB.
+
+Unloading 93 unused Assets to reduce memory usage. Loaded Objects now: 2543.
+Total: 5.834672 ms (FindLiveObjects: 0.385334 ms CreateObjectMapping: 0.106222 ms MarkObjects: 3.664448 ms  DeleteObjects: 1.677779 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.051884 seconds.
+  path: Assets/Scenes/Koiso.unity
+  artifactKey: Guid(f682ea5c290abf941ad5e70ba9e9701c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Koiso.unity using Guid(f682ea5c290abf941ad5e70ba9e9701c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ece4574f8036bbc80b30ab0f907156') in 0.066742 seconds
+  Import took 0.071174 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

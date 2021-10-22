@@ -27,7 +27,7 @@ public class EnemyNum : MonoBehaviour
     void Update()
     {
         
-        if (num==12)
+        if (num==1)
         {
             SceneManager.LoadScene("GameClear");
         }
