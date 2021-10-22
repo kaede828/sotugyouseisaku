@@ -54,15 +54,22 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\koike\Scripts\title.cs" />
+    <Compile Include="Assets\Kan\Script\ReloadTime.cs" />
+    <Compile Include="Assets\Koiso\DestroyObj.cs" />
     <Compile Include="Assets\Kan\Script\AddForceBullet.cs" />
-    <Compile Include="Assets\Koiso\EnemyNum.cs" />
+    <Compile Include="Assets\Honda\OpText.cs" />
     <Compile Include="Assets\koike\Scripts\kariEne.cs" />
+    <Compile Include="Assets\Kan\Script\PlayerFootStepSE.cs" />
+    <Compile Include="Assets\Kan\Script\Bullets.cs" />
+    <Compile Include="Assets\Koiso\Test.cs" />
     <Compile Include="Assets\Koiso\SpiderEnemyMove.cs" />
-    <Compile Include="Assets\Koiso\GamClear.cs" />
     <Compile Include="Assets\koike\Scripts\PlayerHp.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Kan\Script\Gun_UI.cs" />
     <Compile Include="Assets\Kan\Script\BulletAttack.cs" />
     <Compile Include="Assets\Koiso\EnemyMove.cs" />
+    <Compile Include="Assets\Koiso\RayTest.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\koike\Scripts\CamProtect.cs" />
     <Compile Include="Assets\koike\Scripts\GameOver.cs" />
   </ItemGroup>
@@ -687,6 +694,10 @@
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{A3F10363-5084-FA7E-37BC-1D850F7C1086}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniRx.csproj">
+      <Project>{1B85C4F0-D500-C54A-5224-1AF21B7F66A2}</Project>
+      <Name>UniRx</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
