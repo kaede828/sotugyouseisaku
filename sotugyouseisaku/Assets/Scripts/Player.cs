@@ -110,7 +110,7 @@ public class Player : MonoBehaviour
         if (Input.GetAxis("joystick L2") > 0)
         {
             //ズーム中
-            cameraSpeed = 0.1f;
+            cameraSpeed = 20.0f;
             moveS = 1.5f;
             System.Console.WriteLine("L2");
             DOTween.To(() => Camera.main.fieldOfView,
@@ -121,7 +121,7 @@ public class Player : MonoBehaviour
         else
         {
             //ズームしてない時
-            cameraSpeed = 0.25f;
+            cameraSpeed = 50.0f;
             moveS = 2.0f;
             DOTween.To(() => Camera.main.fieldOfView,
                 fov => Camera.main.fieldOfView = fov,
@@ -161,7 +161,7 @@ public class Player : MonoBehaviour
     void RotateChara()
     {
         //横の回転値を計算
-        float yRot = Input.GetAxis("Horizontal2") * cameraSpeed;
+        float yRot = Input.GetAxis("Horizontal2") * cameraSpeed * Time.deltaTime;
 
         charaRot *= Quaternion.Euler(0f, yRot, 0f);
 
@@ -184,7 +184,7 @@ public class Player : MonoBehaviour
     void RotateCamera()
     {
         //縦の回転値
-        float xRotate = Input.GetAxis("Vertical2") * cameraSpeed;
+        float xRotate = Input.GetAxis("Vertical2") * cameraSpeed * Time.deltaTime;
 
         //　マウスを上に移動した時に上を向かせたいなら反対方向に角度を反転させる
         if (cameraRotForward)
