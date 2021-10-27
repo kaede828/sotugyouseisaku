@@ -14,7 +14,7 @@ public class EnemyMove : MonoBehaviour
     }
     [SerializeField] private EnemyState state = EnemyState.PATROL;
     [SerializeField] private int hp = 100;
-    [SerializeField] private int speed = 15;
+    [SerializeField] private int speed = 20;
     //ダメ―ジエフェクト
     [SerializeField] private GameObject bloodObj;
     //攻撃の判定
@@ -38,6 +38,9 @@ public class EnemyMove : MonoBehaviour
     bool isChase=true;
     bool isAttack = true;
     bool isLook = false;
+
+    [SerializeField] private EnemyNum enemyNum;
+    
 
     void Start()
     {
@@ -68,6 +71,11 @@ public class EnemyMove : MonoBehaviour
 
     void PlayerChase()
     {
+        if (isAttack)
+        {
+            //向きをプレイヤーに変える
+            transform.rotation = Quaternion.LookRotation(player.position - transform.position);
+        }
         state = EnemyState.CHASE;
         animator.SetTrigger("chase");
         agent.destination = player.position;
@@ -93,7 +101,7 @@ public class EnemyMove : MonoBehaviour
         }
         else
         {
-            hp -= 5;            
+            hp -= 20;            
         }       
         StartCoroutine("Colortimer", 0.1f);
     }
@@ -142,11 +150,13 @@ public class EnemyMove : MonoBehaviour
         }
         Destroy(this.gameObject);
         //mat.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+        Call();
     }
 
     // ゲーム実行中の繰り返し処理
     void Update()
     {
+
         playerPos = (player.position - transform.position) + new Vector3(0, 1, 0);
         Ray ray = new Ray(transform.position, playerPos);
         //デバッグ用
@@ -165,11 +175,7 @@ public class EnemyMove : MonoBehaviour
         //        break;
         //}
 
-        if (isAttack)
-        {
-            //向きをプレイヤーに変える
-            transform.rotation = Quaternion.LookRotation(player.position - transform.position);
-        }
+       
 
         if (Physics.Raycast(ray, out hit, chaseDistance))
         {
@@ -190,11 +196,11 @@ public class EnemyMove : MonoBehaviour
         }
         else Patrol();
 
-        //デバッグ用
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Damage();
-        }
+    }
+
+    private void Call()
+    {
+        enemyNum.DeathNum();
     }
 
 
