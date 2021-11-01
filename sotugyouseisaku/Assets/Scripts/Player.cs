@@ -110,7 +110,7 @@ public class Player : MonoBehaviour
         if (Input.GetAxis("joystick L2") > 0)
         {
             //ズーム中
-            cameraSpeed = 20.0f;
+            cameraSpeed = 50.0f;
             moveS = 1.5f;
             System.Console.WriteLine("L2");
             DOTween.To(() => Camera.main.fieldOfView,
@@ -121,14 +121,13 @@ public class Player : MonoBehaviour
         else
         {
             //ズームしてない時
-            cameraSpeed = 50.0f;
+            cameraSpeed = 100.0f;
             moveS = 2.0f;
             DOTween.To(() => Camera.main.fieldOfView,
                 fov => Camera.main.fieldOfView = fov,
                 defaultFov / 1,
                 waitTime);
         }
-
         Death();
     }
 
@@ -141,11 +140,12 @@ public class Player : MonoBehaviour
         }
     }
 
-    //void LateUpdate()
-    //{
-    //    //　ボーンをカメラの角度を向かせる
-    //    RotateBone();
-    //}
+    void LateUpdate()
+    {
+        //　ボーンをカメラの角度を向かせる
+        RotateBone();
+        //Debug.Log(spine.eulerAngles.y);
+    }
 
 
     /// <summary>
@@ -154,7 +154,8 @@ public class Player : MonoBehaviour
     void RotateBone()
     {
         //　腰のボーンの角度をカメラの向きにする
-        spine.rotation = Quaternion.Euler(spine.eulerAngles.x, spine.eulerAngles.y - (myCamera.localEulerAngles.x), spine.eulerAngles.z + (-myCamera.localEulerAngles.x));
+        spine.rotation = Quaternion.Euler(spine.eulerAngles.x, spine.eulerAngles.y, spine.eulerAngles.z + -myCamera.localEulerAngles.x);
+        //spine.rotation = Quaternion.Euler(spine.eulerAngles.x, spine.eulerAngles.y, spine.eulerAngles.z + (-myCamera.localEulerAngles.x));
     }
 
     //キャラクターの角度を変更
