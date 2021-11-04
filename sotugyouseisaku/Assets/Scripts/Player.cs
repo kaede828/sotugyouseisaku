@@ -130,6 +130,7 @@ public class Player : MonoBehaviour
         }
         Death();
     }
+    
 
     private void OnTriggerEnter(Collider collider)
     {
