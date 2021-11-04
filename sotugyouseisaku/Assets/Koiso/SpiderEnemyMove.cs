@@ -83,6 +83,9 @@ public class SpiderEnemyMove : MonoBehaviour
     {
         state = EnemyState.CHASE;
         animator.SetTrigger("chase");
+        //降りて攻撃可能にする
+
+
         //プレイヤーを追いかける
         agent.destination = player.position;
     }
