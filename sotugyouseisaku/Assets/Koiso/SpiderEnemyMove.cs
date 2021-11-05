@@ -36,7 +36,7 @@ public class SpiderEnemyMove : MonoBehaviour
     [SerializeField] int attackDistance = 0;
     RaycastHit hit;
 
-    [SerializeField] Animator animatorDown;
+    [SerializeField] Animator animator;
     [SerializeField] Rigidbody rigidbody;
     [SerializeField] Transform transformUp;
 
@@ -50,12 +50,13 @@ public class SpiderEnemyMove : MonoBehaviour
 
     void Start()
     {
+        animator = animator.GetComponent<Animator>();
         attack.SetActive(false);
         agent = GetComponent<NavMeshAgent>();
         
         GotoNextPoint();
         agent.speed = speed;
-        animatorDown = GetComponent<Animator>();
+        
     }
 
     void GotoNextPoint()
@@ -86,8 +87,9 @@ public class SpiderEnemyMove : MonoBehaviour
 
         state = EnemyState.CHASE;
         if(downSpider.activeSelf)
-        {
-            animatorDown.SetTrigger("chase");
+        {         
+            Debug.Log("チェイス");
+            animator.SetTrigger("chase");
         }  
         agent.destination = player.position;
         if(isUp)
@@ -103,7 +105,7 @@ public class SpiderEnemyMove : MonoBehaviour
     void Patrol()
     {
         state = EnemyState.PATROL;
-        animatorDown.SetTrigger("patrol");
+        animator.SetTrigger("patrol");
         if (!agent.pathPending && agent.remainingDistance < 0.5f)
             GotoNextPoint();
     }
@@ -137,13 +139,14 @@ public class SpiderEnemyMove : MonoBehaviour
     {
         state = EnemyState.ATTACK;
         attack.SetActive(true);
+        transform.rotation = Quaternion.LookRotation(player.position - transform.position);
         //Material mat = this.GetComponent<Renderer>().material;
         while (time >= 0)
         {
             agent.velocity = Vector3.zero;
             agent.isStopped = true;
-            //mat.color = new Color(0.0f, 0.0f, 1.0f, 1.0f);
-            yield return new WaitForSeconds(1f);
+            //mat.color = new Color(0.0f, 0.0f, 1.0f, 1.0f);          
+            yield return new WaitForSeconds(1);
             Debug.Log(time);
             --time;
             attack.SetActive(false);
@@ -161,7 +164,7 @@ public class SpiderEnemyMove : MonoBehaviour
             //agent.isStopped = true;
             rigidbody.GetComponent<Rigidbody>();
             rigidbody.isKinematic = false;
-
+            
             yield return new WaitForSeconds(1f);
             Debug.Log(time);
             --time;
@@ -218,9 +221,10 @@ public class SpiderEnemyMove : MonoBehaviour
                 {
                     if (isAttack&&isUp==false)
                     {
+
                         StartCoroutine("Attacktimer", 1);
                         Debug.Log("攻撃");
-                        animatorDown.SetTrigger("attack");
+                        animator.SetTrigger("attack");
                         isAttack = false;
                     }
                 }
@@ -229,6 +233,12 @@ public class SpiderEnemyMove : MonoBehaviour
             else Patrol();
         }
         else Patrol();
+
+        if(animator.GetCurrentAnimatorClipInfo(0)[0].clip.name=="pounce")
+        {
+            Debug.Log("飛びつき中");
+            transform.position += transform.forward * 10 * Time.deltaTime;
+        }
     }
 
     private void Call()
