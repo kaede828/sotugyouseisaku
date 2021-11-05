@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>7.3</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -55,22 +55,31 @@
   <ItemGroup>
     <Compile Include="Assets\koike\Scripts\title.cs" />
     <Compile Include="Assets\Kan\Script\ReloadTime.cs" />
+    <Compile Include="Assets\Koiso\DestroyObj.cs" />
     <Compile Include="Assets\Kan\Script\AddForceBullet.cs" />
+    <Compile Include="Assets\Honda\OpText.cs" />
     <Compile Include="Assets\Iwatani\script\hatudenki.cs" />
     <Compile Include="Assets\Kan\Script\RayHitBullet.cs" />
     <Compile Include="Assets\Iwatani\script\hatudenkiHP.cs" />
     <Compile Include="Assets\koike\Scripts\kariEne.cs" />
     <Compile Include="Assets\Kan\Script\PlayerFootStepSE.cs" />
     <Compile Include="Assets\Kan\Script\Bullets.cs" />
+    <Compile Include="Assets\Koiso\EnemyNum.cs" />
+    <Compile Include="Assets\Kan\Script\PlayerBulletsState.cs" />
+    <Compile Include="Assets\Koiso\Test.cs" />
+    <Compile Include="Assets\Koiso\SpiderEnemyMove.cs" />
     <Compile Include="Assets\koike\Scripts\PlayerHp.cs" />
+    <Compile Include="Assets\Koiso\GamClear.cs" />
     <Compile Include="Assets\Iwatani\script\hatudenkiManager.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Kan\Script\Gun_UI.cs" />
     <Compile Include="Assets\Kan\Script\BulletAttack.cs" />
+    <Compile Include="Assets\Koiso\EnemyMove.cs" />
+    <Compile Include="Assets\Koiso\RayTest.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\koike\Scripts\CamProtect.cs" />
-    <Compile Include="Assets\koike\Scripts\GameOver.cs" />
     <Compile Include="Assets\Kan\Script\Ammunition_Item.cs" />
-    <Compile Include="Assets\Kan\Script\PlayerBulletsState.cs" />
+    <Compile Include="Assets\koike\Scripts\GameOver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Room\Settings\Note.txt" />
@@ -655,6 +664,9 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
@@ -682,11 +694,11 @@
     <Reference Include="Unity.ProBuilder.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
@@ -694,11 +706,18 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{A3F10363-5084-FA7E-37BC-1D850F7C1086}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniRx.csproj">
+      <Project>{1B85C4F0-D500-C54A-5224-1AF21B7F66A2}</Project>
+      <Name>UniRx</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
