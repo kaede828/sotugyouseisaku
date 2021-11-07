@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using DG.Tweening;
+using UnityEngine.Rendering.PostProcessing;
 
 public class Player : MonoBehaviour
 {
@@ -55,8 +56,15 @@ public class Player : MonoBehaviour
     float zoom = 2.0f;
     float waitTime = 0.5f;
 
+    //ボーン取得
     [SerializeField]
     private Transform spine;
+
+    public postEffect post;
+
+    const float min = -17.0f;
+    const float max = 24.0f;
+    private float spineZ;
 
     // Start is called before the first frame update
     void Start()
@@ -71,6 +79,10 @@ public class Player : MonoBehaviour
         defaultFov = GetComponentInChildren<Camera>().fieldOfView;
 
         charaRotFlag = false;
+
+        //post = GetComponent<postEffect>();
+
+
 
         hp = Playerhp;
     }
@@ -105,6 +117,8 @@ public class Player : MonoBehaviour
         pos.y -= g * Time.deltaTime;
         charaCon.Move(pos * Time.deltaTime);
 
+       
+
         //ズーム
         if (Input.GetAxis("joystick L2") > 0)
         {
@@ -137,7 +151,10 @@ public class Player : MonoBehaviour
         if (collider.gameObject.tag == "Attack")
         {
             hp = hp - 10;
-            Debug.Log("プレイヤーHP : " + hp);
+            //ポストエフェクトVignetteの値加算
+            post.vigparam += 0.04f;
+            Debug.Log("Player@vigparam"+post.vigparam);
+            //Debug.Log("プレイヤーHP : " + hp);
         }
     }
 
@@ -146,6 +163,8 @@ public class Player : MonoBehaviour
         //　ボーンをカメラの角度を向かせる
         RotateBone();
         //Debug.Log(spine.eulerAngles.y);
+
+        
     }
 
 
@@ -154,8 +173,13 @@ public class Player : MonoBehaviour
     /// </summary>
     void RotateBone()
     {
+        spineZ = (spine.eulerAngles.z - myCamera.localEulerAngles.x);
+        //spineZ = System.Math.Min(spineZ, 180);
+        //spineZ = System.Math.Max(spineZ, -150);
+
+        //spineZ = Mathf.Clamp(spine.eulerAngles.z - myCamera.localEulerAngles.x, min, max);
         //　腰のボーンの角度をカメラの向きにする
-        spine.rotation = Quaternion.Euler(spine.eulerAngles.x, spine.eulerAngles.y, spine.eulerAngles.z + -myCamera.localEulerAngles.x);
+        spine.rotation = Quaternion.Euler(spine.eulerAngles.x, spine.eulerAngles.y, spineZ);
         //spine.rotation = Quaternion.Euler(spine.eulerAngles.x, spine.eulerAngles.y, spine.eulerAngles.z + (-myCamera.localEulerAngles.x));
     }
 
