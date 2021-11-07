@@ -20,6 +20,7 @@ public class SpiderEnemyMove : MonoBehaviour
     [SerializeField] private int speed = 20;
     //ダメ―ジエフェクト
     [SerializeField] private GameObject bloodObj;
+    [SerializeField] private GameObject deathObj;
     //攻撃の判定
     [SerializeField] private GameObject attack;
     //巡回地点オブジェクト
@@ -32,9 +33,14 @@ public class SpiderEnemyMove : MonoBehaviour
     private Vector3 playerPos;
     //発見距離
     [SerializeField] int chaseDistance = 50;
+    //落ちた後の発見距離
+    [SerializeField] int downChaseDistance = 100;
     //攻撃距離
     [SerializeField] int attackDistance = 0;
     RaycastHit hit;
+    //落下の時間
+    public float downTime = 1f;
+    int rote = 180;
 
     [SerializeField] Animator animator;
     [SerializeField] Rigidbody rigidbody;
@@ -97,7 +103,7 @@ public class SpiderEnemyMove : MonoBehaviour
             StartCoroutine("Downtimer", 0.6);
             //rigidbody.GetComponent<Rigidbody>();
             //rigidbody.isKinematic = false;
-            isUp = false;
+            
         }
         
     }
@@ -109,22 +115,24 @@ public class SpiderEnemyMove : MonoBehaviour
         if (!agent.pathPending && agent.remainingDistance < 0.5f)
             GotoNextPoint();
     }
-    void Damage()
+    public void Damage()
     {
         state = EnemyState.DAMAGE;
         if (isUp)
         {
+            
+            
             StartCoroutine("Downtimer", 1);
             //rigidbody.GetComponent<Rigidbody>();
             //rigidbody.isKinematic = false;
-            isUp = false;
+            //isUp = false;
         }
         if (hp <= 0)
         {
             agent.velocity = Vector3.zero;
             agent.isStopped = true;
             //animator.SetTrigger("death");
-            StartCoroutine("Deathtimer", 3);
+            StartCoroutine("Deathtimer", 1);
 
         }
         else
@@ -165,11 +173,12 @@ public class SpiderEnemyMove : MonoBehaviour
             rigidbody.GetComponent<Rigidbody>();
             rigidbody.isKinematic = false;
             
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(downTime);
             Debug.Log(time);
             --time;
         }
-        
+        chaseDistance = downChaseDistance;
+        isUp = false;
         downSpider.SetActive(true);
         upSpider.SetActive(false);
     }
@@ -180,12 +189,16 @@ public class SpiderEnemyMove : MonoBehaviour
         while (time >= 0)
         {
             //mat.color = new Color(1.0f, 0.0f, 0.0f, 1.0f);
+            Instantiate(deathObj, transform.position, Quaternion.identity);
+            Destroy(this.gameObject);
             yield return new WaitForSeconds(1);
             --time;
         }
-        Destroy(this.gameObject);
+        //Instantiate(deathObj, transform.position, Quaternion.identity);
+        Debug.Log("死んだ");
+        //Destroy(this.gameObject);
         //mat.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
-        Call();
+        //Call();
     }
 
 
@@ -241,10 +254,10 @@ public class SpiderEnemyMove : MonoBehaviour
         }
     }
 
-    private void Call()
-    {
-        enemyNum.DeathNum();
-    }
+    //private void Call()
+    //{
+    //    enemyNum.DeathNum();
+    //}
 
 
 }
