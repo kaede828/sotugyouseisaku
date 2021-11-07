@@ -33,6 +33,11 @@ public class AddForceBullet : MonoBehaviour
     public float reloadTime = 1.5f;
     public float rlTime = 0.0f;
     public bool isReload = false;
+
+    //　弾の半径
+    private float muzzleRadius;
+    [SerializeField]
+    private float range = 1000.0f;
     //リロードSE
     [SerializeField]
     private AudioClip reloadSe;
@@ -42,6 +47,10 @@ public class AddForceBullet : MonoBehaviour
         bulletCount = maxBullets;
         dis = new Vector3(1, 1, 1);
         audio = transform.root.GetComponent<AudioSource>();
+
+        muzzle = gameObject.transform;
+        //　弾の半径を取得
+        muzzleRadius = muzzle.GetComponent<SphereCollider>().radius;
     }
 
     void Update()
@@ -54,7 +63,7 @@ public class AddForceBullet : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(rayCameraPos);
 
         //メインカメラからレイを出すデバッグ線
-        //Debug.DrawRay(ray.origin, ray.direction * 10, Color.yellow);
+        Debug.DrawRay(ray.origin, ray.direction * 10, Color.yellow);
 
         transform.rotation = Quaternion.LookRotation(ray.direction);
         RaycastHit hit;
@@ -101,9 +110,11 @@ public class AddForceBullet : MonoBehaviour
         //　マウスの左クリックで撃つ
         if (Input.GetAxis("joystick R2") > 0)
         {
+
             if (count > shotSpeed)
             {
                 Shot();
+                Judge();
                 bulletCount--;
                 count = 0.0f;
             }
@@ -116,8 +127,32 @@ public class AddForceBullet : MonoBehaviour
     {
         audio.PlayOneShot(gunSe);
         var bulletInstance = Instantiate<GameObject>(bulletPrefab, muzzle.position, Quaternion.LookRotation(dis));
-        // bulletInstance.GetComponent<Rigidbody>().AddForce(bulletInstance.transform.forward * bulletPower);
+        //bulletInstance.GetComponent<Rigidbody>().AddForce(bulletInstance.transform.forward * bulletPower);
         bulletInstance.GetComponent<BulletAttack>().speed = dis * bulletPower;
         Destroy(bulletInstance, 5f);
+    }
+
+    //　銃を撃って敵に当たったか判定するスクリプト
+    public void Judge()
+    {
+
+        //　飛ばす位置と飛ばす方向を設定
+        Ray ray = new Ray(muzzle.transform.position, muzzle.transform.forward);
+        //　当たったコライダを入れておく変数
+        RaycastHit[] hits;
+        //　Sphereの形でレイを飛ばしEnemyレイヤーのものをhitsに入れる
+        hits = Physics.SphereCastAll(ray, muzzleRadius, range, LayerMask.GetMask("Enemy"));
+        //　射程距離をdistanceに入れる
+        float distance = range;
+
+        foreach (var hit in hits)
+        {
+            //敵を消す
+            var em = hit.collider.gameObject.GetComponent<EnemyMove>();
+            em.hitPos = hit.point;
+            em.isBulletHit = true;
+            //Destroy(hit.collider.gameObject);
+        }
+
     }
 }

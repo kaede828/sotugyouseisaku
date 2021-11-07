@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
 using DG.Tweening;
+using UnityEngine.Rendering.PostProcessing;
 
 public class Player : MonoBehaviour
 {
@@ -56,8 +56,15 @@ public class Player : MonoBehaviour
     float zoom = 2.0f;
     float waitTime = 0.5f;
 
+    //ボーン取得
     [SerializeField]
     private Transform spine;
+
+    public postEffect post;
+
+    const float min = -17.0f;
+    const float max = 24.0f;
+    private float spineZ;
 
     // Start is called before the first frame update
     void Start()
@@ -72,6 +79,10 @@ public class Player : MonoBehaviour
         defaultFov = GetComponentInChildren<Camera>().fieldOfView;
 
         charaRotFlag = false;
+
+        //post = GetComponent<postEffect>();
+
+
 
         hp = Playerhp;
     }
@@ -106,11 +117,13 @@ public class Player : MonoBehaviour
         pos.y -= g * Time.deltaTime;
         charaCon.Move(pos * Time.deltaTime);
 
+       
+
         //ズーム
         if (Input.GetAxis("joystick L2") > 0)
         {
             //ズーム中
-            cameraSpeed = 0.1f;
+            cameraSpeed = 50.0f;
             moveS = 1.5f;
             System.Console.WriteLine("L2");
             DOTween.To(() => Camera.main.fieldOfView,
@@ -121,31 +134,38 @@ public class Player : MonoBehaviour
         else
         {
             //ズームしてない時
-            cameraSpeed = 0.25f;
+            cameraSpeed = 100.0f;
             moveS = 2.0f;
             DOTween.To(() => Camera.main.fieldOfView,
                 fov => Camera.main.fieldOfView = fov,
                 defaultFov / 1,
                 waitTime);
         }
-
         Death();
     }
+    
+    
 
     private void OnTriggerEnter(Collider collider)
     {
         if (collider.gameObject.tag == "Attack")
         {
             hp = hp - 10;
-            Debug.Log("プレイヤーHP : " + hp);
+            //ポストエフェクトVignetteの値加算
+            post.vigparam += 0.04f;
+            Debug.Log("Player@vigparam"+post.vigparam);
+            //Debug.Log("プレイヤーHP : " + hp);
         }
     }
 
-    //void LateUpdate()
-    //{
-    //    //　ボーンをカメラの角度を向かせる
-    //    RotateBone();
-    //}
+    void LateUpdate()
+    {
+        //　ボーンをカメラの角度を向かせる
+        RotateBone();
+        //Debug.Log(spine.eulerAngles.y);
+
+        
+    }
 
 
     /// <summary>
@@ -153,15 +173,21 @@ public class Player : MonoBehaviour
     /// </summary>
     void RotateBone()
     {
+        spineZ = (spine.eulerAngles.z - myCamera.localEulerAngles.x);
+        //spineZ = System.Math.Min(spineZ, 180);
+        //spineZ = System.Math.Max(spineZ, -150);
+
+        //spineZ = Mathf.Clamp(spine.eulerAngles.z - myCamera.localEulerAngles.x, min, max);
         //　腰のボーンの角度をカメラの向きにする
-        spine.rotation = Quaternion.Euler(spine.eulerAngles.x, spine.eulerAngles.y - (myCamera.localEulerAngles.x), spine.eulerAngles.z + (-myCamera.localEulerAngles.x));
+        spine.rotation = Quaternion.Euler(spine.eulerAngles.x, spine.eulerAngles.y, spineZ);
+        //spine.rotation = Quaternion.Euler(spine.eulerAngles.x, spine.eulerAngles.y, spine.eulerAngles.z + (-myCamera.localEulerAngles.x));
     }
 
     //キャラクターの角度を変更
     void RotateChara()
     {
         //横の回転値を計算
-        float yRot = Input.GetAxis("Horizontal2") * cameraSpeed;
+        float yRot = Input.GetAxis("Horizontal2") * cameraSpeed * Time.deltaTime;
 
         charaRot *= Quaternion.Euler(0f, yRot, 0f);
 
@@ -184,7 +210,7 @@ public class Player : MonoBehaviour
     void RotateCamera()
     {
         //縦の回転値
-        float xRotate = Input.GetAxis("Vertical2") * cameraSpeed;
+        float xRotate = Input.GetAxis("Vertical2") * cameraSpeed * Time.deltaTime;
 
         //　マウスを上に移動した時に上を向かせたいなら反対方向に角度を反転させる
         if (cameraRotForward)
