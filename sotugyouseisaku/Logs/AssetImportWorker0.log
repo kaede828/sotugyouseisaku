@@ -1,433 +1,1764 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1319; Version 2009; 64bit' Language: 'ja' Physical Memory: 8080 MB
+OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'ja' Physical Memory: 8133 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+C:\Program Files\Unity\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/sotu/sotugyouseisaku
+C:/Users/KPC-018A1702/Desktop/SotugyoSeisaku/sotugyouseisaku
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54774
-Successfully changed project path to: C:/sotu/sotugyouseisaku
-C:/sotu/sotugyouseisaku
+58984
+Successfully changed project path to: C:/Users/KPC-018A1702/Desktop/SotugyoSeisaku/sotugyouseisaku
+C:/Users/KPC-018A1702/Desktop/SotugyoSeisaku/sotugyouseisaku
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 59.95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 472.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/sotu/sotugyouseisaku/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/KPC-018A1702/Desktop/SotugyoSeisaku/sotugyouseisaku/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
     Vendor:   
-    VRAM:     1977 MB
-    Driver:   30.0.14.7212
+    VRAM:     6052 MB
+    Driver:   30.0.14.9649
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002495 seconds.
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005405 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 56.04 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 97.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.226 seconds
+- Completed reload, in  3.627 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006149 seconds.
+Registered in 0.030225 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.324 seconds
+- Completed reload, in  1.706 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.4 MB.
-System memory in use after: 107.0 MB.
+Unloading 1814 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.3 MB.
+System memory in use after: 104.9 MB.
 
-Unloading 98 unused Assets to reduce memory usage. Loaded Objects now: 2248.
-Total: 5.359200 ms (FindLiveObjects: 0.266000 ms CreateObjectMapping: 0.135000 ms MarkObjects: 3.382500 ms  DeleteObjects: 1.574200 ms)
+Unloading 95 unused Assets to reduce memory usage. Loaded Objects now: 2254.
+Total: 4.225700 ms (FindLiveObjects: 0.206400 ms CreateObjectMapping: 0.071000 ms MarkObjects: 2.541600 ms  DeleteObjects: 1.405300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Kan
-  artifactKey: Guid(6bb0f41fe195830459a37512276c6d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kan using Guid(6bb0f41fe195830459a37512276c6d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478a2de7452e836ea1c8930b4591f9a3') in 0.012040 seconds
-  Import took 0.016457 seconds .
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Wall passage/wall_passage.004.prefab
+  artifactKey: Guid(684b3755d4405504ba6fcc8dbe493233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Wall passage/wall_passage.004.prefab using Guid(684b3755d4405504ba6fcc8dbe493233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b95c6eb6fe0bef05d617f777f324e3b') in 0.294576 seconds
+  Import took 0.303070 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000538 seconds.
-  path: Assets/Kan/Script
-  artifactKey: Guid(75fcb2e2ada46e64585f981756ee83ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kan/Script using Guid(75fcb2e2ada46e64585f981756ee83ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc442fb3e993973977c6cdcb6faa83e') in 0.006950 seconds
-  Import took 0.010425 seconds .
+  Time since last request: 0.001292 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Wall passage/wall_passage.001.prefab
+  artifactKey: Guid(1ade54da60a4f364981ddab83a097c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Wall passage/wall_passage.001.prefab using Guid(1ade54da60a4f364981ddab83a097c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a062e4377f0fc1c77a6d6bc86f2668') in 0.045145 seconds
+  Import took 0.051046 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1126.853540 seconds.
-  path: Assets/Kan/Script/Ammunition_Item.cs
-  artifactKey: Guid(5e9b98f64361d534194e551022a4cf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kan/Script/Ammunition_Item.cs using Guid(5e9b98f64361d534194e551022a4cf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6fd82098dfcc7ec48fd01c2b881af26') in 0.078293 seconds
-  Import took 0.127125 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.163551 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.08 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.350 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.3 MB.
-System memory in use after: 106.8 MB.
-
-Unloading 93 unused Assets to reduce memory usage. Loaded Objects now: 2251.
-Total: 11.221800 ms (FindLiveObjects: 0.617000 ms CreateObjectMapping: 0.259200 ms MarkObjects: 7.404600 ms  DeleteObjects: 2.938600 ms)
+  Time since last request: 0.001427 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Wall passage/wall_passage.006.prefab
+  artifactKey: Guid(5d08b8d8281644b468e0c8418758eb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Wall passage/wall_passage.006.prefab using Guid(5d08b8d8281644b468e0c8418758eb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599ce7832f31b64f955946d7ef17dfb1') in 0.060825 seconds
+  Import took 0.067466 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 74.994868 seconds.
-  path: Assets/Kan/Script/Ammunition_Item.cs
-  artifactKey: Guid(5e9b98f64361d534194e551022a4cf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kan/Script/Ammunition_Item.cs using Guid(5e9b98f64361d534194e551022a4cf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3d361f6e6a8798053d56bffe4258ac') in 0.010910 seconds
-  Import took 0.018704 seconds .
+  Time since last request: 0.000941 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Wall passage/wall_passage.005.prefab
+  artifactKey: Guid(a86023c77625aff479fc6a85bfefa482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Wall passage/wall_passage.005.prefab using Guid(a86023c77625aff479fc6a85bfefa482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c287123cc785c27c5be4e940829b0e85') in 0.047373 seconds
+  Import took 0.055057 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.935181 seconds.
-  path: Assets/Kan/Script/Ammunition_Item.cs
-  artifactKey: Guid(5e9b98f64361d534194e551022a4cf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kan/Script/Ammunition_Item.cs using Guid(5e9b98f64361d534194e551022a4cf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02eddf9ec939fdc293d83460a5d707a6') in 0.009398 seconds
-  Import took 0.014171 seconds .
+  Time since last request: 0.000909 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Wall passage/wall_passage.007.prefab
+  artifactKey: Guid(d9828322339fa41458b2c471d0e967e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Wall passage/wall_passage.007.prefab using Guid(d9828322339fa41458b2c471d0e967e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a5620657428e2b9341c032a0164f63') in 0.070335 seconds
+  Import took 0.115380 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.446945 seconds.
-  path: Assets/Kan/Script/Ammunition_Item.cs
-  artifactKey: Guid(5e9b98f64361d534194e551022a4cf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kan/Script/Ammunition_Item.cs using Guid(5e9b98f64361d534194e551022a4cf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff02b42e446a7c95a45dec01e3b06d06') in 0.010215 seconds
-  Import took 0.019618 seconds .
+  Time since last request: 0.001403 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Wall passage/wall_passage.003.prefab
+  artifactKey: Guid(4ab3e1e137ad96e49927f44956a21394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Wall passage/wall_passage.003.prefab using Guid(4ab3e1e137ad96e49927f44956a21394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4baa33cbf4b90354528b3dd1f7d4c572') in 0.077099 seconds
+  Import took 0.093293 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.747613 seconds.
-  path: Assets/Kan/Script/Ammunition_Item.cs
-  artifactKey: Guid(5e9b98f64361d534194e551022a4cf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kan/Script/Ammunition_Item.cs using Guid(5e9b98f64361d534194e551022a4cf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8367fdd6cc860387dc69b67e99daf6') in 0.010705 seconds
-  Import took 0.015406 seconds .
+  Time since last request: 0.000763 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Wall passage
+  artifactKey: Guid(e27dd2fc05307fd46a25ef684a56fb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Wall passage using Guid(e27dd2fc05307fd46a25ef684a56fb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a09039ba832ef217e2dcc058d009874') in 0.022880 seconds
+  Import took 0.031717 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.847705 seconds.
-  path: Assets/Kan/Script/Ammunition_Item.cs
-  artifactKey: Guid(5e9b98f64361d534194e551022a4cf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kan/Script/Ammunition_Item.cs using Guid(5e9b98f64361d534194e551022a4cf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa9e5916315e56f3fda60f53f0e7dbe') in 0.008087 seconds
-  Import took 0.012403 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009595 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.421 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.3 MB.
-System memory in use after: 106.9 MB.
-
-Unloading 93 unused Assets to reduce memory usage. Loaded Objects now: 2253.
-Total: 12.149200 ms (FindLiveObjects: 0.703900 ms CreateObjectMapping: 0.109900 ms MarkObjects: 8.378600 ms  DeleteObjects: 2.949900 ms)
+  Time since last request: 0.000877 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Wall passage/wall_passage.002.prefab
+  artifactKey: Guid(fc6d0b94acf35024093429431c70badf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Wall passage/wall_passage.002.prefab using Guid(fc6d0b94acf35024093429431c70badf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6303359f387a57f6f4d4ae4dbff7840') in 0.059001 seconds
+  Import took 0.066054 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.193576 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981d9c101469113027dc95cfc41fb913') in 0.030139 seconds
-  Import took 0.039898 seconds .
+  Time since last request: 0.000284 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Wall passage/wall_passage.prefab
+  artifactKey: Guid(83e4f5eb8ab2d3f4f94fa4608bd75bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Wall passage/wall_passage.prefab using Guid(83e4f5eb8ab2d3f4f94fa4608bd75bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e67acc6a88bce48876a62298ea35010') in 0.048335 seconds
+  Import took 0.054645 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1123.114089 seconds.
-  path: Assets/Kan/Script/RayHitBullet.cs
-  artifactKey: Guid(addb9e262709d11419e02d659b5dc5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kan/Script/RayHitBullet.cs using Guid(addb9e262709d11419e02d659b5dc5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c427eefbbd38bbbef7eea777bfffe942') in 0.019831 seconds
-  Import took 0.031157 seconds .
+  Time since last request: 0.004153 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Wall passage/wall_passage.prefab
+  artifactKey: Guid(83e4f5eb8ab2d3f4f94fa4608bd75bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Wall passage/wall_passage.prefab using Guid(83e4f5eb8ab2d3f4f94fa4608bd75bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e67acc6a88bce48876a62298ea35010') in 0.030161 seconds
+  Import took 0.038848 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.019023 seconds.
-  path: Assets/Kan/Script/RayHitBullet.cs
-  artifactKey: Guid(addb9e262709d11419e02d659b5dc5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kan/Script/RayHitBullet.cs using Guid(addb9e262709d11419e02d659b5dc5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c427eefbbd38bbbef7eea777bfffe942') in 0.012065 seconds
-  Import took 0.032657 seconds .
+  Time since last request: 884.187041 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Walls/Doors/wood_wall_enter.001.prefab
+  artifactKey: Guid(6db38dea17066264ea43c29ec5c86bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Walls/Doors/wood_wall_enter.001.prefab using Guid(6db38dea17066264ea43c29ec5c86bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a4db2d3e611cee8d18daf3aa49c881') in 0.071616 seconds
+  Import took 0.081565 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.440603 seconds.
-  path: Assets/Kan/Script/PlayerFootStepSE.cs
-  artifactKey: Guid(853346a51594e8948a66cf764a0e290a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kan/Script/PlayerFootStepSE.cs using Guid(853346a51594e8948a66cf764a0e290a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84b1fc3bbaa17aca495eeae9c9fe493') in 0.024042 seconds
-  Import took 0.029503 seconds .
+  Time since last request: 0.000874 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Walls/Doors/wood_wall_enter.prefab
+  artifactKey: Guid(cc10b75b54f47374e851a3ca77445068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Walls/Doors/wood_wall_enter.prefab using Guid(cc10b75b54f47374e851a3ca77445068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1471bc143b8898feaf9df87cf284bf') in 0.045265 seconds
+  Import took 0.050083 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001531 seconds.
-  path: Assets/Kan/Script/PlayerFootStepSE.cs
-  artifactKey: Guid(853346a51594e8948a66cf764a0e290a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kan/Script/PlayerFootStepSE.cs using Guid(853346a51594e8948a66cf764a0e290a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84b1fc3bbaa17aca495eeae9c9fe493') in 0.006559 seconds
-  Import took 0.012155 seconds .
+  Time since last request: 0.001786 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Walls/Doors/wood_wall_enter.002.prefab
+  artifactKey: Guid(920a8fff4bdbabd4caf46a218702d845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Walls/Doors/wood_wall_enter.002.prefab using Guid(920a8fff4bdbabd4caf46a218702d845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9551cc1fd863ecd8f4a7f3421b4e8b4') in 0.038985 seconds
+  Import took 0.045203 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.526484 seconds.
-  path: Assets/Kan/Script/Gun_UI.cs
-  artifactKey: Guid(66693f1debefb0c44b46856f5d04cf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kan/Script/Gun_UI.cs using Guid(66693f1debefb0c44b46856f5d04cf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49c04187de5f9e39dc3129d7bf80728') in 0.018224 seconds
-  Import took 0.023351 seconds .
+  Time since last request: 0.000418 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Walls/Doors/wood_wall_enter.003.prefab
+  artifactKey: Guid(76328f94bad4e8c4bb5263a9f86a09b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Walls/Doors/wood_wall_enter.003.prefab using Guid(76328f94bad4e8c4bb5263a9f86a09b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e82c77cc754eea558ba0330464e293e') in 0.040613 seconds
+  Import took 0.046363 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000916 seconds.
-  path: Assets/Kan/Script/Gun_UI.cs
-  artifactKey: Guid(66693f1debefb0c44b46856f5d04cf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kan/Script/Gun_UI.cs using Guid(66693f1debefb0c44b46856f5d04cf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49c04187de5f9e39dc3129d7bf80728') in 0.008743 seconds
-  Import took 0.013137 seconds .
+  Time since last request: 7329.310165 seconds.
+  path: Assets/mapsozai/Room/Materials
+  artifactKey: Guid(eb7ebc676f037864095e7f9031453b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/Materials using Guid(eb7ebc676f037864095e7f9031453b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15dff3fdb8e21610ff90d4e5feaa8963') in 0.044085 seconds
+  Import took 0.203583 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.516866 seconds.
-  path: Assets/Kan/Script/Bullets.cs
-  artifactKey: Guid(b1f80b0b7aa2d7945a7d032ccb35f8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kan/Script/Bullets.cs using Guid(b1f80b0b7aa2d7945a7d032ccb35f8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bf68367f368f145de68512008af15a') in 0.009429 seconds
-  Import took 0.013614 seconds .
+  Time since last request: 0.000936 seconds.
+  path: Assets/mapsozai/Room/Materials/door texture 3.mat
+  artifactKey: Guid(0125ca191f4148048a1c1ac3f5604a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/Materials/door texture 3.mat using Guid(0125ca191f4148048a1c1ac3f5604a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc4805cb9811befee58d56f338f81a0') in 1.100157 seconds
+  Import took 1.106390 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 281.745390 seconds.
-  path: Assets/Kan/Script/PlayerBulletsState.cs
-  artifactKey: Guid(9f3aff5168afa9d4db650e021bc4aafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kan/Script/PlayerBulletsState.cs using Guid(9f3aff5168afa9d4db650e021bc4aafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48a08d4d14e4404ebdf636899b82e46') in 0.016168 seconds
-  Import took 0.027082 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005932 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.510 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.4 MB.
-System memory in use after: 106.9 MB.
-
-Unloading 94 unused Assets to reduce memory usage. Loaded Objects now: 2256.
-Total: 4.026100 ms (FindLiveObjects: 0.197500 ms CreateObjectMapping: 0.090100 ms MarkObjects: 2.256100 ms  DeleteObjects: 1.481100 ms)
+  Time since last request: 0.000321 seconds.
+  path: Assets/mapsozai/Room/Materials/New Material.mat
+  artifactKey: Guid(e49591f711e327749bdcda233ddb5739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/Materials/New Material.mat using Guid(e49591f711e327749bdcda233ddb5739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67935531317a1ce00c01ce70f7d89082') in 0.047124 seconds
+  Import took 0.052971 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 571.047738 seconds.
-  path: Assets/Kan/Script/PlayerBulletsState.cs
-  artifactKey: Guid(9f3aff5168afa9d4db650e021bc4aafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kan/Script/PlayerBulletsState.cs using Guid(9f3aff5168afa9d4db650e021bc4aafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a6c211f5665c7640ccbf089ecc2fcb') in 0.082258 seconds
-  Import took 0.100662 seconds .
+  Time since last request: 0.000344 seconds.
+  path: Assets/mapsozai/Room/Materials/emesive.mat
+  artifactKey: Guid(87124d99a2e036247997145a1e6ebe65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/Materials/emesive.mat using Guid(87124d99a2e036247997145a1e6ebe65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c9f824aa660a5b6a22ca8414cf924b') in 0.055853 seconds
+  Import took 0.065180 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006061 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.399 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.4 MB.
-System memory in use after: 106.9 MB.
-
-Unloading 93 unused Assets to reduce memory usage. Loaded Objects now: 2258.
-Total: 4.544500 ms (FindLiveObjects: 0.226800 ms CreateObjectMapping: 0.066700 ms MarkObjects: 2.681800 ms  DeleteObjects: 1.568100 ms)
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/mapsozai/Room/Materials/the book texture.mat
+  artifactKey: Guid(34d6d6e0601f71746a3f73b41dabe7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/Materials/the book texture.mat using Guid(34d6d6e0601f71746a3f73b41dabe7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbb07f8bd1a09cc9473dba3197019d8') in 0.050908 seconds
+  Import took 0.057624 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006629 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.308 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.4 MB.
-System memory in use after: 107.0 MB.
-
-Unloading 93 unused Assets to reduce memory usage. Loaded Objects now: 2260.
-Total: 3.986400 ms (FindLiveObjects: 0.184800 ms CreateObjectMapping: 0.067900 ms MarkObjects: 2.216200 ms  DeleteObjects: 1.516400 ms)
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/mapsozai/Room/Materials/the chandelier.mat
+  artifactKey: Guid(c3c83b2f8e63ed040a4017762f424f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/Materials/the chandelier.mat using Guid(c3c83b2f8e63ed040a4017762f424f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904716bda0a828d6397296bcad836b50') in 0.060937 seconds
+  Import took 0.067540 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008532 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.348 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.4 MB.
-System memory in use after: 107.0 MB.
-
-Unloading 93 unused Assets to reduce memory usage. Loaded Objects now: 2262.
-Total: 4.586600 ms (FindLiveObjects: 0.223600 ms CreateObjectMapping: 0.065200 ms MarkObjects: 2.782700 ms  DeleteObjects: 1.513900 ms)
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/mapsozai/Room/Materials/Cb.mat
+  artifactKey: Guid(e15b217798edf31438aa89a657069520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/Materials/Cb.mat using Guid(e15b217798edf31438aa89a657069520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30159fa08805bf6ad750f5494cb0c30a') in 0.047861 seconds
+  Import took 0.055245 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006357 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.474 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.4 MB.
-System memory in use after: 107.0 MB.
-
-Unloading 93 unused Assets to reduce memory usage. Loaded Objects now: 2264.
-Total: 4.599300 ms (FindLiveObjects: 0.200200 ms CreateObjectMapping: 0.070500 ms MarkObjects: 2.344700 ms  DeleteObjects: 1.982300 ms)
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/mapsozai/Room/Materials/marble_1_basecolor.mat
+  artifactKey: Guid(f991c1cd557e95f4d80bba54f5b172df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/Materials/marble_1_basecolor.mat using Guid(f991c1cd557e95f4d80bba54f5b172df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a92aeb489d7c0f1ba31c776fc3f308d') in 0.108852 seconds
+  Import took 0.115889 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007100 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.471 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.4 MB.
-System memory in use after: 107.0 MB.
-
-Unloading 93 unused Assets to reduce memory usage. Loaded Objects now: 2266.
-Total: 5.898800 ms (FindLiveObjects: 0.320600 ms CreateObjectMapping: 0.118500 ms MarkObjects: 2.735300 ms  DeleteObjects: 2.721800 ms)
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/mapsozai/Room/Materials/Concrete wall smooth pillar texture.mat
+  artifactKey: Guid(d8e93e93675e6054ba325475d626aaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/Materials/Concrete wall smooth pillar texture.mat using Guid(d8e93e93675e6054ba325475d626aaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc533b03d083723c5f463d821e4651d0') in 0.032731 seconds
+  Import took 0.040109 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006894 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.272 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.4 MB.
-System memory in use after: 107.0 MB.
-
-Unloading 93 unused Assets to reduce memory usage. Loaded Objects now: 2268.
-Total: 4.119800 ms (FindLiveObjects: 0.191800 ms CreateObjectMapping: 0.069100 ms MarkObjects: 2.448100 ms  DeleteObjects: 1.409300 ms)
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/mapsozai/Room/Materials/TexturesCom_WoodFine0003_seamless_S.mat
+  artifactKey: Guid(1c46437e882e4c94795a67bf556442e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/Materials/TexturesCom_WoodFine0003_seamless_S.mat using Guid(1c46437e882e4c94795a67bf556442e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa6fd5259d51e3961144817778923fb') in 0.030988 seconds
+  Import took 0.036663 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005797 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.538 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.4 MB.
-System memory in use after: 107.0 MB.
-
-Unloading 93 unused Assets to reduce memory usage. Loaded Objects now: 2270.
-Total: 3.988800 ms (FindLiveObjects: 0.220600 ms CreateObjectMapping: 0.077900 ms MarkObjects: 2.207400 ms  DeleteObjects: 1.481300 ms)
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/mapsozai/Room/Materials/the chandelier hand.mat
+  artifactKey: Guid(35d4f1a86e2a24a4bba528520bf472ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/Materials/the chandelier hand.mat using Guid(35d4f1a86e2a24a4bba528520bf472ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28cbf92e41ddfc45ed2ec864bf5c0679') in 0.054666 seconds
+  Import took 0.060163 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007500 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.254 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.4 MB.
-System memory in use after: 107.0 MB.
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/mapsozai/Room/Materials/door texture 2.mat
+  artifactKey: Guid(e8815d90ef87b1a41b65ccf137bc03a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/Materials/door texture 2.mat using Guid(e8815d90ef87b1a41b65ccf137bc03a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355413897f181788a59acfcc27c841d0') in 0.049598 seconds
+  Import took 0.056219 seconds .
 
-Unloading 93 unused Assets to reduce memory usage. Loaded Objects now: 2272.
-Total: 4.679100 ms (FindLiveObjects: 0.210400 ms CreateObjectMapping: 0.071000 ms MarkObjects: 2.711900 ms  DeleteObjects: 1.683900 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/mapsozai/Room/Materials/door.mat
+  artifactKey: Guid(fd469ad073511c04993da31368543b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/Materials/door.mat using Guid(fd469ad073511c04993da31368543b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1273a1bc380db12c3d20dbcc2e1df774') in 0.047929 seconds
+  Import took 0.053367 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/mapsozai/Room/Materials/door texture 4.mat
+  artifactKey: Guid(a25d892bb22a044409043626140860f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/Materials/door texture 4.mat using Guid(a25d892bb22a044409043626140860f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a76ece5d2eee697a6f4bb120a630e0b') in 0.072736 seconds
+  Import took 0.078120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.423280 seconds.
+  path: Assets/mapsozai/Room/models
+  artifactKey: Guid(5a90a8d5a6e4c394cb3c6f9ef03bbf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models using Guid(5a90a8d5a6e4c394cb3c6f9ef03bbf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfdc94f9ea063ef84689d6b254e6ef28') in 0.012555 seconds
+  Import took 0.018933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043842 seconds.
+  path: Assets/mapsozai/Room/models/book.fbx
+  artifactKey: Guid(4770919e9ec5899458cbe54c017216ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/book.fbx using Guid(4770919e9ec5899458cbe54c017216ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427e6e5a3c92923a9f1f9e854b4cf92d') in 0.402087 seconds
+  Import took 0.408689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001142 seconds.
+  path: Assets/mapsozai/Room/models/rooftop-00.fbx
+  artifactKey: Guid(cd342c9f9a9c8f042bc81f7ce625482b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/rooftop-00.fbx using Guid(cd342c9f9a9c8f042bc81f7ce625482b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a73a3c11e27b824085b082096688a9') in 0.211403 seconds
+  Import took 0.218125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/mapsozai/Room/models/CHs0.fbx
+  artifactKey: Guid(832b6acb90e621649bd235e3afe58c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/CHs0.fbx using Guid(832b6acb90e621649bd235e3afe58c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17d73d0e3669f6d8140635f968b4733') in 0.059123 seconds
+  Import took 0.064098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/mapsozai/Room/models/pillars 00.fbx
+  artifactKey: Guid(63cced25a7a17994cb6e3cbd9f1059b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/pillars 00.fbx using Guid(63cced25a7a17994cb6e3cbd9f1059b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048e782acba637f68ec245c4b3672e64') in 0.043783 seconds
+  Import took 0.048661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/mapsozai/Room/models/bookcase 00.fbx
+  artifactKey: Guid(298a35b7a5c960547a13f29d1b586d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/bookcase 00.fbx using Guid(298a35b7a5c960547a13f29d1b586d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3953b794c5be6be2e8ae296b36885590') in 0.069322 seconds
+  Import took 0.073195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/mapsozai/Room/models/chair 00.fbx .fbx
+  artifactKey: Guid(cff28c00b06ee6746b7a1a0ef634ad96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/chair 00.fbx .fbx using Guid(cff28c00b06ee6746b7a1a0ef634ad96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b88d4efa600a74d06989ad5fa052c9') in 0.038607 seconds
+  Import took 0.044333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/mapsozai/Room/models/ground plane 00.fbx .fbx
+  artifactKey: Guid(c88929eac760e754c8e57b415de43534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/ground plane 00.fbx .fbx using Guid(c88929eac760e754c8e57b415de43534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d63162018521447f6ac58b6e2a4ea3a') in 0.037686 seconds
+  Import took 0.042610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/mapsozai/Room/models/window 00.fbx .fbx
+  artifactKey: Guid(d1211c57c6e550e4fb88ec23f0e74b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/window 00.fbx .fbx using Guid(d1211c57c6e550e4fb88ec23f0e74b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdea7c4494999dd5e5741e87858ee6cf') in 0.061533 seconds
+  Import took 0.066388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/mapsozai/Room/models/door 00.fbx .fbx
+  artifactKey: Guid(ff0a4d33168faae4395e213f7ed45781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/door 00.fbx .fbx using Guid(ff0a4d33168faae4395e213f7ed45781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2d00f167d9b42f3f4ba44e9b70688d') in 0.042400 seconds
+  Import took 0.048544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/mapsozai/Room/models/table 00.fbx .fbx
+  artifactKey: Guid(c145519af80f28c45b8282ea9f4b96d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/table 00.fbx .fbx using Guid(c145519af80f28c45b8282ea9f4b96d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4474ae8aacc410ad9e22eb3af83d2f') in 0.038987 seconds
+  Import took 0.045549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/mapsozai/Room/models/fire.fbx
+  artifactKey: Guid(e5bebf0a45f060d4c90b627593524d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/fire.fbx using Guid(e5bebf0a45f060d4c90b627593524d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647048cfad5cdb0c573af981216baf21') in 0.070303 seconds
+  Import took 0.076959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/mapsozai/Room/models/chandiler.fbx
+  artifactKey: Guid(39e174bc5459ec44f9f5e732a11cd5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/chandiler.fbx using Guid(39e174bc5459ec44f9f5e732a11cd5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13542395bcd01dcfc777bf116dcebba2') in 0.134870 seconds
+  Import took 0.141188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.412607 seconds.
+  path: Assets/mapsozai/Room/models/Materials
+  artifactKey: Guid(4cc7c307e11064649965627c98963e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials using Guid(4cc7c307e11064649965627c98963e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44bda743626e2dd608641a88c3b4088d') in 0.004403 seconds
+  Import took 0.011927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000792 seconds.
+  path: Assets/mapsozai/Room/models/Materials
+  artifactKey: Guid(4cc7c307e11064649965627c98963e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials using Guid(4cc7c307e11064649965627c98963e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44bda743626e2dd608641a88c3b4088d') in 0.004046 seconds
+  Import took 0.010579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064222 seconds.
+  path: Assets/mapsozai/Room/models/Materials/A01.mat
+  artifactKey: Guid(c45b8d34f53ece14a8dbdaecb6f06ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/A01.mat using Guid(c45b8d34f53ece14a8dbdaecb6f06ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc938df5db666dd8d2bbfb2f07747f65') in 0.031712 seconds
+  Import took 0.037933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/mapsozai/Room/models/Materials/ground tiles.002.mat
+  artifactKey: Guid(270457704e219f0489c7b7896960198b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/ground tiles.002.mat using Guid(270457704e219f0489c7b7896960198b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da345806dc664ebc916960059377400') in 0.027036 seconds
+  Import took 0.034436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/mapsozai/Room/models/Materials/Material.045.mat
+  artifactKey: Guid(bc1611b7dad0f904b966b49a160689e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/Material.045.mat using Guid(bc1611b7dad0f904b966b49a160689e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5e719a4f91785c3c58916690f4025b') in 0.028674 seconds
+  Import took 0.035972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/mapsozai/Room/models/Materials/fine_wood.018.mat
+  artifactKey: Guid(9347ba84cbba4dc408e255a0559d8b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/fine_wood.018.mat using Guid(9347ba84cbba4dc408e255a0559d8b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a707ae7083517f1d0f5a0316536b4f9b') in 0.035947 seconds
+  Import took 0.041748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/mapsozai/Room/models/Materials/wood the tabel and chaer.000.mat
+  artifactKey: Guid(775c0079d62305640ad64462b64a85b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/wood the tabel and chaer.000.mat using Guid(775c0079d62305640ad64462b64a85b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d84f6a040e2073afabefb4470f0746') in 0.025011 seconds
+  Import took 0.031946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000663 seconds.
+  path: Assets/mapsozai/Room/models/Materials/booksonthecase.013.mat
+  artifactKey: Guid(3b760381a929975449ed2b04ba33000c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/booksonthecase.013.mat using Guid(3b760381a929975449ed2b04ba33000c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4f3aebab9e5da5b480dec4e717cb1f') in 0.033792 seconds
+  Import took 0.040628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/mapsozai/Room/models/Materials/book.001.mat
+  artifactKey: Guid(2f6fa1fb7b1bba64a88e994f73318053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/book.001.mat using Guid(2f6fa1fb7b1bba64a88e994f73318053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d9f38b5bb6167b57d5c86224bf8356') in 0.031177 seconds
+  Import took 0.041729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/mapsozai/Room/models/Materials/candel_yelosh.001.mat
+  artifactKey: Guid(ec60be75b5633914988fbe6ff201069d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/candel_yelosh.001.mat using Guid(ec60be75b5633914988fbe6ff201069d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a014eb27a05044d41915f09b39903397') in 0.028078 seconds
+  Import took 0.034718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/mapsozai/Room/models/Materials/bookcasewood.002.mat
+  artifactKey: Guid(768995bb6819bde4789140a6cd15a757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/bookcasewood.002.mat using Guid(768995bb6819bde4789140a6cd15a757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b233213c53ecb040af8a164d5f1bc0ee') in 0.016065 seconds
+  Import took 0.022319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/mapsozai/Room/models/Materials/candel_yelosh.018.mat
+  artifactKey: Guid(c98325a2c3a80174fa8737923a4f37e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/candel_yelosh.018.mat using Guid(c98325a2c3a80174fa8737923a4f37e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd013e72f383a85076bacb019572b3ad0') in 0.024605 seconds
+  Import took 0.032648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/mapsozai/Room/models/Materials/glass.000.mat
+  artifactKey: Guid(a5b04efbe8b298d409b8ffbae88da40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/glass.000.mat using Guid(a5b04efbe8b298d409b8ffbae88da40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1320fc74919f1c9a06cd4e1843c72e') in 0.020666 seconds
+  Import took 0.027634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/mapsozai/Room/models/Materials/booksonthecase.002.mat
+  artifactKey: Guid(b891e7ffaf050934cb58b1dcf8314295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/booksonthecase.002.mat using Guid(b891e7ffaf050934cb58b1dcf8314295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e556da77b788eba33dca0c56edbdfd17') in 0.021248 seconds
+  Import took 0.026893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/mapsozai/Room/models/Materials/bookcasewood.007.mat
+  artifactKey: Guid(fef95fe0131c5cc46bcf8b70697ff31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/bookcasewood.007.mat using Guid(fef95fe0131c5cc46bcf8b70697ff31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf3f78249c5a1591f38af55bbd12148') in 0.028563 seconds
+  Import took 0.034721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/mapsozai/Room/models/Materials/glass.001.mat
+  artifactKey: Guid(76677ca150aae454d95177dcb9ed322c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/glass.001.mat using Guid(76677ca150aae454d95177dcb9ed322c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c3896c87d5d93eae45cbafd051d4f3') in 0.027879 seconds
+  Import took 0.033894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/mapsozai/Room/models/Materials/black_painted_metal.018.mat
+  artifactKey: Guid(3c245d3007a9a8242945716e1984d2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/black_painted_metal.018.mat using Guid(3c245d3007a9a8242945716e1984d2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0873b93ba718f6bd29b5baaee676906') in 0.030102 seconds
+  Import took 0.034566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/mapsozai/Room/models/Materials/door.002.mat
+  artifactKey: Guid(da799801e89469c4686b8bcc1965c7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/door.002.mat using Guid(da799801e89469c4686b8bcc1965c7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed25a56d08256af7aff2b68899c07672') in 0.026122 seconds
+  Import took 0.031763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/mapsozai/Room/models/Materials/bookcasewood.000.mat
+  artifactKey: Guid(f0bc49676924b91499f3019c87d25b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/bookcasewood.000.mat using Guid(f0bc49676924b91499f3019c87d25b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a650466db23a51af33330b0c13510ea8') in 0.027237 seconds
+  Import took 0.031938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/mapsozai/Room/models/Materials/pilers.mat
+  artifactKey: Guid(62388e5ec2aa72140b0bcdef772abe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/pilers.mat using Guid(62388e5ec2aa72140b0bcdef772abe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef10152913813e9505cf3f90a472719') in 0.021978 seconds
+  Import took 0.027920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/mapsozai/Room/models/Materials/wood the tabel and chaer.008.mat
+  artifactKey: Guid(d1752dd1b7ee848428cf4347908cee07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/wood the tabel and chaer.008.mat using Guid(d1752dd1b7ee848428cf4347908cee07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ac3f6796623a60a3a56e634f68be45') in 0.025830 seconds
+  Import took 0.030768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/mapsozai/Room/models/Materials/book.mat
+  artifactKey: Guid(68c7cd10f54128a43a32a1518fa189a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/book.mat using Guid(68c7cd10f54128a43a32a1518fa189a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19cd15fe01320a9d56bf4dbebc6e6857') in 0.025439 seconds
+  Import took 0.031112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/mapsozai/Room/models/Materials/border.001.mat
+  artifactKey: Guid(088fbc587643d6942adfcecaa655c611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/border.001.mat using Guid(088fbc587643d6942adfcecaa655c611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d733f7065021581cc7a2b083c8fbcb1') in 0.026002 seconds
+  Import took 0.030638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/mapsozai/Room/models/Materials/wood the tabel and chaer.001.mat
+  artifactKey: Guid(5ab2365d35e420e438f029b7490fa10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/wood the tabel and chaer.001.mat using Guid(5ab2365d35e420e438f029b7490fa10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fca08d80999195fb442e4c8632ec53') in 0.021343 seconds
+  Import took 0.026930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/mapsozai/Room/models/Materials/ground tiles.000.mat
+  artifactKey: Guid(048a3b5e98a7dd342ac2af39c2226308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/ground tiles.000.mat using Guid(048a3b5e98a7dd342ac2af39c2226308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b67fbc2b683d5323ef60751d56f4cf') in 0.017659 seconds
+  Import took 0.023612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/mapsozai/Room/models/Materials/wood the tabel and chaer.009.mat
+  artifactKey: Guid(97408f3f06a4a264fa64474ccf5e6615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/wood the tabel and chaer.009.mat using Guid(97408f3f06a4a264fa64474ccf5e6615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724596c69af62cadf0f1d18b282f0248') in 0.025951 seconds
+  Import took 0.031182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/mapsozai/Room/models/Materials/border.000.mat
+  artifactKey: Guid(bc6c215b29b47a442bac68c7ac62f85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/border.000.mat using Guid(bc6c215b29b47a442bac68c7ac62f85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da269e4c6e7c6ac0312611e63e53e0ed') in 0.023663 seconds
+  Import took 0.029050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/mapsozai/Room/models/Materials/black_painted_metal.001.mat
+  artifactKey: Guid(272c7744a4823be41877a43b64990780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/black_painted_metal.001.mat using Guid(272c7744a4823be41877a43b64990780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147bf83e746f7eff737af9cd1cb9a4dd') in 0.029917 seconds
+  Import took 0.035791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/mapsozai/Room/models/Materials/wall_stone_brick.002.mat
+  artifactKey: Guid(34869a3ee94378a449ea8dc406b48334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/wall_stone_brick.002.mat using Guid(34869a3ee94378a449ea8dc406b48334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ffe999f05ae9e29540dcae43e3a5ca') in 0.027104 seconds
+  Import took 0.032299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/mapsozai/Room/models/Materials/door.000.mat
+  artifactKey: Guid(f0c7c4bfeea72494fb8866654e213164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/door.000.mat using Guid(f0c7c4bfeea72494fb8866654e213164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4bcca37da3c9911e6d618ce98f510e') in 0.023406 seconds
+  Import took 0.029931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/mapsozai/Room/models/Materials/top_roof_wood.008.mat
+  artifactKey: Guid(767e976b0e2c9b64db2711dc92d7400a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/top_roof_wood.008.mat using Guid(767e976b0e2c9b64db2711dc92d7400a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197adda051c82ef031a0f77e19a130ab') in 0.027262 seconds
+  Import took 0.032544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/mapsozai/Room/models/Materials/booksonthecase.000.mat
+  artifactKey: Guid(1307f8387990dc444b7e4270faccade7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/models/Materials/booksonthecase.000.mat using Guid(1307f8387990dc444b7e4270faccade7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44cf2b4b22e51ae59a0111e5e81a31b1') in 0.030759 seconds
+  Import took 0.038130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.984484 seconds.
+  path: Assets/mapsozai/Room/scenes
+  artifactKey: Guid(056b797a007f1b04e8dc91f96fa61515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/scenes using Guid(056b797a007f1b04e8dc91f96fa61515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b38573f48c89bbefec627a84d24fc46') in 0.015228 seconds
+  Import took 0.022433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.966969 seconds.
+  path: Assets/mapsozai/Room/Settings
+  artifactKey: Guid(e7e64a4e15c09804682836b3ddd59075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/Settings using Guid(e7e64a4e15c09804682836b3ddd59075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712dedfdf4721e599bb0eb1c57ef38d7') in 0.012903 seconds
+  Import took 0.017932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056171 seconds.
+  path: Assets/mapsozai/Room/Settings/post proscessing 1.PNG
+  artifactKey: Guid(682b8dad83672a748849701458c993e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/Settings/post proscessing 1.PNG using Guid(682b8dad83672a748849701458c993e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb499950c3f69b4edc828ee505d6d20') in 0.174059 seconds
+  Import took 0.181159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/mapsozai/Room/Settings/post proscessing 2.PNG
+  artifactKey: Guid(d306b93ea9d7ed045bee2b508da745a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/Settings/post proscessing 2.PNG using Guid(d306b93ea9d7ed045bee2b508da745a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a728247e593e4523c1d38b9f3991819b') in 0.038872 seconds
+  Import took 0.047212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/mapsozai/Room/Settings/setting screenshot 1.PNG
+  artifactKey: Guid(63f3de698d484314abb908daf9da4972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/Settings/setting screenshot 1.PNG using Guid(63f3de698d484314abb908daf9da4972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9c333edf71aeef6bf0568b01ab73a6') in 0.042448 seconds
+  Import took 0.048679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/mapsozai/Room/Settings/post proscessing 3.PNG
+  artifactKey: Guid(1891c819ebf8b4d408bd1c70e11b9019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/Settings/post proscessing 3.PNG using Guid(1891c819ebf8b4d408bd1c70e11b9019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a763411a59ee28b0b58d660f2c1dce') in 0.027367 seconds
+  Import took 0.032215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.793163 seconds.
+  path: Assets/mapsozai/Room/textures
+  artifactKey: Guid(099c1a248fe40604e80c6148a61b2e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures using Guid(099c1a248fe40604e80c6148a61b2e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd805b59dcb3aa1be663d146b6a3133af') in 0.012122 seconds
+  Import took 0.017591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059773 seconds.
+  path: Assets/mapsozai/Room/textures/Cb.png
+  artifactKey: Guid(1ca01bc7f960ca449a698c5a51af9f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/Cb.png using Guid(1ca01bc7f960ca449a698c5a51af9f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df674e906958a3149f04ae0b0b630927') in 0.026026 seconds
+  Import took 0.031437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/mapsozai/Room/textures/the book texture.png
+  artifactKey: Guid(cd9ff9fc51f374941934237aedf94aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/the book texture.png using Guid(cd9ff9fc51f374941934237aedf94aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fa70e35d9f5adda0d1397436745e0e') in 0.028145 seconds
+  Import took 0.034177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/mapsozai/Room/textures/door texture 2.png
+  artifactKey: Guid(2621688afa3fd5648872b26e49e00672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/door texture 2.png using Guid(2621688afa3fd5648872b26e49e00672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd6deb95d0e1909e7c293751424b306') in 0.028201 seconds
+  Import took 0.033549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/mapsozai/Room/textures/door texture 3.png
+  artifactKey: Guid(d428a86effda3254cbdd214d03890a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/door texture 3.png using Guid(d428a86effda3254cbdd214d03890a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98807b4996c3894ccd1c4ea34f1e4781') in 0.021434 seconds
+  Import took 0.028780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/mapsozai/Room/textures/the chandelier hand.png
+  artifactKey: Guid(cd3c2f0640e9b83499ff1f968b785b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/the chandelier hand.png using Guid(cd3c2f0640e9b83499ff1f968b785b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc89f51b9d8f7f132e919ab129e4f3a3') in 0.018227 seconds
+  Import took 0.025857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/mapsozai/Room/textures/the chandelier.png
+  artifactKey: Guid(f8981b2722a8a6746ba878eef42c0006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/the chandelier.png using Guid(f8981b2722a8a6746ba878eef42c0006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861f6e4431221cf670a86a0e12223866') in 0.025322 seconds
+  Import took 0.031286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/mapsozai/Room/textures/the chandelier hand.png
+  artifactKey: Guid(cd3c2f0640e9b83499ff1f968b785b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/the chandelier hand.png using Guid(cd3c2f0640e9b83499ff1f968b785b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc89f51b9d8f7f132e919ab129e4f3a3') in 0.015315 seconds
+  Import took 0.020225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/mapsozai/Room/textures/the chandelier.png
+  artifactKey: Guid(f8981b2722a8a6746ba878eef42c0006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/the chandelier.png using Guid(f8981b2722a8a6746ba878eef42c0006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861f6e4431221cf670a86a0e12223866') in 0.018941 seconds
+  Import took 0.023999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.088047 seconds.
+  path: Assets/mapsozai/Room/textures/wall
+  artifactKey: Guid(c553598da4c71d5428f9bc88f7f1b13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/wall using Guid(c553598da4c71d5428f9bc88f7f1b13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9723397c96fb50215e372be2f29d5a50') in 0.012156 seconds
+  Import took 0.017307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039510 seconds.
+  path: Assets/mapsozai/Room/textures/wall/brick_uneven_stones_ambient_occlusion.png
+  artifactKey: Guid(a1909448d6ca644458080707217bad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/wall/brick_uneven_stones_ambient_occlusion.png using Guid(a1909448d6ca644458080707217bad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd05d2feab795ea8b3db4b855651b37') in 0.036344 seconds
+  Import took 0.042617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/mapsozai/Room/textures/wall/brick_uneven_stones_roughness.png
+  artifactKey: Guid(040e9f53653144143a76ecfa545ffe61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/wall/brick_uneven_stones_roughness.png using Guid(040e9f53653144143a76ecfa545ffe61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a96184fedcfa9deec674696a3a69bce') in 0.052115 seconds
+  Import took 0.057251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/mapsozai/Room/textures/wall/brick_uneven_stones_basecolor.png
+  artifactKey: Guid(0ea9e7e251b6ac74ca6b52cd06bbd260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/wall/brick_uneven_stones_basecolor.png using Guid(0ea9e7e251b6ac74ca6b52cd06bbd260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e205a617da86ba00396874fefa76f186') in 0.025485 seconds
+  Import took 0.030630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/mapsozai/Room/textures/wall/brick_uneven_stones_height.png
+  artifactKey: Guid(5edcb45eaf9139a4aacba54d9bfe2eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/wall/brick_uneven_stones_height.png using Guid(5edcb45eaf9139a4aacba54d9bfe2eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34bb71913f47012ebe86a632985b399') in 0.021506 seconds
+  Import took 0.027572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/mapsozai/Room/textures/wall/brick_uneven_stones_normal.png
+  artifactKey: Guid(7d7dcec55d88282448c943fac54e8cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/wall/brick_uneven_stones_normal.png using Guid(7d7dcec55d88282448c943fac54e8cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66f6a849d9d8b37a4ca54e5ea87971c') in 0.050230 seconds
+  Import took 0.055782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.061336 seconds.
+  path: Assets/mapsozai/Room/textures/wall/Materials
+  artifactKey: Guid(c71ce26817e26234c91c3efc11d87f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/wall/Materials using Guid(c71ce26817e26234c91c3efc11d87f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d46471eefeb3778ccc9d93ed2587ebc') in 0.004836 seconds
+  Import took 0.011487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036765 seconds.
+  path: Assets/mapsozai/Room/textures/wall/Materials/brick_uneven_stones_basecolor.mat
+  artifactKey: Guid(33d99c48d0e69de48b360555b2f4170e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/wall/Materials/brick_uneven_stones_basecolor.mat using Guid(33d99c48d0e69de48b360555b2f4170e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40f2041a0313453ce309a06a88e0f57') in 0.090423 seconds
+  Import took 0.096054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 159.399795 seconds.
+  path: Assets/mapsozai/Room/textures/chiar
+  artifactKey: Guid(b6a890984a47d6645907e5fce958216d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/chiar using Guid(b6a890984a47d6645907e5fce958216d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66ad7cde589f9aa738345b9ebfccdc6') in 0.011338 seconds
+  Import took 0.016661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061035 seconds.
+  path: Assets/mapsozai/Room/textures/chiar/wood the tabel and chaer.002_Base_Color.png
+  artifactKey: Guid(f69b0381dd2e0bc4987103d490444d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/chiar/wood the tabel and chaer.002_Base_Color.png using Guid(f69b0381dd2e0bc4987103d490444d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a105aaae8056addbef192eef19870a4') in 0.024250 seconds
+  Import took 0.029350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/mapsozai/Room/textures/chiar/wood the tabel and chaer.002_Mixed_AO.png
+  artifactKey: Guid(88acd088206b6534ebd54c5b5f6e0cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/chiar/wood the tabel and chaer.002_Mixed_AO.png using Guid(88acd088206b6534ebd54c5b5f6e0cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e41d7101f4733fe1f3eebf201d751f') in 0.027074 seconds
+  Import took 0.031909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/mapsozai/Room/textures/chiar/wood the tabel and chaer.002_Normal_DirectX.png
+  artifactKey: Guid(8fa8af0e9575a7345983c96007dfa169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/chiar/wood the tabel and chaer.002_Normal_DirectX.png using Guid(8fa8af0e9575a7345983c96007dfa169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd36d63a5ec65feaa8f3e05cce613a3d') in 0.030849 seconds
+  Import took 0.035468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/mapsozai/Room/textures/chiar/wood the tabel and chaer.002_Metallic.png
+  artifactKey: Guid(a6875518f56e74f43957e8dfa97e4a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/chiar/wood the tabel and chaer.002_Metallic.png using Guid(a6875518f56e74f43957e8dfa97e4a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff006aacabc08808afc0b20c40e605a4') in 0.034593 seconds
+  Import took 0.040656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/mapsozai/Room/textures/chiar/wood the tabel and chaer.002_Height.png
+  artifactKey: Guid(e23826739a3225b4f9d49f2d268bbfa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/chiar/wood the tabel and chaer.002_Height.png using Guid(e23826739a3225b4f9d49f2d268bbfa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c674caa8088f1a32514b2669561f47c') in 0.022471 seconds
+  Import took 0.027615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/mapsozai/Room/textures/chiar/wood the tabel and chaer.002_Normal.png
+  artifactKey: Guid(687b17ee94e6d4f4fb442434c89c65ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/chiar/wood the tabel and chaer.002_Normal.png using Guid(687b17ee94e6d4f4fb442434c89c65ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb1b80ec89688f0bf78c57b0c61a975') in 0.033444 seconds
+  Import took 0.039488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/mapsozai/Room/textures/chiar/wood the tabel and chaer.002_Roughness.png
+  artifactKey: Guid(dfb59868fe93f8749b463c359d1575ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/chiar/wood the tabel and chaer.002_Roughness.png using Guid(dfb59868fe93f8749b463c359d1575ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d40f5600d29dfaa4c0f7325edcadb5') in 0.035335 seconds
+  Import took 0.039882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002627 seconds.
+  path: Assets/mapsozai/Room/textures/chiar/wood the tabel and chaer.002_Roughness.png
+  artifactKey: Guid(dfb59868fe93f8749b463c359d1575ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/chiar/wood the tabel and chaer.002_Roughness.png using Guid(dfb59868fe93f8749b463c359d1575ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d40f5600d29dfaa4c0f7325edcadb5') in 0.011122 seconds
+  Import took 0.015534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.255912 seconds.
+  path: Assets/mapsozai/Room/textures/chiar/Materials
+  artifactKey: Guid(8001b3034ad2ee344847ebff292af4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/chiar/Materials using Guid(8001b3034ad2ee344847ebff292af4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6873f644c7f82a73dbe3015ca604924b') in 0.004217 seconds
+  Import took 0.010084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060647 seconds.
+  path: Assets/mapsozai/Room/textures/chiar/Materials/wood the tabel and chaer.002_Base_Color.mat
+  artifactKey: Guid(4ca043d121adf6542804680b791b8201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/chiar/Materials/wood the tabel and chaer.002_Base_Color.mat using Guid(4ca043d121adf6542804680b791b8201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683cd8f8fcb0e58abf601380313f56c4') in 0.397166 seconds
+  Import took 0.403030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/mapsozai/Room/textures/chiar/Materials/wood the tabel and chaer.002_Metallic.mat
+  artifactKey: Guid(4999017c5a3bb9348813518678f79ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/chiar/Materials/wood the tabel and chaer.002_Metallic.mat using Guid(4999017c5a3bb9348813518678f79ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3944cc0a1303ae5ee706f92ca6f22b1c') in 0.096939 seconds
+  Import took 0.101713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/mapsozai/Room/textures/chiar/Materials/wood the tabel and chaer.002_Normal_DirectX.mat
+  artifactKey: Guid(2a9500e5ca7b3b849809d7cf16fa330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/chiar/Materials/wood the tabel and chaer.002_Normal_DirectX.mat using Guid(2a9500e5ca7b3b849809d7cf16fa330b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4f12f9780d25adc9d3e20d32f6aa5d') in 0.045628 seconds
+  Import took 0.051731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/mapsozai/Room/textures/chiar/Materials/wood the tabel and chaer.002_Normal_DirectX 1.mat
+  artifactKey: Guid(fe8c34defa0f25344a981704b2e29b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/chiar/Materials/wood the tabel and chaer.002_Normal_DirectX 1.mat using Guid(fe8c34defa0f25344a981704b2e29b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f4c5d8c351f4e60f3911aa979f669a') in 0.034016 seconds
+  Import took 0.038801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/mapsozai/Room/textures/chiar/Materials/wood the tabel and chaer.002_Roughness.mat
+  artifactKey: Guid(8d15305b83ff0f049919b4dbbcf4a11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/chiar/Materials/wood the tabel and chaer.002_Roughness.mat using Guid(8d15305b83ff0f049919b4dbbcf4a11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f56c0cae78e602fd21529a07e57128') in 0.027076 seconds
+  Import took 0.032500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/mapsozai/Room/textures/chiar/Materials/wood the tabel and chaer.002_Normal_DirectX 1.mat
+  artifactKey: Guid(fe8c34defa0f25344a981704b2e29b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/chiar/Materials/wood the tabel and chaer.002_Normal_DirectX 1.mat using Guid(fe8c34defa0f25344a981704b2e29b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f4c5d8c351f4e60f3911aa979f669a') in 0.018364 seconds
+  Import took 0.023087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/mapsozai/Room/textures/chiar/Materials/wood the tabel and chaer.002_Roughness.mat
+  artifactKey: Guid(8d15305b83ff0f049919b4dbbcf4a11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/chiar/Materials/wood the tabel and chaer.002_Roughness.mat using Guid(8d15305b83ff0f049919b4dbbcf4a11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f56c0cae78e602fd21529a07e57128') in 0.013733 seconds
+  Import took 0.018600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.514357 seconds.
+  path: Assets/mapsozai/Room/textures/floor
+  artifactKey: Guid(b3922ac6230d37048994c39ad38dd5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/floor using Guid(b3922ac6230d37048994c39ad38dd5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fee098588f9039fdc2a00106f797aef') in 0.011741 seconds
+  Import took 0.016744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046400 seconds.
+  path: Assets/mapsozai/Room/textures/floor/marble_1_basecolor.png
+  artifactKey: Guid(1b5d37f7d9ff11f4da2a6afbbeb6956e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/floor/marble_1_basecolor.png using Guid(1b5d37f7d9ff11f4da2a6afbbeb6956e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd09487afc58d491ca00483da358e4b') in 0.027055 seconds
+  Import took 0.034207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/mapsozai/Room/textures/floor/marble_1_metallic.png
+  artifactKey: Guid(baa5e44ba29e40d43938dfbe07f20cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/floor/marble_1_metallic.png using Guid(baa5e44ba29e40d43938dfbe07f20cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6ca6dbf3f52ea36f404ac1ae22c9ff') in 0.035572 seconds
+  Import took 0.040419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/mapsozai/Room/textures/floor/marble_1_normal.png
+  artifactKey: Guid(83ce4516dcc63cc4bba36a70b989098d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/floor/marble_1_normal.png using Guid(83ce4516dcc63cc4bba36a70b989098d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990e58dc78e2b52d07de7dbd54e1a7b7') in 0.020931 seconds
+  Import took 0.027105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/mapsozai/Room/textures/floor/marble_1_height.png
+  artifactKey: Guid(6709565d7c22df04fac8dca11ad0ae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/floor/marble_1_height.png using Guid(6709565d7c22df04fac8dca11ad0ae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589c552d4286feea111cee704fc0250b') in 0.022875 seconds
+  Import took 0.030615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/mapsozai/Room/textures/floor/marble_1_roughness.png
+  artifactKey: Guid(1979c7757587fa14fa611fcd2f489241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/floor/marble_1_roughness.png using Guid(1979c7757587fa14fa611fcd2f489241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deab0fd9c439364967fd476c5a1aae85') in 0.036818 seconds
+  Import took 0.042536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.124959 seconds.
+  path: Assets/mapsozai/Room/textures/floor/4K
+  artifactKey: Guid(dd06934bed0082c4cb82e55186979f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/floor/4K using Guid(dd06934bed0082c4cb82e55186979f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b835845a4cdc09f4755dba8820ad19') in 0.010693 seconds
+  Import took 0.015836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047907 seconds.
+  path: Assets/mapsozai/Room/textures/floor/4K/marble_1_basecolor.png
+  artifactKey: Guid(c1c893f8ecde3684e9bef98a2837d564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/floor/4K/marble_1_basecolor.png using Guid(c1c893f8ecde3684e9bef98a2837d564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee724271f6c868af7bed16ff1ed2a1fc') in 0.031946 seconds
+  Import took 0.037334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/mapsozai/Room/textures/floor/4K/marble_1_height.png
+  artifactKey: Guid(515611624ea29714fb9309dab82827d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/floor/4K/marble_1_height.png using Guid(515611624ea29714fb9309dab82827d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5fdc18f5b6a9c88633f822ccbc3335') in 0.039093 seconds
+  Import took 0.042495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/mapsozai/Room/textures/floor/4K/marble_1_metallic.png
+  artifactKey: Guid(dc59f9ffd331a8748b0b1434fe32771e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/floor/4K/marble_1_metallic.png using Guid(dc59f9ffd331a8748b0b1434fe32771e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b292e8af9ebd5d3a21f57635644f396') in 0.030654 seconds
+  Import took 0.036637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/mapsozai/Room/textures/floor/4K/marble_1_normal.png
+  artifactKey: Guid(6101c24f09c24084c9619f1bda57e076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/floor/4K/marble_1_normal.png using Guid(6101c24f09c24084c9619f1bda57e076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd6987437d13717a72848c15126c0bd') in 0.049542 seconds
+  Import took 0.053706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/mapsozai/Room/textures/floor/4K/marble_1_roughness.png
+  artifactKey: Guid(bf6227bb38dd94f4e96c9bf04258b389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/floor/4K/marble_1_roughness.png using Guid(bf6227bb38dd94f4e96c9bf04258b389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c96921fb622e95a82c17bf733bef37a') in 0.040025 seconds
+  Import took 0.045400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.807394 seconds.
+  path: Assets/mapsozai/Room/textures/floor/Materials
+  artifactKey: Guid(98c3bcca7592c134f8f775d5d037ef07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/floor/Materials using Guid(98c3bcca7592c134f8f775d5d037ef07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf2703e01077c342399137319ecd0e7') in 0.005548 seconds
+  Import took 0.013815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050162 seconds.
+  path: Assets/mapsozai/Room/textures/floor/Materials/marble_1_basecolor.mat
+  artifactKey: Guid(0a361588f2d772f4ea2bd15d37d1b3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/floor/Materials/marble_1_basecolor.mat using Guid(0a361588f2d772f4ea2bd15d37d1b3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd094e315bd6f8b45ab46e736b06a3439') in 0.034292 seconds
+  Import took 0.040274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/mapsozai/Room/textures/floor/Materials/marble_1_metallic.mat
+  artifactKey: Guid(a2636189f55762b42a6dba1d2789f751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/floor/Materials/marble_1_metallic.mat using Guid(a2636189f55762b42a6dba1d2789f751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49e7ce0a7eaa3a7f60260812a68d8c7') in 0.035167 seconds
+  Import took 0.040400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/mapsozai/Room/textures/floor/Materials/marble_1_roughness.mat
+  artifactKey: Guid(0ed2247be5eba804a94da781cfed56c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/floor/Materials/marble_1_roughness.mat using Guid(0ed2247be5eba804a94da781cfed56c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b09f115395a72d74f98ab9d02c6723') in 0.031110 seconds
+  Import took 0.036968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/mapsozai/Room/textures/floor/Materials/New Material.mat
+  artifactKey: Guid(2d975f1a39286d947926da391c00ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/floor/Materials/New Material.mat using Guid(2d975f1a39286d947926da391c00ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15b3b71d899be798070706bc761d993') in 0.027404 seconds
+  Import took 0.033129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/mapsozai/Room/textures/floor/Materials/marble_1_roughness.mat
+  artifactKey: Guid(0ed2247be5eba804a94da781cfed56c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/floor/Materials/marble_1_roughness.mat using Guid(0ed2247be5eba804a94da781cfed56c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b09f115395a72d74f98ab9d02c6723') in 0.019149 seconds
+  Import took 0.023139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/mapsozai/Room/textures/floor/Materials/New Material.mat
+  artifactKey: Guid(2d975f1a39286d947926da391c00ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/floor/Materials/New Material.mat using Guid(2d975f1a39286d947926da391c00ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15b3b71d899be798070706bc761d993') in 0.011500 seconds
+  Import took 0.016872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.858518 seconds.
+  path: Assets/mapsozai/Room/textures/pillars
+  artifactKey: Guid(57fb622f5f513ac44ac96ca85bbc7f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/pillars using Guid(57fb622f5f513ac44ac96ca85bbc7f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c03a7dd639dc51629c4392f53677234') in 0.012880 seconds
+  Import took 0.020188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047134 seconds.
+  path: Assets/mapsozai/Room/textures/pillars/pilers_Base_Color.png
+  artifactKey: Guid(141e9872767692f4ebd522242465b376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/pillars/pilers_Base_Color.png using Guid(141e9872767692f4ebd522242465b376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529de507414e2277c8ed1c9198139a7b') in 0.040011 seconds
+  Import took 0.046819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/mapsozai/Room/textures/pillars/pilers_Mixed_AO.png
+  artifactKey: Guid(cffd7f77141192c4283c3f20a3648952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/pillars/pilers_Mixed_AO.png using Guid(cffd7f77141192c4283c3f20a3648952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5351bae0ae800a3b88fdbe77ed27d0') in 0.037948 seconds
+  Import took 0.044483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/mapsozai/Room/textures/pillars/pilers_Roughness.png
+  artifactKey: Guid(0c3cf7abd203fcf44afe8a3a68f32722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/pillars/pilers_Roughness.png using Guid(0c3cf7abd203fcf44afe8a3a68f32722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49c1f2de8a916e3a0fcf800522ddf87') in 0.047882 seconds
+  Import took 0.052860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/mapsozai/Room/textures/pillars/pilers_Normal_DirectX.png
+  artifactKey: Guid(87bca9bbd9167244093c78802c9d7196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/pillars/pilers_Normal_DirectX.png using Guid(87bca9bbd9167244093c78802c9d7196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc87dac7f140c336d7796725c806aa3') in 0.044063 seconds
+  Import took 0.050048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/mapsozai/Room/textures/pillars/pilers_Height.png
+  artifactKey: Guid(bb7678138a245f546b00a8cc1aebcab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/pillars/pilers_Height.png using Guid(bb7678138a245f546b00a8cc1aebcab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bec19fed585dff2091c57f5a016c9a') in 0.029696 seconds
+  Import took 0.035843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002593 seconds.
+  path: Assets/mapsozai/Room/textures/pillars/pilers_Height.png
+  artifactKey: Guid(bb7678138a245f546b00a8cc1aebcab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/pillars/pilers_Height.png using Guid(bb7678138a245f546b00a8cc1aebcab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bec19fed585dff2091c57f5a016c9a') in 0.016503 seconds
+  Import took 0.022432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.623653 seconds.
+  path: Assets/mapsozai/Room/textures/pillars/Materials
+  artifactKey: Guid(ae90a6359cf842945b98b49f6d43b835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/pillars/Materials using Guid(ae90a6359cf842945b98b49f6d43b835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3d513e3677c932c4eb97f04e3383e2') in 0.003625 seconds
+  Import took 0.010504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044536 seconds.
+  path: Assets/mapsozai/Room/textures/pillars/Materials/pilers_Base_Color.mat
+  artifactKey: Guid(20e57543ab535844ca584f2560e3b95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/pillars/Materials/pilers_Base_Color.mat using Guid(20e57543ab535844ca584f2560e3b95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399681f9269c26a651adefd44d58ab9d') in 0.040248 seconds
+  Import took 0.046968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.730688 seconds.
+  path: Assets/mapsozai/Room/textures/table
+  artifactKey: Guid(bcaee7c873b5f3945b61dc34451434e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/table using Guid(bcaee7c873b5f3945b61dc34451434e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1607224c8eac7c730947b56b08b38e77') in 0.010811 seconds
+  Import took 0.016055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.250631 seconds.
+  path: Assets/mapsozai/Room/textures/table/wood the tabel and chaer_Base_Color.png
+  artifactKey: Guid(59057fcbbe3585e4aac8d2878384dffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/table/wood the tabel and chaer_Base_Color.png using Guid(59057fcbbe3585e4aac8d2878384dffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a85392ee9407276f2c0f72c336ef33e') in 0.033579 seconds
+  Import took 0.038004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/mapsozai/Room/textures/table/wood the tabel and chaer_Height.png
+  artifactKey: Guid(04fce0d1b2984044f80df82d3e9a2561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/table/wood the tabel and chaer_Height.png using Guid(04fce0d1b2984044f80df82d3e9a2561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e49036f4515b90d85e0ad8afea6d1c') in 0.022539 seconds
+  Import took 0.027900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/mapsozai/Room/textures/table/wood the tabel and chaer_Metallic.png
+  artifactKey: Guid(1b9dd10663d85524c97a1dce30867938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/table/wood the tabel and chaer_Metallic.png using Guid(1b9dd10663d85524c97a1dce30867938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29321bda478f1d67026f2afd3980c684') in 0.044452 seconds
+  Import took 0.050707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/mapsozai/Room/textures/table/wood the tabel and chaer_Roughness.png
+  artifactKey: Guid(d177c5a015ed1184baba2e3eeaaf4080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/table/wood the tabel and chaer_Roughness.png using Guid(d177c5a015ed1184baba2e3eeaaf4080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44058679321d71a0b6482ca2bf65a152') in 0.043592 seconds
+  Import took 0.050547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/mapsozai/Room/textures/table/wood the tabel and chaer_Metallic.png
+  artifactKey: Guid(1b9dd10663d85524c97a1dce30867938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/table/wood the tabel and chaer_Metallic.png using Guid(1b9dd10663d85524c97a1dce30867938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29321bda478f1d67026f2afd3980c684') in 0.012047 seconds
+  Import took 0.017567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/mapsozai/Room/textures/table/wood the tabel and chaer_Normal_DirectX.png
+  artifactKey: Guid(4503d8d9d36a5ef4fb23dfd14c0cf6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/table/wood the tabel and chaer_Normal_DirectX.png using Guid(4503d8d9d36a5ef4fb23dfd14c0cf6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3feb772a5dd339557cb13db3caf514f2') in 0.026447 seconds
+  Import took 0.031522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.311970 seconds.
+  path: Assets/mapsozai/Room/textures/table/Materials
+  artifactKey: Guid(9bd26d52de8fdc94cb8d8fd329b011ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/table/Materials using Guid(9bd26d52de8fdc94cb8d8fd329b011ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06514b07a15ef17bd1d5b2a3a7f3e02') in 0.006167 seconds
+  Import took 0.012278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049411 seconds.
+  path: Assets/mapsozai/Room/textures/table/Materials/wood the tabel and chaer_Base_Color.mat
+  artifactKey: Guid(6df9ad751b8703d4bbb8a9e6855c7e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/table/Materials/wood the tabel and chaer_Base_Color.mat using Guid(6df9ad751b8703d4bbb8a9e6855c7e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b9904c78f304a659148a6f4ad64b69') in 0.027403 seconds
+  Import took 0.033931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/mapsozai/Room/textures/table/Materials/wood the tabel and chaer_Metallic.mat
+  artifactKey: Guid(d0552da05fcbab946a029b1bcbcd9fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/table/Materials/wood the tabel and chaer_Metallic.mat using Guid(d0552da05fcbab946a029b1bcbcd9fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad61786d081b4edb099b6316337cde7a') in 0.029240 seconds
+  Import took 0.036460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/mapsozai/Room/textures/table/Materials/wood the tabel and chaer_Normal_DirectX 2.mat
+  artifactKey: Guid(69354be260634c74899b5ae05dfba020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/table/Materials/wood the tabel and chaer_Normal_DirectX 2.mat using Guid(69354be260634c74899b5ae05dfba020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c736f9bd38b8a02045728bb8130c2bec') in 0.035227 seconds
+  Import took 0.040349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/mapsozai/Room/textures/table/Materials/wood the tabel and chaer_Roughness.mat
+  artifactKey: Guid(dcc4ad64a9a749c4bac8a75e029fbc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/table/Materials/wood the tabel and chaer_Roughness.mat using Guid(dcc4ad64a9a749c4bac8a75e029fbc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b88473eadd4c02cc7cc3cb0b3193b8') in 0.028174 seconds
+  Import took 0.035617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/mapsozai/Room/textures/table/Materials/wood the tabel and chaer_Normal_DirectX 1.mat
+  artifactKey: Guid(647ce9b401f69974388c76f13b0f7090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/table/Materials/wood the tabel and chaer_Normal_DirectX 1.mat using Guid(647ce9b401f69974388c76f13b0f7090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5c9e67539db67c4ec529fbc17df394') in 0.036694 seconds
+  Import took 0.042430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/mapsozai/Room/textures/table/Materials/wood the tabel and chaer_Normal_DirectX.mat
+  artifactKey: Guid(b44a9b03af8cc66459644a30100b87d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/textures/table/Materials/wood the tabel and chaer_Normal_DirectX.mat using Guid(b44a9b03af8cc66459644a30100b87d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea197b046dc1fbef78b6865c783cec1') in 0.041283 seconds
+  Import took 0.047398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.970392 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials
+  artifactKey: Guid(857e807c790d3924fa059e2b04c42e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials using Guid(857e807c790d3924fa059e2b04c42e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3367528fc4fec58bb50f5327d1ea5087') in 0.005192 seconds
+  Import took 0.011091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038272 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/bark_1_d.mat
+  artifactKey: Guid(916e2ecc63e6c994db2a3f8ca486b069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/bark_1_d.mat using Guid(916e2ecc63e6c994db2a3f8ca486b069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867f402a33a56c86c30d291f34cc4587') in 0.128231 seconds
+  Import took 0.134151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_d.mat
+  artifactKey: Guid(8ea231131c0ecc64ca078b074ddd7129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_d.mat using Guid(8ea231131c0ecc64ca078b074ddd7129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcc49b51177e1605f388bfb283ffc78') in 0.085431 seconds
+  Import took 0.091197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/wood_1_d.mat
+  artifactKey: Guid(13ceee64ceec99b4c83bc82e593822e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/wood_1_d.mat using Guid(13ceee64ceec99b4c83bc82e593822e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a599c4fc1086f85ef87972af083ca5ec') in 0.088500 seconds
+  Import took 0.093895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/dark_iron.mat
+  artifactKey: Guid(92c80c0d26945b34a9d0c7d295afeb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/dark_iron.mat using Guid(92c80c0d26945b34a9d0c7d295afeb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb83cdee6e41439c4e67494386d297f') in 0.105949 seconds
+  Import took 0.111954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/bark_2_d.mat
+  artifactKey: Guid(c308058fe19e91945b8a535cbaeec91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/bark_2_d.mat using Guid(c308058fe19e91945b8a535cbaeec91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f08e90c8822475bd1a4dbed2e82c816') in 0.086500 seconds
+  Import took 0.092510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_book_4_d.mat
+  artifactKey: Guid(3f6e37fdf70ee3649873addb4353ba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_book_4_d.mat using Guid(3f6e37fdf70ee3649873addb4353ba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05ffd883f3ce472e4d670f7308d0861') in 0.037263 seconds
+  Import took 0.042267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/fabric_bag_2_d.mat
+  artifactKey: Guid(8723e51378391314f9970fb4ddb11004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/fabric_bag_2_d.mat using Guid(8723e51378391314f9970fb4ddb11004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd9bbcf6f19693e782211b4267f7781') in 0.084476 seconds
+  Import took 0.089186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/wood.mat
+  artifactKey: Guid(8e12c98df9366e84ebc37e382fc650af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/wood.mat using Guid(8e12c98df9366e84ebc37e382fc650af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3865174b5da070d6432f650d8da1545e') in 0.084014 seconds
+  Import took 0.088708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/granite_1_d.mat
+  artifactKey: Guid(965224637509ca24787fde060eea6f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/granite_1_d.mat using Guid(965224637509ca24787fde060eea6f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f503047c75d2a9e115b7dce7235baa6f') in 0.034887 seconds
+  Import took 0.040769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/timber_1_fixed_dark.mat
+  artifactKey: Guid(79b6bc15374199f4c90b61b8c09d3d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/timber_1_fixed_dark.mat using Guid(79b6bc15374199f4c90b61b8c09d3d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92494b1760050c1a505b080911153841') in 0.075715 seconds
+  Import took 0.080867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/dirt_1_fixed_d.mat
+  artifactKey: Guid(da2d7a7a842064e4cb761293c37a9035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/dirt_1_fixed_d.mat using Guid(da2d7a7a842064e4cb761293c37a9035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88681fc41922a7a410839aec378483f2') in 0.074314 seconds
+  Import took 0.079226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/wood_burned.mat
+  artifactKey: Guid(2ac921ccf4efe38459a2bae33d0b058a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/wood_burned.mat using Guid(2ac921ccf4efe38459a2bae33d0b058a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9740fe3c4b813099604a0432aed13941') in 0.090837 seconds
+  Import took 0.095548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/wooden-boards-texture_dark_d.mat
+  artifactKey: Guid(7b081be773367574e95bd41658134e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/wooden-boards-texture_dark_d.mat using Guid(7b081be773367574e95bd41658134e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f1806558a85f107a3c0cbac8e8ed14') in 0.106966 seconds
+  Import took 0.115591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000601 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/wood_4_d.mat
+  artifactKey: Guid(8fc7164692cb91340b5ced7843fef0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/wood_4_d.mat using Guid(8fc7164692cb91340b5ced7843fef0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c5e2a983d7801e6177bad44befe839') in 0.137611 seconds
+  Import took 0.150695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/dark_wood.mat
+  artifactKey: Guid(02f0f69994ce7d34a86b5fbb2a3127fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/dark_wood.mat using Guid(02f0f69994ce7d34a86b5fbb2a3127fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ba33e19efc6e5f81b0593ab1ebcd6c') in 0.050942 seconds
+  Import took 0.057800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/clay_1_d.mat
+  artifactKey: Guid(0664a4889da60aa4aadaaed77fd6a556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/clay_1_d.mat using Guid(0664a4889da60aa4aadaaed77fd6a556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a71efdafa5b1d9b501b3203ebb7000') in 0.090812 seconds
+  Import took 0.098055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/iron.mat
+  artifactKey: Guid(01fe39fbda1dcd94a91cba98e3847538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/iron.mat using Guid(01fe39fbda1dcd94a91cba98e3847538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350df75ad1adcebdf92170a2e8542505') in 0.081001 seconds
+  Import took 0.085243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/paper.mat
+  artifactKey: Guid(8e19c3cbe5e52e44c8eb38cba192482e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/paper.mat using Guid(8e19c3cbe5e52e44c8eb38cba192482e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e856bbc6681095c0d15c95e495d43fb') in 0.104383 seconds
+  Import took 0.109262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/wood_2_d.mat
+  artifactKey: Guid(982cbc10ad3c2114ca283c1b759605a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/wood_2_d.mat using Guid(982cbc10ad3c2114ca283c1b759605a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9ca2b018936842b635db0b5dd3dff8') in 0.036851 seconds
+  Import took 0.042619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_poor_d.mat
+  artifactKey: Guid(00d2fb0ba59dca84fb06f1e87df7b18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_poor_d.mat using Guid(00d2fb0ba59dca84fb06f1e87df7b18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6bcf249185dfa6cc3f2b2f01a89cbb') in 0.037620 seconds
+  Import took 0.042506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/granite_2_d.mat
+  artifactKey: Guid(76a83259762614141892c40ea34bc15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/granite_2_d.mat using Guid(76a83259762614141892c40ea34bc15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201802b34349740901731faa16eb207f') in 0.083434 seconds
+  Import took 0.088842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/fabric_3_d.mat
+  artifactKey: Guid(ab65d633a3d9fb24dbd4aee2445f2869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/fabric_3_d.mat using Guid(ab65d633a3d9fb24dbd4aee2445f2869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15dd7436ece5773487d348ea638dcc4f') in 0.080475 seconds
+  Import took 0.085343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/fabric_bag_1_d.mat
+  artifactKey: Guid(1db8569813e821749927d4ad11460096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/fabric_bag_1_d.mat using Guid(1db8569813e821749927d4ad11460096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af17137be94d736aa81c186663adca8d') in 0.055011 seconds
+  Import took 0.060495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/dark.mat
+  artifactKey: Guid(8653c28f8f9110f43a0fb41a118f1af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/dark.mat using Guid(8653c28f8f9110f43a0fb41a118f1af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8d3e26cd7187e39c480827c4fd35c8') in 0.054358 seconds
+  Import took 0.060160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/timber_2_fixed_d.mat
+  artifactKey: Guid(4bc52937c3c17274f942302c482c69ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/timber_2_fixed_d.mat using Guid(4bc52937c3c17274f942302c482c69ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972e1842daebdc19e56a60a766da250f') in 0.045671 seconds
+  Import took 0.051485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/trunk_1_d.mat
+  artifactKey: Guid(c8bc57404c7970e4c98325aafd294396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/trunk_1_d.mat using Guid(c8bc57404c7970e4c98325aafd294396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c260f297d586799177bfa237f1ba137') in 0.092996 seconds
+  Import took 0.097913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/gold.mat
+  artifactKey: Guid(fd5793c2b2982d541a06c2303351d8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/gold.mat using Guid(fd5793c2b2982d541a06c2303351d8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173456d7a2e64a6879bca94ed947d65c') in 0.031382 seconds
+  Import took 0.037438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/silver.mat
+  artifactKey: Guid(fa9f24e782fcaa248a1becba50e640d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/silver.mat using Guid(fa9f24e782fcaa248a1becba50e640d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de19eb75a0b9ffe499a279ee2e5664a6') in 0.024935 seconds
+  Import took 0.030641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/spice.mat
+  artifactKey: Guid(d634f695d7fc3b2479eaec83bc044d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/spice.mat using Guid(d634f695d7fc3b2479eaec83bc044d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a71ee4756d3b84382737745ec26bbc') in 0.082995 seconds
+  Import took 0.087802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/string.mat
+  artifactKey: Guid(da27f5b7bdd1f3d4da0ab822cb7d1408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/string.mat using Guid(da27f5b7bdd1f3d4da0ab822cb7d1408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ff927fc8a2eab05695c2eff50774d0') in 0.086599 seconds
+  Import took 0.089838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/fabric_2_d.mat
+  artifactKey: Guid(18a635f73de55b64e8204aaf6d8d55c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/fabric_2_d.mat using Guid(18a635f73de55b64e8204aaf6d8d55c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1ceeef4f96a4b1387dbf9df7704cbd') in 0.083028 seconds
+  Import took 0.087327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/wooden-boards-texture_d.mat
+  artifactKey: Guid(f50fd987009300249ad223e750bb4396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/wooden-boards-texture_d.mat using Guid(f50fd987009300249ad223e750bb4396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4234567dc5b56efd7f8933fbee731c') in 0.027973 seconds
+  Import took 0.032956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/silver_1_fixed_d.mat
+  artifactKey: Guid(de5c208fe468c25458b2bb5e0b909a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/silver_1_fixed_d.mat using Guid(de5c208fe468c25458b2bb5e0b909a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57554a0b169d181178de94534d4a54d') in 0.025845 seconds
+  Import took 0.030300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/trunks_1_d.mat
+  artifactKey: Guid(121b58f12db8b0e43adf87d1c1ef6b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/trunks_1_d.mat using Guid(121b58f12db8b0e43adf87d1c1ef6b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4e00a034bcdc6f048e4dc74019bdc8') in 0.083268 seconds
+  Import took 0.087336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/stone_wall_2_d.mat
+  artifactKey: Guid(dbc2b493531c5344f85864c5688265b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/stone_wall_2_d.mat using Guid(dbc2b493531c5344f85864c5688265b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a12fac98f48d30ab8fe27c2ef6dcac6') in 0.080056 seconds
+  Import took 0.083748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/paper_single_page.mat
+  artifactKey: Guid(51170788b33ba304aa4b68ffef5ba924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/paper_single_page.mat using Guid(51170788b33ba304aa4b68ffef5ba924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75220194756f7a896883e5456e6d01b') in 0.024706 seconds
+  Import took 0.030527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/shingle_1_d.mat
+  artifactKey: Guid(aa92370f24b71d4428525f91cfb88005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/shingle_1_d.mat using Guid(aa92370f24b71d4428525f91cfb88005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1651179c8b0cf4e94c7c5a99ae3e6d') in 0.086810 seconds
+  Import took 0.092196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_book_1_d.mat
+  artifactKey: Guid(19b610a59115b3544a25976b65817e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_book_1_d.mat using Guid(19b610a59115b3544a25976b65817e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba561f7d51e199361483505a9bd7d58') in 0.030174 seconds
+  Import took 0.035691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/fabric_1_d.mat
+  artifactKey: Guid(b6eb2c31fb903b94c82e9e2c182bc388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/fabric_1_d.mat using Guid(b6eb2c31fb903b94c82e9e2c182bc388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccaacc42363d5ea534e721e871a44bb') in 0.038284 seconds
+  Import took 0.045573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/stone_wall_3_d.mat
+  artifactKey: Guid(1fe0bf56d0e15604689d9bae86d0c047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/stone_wall_3_d.mat using Guid(1fe0bf56d0e15604689d9bae86d0c047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6311577805036d6705a64e66a31e01') in 0.085906 seconds
+  Import took 0.092337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/cobblestone_wall_1_fixed_d.mat
+  artifactKey: Guid(f08005055adb6774b8d7cd4b19858a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/cobblestone_wall_1_fixed_d.mat using Guid(f08005055adb6774b8d7cd4b19858a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f515d5cdc66dee039221ec25c27a2b75') in 0.083680 seconds
+  Import took 0.088332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/timber_1_fixed_d.mat
+  artifactKey: Guid(2536f1f630d08f441b76cba76e8cf597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/timber_1_fixed_d.mat using Guid(2536f1f630d08f441b76cba76e8cf597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9fd1f14be36b7aa88d798feda4d57b') in 0.033392 seconds
+  Import took 0.041921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/trunk_2_d.mat
+  artifactKey: Guid(1d98a65002eda714d83f003d768ffc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/trunk_2_d.mat using Guid(1d98a65002eda714d83f003d768ffc76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad90217d16804ae3d38956b35f24690') in 0.084858 seconds
+  Import took 0.091083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/wall_brick_1_d.mat
+  artifactKey: Guid(d688b73caa629f344b206ac58bb4f813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/wall_brick_1_d.mat using Guid(d688b73caa629f344b206ac58bb4f813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c196d3f04e769c0e5ff7588d22d64c24') in 0.088916 seconds
+  Import took 0.093378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/stone_wall_1_d.mat
+  artifactKey: Guid(e1489ba25dfb7ab4585967216604488d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/stone_wall_1_d.mat using Guid(e1489ba25dfb7ab4585967216604488d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97835292a5934a26e4f32402770157a0') in 0.084735 seconds
+  Import took 0.089782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/wood_3_d.mat
+  artifactKey: Guid(941f25881004d8f44ba7da0f339c7967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/wood_3_d.mat using Guid(941f25881004d8f44ba7da0f339c7967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6d30c3ccba959987796f8e1a53aa47') in 0.092512 seconds
+  Import took 0.099224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_book_3_d.mat
+  artifactKey: Guid(e721513dd67b1194eb34d01628a2ec38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_book_3_d.mat using Guid(e721513dd67b1194eb34d01628a2ec38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916b3b4993819bb0b0c501f84edb707f') in 0.031473 seconds
+  Import took 0.036005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_book_2_d.mat
+  artifactKey: Guid(e5e845b6ac5f8dc429a548e827f4fb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_book_2_d.mat using Guid(e5e845b6ac5f8dc429a548e827f4fb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba7dd41ea34169372115721d2cc3e89') in 0.036017 seconds
+  Import took 0.039568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/charcoal_1_d.mat
+  artifactKey: Guid(edae9c3fda9266046a7f482926164cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/charcoal_1_d.mat using Guid(edae9c3fda9266046a7f482926164cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7920feb77338104a68ee43ddb905ca6') in 0.096554 seconds
+  Import took 0.101305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/wax.mat
+  artifactKey: Guid(f98fac1cf2116764bb0b3f63b9fd4050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/wax.mat using Guid(f98fac1cf2116764bb0b3f63b9fd4050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0a7c63d8718153a35789c1afbb369a') in 0.102552 seconds
+  Import took 0.107586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/wooden-boards-texture_white_d.mat
+  artifactKey: Guid(aa9711915b138974ba65f2c8cb5333a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/wooden-boards-texture_white_d.mat using Guid(aa9711915b138974ba65f2c8cb5333a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e059d99a8993fee3e4c7853a30722e8') in 0.034928 seconds
+  Import took 0.041873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/wax.mat
+  artifactKey: Guid(f98fac1cf2116764bb0b3f63b9fd4050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/wax.mat using Guid(f98fac1cf2116764bb0b3f63b9fd4050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0a7c63d8718153a35789c1afbb369a') in 0.019958 seconds
+  Import took 0.025985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/wicker_1_d.mat
+  artifactKey: Guid(af916d4cd654ba04e9c96a413899b9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/wicker_1_d.mat using Guid(af916d4cd654ba04e9c96a413899b9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a518161b50660578ccabce70a8a02d5a') in 0.105327 seconds
+  Import took 0.111140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/books_paper_d.mat
+  artifactKey: Guid(cfe94b7c6014b1245b56c46d35cd406e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/books_paper_d.mat using Guid(cfe94b7c6014b1245b56c46d35cd406e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d83faee111b4ec46d8cbba629125c9e') in 0.052131 seconds
+  Import took 0.060737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5615.639829 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Example Scenes
+  artifactKey: Guid(f778d6ec73e835448b9bf1f89d5ff510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Example Scenes using Guid(f778d6ec73e835448b9bf1f89d5ff510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e3ff54174e7d9af757f6bac5da84e0') in 0.048329 seconds
+  Import took 0.195638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000945 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Example Scenes/Beach.asset
+  artifactKey: Guid(5ab3cfce59164bc4b92d44860a17097b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Example Scenes/Beach.asset using Guid(5ab3cfce59164bc4b92d44860a17097b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7621276edca0dbb22b11fd191f0ab7d2') in 0.378826 seconds
+  Import took 0.386920 seconds .
+
