@@ -41,6 +41,8 @@ public class SpiderEnemyMove : MonoBehaviour
     //—Ž‰º‚ÌŽžŠÔ
     public float downTime = 1f;
     int rote = 180;
+    public bool isBulletHit = false;
+    public Vector3 hitPos;
 
     [SerializeField] Animator animator;
     [SerializeField] Rigidbody rigidbody;
@@ -62,7 +64,21 @@ public class SpiderEnemyMove : MonoBehaviour
         
         GotoNextPoint();
         agent.speed = speed;
-        
+        isBulletHit = false;
+        hitPos = Vector3.zero;
+
+    }
+
+    void BulletHit(bool hit)
+    {
+        if (hit)
+        {
+            //Vector3 hitPos = other.ClosestPointOnBounds(this.transform.position);
+            Instantiate(bloodObj, hitPos, Quaternion.identity);
+            Damage();
+            Debug.Log("“GHP : " + hp);
+            isBulletHit = false;
+        }
     }
 
     void GotoNextPoint()
@@ -74,13 +90,13 @@ public class SpiderEnemyMove : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Bullet")
-        {
-            Vector3 hitPos = other.ClosestPointOnBounds(this.transform.position);
-            Instantiate(bloodObj, hitPos, Quaternion.identity);
-            Damage();
-            Debug.Log("“GHP : " + hp);
-        }
+        //if (other.gameObject.tag == "Bullet")
+        //{
+        //    Vector3 hitPos = other.ClosestPointOnBounds(this.transform.position);
+        //    Instantiate(bloodObj, hitPos, Quaternion.identity);
+        //    Damage();
+        //    Debug.Log("“GHP : " + hp);
+        //}
     }
 
     void PlayerChase()
@@ -122,7 +138,7 @@ public class SpiderEnemyMove : MonoBehaviour
         {
             
             
-            StartCoroutine("Downtimer", 1);
+            StartCoroutine("Downtimer", 0.6);
             //rigidbody.GetComponent<Rigidbody>();
             //rigidbody.isKinematic = false;
             //isUp = false;
@@ -247,7 +263,9 @@ public class SpiderEnemyMove : MonoBehaviour
         }
         else Patrol();
 
-        if(animator.GetCurrentAnimatorClipInfo(0)[0].clip.name=="pounce")
+        BulletHit(isBulletHit);
+
+        if (animator.GetCurrentAnimatorClipInfo(0)[0].clip.name=="pounce")
         {
             Debug.Log("”ò‚Ñ‚Â‚«’†");
             transform.position += transform.forward * 10 * Time.deltaTime;

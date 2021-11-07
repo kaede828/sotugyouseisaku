@@ -148,10 +148,14 @@ public class AddForceBullet : MonoBehaviour
         foreach (var hit in hits)
         {
             //ìGÇè¡Ç∑
-            var em = hit.collider.gameObject.GetComponent<EnemyMove>();
-            em.hitPos = hit.point;
-            em.isBulletHit = true;
-            //Destroy(hit.collider.gameObject);
+            //var em = hit.collider.gameObject.GetComponent<EnemyMove>();
+            //em.hitPos = hit.point;
+            //em.isBulletHit = true;
+            ////Destroy(hit.collider.gameObject);
+
+            var sem = hit.collider.gameObject.GetComponent<SpiderEnemyMove>();
+            sem.hitPos = hit.point;
+            sem.isBulletHit = true;
         }
 
     }
