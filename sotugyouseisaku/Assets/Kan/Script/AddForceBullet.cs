@@ -148,7 +148,9 @@ public class AddForceBullet : MonoBehaviour
         foreach (var hit in hits)
         {
             //ìGÇè¡Ç∑
-            //Debug.Log(hit.collider.gameObject);
+            var em = hit.collider.gameObject.GetComponent<EnemyMove>();
+            em.hitPos = hit.point;
+            em.isBulletHit = true;
             //Destroy(hit.collider.gameObject);
         }
 
