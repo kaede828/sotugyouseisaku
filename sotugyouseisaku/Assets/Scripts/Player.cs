@@ -152,7 +152,7 @@ public class Player : MonoBehaviour
         {
             hp = hp - 10;
             //ポストエフェクトVignetteの値加算
-            post.vigparam += 0.04f;
+            post.vigparam += 0.061f;
             Debug.Log("Player@vigparam"+post.vigparam);
             //Debug.Log("プレイヤーHP : " + hp);
         }
