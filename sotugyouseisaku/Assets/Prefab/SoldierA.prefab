@@ -744,6 +744,7 @@ MonoBehaviour:
   cameraRotForward: 1
   cameraRotateLimit: 30
   spine: {fileID: 6366208532008371468}
+  post: {fileID: 0}
 --- !u!82 &8074966563458602579
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1283,6 +1284,7 @@ GameObject:
   - component: {fileID: 6366208532315600492}
   - component: {fileID: 6366208532315600493}
   - component: {fileID: 7406557719074562206}
+  - component: {fileID: 168249564}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1370,6 +1372,66 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameObject: {fileID: 7477535997314951402}
+--- !u!114 &168249564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6366208532315600494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 6366208532315600491}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 1
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 0
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
 --- !u!1 &7477535997314951402
 GameObject:
   m_ObjectHideFlags: 0
@@ -1426,7 +1488,7 @@ Transform:
   m_GameObject: {fileID: 8074966563144657536}
   m_LocalRotation: {x: 0.000000036500243, y: -0.000000036500243, z: -0.000000036500243,
     w: 1}
-  m_LocalPosition: {x: 0, y: -1.1, z: -0.25}
+  m_LocalPosition: {x: 0, y: -0.45, z: 0.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6366208532315600491}
@@ -1446,7 +1508,7 @@ Light:
   m_Color: {r: 0.97614783, g: 0.9811321, b: 0.63403344, a: 1}
   m_Intensity: 1.8
   m_Range: 50
-  m_SpotAngle: 64
+  m_SpotAngle: 107
   m_InnerSpotAngle: 3
   m_CookieSize: 10
   m_Shadows:

@@ -14,9 +14,28 @@ ScriptsOnlyBuild:
     - Player
     - PlayerHp
     - ReloadTime
+    - hatudenki
+    - hatudenkiHP
+    - hatudenkiManager
     - title
     DOTween.dll:
     - DG.Tweening.Core.DOTweenSettings
+    Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
+    - UnityEngine.Rendering.PostProcessing.AutoExposure
+    - UnityEngine.Rendering.PostProcessing.Bloom
+    - UnityEngine.Rendering.PostProcessing.ChromaticAberration
+    - UnityEngine.Rendering.PostProcessing.ColorGrading
+    - UnityEngine.Rendering.PostProcessing.DepthOfField
+    - UnityEngine.Rendering.PostProcessing.Grain
+    - UnityEngine.Rendering.PostProcessing.LensDistortion
+    - UnityEngine.Rendering.PostProcessing.MotionBlur
+    - UnityEngine.Rendering.PostProcessing.PostProcessLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessProfile
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources
+    - UnityEngine.Rendering.PostProcessing.PostProcessVolume
+    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
+    - UnityEngine.Rendering.PostProcessing.Vignette
     Unity.ProBuilder.dll:
     - UnityEngine.ProBuilder.PolyShape
     - UnityEngine.ProBuilder.ProBuilderMesh
@@ -60,6 +79,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
@@ -83,41 +104,63 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1500}
+      Script: {instanceID: 1556}
     - Class: 114
-      Script: {instanceID: 1502}
+      Script: {instanceID: 1558}
     - Class: 114
-      Script: {instanceID: 13474}
+      Script: {instanceID: 14048}
     - Class: 114
-      Script: {instanceID: 13544}
+      Script: {instanceID: 14124}
     - Class: 114
-      Script: {instanceID: 13570}
+      Script: {instanceID: 14152}
     - Class: 114
-      Script: {instanceID: 13594}
+      Script: {instanceID: 14176}
     - Class: 114
-      Script: {instanceID: 14378}
+      Script: {instanceID: 14254}
     - Class: 114
-      Script: {instanceID: 14516}
+      Script: {instanceID: 14822}
     - Class: 114
-      Script: {instanceID: 14668}
+      Script: {instanceID: 14858}
     - Class: 114
-      Script: {instanceID: 14720}
+      Script: {instanceID: 14926}
     - Class: 114
-      Script: {instanceID: 14746}
+      Script: {instanceID: 15012}
     - Class: 114
-      Script: {instanceID: 14972}
+      Script: {instanceID: 15154}
     - Class: 114
-      Script: {instanceID: 15242}
+      Script: {instanceID: 15310}
     - Class: 114
-      Script: {instanceID: 15864}
+      Script: {instanceID: 15364}
     - Class: 114
-      Script: {instanceID: 15882}
+      Script: {instanceID: 15390}
     - Class: 114
-      Script: {instanceID: 16150}
+      Script: {instanceID: 15626}
     - Class: 114
-      Script: {instanceID: 16186}
+      Script: {instanceID: 15908}
     - Class: 114
-      Script: {instanceID: 17020}
+      Script: {instanceID: 16066}
+    - Class: 114
+      Script: {instanceID: 16336}
+    - Class: 114
+      Script: {instanceID: 16560}
+    - Class: 114
+      Script: {instanceID: 16578}
+    - Class: 114
+      Script: {instanceID: 16864}
+    - Class: 114
+      Script: {instanceID: 16900}
+    - Class: 114
+      Script: {instanceID: 16994}
+    - Class: 114
+      Script: {instanceID: 17458}
+    - Class: 114
+      Script: {instanceID: 17774}
+    - Class: 114
+      Script: {instanceID: 17860}
+    - Class: 114
+      Script: {instanceID: 18058}
+    - Class: 114
+      Script: {instanceID: 18106}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -170,19 +213,19 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1500}
+      Script: {instanceID: 1556}
     - Class: 114
-      Script: {instanceID: 1502}
+      Script: {instanceID: 1558}
     - Class: 114
-      Script: {instanceID: 14378}
+      Script: {instanceID: 15012}
     - Class: 114
-      Script: {instanceID: 14516}
+      Script: {instanceID: 15154}
     - Class: 114
-      Script: {instanceID: 14720}
+      Script: {instanceID: 15364}
     - Class: 114
-      Script: {instanceID: 14972}
+      Script: {instanceID: 15626}
     - Class: 114
-      Script: {instanceID: 15246}
+      Script: {instanceID: 15912}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -217,19 +260,19 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1500}
+      Script: {instanceID: 1556}
     - Class: 114
-      Script: {instanceID: 1502}
+      Script: {instanceID: 1558}
     - Class: 114
-      Script: {instanceID: 14378}
+      Script: {instanceID: 15012}
     - Class: 114
-      Script: {instanceID: 14516}
+      Script: {instanceID: 15154}
     - Class: 114
-      Script: {instanceID: 14720}
+      Script: {instanceID: 15364}
     - Class: 114
-      Script: {instanceID: 14972}
+      Script: {instanceID: 15626}
     - Class: 114
-      Script: {instanceID: 17338}
+      Script: {instanceID: 18112}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -266,21 +309,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1500}
+      Script: {instanceID: 1556}
     - Class: 114
-      Script: {instanceID: 1502}
+      Script: {instanceID: 1558}
     - Class: 114
-      Script: {instanceID: 13336}
+      Script: {instanceID: 13904}
     - Class: 114
-      Script: {instanceID: 14378}
+      Script: {instanceID: 15012}
     - Class: 114
-      Script: {instanceID: 14516}
+      Script: {instanceID: 15154}
     - Class: 114
-      Script: {instanceID: 14720}
+      Script: {instanceID: 15364}
     - Class: 114
-      Script: {instanceID: 14972}
+      Script: {instanceID: 15626}
     - Class: 114
-      Script: {instanceID: 15538}
+      Script: {instanceID: 16218}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -372,6 +415,12 @@ ScriptsOnlyBuild:
     className: LayoutElement
   - hash:
       serializedVersion: 2
+      Hash: d0987ce3e9092dbe0fa30d73f333fffa
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Grain
+  - hash:
+      serializedVersion: 2
       Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -402,7 +451,7 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: 737f13e2239f16cc99feaccd688bacab
+      Hash: ef225ae36a7e3aa706fbb8151764e7f6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AddForceBullet
@@ -412,6 +461,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e82c0521cdfe8cb6a168ef7208a98d4a
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: f542c1afca5bb4022f91fdda19b8d622
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: DepthOfField
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -453,13 +514,13 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UniRx.dll
     namespaceName: UniRx.Triggers
-    className: ObservableBeginDragTrigger
+    className: ObservableVisibleTrigger
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UniRx.dll
     namespaceName: UniRx.Triggers
-    className: ObservableVisibleTrigger
+    className: ObservableBeginDragTrigger
   - hash:
       serializedVersion: 2
       Hash: c1d728126ff1918728036c59106d32b2
@@ -480,10 +541,34 @@ ScriptsOnlyBuild:
     className: ObservableDropTrigger
   - hash:
       serializedVersion: 2
+      Hash: 119f2d90f94e33a3642b7048ef19db24
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: hatudenki
+  - hash:
+      serializedVersion: 2
+      Hash: a1f19ad47d3094e235f21b74dfc423a8
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessLayer
+  - hash:
+      serializedVersion: 2
       Hash: 5f170942ee57c7a568f5bcfc7521adea
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: EnumerableTestState
+  - hash:
+      serializedVersion: 2
+      Hash: a1a5d4c218fc55e16e506e660dfa6827
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RayHitBullet
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: hatudenkiHP
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -570,6 +655,12 @@ ScriptsOnlyBuild:
     className: ColorPalette
   - hash:
       serializedVersion: 2
+      Hash: 61b9d9b6f4b6a222dfea8b131b3d3227
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ChromaticAberration
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
@@ -586,6 +677,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyNum
+  - hash:
+      serializedVersion: 2
+      Hash: 3c8aaad328ac7df23b4e86cc1b898a3e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerBulletsState
   - hash:
       serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
@@ -738,6 +835,12 @@ ScriptsOnlyBuild:
     className: GamClear
   - hash:
       serializedVersion: 2
+      Hash: a53651ee3996fbba20dfe0fce02f0b23
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AutoExposure
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UniRx.dll
     namespaceName: UniRx.Triggers
@@ -766,6 +869,12 @@ ScriptsOnlyBuild:
     assemblyName: UniRx.dll
     namespaceName: UniRx.Triggers
     className: ObservableStateMachineTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: d5635ab65f24fe40526edaf9197e65a2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: hatudenkiManager
   - hash:
       serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
@@ -844,6 +953,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71f7f12b8d0f4fd73590db8bcb6d453c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Bloom
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -960,6 +1075,12 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
+      Hash: 7e6ed836cbaa230e56d6a2bbae1b9bb5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessEffectSettings
+  - hash:
+      serializedVersion: 2
       Hash: f959e8cbda963635f11b705522f0c90d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -990,10 +1111,22 @@ ScriptsOnlyBuild:
     className: ControlTrack
   - hash:
       serializedVersion: 2
+      Hash: 38bcb4d3f9a1812fd650f92e87a4cf64
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessProfile
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UniRx.dll
     namespaceName: UniRx
     className: MainThreadDispatcher
+  - hash:
+      serializedVersion: 2
+      Hash: 50c443b12ccc0b475183318b5088bcc5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessDebug
   - hash:
       serializedVersion: 2
       Hash: 3165968ba45c74472d279ba04455fccb
@@ -1098,6 +1231,18 @@ ScriptsOnlyBuild:
     className: Sample04_ConvertFromUnityCallback
   - hash:
       serializedVersion: 2
+      Hash: 726fcf7961cbb4108aa5be5e55b8c8bf
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ColorGrading
+  - hash:
+      serializedVersion: 2
+      Hash: af93f9c42e90877a9ba31e37adfd900c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: MotionBlur
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UniRx.dll
     namespaceName: UniRx.Triggers
@@ -1108,6 +1253,12 @@ ScriptsOnlyBuild:
     assemblyName: UniRx.Examples.dll
     namespaceName: UniRx.Examples
     className: Sample07_OrchestratIEnumerator
+  - hash:
+      serializedVersion: 2
+      Hash: b13de7a0a457cb8e026d4237dc1b5797
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: LensDistortion
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1146,6 +1297,12 @@ ScriptsOnlyBuild:
     className: Sample03_GameObjectAsObservable
   - hash:
       serializedVersion: 2
+      Hash: 63d7b9b64a11859f416d72ba9a3c3fec
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ScreenSpaceReflections
+  - hash:
+      serializedVersion: 2
       Hash: 7df5957129324fd0e6071bf64048e542
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1156,6 +1313,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CamProtect
+  - hash:
+      serializedVersion: 2
+      Hash: d5630f96bd5a6a6eed7e1754c3fb8703
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessVolume
   - hash:
       serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
@@ -1194,6 +1357,24 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: d6fc8d3165070298511ec776ea575626
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessResources
+  - hash:
+      serializedVersion: 2
+      Hash: 7a75c9bfd51d8e637d2d762f3b003fcd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Ammunition_Item
+  - hash:
+      serializedVersion: 2
+      Hash: ac6acd886c54c48c599ab5fed5781ea7
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AmbientOcclusion
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1204,5 +1385,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Game.unity
   - Assets/Scenes/GameOver.unity
   - Assets/Scenes/GameClear.unity
-  playerPath: "C:/Users/kaede/OneDrive/\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7/\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC
-    (2)/sotugyouseisaku.exe"
+  playerPath: "C:/Users/kaede/OneDrive/\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7/game/sotugyouseisaku.exe"
