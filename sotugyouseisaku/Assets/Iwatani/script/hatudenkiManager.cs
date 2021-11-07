@@ -9,34 +9,48 @@ public class hatudenkiManager : MonoBehaviour
 {
     // Start is called before the first frame update
     public List<GameObject> hatudenkiList = new List<GameObject>();
+    [SerializeField]
     private List<GameObject> hatudenkiHitList = new List<GameObject>();
+    [SerializeField]
+    private List<GameObject> spawnPosList = new List<GameObject>();
     int hatudenkiCount = 0;
     [SerializeField]
     private GameObject eventCamera;
     [SerializeField]
     private GameObject door;
     Camera camera;
+    GameObject canvasObject;
+    GameObject sliderObject;
+
     void Start()
     {
         hatudenkiCount = hatudenkiList.Count;
         camera = eventCamera.GetComponent<Camera>();
+        GameObject[] gameObjects = GameObject.FindGameObjectsWithTag("hatudenki");
+        for (int i = 0; i < hatudenkiList.Count; i++)
+        {
+            hatudenkiHitList.Add(gameObjects[i]);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        for (int i = 0; i < hatudenkiList.Count; i++)
+        for (int i = 0; i < hatudenkiHitList.Count; i++)
         {
-            //hatudenkiHitList.Add(hatudenkiList[i].transform.Find("hatudenki").gameObject);
-            if (hatudenkiList[i] == null)
+            if(hatudenkiHitList[i]!=null&&hatudenkiHitList.Count>0)
             {
-                hatudenkiList.Remove(hatudenkiList[i]);
-                hatudenkiCount = hatudenkiList.Count;
-                Debug.Log("壊れた発電機の数:" + hatudenkiCount);
+                Debug.Log(hatudenkiHitList[i].GetComponent<hatudenkiHP>().Hp);
+                if (hatudenkiHitList[i].GetComponent<hatudenkiHP>().Hp >= 99)
+                {
+                    hatudenkiHitList.Remove(hatudenkiHitList[i]);
+                    hatudenkiCount = hatudenkiHitList.Count;
+                    //Debug.Log("壊れた発電機の数:" + hatudenkiCount);
+                }
             }
         }
 
-        if(hatudenkiCount==0)
+        if (hatudenkiCount==0)
         {
             camera.depth = 1;
             StartCoroutine(DelayCoroutine(180, () =>
