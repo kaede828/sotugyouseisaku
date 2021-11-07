@@ -10,6 +10,7 @@ public class hatudenki : MonoBehaviour
     bool hit=false;
     Slider slider=null;
     float value;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +52,7 @@ public class hatudenki : MonoBehaviour
             {
                 sliderObject.SetActive(false);
                 hit = true;
+                value = 0;
             }
         }
     }

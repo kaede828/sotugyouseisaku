@@ -9,6 +9,7 @@ public class hatudenkiManager : MonoBehaviour
 {
     // Start is called before the first frame update
     public List<GameObject> hatudenkiList = new List<GameObject>();
+    private List<GameObject> hatudenkiHitList = new List<GameObject>();
     int hatudenkiCount = 0;
     [SerializeField]
     private GameObject eventCamera;
@@ -26,6 +27,7 @@ public class hatudenkiManager : MonoBehaviour
     {
         for (int i = 0; i < hatudenkiList.Count; i++)
         {
+            //hatudenkiHitList.Add(hatudenkiList[i].transform.Find("hatudenki").gameObject);
             if (hatudenkiList[i] == null)
             {
                 hatudenkiList.Remove(hatudenkiList[i]);
