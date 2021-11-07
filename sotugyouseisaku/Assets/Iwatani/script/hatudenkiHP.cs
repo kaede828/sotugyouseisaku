@@ -13,6 +13,7 @@ public class hatudenkiHP : MonoBehaviour
     AudioSource source;
     [SerializeField]
     AudioClip se;
+    public float Hp;
 
     // Start is called before the first frame update
     void Start()
@@ -22,12 +23,14 @@ public class hatudenkiHP : MonoBehaviour
         //Debug.Log(sliderObject);
         slider = sliderObject.GetComponent<Slider>();
         value = slider.value;
+        Hp = value;
         source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        Hp = value;
         //Debug.Log(slider.value);
         if(slider.value>=100)
         {
@@ -36,7 +39,7 @@ public class hatudenkiHP : MonoBehaviour
         if (value < slider.value&&sourceCheck(source))
         {
             source.PlayOneShot(se);
-            Debug.Log("‰¹‚ª–Â‚Á‚½‚æ");
+            //Debug.Log("‰¹‚ª–Â‚Á‚½‚æ");
         }
         value = slider.value;
         //Debug.Log("source.time:" + source.time);
