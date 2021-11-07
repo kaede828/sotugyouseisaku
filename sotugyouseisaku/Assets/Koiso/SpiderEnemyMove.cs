@@ -13,100 +13,147 @@ public class SpiderEnemyMove : MonoBehaviour
         DAMAGE,
         ATTACK
     }
-
-    [SerializeField] EnemyState state = EnemyState.PATROL;
-    [SerializeField] int hp = 100;
-    [SerializeField] int speed = 15;
-
+    [SerializeField] private GameObject upSpider=null;
+    [SerializeField] private GameObject downSpider=null;
+    [SerializeField] private EnemyState state = EnemyState.PATROL;
+    [SerializeField] private int hp = 100;
+    [SerializeField] private int speed = 20;
+    //ダメ―ジエフェクト
+    [SerializeField] private GameObject bloodObj;
+    [SerializeField] private GameObject deathObj;
     //攻撃の判定
     [SerializeField] private GameObject attack;
-
-    //巡回地点オブジェクトを格納する配列
+    //巡回地点オブジェクト
     [SerializeField] public Transform[] points;
-    //巡回地点のオブジェクト数（初期値=0）
+    //巡回地点のオブジェクト数
     private int destPoint = 0;
-    //NavMesh Agent コンポーネントを格納する変数
     private NavMeshAgent agent;
-
-    private Animator animator;
-
     //プレイヤーの座標
     [SerializeField] private Transform player;
     private Vector3 playerPos;
     //発見距離
     [SerializeField] int chaseDistance = 50;
+    //落ちた後の発見距離
+    [SerializeField] int downChaseDistance = 100;
     //攻撃距離
-    [SerializeField] int attackDistance = 5;
-    //Rayが当たったオブジェクトの情報を入れる箱
+    [SerializeField] int attackDistance = 0;
     RaycastHit hit;
+    //落下の時間
+    public float downTime = 1f;
+    int rote = 180;
+    public bool isBulletHit = false;
+    public Vector3 hitPos;
+
+    [SerializeField] Animator animator;
+    [SerializeField] Rigidbody rigidbody;
+    [SerializeField] Transform transformUp;
 
     bool isChase = true;
-    bool isAttack = false;
-    bool isAttackCoolTime = false;
+    bool isAttack = true;
     bool isLook = false;
+    bool isUp=true;
 
-    bool isCeiling = true;
+    [SerializeField] private EnemyNum enemyNum;
 
-    // ゲームスタート時の処理
+
     void Start()
     {
+        animator = animator.GetComponent<Animator>();
         attack.SetActive(false);
-        // 変数"agent"に NavMesh Agent コンポーネントを格納
         agent = GetComponent<NavMeshAgent>();
-        // 次の巡回地点の処理を実行
+        
         GotoNextPoint();
-
         agent.speed = speed;
-        animator = GetComponent<Animator>();
+        isBulletHit = false;
+        hitPos = Vector3.zero;
+
     }
 
-    // 次の巡回地点を設定する処理
+    void BulletHit(bool hit)
+    {
+        if (hit)
+        {
+            //Vector3 hitPos = other.ClosestPointOnBounds(this.transform.position);
+            Instantiate(bloodObj, hitPos, Quaternion.identity);
+            Damage();
+            Debug.Log("敵HP : " + hp);
+            isBulletHit = false;
+        }
+    }
+
     void GotoNextPoint()
     {
-        // 巡回地点が設定されていない場合
         if (points.Length == 0) return;
-        // 現在選択されている配列の座標を巡回地点の座標に代入
         agent.destination = points[destPoint].position;
-        // 配列の中から次の巡回地点を選択（必要に応じて繰り返し）
         destPoint = (destPoint + 1) % points.Length;
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Bullet")
-        {
-            Damage();
-        }
+        //if (other.gameObject.tag == "Bullet")
+        //{
+        //    Vector3 hitPos = other.ClosestPointOnBounds(this.transform.position);
+        //    Instantiate(bloodObj, hitPos, Quaternion.identity);
+        //    Damage();
+        //    Debug.Log("敵HP : " + hp);
+        //}
     }
 
     void PlayerChase()
     {
+        if (isAttack)
+        {
+            //向きをプレイヤーに変える
+            transform.rotation = Quaternion.LookRotation(player.position - transform.position);
+        }
+
         state = EnemyState.CHASE;
-        animator.SetTrigger("chase");
-        //プレイヤーを追いかける
+        if(downSpider.activeSelf)
+        {         
+            Debug.Log("チェイス");
+            animator.SetTrigger("chase");
+        }  
         agent.destination = player.position;
+        if(isUp)
+        {
+            StartCoroutine("Downtimer", 0.6);
+            //rigidbody.GetComponent<Rigidbody>();
+            //rigidbody.isKinematic = false;
+            
+        }
+        
     }
 
     void Patrol()
     {
         state = EnemyState.PATROL;
         animator.SetTrigger("patrol");
-        // エージェントが現在の巡回地点に到達したら
         if (!agent.pathPending && agent.remainingDistance < 0.5f)
-            // 次の巡回地点を設定する処理を実行
             GotoNextPoint();
     }
-
-    void Damage()
+    public void Damage()
     {
         state = EnemyState.DAMAGE;
+        if (isUp)
+        {
+            
+            
+            StartCoroutine("Downtimer", 0.6);
+            //rigidbody.GetComponent<Rigidbody>();
+            //rigidbody.isKinematic = false;
+            //isUp = false;
+        }
         if (hp <= 0)
         {
-            Destroy(this.gameObject);
+            agent.velocity = Vector3.zero;
+            agent.isStopped = true;
+            //animator.SetTrigger("death");
+            StartCoroutine("Deathtimer", 1);
+
         }
         else
         {
-            hp -= 5;
+            hp -= 20;
         }
         StartCoroutine("Colortimer", 0.1f);
     }
@@ -115,63 +162,99 @@ public class SpiderEnemyMove : MonoBehaviour
     IEnumerator Attacktimer(int time)
     {
         state = EnemyState.ATTACK;
-        animator.SetTrigger("attack");
         attack.SetActive(true);
+        transform.rotation = Quaternion.LookRotation(player.position - transform.position);
         //Material mat = this.GetComponent<Renderer>().material;
         while (time >= 0)
         {
             agent.velocity = Vector3.zero;
             agent.isStopped = true;
-            //mat.color = new Color(0.0f, 0.0f, 1.0f, 1.0f);
-            yield return new WaitForSeconds(1f);
+            //mat.color = new Color(0.0f, 0.0f, 1.0f, 1.0f);          
+            yield return new WaitForSeconds(1);
             Debug.Log(time);
             --time;
-            isAttack = true;
             attack.SetActive(false);
         }
         //mat.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
         agent.isStopped = false;
-        isAttackCoolTime = false;
-        isAttack = false;
+        isAttack = true;
     }
 
-    //状態を表す点滅
-    IEnumerator Colortimer(int time)
+    IEnumerator Downtimer(int time)
     {
-        //Material mat = this.GetComponent<Renderer>().material;
+        while (time >= 0)
+        {
+            //agent.velocity = Vector3.zero;
+            //agent.isStopped = true;
+            rigidbody.GetComponent<Rigidbody>();
+            rigidbody.isKinematic = false;
+            
+            yield return new WaitForSeconds(downTime);
+            Debug.Log(time);
+            --time;
+        }
+        chaseDistance = downChaseDistance;
+        isUp = false;
+        downSpider.SetActive(true);
+        upSpider.SetActive(false);
+    }
+
+
+    IEnumerator Deathtimer(int time)
+    {
         while (time >= 0)
         {
             //mat.color = new Color(1.0f, 0.0f, 0.0f, 1.0f);
-            yield return new WaitForSeconds(0.1f);
+            Instantiate(deathObj, transform.position, Quaternion.identity);
+            Destroy(this.gameObject);
+            yield return new WaitForSeconds(1);
             --time;
         }
+        //Instantiate(deathObj, transform.position, Quaternion.identity);
+        Debug.Log("死んだ");
+        //Destroy(this.gameObject);
         //mat.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+        //Call();
     }
+
 
     // ゲーム実行中の繰り返し処理
     void Update()
     {
-        //向きをプレイヤーに変える
-        //transform.rotation =Quaternion.LookRotation(player.position - transform.position);
 
-        //ターゲット座標 + 位置調整
         playerPos = (player.position - transform.position) + new Vector3(0, 1, 0);
-        //rayの生成
         Ray ray = new Ray(transform.position, playerPos);
         //デバッグ用
         Debug.DrawLine(ray.origin, hit.point, Color.red);
 
+        ////アニメーション
+        //switch(EnemyState)
+        //{
+        //    case EnemyState.PATROL:
+        //        break;
+        //    case EnemyState.CHASE:
+        //        break;
+        //    case EnemyState.DAMAGE:
+        //        break;
+        //    case EnemyState.ATTACK:
+        //        break;
+        //}
+
+
+
         if (Physics.Raycast(ray, out hit, chaseDistance))
         {
-            //プレイヤータグに当たっていたら
             if (hit.collider.tag == "Player")
             {
                 if (Physics.Raycast(ray, out hit, attackDistance))
                 {
-                    if (isAttackCoolTime)
+                    if (isAttack&&isUp==false)
                     {
+
                         StartCoroutine("Attacktimer", 1);
-                        isAttackCoolTime = true;
+                        Debug.Log("攻撃");
+                        animator.SetTrigger("attack");
+                        isAttack = false;
                     }
                 }
                 PlayerChase();
@@ -180,14 +263,21 @@ public class SpiderEnemyMove : MonoBehaviour
         }
         else Patrol();
 
-        if (isAttack)
-        {
-        }
+        BulletHit(isBulletHit);
 
-        //デバッグ用
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (animator.GetCurrentAnimatorClipInfo(0)[0].clip.name=="pounce")
         {
-            Damage();
+            Debug.Log("飛びつき中");
+            transform.position += transform.forward * 10 * Time.deltaTime;
         }
     }
+
+    //private void Call()
+    //{
+    //    enemyNum.DeathNum();
+    //}
+
+
 }
+
+
