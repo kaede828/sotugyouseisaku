@@ -40,8 +40,10 @@ public class EnemyMove : MonoBehaviour
     bool isLook = false;
 
     [SerializeField] private EnemyNum enemyNum;
-    
 
+    //í«â¡ÇµÇ‹ÇµÇΩÅBíeÇ™Ç†Ç¡ÇΩÇΩÇÁ
+    public bool isBulletHit = false;
+    public Vector3 hitPos;
     void Start()
     {
         attack.SetActive(false);
@@ -49,6 +51,8 @@ public class EnemyMove : MonoBehaviour
         GotoNextPoint();
         agent.speed = speed;
         animator = GetComponent<Animator>();
+        isBulletHit = false;
+        hitPos = Vector3.zero;
     }
 
     void GotoNextPoint()
@@ -60,12 +64,24 @@ public class EnemyMove : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Bullet")
+        //if (other.gameObject.tag == "Bullet")
+        //{
+        //    Vector3 hitPos = other.ClosestPointOnBounds(this.transform.position);
+        //    Instantiate(bloodObj,hitPos,Quaternion.identity);
+        //    Damage();
+        //    Debug.Log("ìGHP : " + hp);
+        //}
+    }
+
+    void BulletHit(bool hit)
+    {
+        if(hit)
         {
-            Vector3 hitPos = other.ClosestPointOnBounds(this.transform.position);
-            Instantiate(bloodObj,hitPos,Quaternion.identity);
+            //Vector3 hitPos = other.ClosestPointOnBounds(this.transform.position);
+            Instantiate(bloodObj, hitPos, Quaternion.identity);
             Damage();
             Debug.Log("ìGHP : " + hp);
+            isBulletHit = false;
         }
     }
 
@@ -195,6 +211,9 @@ public class EnemyMove : MonoBehaviour
             else Patrol();
         }
         else Patrol();
+
+        //í«â¡ÅAíeÇ™ìñÇΩÇ¡ÇΩÇÁ
+        BulletHit(isBulletHit);
 
     }
 
