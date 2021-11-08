@@ -152,10 +152,20 @@ public class AddForceBullet : MonoBehaviour
             //em.hitPos = hit.point;
             //em.isBulletHit = true;
             ////Destroy(hit.collider.gameObject);
+            if (hit.collider.gameObject.tag == "Enemy")
+            {
+                var sem = hit.collider.gameObject.GetComponent<SpiderEnemyMove>();
+                sem.hitPos = hit.point;
+                sem.isBulletHit = true;
+            }
 
-            var sem = hit.collider.gameObject.GetComponent<SpiderEnemyMove>();
-            sem.hitPos = hit.point;
-            sem.isBulletHit = true;
+            if (hit.collider.gameObject.tag == "Zombie")
+            {
+                Debug.Log("a");
+                var sem = hit.collider.gameObject.GetComponent<EnemyMove>();
+                sem.hitPos = hit.point;
+                sem.isBulletHit = true;
+            }
         }
 
     }
