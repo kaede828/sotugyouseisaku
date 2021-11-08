@@ -155,7 +155,7 @@ public class SpiderEnemyMove : MonoBehaviour
         {
             hp -= 20;
         }
-        StartCoroutine("Colortimer", 0.1f);
+        //StartCoroutine("Colortimer", 0.1f);
     }
 
     //攻撃クールダウン
