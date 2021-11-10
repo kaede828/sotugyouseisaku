@@ -4,15 +4,23 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class hatudenkiManager : MonoBehaviour
 {
     // Start is called before the first frame update
+    [SerializeField]
+    private GameObject hatudenkiPre;
     public List<GameObject> hatudenkiList = new List<GameObject>();
     [SerializeField]
     private List<GameObject> hatudenkiHitList = new List<GameObject>();
     [SerializeField]
     private List<GameObject> spawnPosList = new List<GameObject>();
+    public List<string> spawnPosName = new List<string>();
+    List<int> nums = new List<int>();
+    int start = 0;
+    [SerializeField]
+    int spowcount = 1;
     int hatudenkiCount = 0;
     [SerializeField]
     private GameObject eventCamera;
@@ -21,16 +29,50 @@ public class hatudenkiManager : MonoBehaviour
     Camera camera;
     GameObject canvasObject;
     GameObject sliderObject;
+    bool cam = false;
+    int ransu;
+    int aCou=0;
 
     void Start()
     {
-        hatudenkiCount = hatudenkiList.Count;
         camera = eventCamera.GetComponent<Camera>();
-        GameObject[] gameObjects = GameObject.FindGameObjectsWithTag("hatudenki");
+        for (int i = start; i < spawnPosList.Count; i++)
+        {
+            //Debug.Log("a");
+            nums.Add(i);
+        }
+        while (spowcount-- >0)
+        {
+            
+            int index = Random.Range(0, nums.Count);
+
+            ransu = nums[index];
+            //Debug.Log("発電機が生成された場所"+ spawnPosList[ransu].name);
+            Vector3 pos = spawnPosList[ransu].transform.position;
+            pos.y += 0.5f;
+            Quaternion qua= spawnPosList[ransu].transform.rotation;
+            Instantiate(hatudenkiPre,pos, qua);
+            nums.RemoveAt(index);
+        }
+
+        for (int i = 0; i < nums.Count;i++)
+        {
+            spawnPosName.Add(spawnPosList[nums[i]].name);
+            //Debug.Log("発電機が生成されなかった場所"+ spawnPosList[nums[i]].name);
+        }
+        //発電機をListについか
+        GameObject[] gameObjects1=GameObject.FindGameObjectsWithTag("hatudenki");
+        for (int i = 0; i < gameObjects1.Length; i++)
+        {
+            hatudenkiList.Add(gameObjects1[i]);
+        }
+        hatudenkiCount = hatudenkiList.Count;
+        GameObject[] gameObjects = GameObject.FindGameObjectsWithTag("hatudenkiHit");
         for (int i = 0; i < hatudenkiList.Count; i++)
         {
             hatudenkiHitList.Add(gameObjects[i]);
         }
+        cam = true;
     }
 
     // Update is called once per frame
@@ -40,7 +82,7 @@ public class hatudenkiManager : MonoBehaviour
         {
             if(hatudenkiHitList[i]!=null&&hatudenkiHitList.Count>0)
             {
-                Debug.Log(hatudenkiHitList[i].GetComponent<hatudenkiHP>().Hp);
+                //Debug.Log(hatudenkiHitList[i].GetComponent<hatudenkiHP>().Hp);
                 if (hatudenkiHitList[i].GetComponent<hatudenkiHP>().Hp >= 99)
                 {
                     hatudenkiHitList.Remove(hatudenkiHitList[i]);
@@ -50,7 +92,7 @@ public class hatudenkiManager : MonoBehaviour
             }
         }
 
-        if (hatudenkiCount==0)
+        if (hatudenkiCount==0&&cam)
         {
             camera.depth = 1;
             StartCoroutine(DelayCoroutine(180, () =>

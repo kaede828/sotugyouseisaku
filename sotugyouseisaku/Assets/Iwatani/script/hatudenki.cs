@@ -35,7 +35,7 @@ public class hatudenki : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "hatudenki")
+        if (other.gameObject.tag == "hatudenkiHit")
         {
             GameObject canvasObject = other.gameObject.transform.GetChild(0).gameObject;
             GameObject sliderObject= canvasObject.gameObject.transform.GetChild(0).gameObject;
@@ -59,7 +59,7 @@ public class hatudenki : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if(other.gameObject.tag == "hatudenki")
+        if(other.gameObject.tag == "hatudenkiHit")
         {
             hit = false;
             value = 0;

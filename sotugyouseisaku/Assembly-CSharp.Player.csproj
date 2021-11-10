@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,12 +53,14 @@
     <UnityVersion>2020.3.11f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="D:\visualstudio\Visual Studio IDE\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\koike\Scripts\title.cs" />
     <Compile Include="Assets\Kan\Script\ReloadTime.cs" />
     <Compile Include="Assets\Koiso\DestroyObj.cs" />
     <Compile Include="Assets\Kan\Script\AddForceBullet.cs" />
     <Compile Include="Assets\Honda\OpText.cs" />
-    <Compile Include="Assets\Iwatani\script\hatudenki.cs" />
     <Compile Include="Assets\koike\Scripts\postEffect.cs" />
     <Compile Include="Assets\Kan\Script\RayHitBullet.cs" />
     <Compile Include="Assets\Iwatani\script\hatudenkiHP.cs" />
@@ -72,7 +74,6 @@
     <Compile Include="Assets\Koiso\SpiderEnemyMove.cs" />
     <Compile Include="Assets\koike\Scripts\PlayerHp.cs" />
     <Compile Include="Assets\Koiso\GamClear.cs" />
-    <Compile Include="Assets\Iwatani\script\hatudenkiManager.cs" />
     <Compile Include="Assets\Laterns and candles\scripts\ExtendedFlycam.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Kan\Script\Gun_UI.cs" />
