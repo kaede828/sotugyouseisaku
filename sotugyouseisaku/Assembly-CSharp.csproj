@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.11</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.0.12</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2020.3.11f1</UnityVersion>
@@ -59,6 +59,7 @@
     <Compile Include="Assets\Kan\Script\AddForceBullet.cs" />
     <Compile Include="Assets\Honda\OpText.cs" />
     <Compile Include="Assets\Honda\NarrationPlayableAsset.cs" />
+    <Compile Include="Assets\Honda\NobelScript.cs" />
     <Compile Include="Assets\Iwatani\script\hatudenki.cs" />
     <Compile Include="Assets\koike\Scripts\postEffect.cs" />
     <Compile Include="Assets\Kan\Script\RayHitBullet.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Assets\Koiso\GamClear.cs" />
     <Compile Include="Assets\Iwatani\script\hatudenkiManager.cs" />
     <Compile Include="Assets\Laterns and candles\scripts\ExtendedFlycam.cs" />
+    <Compile Include="Assets\Honda\TextDisplay.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Kan\Script\Gun_UI.cs" />
     <Compile Include="Assets\Kan\Script\BulletAttack.cs" />
@@ -86,8 +88,6 @@
     <Compile Include="Assets\koike\Scripts\CamProtect.cs" />
     <Compile Include="Assets\Kan\Script\Ammunition_Item.cs" />
     <Compile Include="Assets\koike\Scripts\GameOver.cs" />
-    <Compile Include="Assets\Honda\NobelScript.cs" />
-    <Compile Include="Assets\Honda\TextDisplay.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
