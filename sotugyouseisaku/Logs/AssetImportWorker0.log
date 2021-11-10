@@ -15,11 +15,11 @@ C:/team02.2/sotugyouseisaku
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54969
+55301
 Successfully changed project path to: C:/team02.2/sotugyouseisaku
 C:/team02.2/sotugyouseisaku
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 73.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 71.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,1748 +35,310 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003086 seconds.
+Registered in 0.004369 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 85.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.120 seconds
+- Completed reload, in  1.737 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007554 seconds.
+Registered in 0.007980 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.459 seconds
+- Completed reload, in  1.485 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2189 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.5 MB.
-System memory in use after: 128.6 MB.
+Unloading 2207 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.5 MB.
+System memory in use after: 131.7 MB.
 
-Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 2645.
-Total: 2.673200 ms (FindLiveObjects: 0.205400 ms CreateObjectMapping: 0.095900 ms MarkObjects: 2.114700 ms  DeleteObjects: 0.256000 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/Honda.unity
-  artifactKey: Guid(9fdfd563e54509e4bbfc524e48a8e6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Honda.unity using Guid(9fdfd563e54509e4bbfc524e48a8e6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62bbb8520c60ebc8e5a3849beeecc9a') in 0.014909 seconds
-  Import took 0.019791 seconds .
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 2671.
+Total: 3.294400 ms (FindLiveObjects: 0.284400 ms CreateObjectMapping: 0.150400 ms MarkObjects: 2.458100 ms  DeleteObjects: 0.399900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000354 seconds.
   path: Assets/Honda/SoldierTimeline.playable
   artifactKey: Guid(694a855e7acee9d49acc052f9411f68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/SoldierTimeline.playable using Guid(694a855e7acee9d49acc052f9411f68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030d7c6dbd3b5a928b9fa4b6a4d35910') in 0.056458 seconds
-  Import took 0.061152 seconds .
+Start importing Assets/Honda/SoldierTimeline.playable using Guid(694a855e7acee9d49acc052f9411f68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3bc1352a347707362aeb58495c93810') in 0.092151 seconds
+  Import took 0.097129 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/Honda/Targets.prefab
-  artifactKey: Guid(a406af3cd0d6215458fcfd9ef9c4b5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/Targets.prefab using Guid(a406af3cd0d6215458fcfd9ef9c4b5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d21f66ea2d33d4dd96eb7387a6e18f0') in 0.028362 seconds
-  Import took 0.034334 seconds .
+  Time since last request: 0.001416 seconds.
+  path: Assets/Honda/NobelScript.cs
+  artifactKey: Guid(310956e28fab38f419732278578199c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/NobelScript.cs using Guid(310956e28fab38f419732278578199c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe8319140732d7a8eb1c54be1ffb5c2') in 0.025498 seconds
+  Import took 0.033509 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.5 MB.
+System memory in use after: 83.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2671.
+Total: 3.523500 ms (FindLiveObjects: 0.296800 ms CreateObjectMapping: 0.132900 ms MarkObjects: 3.064700 ms  DeleteObjects: 0.027100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Honda/Cube (1)Timeline.playable
-  artifactKey: Guid(4c34b6fbeb958024e8c14983796a8194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/Cube (1)Timeline.playable using Guid(4c34b6fbeb958024e8c14983796a8194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1290d6bd07afa74ee5e3a13d1fb54e98') in 0.012663 seconds
-  Import took 0.017261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.126386 seconds.
-  path: Assets/Scenes/Game.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcab058c66ec5d15f4224f71a343698') in 0.010141 seconds
-  Import took 0.016641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.712391 seconds.
-  path: Assets/Scenes/Honda.unity
-  artifactKey: Guid(9fdfd563e54509e4bbfc524e48a8e6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Honda.unity using Guid(9fdfd563e54509e4bbfc524e48a8e6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3a3a69787e6ff2b1d4b48bf0088741') in 0.004557 seconds
-  Import took 0.010989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 78.358348 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(de8bd3fd7649b2c4cbeaf215fdeb5847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(de8bd3fd7649b2c4cbeaf215fdeb5847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea57694674dd2a3e8d807db93d3d934') in 0.019700 seconds
-  Import took 0.028280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 108.700711 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(de8bd3fd7649b2c4cbeaf215fdeb5847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(de8bd3fd7649b2c4cbeaf215fdeb5847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b8d5786a28c7fe60a0eb9a3bf6cdae') in 0.011260 seconds
-  Import took 0.017153 seconds .
+  Time since last request: 23.554837 seconds.
+  path: Assets/Honda/TextDisplay.cs
+  artifactKey: Guid(5de8debd4435ca043a581a8fd54f677f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/TextDisplay.cs using Guid(5de8debd4435ca043a581a8fd54f677f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb81d88a2c3d0e71c54765d95111226') in 0.010883 seconds
+  Import took 0.016902 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008016 seconds.
+Registered in 0.013293 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.357 seconds
+Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.356 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2169 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.7 MB.
-System memory in use after: 124.9 MB.
+Unloading 2140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.6 MB.
+System memory in use after: 125.8 MB.
 
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2681.
-Total: 3.263800 ms (FindLiveObjects: 0.220800 ms CreateObjectMapping: 0.093700 ms MarkObjects: 2.791700 ms  DeleteObjects: 0.156000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.047935 seconds.
-  path: Assets/DefaultPlayables
-  artifactKey: Guid(e2bc24c3fc73edc42b94e5d364a5e642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DefaultPlayables using Guid(e2bc24c3fc73edc42b94e5d364a5e642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001743b03df1fcc264b83d0aab05ed88') in 0.013200 seconds
-  Import took 0.019683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.944770 seconds.
-  path: Assets/FantasyEnvironments
-  artifactKey: Guid(3f3206d9dea14244385d0fbf76a087ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments using Guid(3f3206d9dea14244385d0fbf76a087ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b31a6f8c6d7a0a18133d3957155f1f') in 0.009253 seconds
-  Import took 0.016035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.338695 seconds.
-  path: Assets/DefaultPlayables/DefaultPlayablesDocumentation.pdf
-  artifactKey: Guid(8e951343000f41f4994e0e36b383bd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DefaultPlayables/DefaultPlayablesDocumentation.pdf using Guid(8e951343000f41f4994e0e36b383bd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20a59ff4421e3991a5cd4550b5f3931') in 0.050001 seconds
-  Import took 0.056144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.156581 seconds.
-  path: Assets/DefaultPlayables/VideoScriptPlayable.pdf
-  artifactKey: Guid(fe111545f1755db409bc06a51d745d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DefaultPlayables/VideoScriptPlayable.pdf using Guid(fe111545f1755db409bc06a51d745d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c506bfa8f41637c4c960f40e1b6b1b') in 0.009628 seconds
-  Import took 0.014963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 57.634956 seconds.
-  path: Assets/FantasyEnvironments/Environments
-  artifactKey: Guid(b65037222b1418248ad5e3d35bf81d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments using Guid(b65037222b1418248ad5e3d35bf81d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83495640d3a35ed4195ec2d63f261f2') in 0.010044 seconds
-  Import took 0.014687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049633 seconds.
-  path: Assets/FantasyEnvironments/Environments/Terrain.asset
-  artifactKey: Guid(8ee04e1f17f7f5549acabd4c8d8a68c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Terrain.asset using Guid(8ee04e1f17f7f5549acabd4c8d8a68c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e6af7622974b76603cf7526a6069d9') in 0.194453 seconds
-  Import took 0.202091 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.764476 seconds.
-  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees
-  artifactKey: Guid(4e76dcc3a830acc4797d7d7b17ab17e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees using Guid(4e76dcc3a830acc4797d7d7b17ab17e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda10e50bc50dc8505561bddaa4059c8') in 0.009692 seconds
-  Import took 0.015066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.007865 seconds.
-  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX
-  artifactKey: Guid(d1df0459dfe36a14c9db11e4677dd4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX using Guid(d1df0459dfe36a14c9db11e4677dd4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfa8f685bf766e1bed4566931d14d90') in 0.010841 seconds
-  Import took 0.015946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.040650 seconds.
-  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Birch_tree1.fbx
-  artifactKey: Guid(699d9f0463b3804428644296838e3b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Birch_tree1.fbx using Guid(699d9f0463b3804428644296838e3b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa80e61a62d693d018f609a4dc4021e') in 0.223160 seconds
-  Import took 0.228549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000441 seconds.
-  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Deciduous_tree1.fbx
-  artifactKey: Guid(c630eafd8df6ac44a9e398da0cc05ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Deciduous_tree1.fbx using Guid(c630eafd8df6ac44a9e398da0cc05ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d99584dc5464bd5cdc42317dc6a8a2') in 0.026177 seconds
-  Import took 0.031493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000479 seconds.
-  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Oak_tree1.fbx
-  artifactKey: Guid(fd2181bb73ea8824bb12c11a7d60e62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Oak_tree1.fbx using Guid(fd2181bb73ea8824bb12c11a7d60e62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155c210f9dfa741c6eab2088e041d4c2') in 0.057221 seconds
-  Import took 0.062435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.504110 seconds.
-  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials
-  artifactKey: Guid(d020d4b7d44e1034289ac8ee8f663a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials using Guid(d020d4b7d44e1034289ac8ee8f663a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8efea3455a11aa0c5bdf71260c2470') in 0.009933 seconds
-  Import took 0.014563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.058994 seconds.
-  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_bark.mat
-  artifactKey: Guid(7ed001e11f025264c8b5dfc5b0702319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_bark.mat using Guid(7ed001e11f025264c8b5dfc5b0702319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159d27da3b9ba82b24be73788347f985') in 0.082659 seconds
-  Import took 0.087290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Tree_leaves1.mat
-  artifactKey: Guid(e950a7aefb5a59c41a0d63a81d21c366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Tree_leaves1.mat using Guid(e950a7aefb5a59c41a0d63a81d21c366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c336618add6d61b3468cc652c51f87c6') in 0.020805 seconds
-  Import took 0.025284 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Tree_bark1.mat
-  artifactKey: Guid(413a94560e540a34b8e573686225293f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Tree_bark1.mat using Guid(413a94560e540a34b8e573686225293f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8a44cf6783d75cbb975785eb9da940') in 0.022819 seconds
-  Import took 0.028677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Oak_bark.mat
-  artifactKey: Guid(c5ace0970bb6e8a4db39822a65cfe2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Oak_bark.mat using Guid(c5ace0970bb6e8a4db39822a65cfe2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0278b74f3f8c761c655f1ad5bd157199') in 0.022450 seconds
-  Import took 0.028181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_leaves.mat
-  artifactKey: Guid(6b7cbd10b1b54624aad174204ed5e57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_leaves.mat using Guid(6b7cbd10b1b54624aad174204ed5e57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0cab205046c7977463e7f43c41dbd3') in 0.020948 seconds
-  Import took 0.026431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000434 seconds.
-  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Oak_leaves.mat
-  artifactKey: Guid(2910e09faf380f442a4eda0427b3179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Oak_leaves.mat using Guid(2910e09faf380f442a4eda0427b3179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9542d86871b875ad71979ef80263f269') in 0.020250 seconds
-  Import took 0.026805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_leaves 1.mat
-  artifactKey: Guid(ffc6ec73fb923634287e7dd921c9292d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_leaves 1.mat using Guid(ffc6ec73fb923634287e7dd921c9292d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743c8d93f85002842246bfe8d38311ae') in 0.019121 seconds
-  Import took 0.025083 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.830251 seconds.
-  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs
-  artifactKey: Guid(6647ba659f88c3c4a97591724029ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs using Guid(6647ba659f88c3c4a97591724029ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d05155ad73be64d6a9c15e7b054d21') in 0.005853 seconds
-  Import took 0.011362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.067367 seconds.
-  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree1.prefab
-  artifactKey: Guid(47356d574ebc3a545bfaef26eb02a2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree1.prefab using Guid(47356d574ebc3a545bfaef26eb02a2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d919aa343361e31719f142750bdf7d6') in 0.028756 seconds
-  Import took 0.034170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Deciduous_tree1.prefab
-  artifactKey: Guid(dc20bf501e8161b40859eb66568d49f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Deciduous_tree1.prefab using Guid(dc20bf501e8161b40859eb66568d49f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ef443940b01f232f1eed5c94b4ad38') in 0.019344 seconds
-  Import took 0.025960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Oak_tree1.prefab
-  artifactKey: Guid(783807170dc366141aaaeb44eec96c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Oak_tree1.prefab using Guid(783807170dc366141aaaeb44eec96c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173e22787d58aae9ab79155b584ce2af') in 0.019055 seconds
-  Import took 0.024237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree2.prefab
-  artifactKey: Guid(d0fef57aa8c0772448a3a57390d3c153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree2.prefab using Guid(d0fef57aa8c0772448a3a57390d3c153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1acf779067529614a993094c34516be5') in 0.022701 seconds
-  Import took 0.027945 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.228907 seconds.
-  path: Assets/FantasyEnvironments/Environments/Textures
-  artifactKey: Guid(92bdf72aca8982345bca35908ec88847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Textures using Guid(92bdf72aca8982345bca35908ec88847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9528c978c8871aafd1375f5b5a4384') in 0.011368 seconds
-  Import took 0.016212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031264 seconds.
-  path: Assets/FantasyEnvironments/Environments/Textures/ground_grass.tga
-  artifactKey: Guid(aab4ce53d0c651344a601f5344c53a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Textures/ground_grass.tga using Guid(aab4ce53d0c651344a601f5344c53a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923d4c0ead187d34cfcacd8b7e32985d') in 0.021823 seconds
-  Import took 0.027135 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/FantasyEnvironments/Environments/Textures/ground_road.tga
-  artifactKey: Guid(39e424b8c7b659e4d8c792f40deccbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Textures/ground_road.tga using Guid(39e424b8c7b659e4d8c792f40deccbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40b37bf9afc621d45df60b650ddf7ce') in 0.014641 seconds
-  Import took 0.019606 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/FantasyEnvironments/Environments/Textures/Plant.tga
-  artifactKey: Guid(4ed602243d46b7042bf79ef54616ebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Textures/Plant.tga using Guid(4ed602243d46b7042bf79ef54616ebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e7f06e7980759ca602540557e73ef5') in 0.015315 seconds
-  Import took 0.019012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/FantasyEnvironments/Environments/Textures/Rock1.tga
-  artifactKey: Guid(581c268c4d271934b96596d532a0a604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Textures/Rock1.tga using Guid(581c268c4d271934b96596d532a0a604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3d6d559838025e83573dd4e989419e') in 0.013476 seconds
-  Import took 0.017919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.260207 seconds.
-  path: Assets/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade
-  artifactKey: Guid(4acbfd84bbe00ff41b8ded8aaafb04aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade using Guid(4acbfd84bbe00ff41b8ded8aaafb04aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805369c8fc50c7d36551afba138433c1') in 0.009813 seconds
-  Import took 0.015856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.063375 seconds.
-  path: Assets/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade/layer_ground_grasscd2d2d038030d602.terrainlayer
-  artifactKey: Guid(3ea7607a4748109479f02a95f1992998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade/layer_ground_grasscd2d2d038030d602.terrainlayer using Guid(3ea7607a4748109479f02a95f1992998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980f93e25eb495ff5688c291eb8f261c') in 0.029451 seconds
-  Import took 0.034704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade/layer_ground_roadcd2d2d038030d602.terrainlayer
-  artifactKey: Guid(4ddd81448660a664692ea37a97f4e590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade/layer_ground_roadcd2d2d038030d602.terrainlayer using Guid(4ddd81448660a664692ea37a97f4e590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed29949a7d96cd4223501c80e8064cf') in 0.015336 seconds
-  Import took 0.018902 seconds .
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2673.
+Total: 2.995800 ms (FindLiveObjects: 0.464700 ms CreateObjectMapping: 0.189000 ms MarkObjects: 2.236200 ms  DeleteObjects: 0.104500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008581 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.482 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2171 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.8 MB.
-System memory in use after: 129.0 MB.
-
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2735.
-Total: 3.023300 ms (FindLiveObjects: 0.238200 ms CreateObjectMapping: 0.097500 ms MarkObjects: 2.557800 ms  DeleteObjects: 0.128200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.749619 seconds.
-  path: Assets/com
-  artifactKey: Guid(7d730762053c7704c9d8a70f28877299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com using Guid(7d730762053c7704c9d8a70f28877299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610ce2fd06bf6132d521f6296c5ebd23') in 0.012706 seconds
-  Import took 0.018731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.049438 seconds.
-  path: Assets/com/heparo
-  artifactKey: Guid(47304705517ea134491ebef2305522b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo using Guid(47304705517ea134491ebef2305522b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75664a3bd99416a628ab3e4f8b7db1e') in 0.010198 seconds
-  Import took 0.015419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.183546 seconds.
-  path: Assets/com/heparo/terrain
-  artifactKey: Guid(12eb049238d2d7a48a50d00714115904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain using Guid(12eb049238d2d7a48a50d00714115904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf38ec3cce4a01d965ee46df6c2078a') in 0.008935 seconds
-  Import took 0.015202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.679021 seconds.
-  path: Assets/com/heparo/terrain/toolkit
-  artifactKey: Guid(d1f29f5a1f8b5c94899f99c1df234d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit using Guid(d1f29f5a1f8b5c94899f99c1df234d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f2ab48d325541505cf1a3ec95dded4') in 0.010049 seconds
-  Import took 0.014505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.141727 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures
-  artifactKey: Guid(8136fd3570f16c645aa22565d8abbf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures using Guid(8136fd3570f16c645aa22565d8abbf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2bb1f3006ee3bf9fa500c95db701f0') in 0.009613 seconds
-  Import took 0.016761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.054317 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Cliff (Grassy).jpg
-  artifactKey: Guid(2feaa88369b0d004cbc6e5944204420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Cliff (Grassy).jpg using Guid(2feaa88369b0d004cbc6e5944204420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e261517e08a8d32606605cc64e73f9') in 0.074665 seconds
-  Import took 0.080414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Rock (Moss).jpg
-  artifactKey: Guid(0c3a51ef523441e44afd8e304e704eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Rock (Moss).jpg using Guid(0c3a51ef523441e44afd8e304e704eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7304bb66c86c06ab15873f62a698e2a9') in 0.016778 seconds
-  Import took 0.022035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Sand (Beach).jpg
-  artifactKey: Guid(62c1e9920bcb39c4588acbafb79ca6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Sand (Beach).jpg using Guid(62c1e9920bcb39c4588acbafb79ca6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1cc269b8ba74563f4244d5aab07c09') in 0.020863 seconds
-  Import took 0.026604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Rocky Dirt.jpg
-  artifactKey: Guid(dce4092215b497a4faad7c7170c4c3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Rocky Dirt.jpg using Guid(dce4092215b497a4faad7c7170c4c3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bd5342cbe675f0eef6dac92db35ef7') in 0.020009 seconds
-  Import took 0.025591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Dirt.jpg
-  artifactKey: Guid(bc4f532a2c67b8f4898f622328f303ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Dirt.jpg using Guid(bc4f532a2c67b8f4898f622328f303ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267f5b9a1dbd9e4c9bc19cc91ab29bd3') in 0.019037 seconds
-  Import took 0.023804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Grass (Meadows2).jpg
-  artifactKey: Guid(ede861962600ebe47be78280b1616e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Grass (Meadows2).jpg using Guid(ede861962600ebe47be78280b1616e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2029bd5da8c0f7cc76ead94f20a49b5') in 0.018985 seconds
-  Import took 0.024796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Cliff (Sandstone).jpg
-  artifactKey: Guid(567e8871595c53e4f98db6c010b237f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Cliff (Sandstone).jpg using Guid(567e8871595c53e4f98db6c010b237f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3077cc8214f35dd535763a5d51ce8566') in 0.019955 seconds
-  Import took 0.025205 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Path (Rocky).jpg
-  artifactKey: Guid(3f5883d3d52420e4dad508c9b4fc8519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Path (Rocky).jpg using Guid(3f5883d3d52420e4dad508c9b4fc8519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e89aad9fad0d1dab57e84f52cf1eefd') in 0.018782 seconds
-  Import took 0.023883 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Grass (Rocky).jpg
-  artifactKey: Guid(a2e1f9837f6fb2141a1aed8a5f58104d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Grass (Rocky).jpg using Guid(a2e1f9837f6fb2141a1aed8a5f58104d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d0bc2eefe5fa9f0a68da42c49d6cbf') in 0.016792 seconds
-  Import took 0.021815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Grass (Lawn).jpg
-  artifactKey: Guid(1ae9f5e22fb93144b8a70c6eeffc2083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Grass (Lawn).jpg using Guid(1ae9f5e22fb93144b8a70c6eeffc2083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7c194696a2e28951bf59c69e8cf9fc') in 0.018138 seconds
-  Import took 0.023140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Forest Floor.jpg
-  artifactKey: Guid(365a2abb30522874fb67b2e38c6e3a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Forest Floor.jpg using Guid(365a2abb30522874fb67b2e38c6e3a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d8a3f01c4aeb73f70601455d65145f') in 0.017806 seconds
-  Import took 0.022725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Grass (Hill).jpg
-  artifactKey: Guid(9924245327ef043478a9a9ee2219f73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Grass (Hill).jpg using Guid(9924245327ef043478a9a9ee2219f73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96cb44d0ef6e12a73e2ce23171d1964') in 0.023655 seconds
-  Import took 0.028442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Grass (Meadows).jpg
-  artifactKey: Guid(2e2e96776e3f6f54eb2df0fcfdbe49de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Grass (Meadows).jpg using Guid(2e2e96776e3f6f54eb2df0fcfdbe49de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a979a148a3482e498a8a42dc2ffaa8a5') in 0.017413 seconds
-  Import took 0.023094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Craters (artifacts).png
-  artifactKey: Guid(836f2664f862d974394a02019d0ec90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Craters (artifacts).png using Guid(836f2664f862d974394a02019d0ec90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ef9416c016101a32da2ba0f607e9de') in 0.018049 seconds
-  Import took 0.023393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Pebbles.jpg
-  artifactKey: Guid(d451fba7efe3e9e4fa26d8a87de3e93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Pebbles.jpg using Guid(d451fba7efe3e9e4fa26d8a87de3e93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1686f0479ed23d3cfac58a463a9754d') in 0.016029 seconds
-  Import took 0.021758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Sand (Beach2).jpg
-  artifactKey: Guid(82953826502b17548a7f68dc16cf8d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Sand (Beach2).jpg using Guid(82953826502b17548a7f68dc16cf8d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9068ca4714c4f6fbfa44a0186a92ab38') in 0.017365 seconds
-  Import took 0.022295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Sand (with pebbles).jpg
-  artifactKey: Guid(b1e376ee2088e62469d66d01ad87cb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Sand (with pebbles).jpg using Guid(b1e376ee2088e62469d66d01ad87cb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87aab431ae8de51b39afd619569340e') in 0.015184 seconds
-  Import took 0.020161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000426 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Cliff (Layered Rock).jpg
-  artifactKey: Guid(6305072403888534c96d73465349b0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Cliff (Layered Rock).jpg using Guid(6305072403888534c96d73465349b0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebd87a826bcd30ab2d5dc4f740521b1') in 0.018009 seconds
-  Import took 0.024157 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Dirt (Grass).jpg
-  artifactKey: Guid(1bd9754b976d21f4f96ba170d57b2d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Dirt (Grass).jpg using Guid(1bd9754b976d21f4f96ba170d57b2d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae538688cef2814c519b51089555270b') in 0.017052 seconds
-  Import took 0.022804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Grass (Muddy).jpg
-  artifactKey: Guid(440082986b535f34bbbb7a7b1f90a452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Grass (Muddy).jpg using Guid(440082986b535f34bbbb7a7b1f90a452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5305d4d3e936271fc070e8123d932603') in 0.015754 seconds
-  Import took 0.020500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Sand (Beach Wet2).jpg
-  artifactKey: Guid(704284e54fdc67341a790ddb79b4c373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Sand (Beach Wet2).jpg using Guid(704284e54fdc67341a790ddb79b4c373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8d64b4676b97149d36cbabd1bcd4ea') in 0.016606 seconds
-  Import took 0.021366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Rock (Basic).jpg
-  artifactKey: Guid(dbfc5d13048a35f4ab8778d8f4ab9e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Rock (Basic).jpg using Guid(dbfc5d13048a35f4ab8778d8f4ab9e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0cd2e9a9041e59c7cc017b5667353f') in 0.017007 seconds
-  Import took 0.023104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/com/heparo/terrain/toolkit/textures/Snow.jpg
-  artifactKey: Guid(1061870d64a79904fb3b5cc1aa176a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/textures/Snow.jpg using Guid(1061870d64a79904fb3b5cc1aa176a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b927fe9a8640b394dc32718848df2031') in 0.016455 seconds
-  Import took 0.022003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.194410 seconds.
-  path: Assets/Honda/New Terrain.asset
-  artifactKey: Guid(de8bd3fd7649b2c4cbeaf215fdeb5847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/New Terrain.asset using Guid(de8bd3fd7649b2c4cbeaf215fdeb5847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae42fe25d0cfef11308428c16b0477b0') in 0.017084 seconds
-  Import took 0.022877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/Honda/NewLayer.terrainlayer
-  artifactKey: Guid(e14482059ec6da6409c759a453694528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/NewLayer.terrainlayer using Guid(e14482059ec6da6409c759a453694528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a07cd85bbc0f290828deacd3c11d46a') in 0.022012 seconds
-  Import took 0.025847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.225615 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_04_Tx1.jpg
-  artifactKey: Guid(d983623856d7f4b44bdb80d653f7f240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_04_Tx1.jpg using Guid(d983623856d7f4b44bdb80d653f7f240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7b861978368588c017775d4a486951') in 0.018314 seconds
-  Import took 0.024582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018505 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_04_Tx1.jpg
-  artifactKey: Guid(d983623856d7f4b44bdb80d653f7f240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_04_Tx1.jpg using Guid(d983623856d7f4b44bdb80d653f7f240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7b861978368588c017775d4a486951') in 0.013974 seconds
-  Import took 0.019513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.456883 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_04_Tx2.jpg
-  artifactKey: Guid(d0d37caa55753394b8c49c45b3f4a577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_04_Tx2.jpg using Guid(d0d37caa55753394b8c49c45b3f4a577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ad514cb16164167f58a2ec3a55f62c') in 0.024539 seconds
-  Import took 0.030643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002163 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_04_Tx2.jpg
-  artifactKey: Guid(d0d37caa55753394b8c49c45b3f4a577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_04_Tx2.jpg using Guid(d0d37caa55753394b8c49c45b3f4a577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ad514cb16164167f58a2ec3a55f62c') in 0.015757 seconds
-  Import took 0.021167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.510168 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_04_Cliff.jpg
-  artifactKey: Guid(ca36746d235d7574f9df1a0ebaff19d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_04_Cliff.jpg using Guid(ca36746d235d7574f9df1a0ebaff19d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf263706ae67b32b9efd6eb58403daa') in 0.020377 seconds
-  Import took 0.026832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020183 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_04_Cliff.jpg
-  artifactKey: Guid(ca36746d235d7574f9df1a0ebaff19d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_04_Cliff.jpg using Guid(ca36746d235d7574f9df1a0ebaff19d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf263706ae67b32b9efd6eb58403daa') in 0.013817 seconds
-  Import took 0.019086 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008365 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.381 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2169 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.8 MB.
-System memory in use after: 129.1 MB.
-
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2737.
-Total: 2.877700 ms (FindLiveObjects: 0.242600 ms CreateObjectMapping: 0.120800 ms MarkObjects: 2.339700 ms  DeleteObjects: 0.173500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007282 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.402 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2171 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.9 MB.
-System memory in use after: 129.1 MB.
-
-Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2739.
-Total: 2.748300 ms (FindLiveObjects: 0.240600 ms CreateObjectMapping: 0.144900 ms MarkObjects: 2.210400 ms  DeleteObjects: 0.151400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 115.365778 seconds.
-  path: Assets/Honda/NewLayer 1.terrainlayer
-  artifactKey: Guid(a5e494c738b260349aad3fc407afa52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/NewLayer 1.terrainlayer using Guid(a5e494c738b260349aad3fc407afa52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba56879a12a54302e777dea83ce8bd8') in 0.115781 seconds
-  Import took 0.122639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.684288 seconds.
-  path: Assets/Honda/NewLayer.terrainlayer
-  artifactKey: Guid(e14482059ec6da6409c759a453694528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/NewLayer.terrainlayer using Guid(e14482059ec6da6409c759a453694528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94412c7012967cf7c9b3bfea7ade9387') in 0.016271 seconds
-  Import took 0.023015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.270577 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor
-  artifactKey: Guid(203ef23c423e6bc40b26d333c394040c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor using Guid(203ef23c423e6bc40b26d333c394040c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e748fa29009c806145c99c4fefc2ae') in 0.010747 seconds
-  Import took 0.017695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.088118 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources
-  artifactKey: Guid(597cdce1a86638043b0f6f68987f4f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources using Guid(597cdce1a86638043b0f6f68987f4f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff4a4d4594e68aac491d0c74c724aa9') in 0.009564 seconds
-  Import took 0.014176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.070156 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/bannerBackground.png
-  artifactKey: Guid(e704fdcdb8759c245bb9422899ebd73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/bannerBackground.png using Guid(e704fdcdb8759c245bb9422899ebd73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b580d321caa3c8d6696f7d80f9eae69') in 0.024032 seconds
-  Import took 0.031195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000458 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/iconGenCreate.png
-  artifactKey: Guid(f5d168a99517394478f92d88aae1c7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/iconGenCreate.png using Guid(f5d168a99517394478f92d88aae1c7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb1bea3010cb1ace3b13ca30a664f3b') in 0.014998 seconds
-  Import took 0.020631 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/black.png
-  artifactKey: Guid(6c3f88065aa796c40a3dda05371151c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/black.png using Guid(6c3f88065aa796c40a3dda05371151c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4aa18b30f53a99290a841718c05999') in 0.016102 seconds
-  Import took 0.022158 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/deleteButtonDown.png
-  artifactKey: Guid(52e398c3f5ece654ea049c0ae33c64ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/deleteButtonDown.png using Guid(52e398c3f5ece654ea049c0ae33c64ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df6bdb4f8ab239e6a3ad44cc71f21f3') in 0.014178 seconds
-  Import took 0.018706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000433 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_03_Visual.png
-  artifactKey: Guid(fbfc9f02deac42d47b5997fc42dc205b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_03_Visual.png using Guid(fbfc9f02deac42d47b5997fc42dc205b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd19115442d0bdeee368ae29dbd8147') in 0.019470 seconds
-  Import took 0.024470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/cyan.png
-  artifactKey: Guid(80002e6a537ab9447a894d1462f9808b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/cyan.png using Guid(80002e6a537ab9447a894d1462f9808b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da27d6c943d4eda06b8d2547dda8e55') in 0.014559 seconds
-  Import took 0.019780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_00_Tx2.jpg
-  artifactKey: Guid(39c02aab05e21004fa57273211dd8d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_00_Tx2.jpg using Guid(39c02aab05e21004fa57273211dd8d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fe9c73f8a65e2414bbb6769d992cf5') in 0.019106 seconds
-  Import took 0.025827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000570 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_02_Tx4.jpg
-  artifactKey: Guid(822785365423b4041a0e65ea78bd3a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_02_Tx4.jpg using Guid(822785365423b4041a0e65ea78bd3a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27be42c2e6f54f739cc3e06e6ad343ef') in 0.018412 seconds
-  Import took 0.025105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_02_Visual.png
-  artifactKey: Guid(7d3b61c89a045d94791b296422049e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_02_Visual.png using Guid(7d3b61c89a045d94791b296422049e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39baf98d3238eab942936b3c09772187') in 0.016792 seconds
-  Import took 0.022516 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_05_Visual.png
-  artifactKey: Guid(94aacc383d969c641935713d9d623663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_05_Visual.png using Guid(94aacc383d969c641935713d9d623663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ac5d7f9ee27381d592238b8397a802') in 0.015903 seconds
-  Import took 0.020644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/bannerTerrainToolkit.png
-  artifactKey: Guid(dd462f206a127b4479650292dc950e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/bannerTerrainToolkit.png using Guid(dd462f206a127b4479650292dc950e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2348f8710de8e5f8064b9e663b66f3') in 0.015207 seconds
-  Import took 0.020620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/iconGenToolkit.png
-  artifactKey: Guid(2cfb482fbbcd08c4bbcbfa6361421800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/iconGenToolkit.png using Guid(2cfb482fbbcd08c4bbcbfa6361421800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18fd935867f466bb5eb383a546e8ce0') in 0.013849 seconds
-  Import took 0.018114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_01_Tx1.jpg
-  artifactKey: Guid(8cd1ee1eeafaa194794628592442e5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_01_Tx1.jpg using Guid(8cd1ee1eeafaa194794628592442e5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01cafc91776a259f7de1735532e957da') in 0.018034 seconds
-  Import took 0.023407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_03_Cliff.jpg
-  artifactKey: Guid(efdd472a85b26c148b41ceea1b92e678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_03_Cliff.jpg using Guid(efdd472a85b26c148b41ceea1b92e678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab86f5a1ffb55088469c4177b13fdbe') in 0.015113 seconds
-  Import took 0.020565 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_05_Cliff.jpg
-  artifactKey: Guid(785934d49a1960e43b4e88ba725ce335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_05_Cliff.jpg using Guid(785934d49a1960e43b4e88ba725ce335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7076bfae8d339674c45dc42717bf43') in 0.014266 seconds
-  Import took 0.018786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/green.png
-  artifactKey: Guid(20152cc238243e4419c8aecc717e1be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/green.png using Guid(20152cc238243e4419c8aecc717e1be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b99af623ef0368e07f86f30f6c34bd') in 0.013432 seconds
-  Import took 0.018100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/blackToWhite.png
-  artifactKey: Guid(568b1492b02bce14b807479f0966fc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/blackToWhite.png using Guid(568b1492b02bce14b807479f0966fc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb20111f3469eab3e697545872cdaf7') in 0.012963 seconds
-  Import took 0.017501 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/blue.png
-  artifactKey: Guid(276d2203bd541e14b93cb7ef729c4dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/blue.png using Guid(276d2203bd541e14b93cb7ef729c4dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b336472d1445b96e2db43d343cc57a1e') in 0.014839 seconds
-  Import took 0.020630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/iconGenOptions.png
-  artifactKey: Guid(f9d1004114c5cf246b1a01e6ccbd2a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/iconGenOptions.png using Guid(f9d1004114c5cf246b1a01e6ccbd2a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1edae2bd7fa045f09c32cab58796740') in 0.012855 seconds
-  Import took 0.017783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_05_Tx1.jpg
-  artifactKey: Guid(c4eaa7b086d56ec4a91d081a8ebe78f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_05_Tx1.jpg using Guid(c4eaa7b086d56ec4a91d081a8ebe78f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a395231dd202e19910bc24a589a14994') in 0.015578 seconds
-  Import took 0.020619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_02_Cliff.jpg
-  artifactKey: Guid(fe89f0865d86c8a4383b71ad900b48d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_02_Cliff.jpg using Guid(fe89f0865d86c8a4383b71ad900b48d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a8993fce316f75be62041f01e1649e') in 0.016039 seconds
-  Import took 0.020577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/iconMountains.png
-  artifactKey: Guid(d19e788ede4c2ad47b2c74c4fcfe67b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/iconMountains.png using Guid(d19e788ede4c2ad47b2c74c4fcfe67b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a650573c34e39c2cd8a659bd667e622f') in 0.014673 seconds
-  Import took 0.020105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_02_Tx1.jpg
-  artifactKey: Guid(e2b8e0b9258731f44958044f0625e8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_02_Tx1.jpg using Guid(e2b8e0b9258731f44958044f0625e8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8f94965f4c3b34520794ae8fc806c3') in 0.014848 seconds
-  Import took 0.019773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/modelBackground.png
-  artifactKey: Guid(797a6a7a9d8e4624fa3db25d5c9588b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/modelBackground.png using Guid(797a6a7a9d8e4624fa3db25d5c9588b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc237a6614c26b00e1a53ffde20c2822') in 0.013532 seconds
-  Import took 0.019566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_01_Visual.png
-  artifactKey: Guid(c72e8c7e50cc4144fae0eeda87b78e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_01_Visual.png using Guid(c72e8c7e50cc4144fae0eeda87b78e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae032e079f9e8c6fc5facec782f4a684') in 0.013819 seconds
-  Import took 0.019396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/blackButtonDisabled.png
-  artifactKey: Guid(dcd3f45167fe81e4d9f9c4816eaa0321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/blackButtonDisabled.png using Guid(dcd3f45167fe81e4d9f9c4816eaa0321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082ecf17e97bed16bc9cdc684da5053b') in 0.013674 seconds
-  Import took 0.018267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_03_Tx1.jpg
-  artifactKey: Guid(cf1535013fa399e48a16fdd6a6059d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_03_Tx1.jpg using Guid(cf1535013fa399e48a16fdd6a6059d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225dc76b30df3d1ac1acb3948313602f') in 0.015766 seconds
-  Import took 0.020317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/red.png
-  artifactKey: Guid(9414a68fe94584c4986693a57f0473b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/red.png using Guid(9414a68fe94584c4986693a57f0473b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5344b4eeb0cb0bcb56eddf281dbb75c') in 0.013573 seconds
-  Import took 0.018452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/IconGenModel.png
-  artifactKey: Guid(68b085a18f7718349a5260257c08a0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/IconGenModel.png using Guid(68b085a18f7718349a5260257c08a0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03694563a6461777e397c074bfff7c0b') in 0.013135 seconds
-  Import took 0.018275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/iconPlateaus.png
-  artifactKey: Guid(60e157d979f75574a85749ba6d80af20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/iconPlateaus.png using Guid(60e157d979f75574a85749ba6d80af20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fd7f88512bc1e8f72c48429335364a') in 0.013506 seconds
-  Import took 0.018806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/blackButtonDown.png
-  artifactKey: Guid(1b0dac0a49a72814db0c023c900aae84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/blackButtonDown.png using Guid(1b0dac0a49a72814db0c023c900aae84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47ef48152f5b57bd71f6ba43bfa17de') in 0.013108 seconds
-  Import took 0.017292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/greenToCyan.png
-  artifactKey: Guid(67eaad27193acfc40b674ca8e0de864d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/greenToCyan.png using Guid(67eaad27193acfc40b674ca8e0de864d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bde5685ee3e19102c17b6a66b5854f7') in 0.013898 seconds
-  Import took 0.018223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/iconGenTexture.png
-  artifactKey: Guid(9ff6998f0fac2954b8d002fd1c3dacee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/iconGenTexture.png using Guid(9ff6998f0fac2954b8d002fd1c3dacee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f71eb9396f7a23dd1cf9671f7784331') in 0.013297 seconds
-  Import took 0.017282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_00_Visual.png
-  artifactKey: Guid(f074983037d8b2d4fbeb64396a539e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_00_Visual.png using Guid(f074983037d8b2d4fbeb64396a539e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa821af1bd3e84bbf78069608244d8c') in 0.014577 seconds
-  Import took 0.019592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/greyStop.png
-  artifactKey: Guid(613df7f97468e7a4582547b8ee51acd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/greyStop.png using Guid(613df7f97468e7a4582547b8ee51acd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d92ad747755cafc5359cbaedb1b7cf7') in 0.014899 seconds
-  Import took 0.020160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_01_Cliff.jpg
-  artifactKey: Guid(5a0bbaf7d85faa14aab8ce93b510009f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_01_Cliff.jpg using Guid(5a0bbaf7d85faa14aab8ce93b510009f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb6a391934d4d122606a43d74e577c6') in 0.016120 seconds
-  Import took 0.021320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/defaultTexture.jpg
-  artifactKey: Guid(92b9897ab9b8b6b4d871d168f0e02e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/defaultTexture.jpg using Guid(92b9897ab9b8b6b4d871d168f0e02e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633512aafe72c86fb0b6fb25c1e22519') in 0.015431 seconds
-  Import took 0.020633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/deleteButton.png
-  artifactKey: Guid(f33ff7bf35f7add4a8230fe7b0ee97c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/deleteButton.png using Guid(f33ff7bf35f7add4a8230fe7b0ee97c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2be4e5a3ce4d17c7faf156c28b4ed5d') in 0.013710 seconds
-  Import took 0.017957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/iconGenErode.png
-  artifactKey: Guid(653801f744c32b344b0ede21d283492d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/iconGenErode.png using Guid(653801f744c32b344b0ede21d283492d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'badffa32cb9f6ae524c93226c3bcf0e1') in 0.015296 seconds
-  Import took 0.019663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/iconHills.png
-  artifactKey: Guid(afe502550c1473447bd0cd4e8f6fa595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/iconHills.png using Guid(afe502550c1473447bd0cd4e8f6fa595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e236426dc2edf0d50df4612cc4385daf') in 0.016095 seconds
-  Import took 0.022997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_00_Cliff.jpg
-  artifactKey: Guid(312d6c9402aedc34e959cc59b1e8942f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_00_Cliff.jpg using Guid(312d6c9402aedc34e959cc59b1e8942f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b161da7fdcf8bb9841bbdc4cb0d32d') in 0.016443 seconds
-  Import took 0.021120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/textureBar.png
-  artifactKey: Guid(aba770a3aa8f7f4488d60f3f52749403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/textureBar.png using Guid(aba770a3aa8f7f4488d60f3f52749403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b6897c80d5255c2b011b7242fc88f6') in 0.013787 seconds
-  Import took 0.018986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/slopeStop2.png
-  artifactKey: Guid(6da9213b25ffb1c41ade0ca8c13256c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/slopeStop2.png using Guid(6da9213b25ffb1c41ade0ca8c13256c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0806aae466015a1bfc78e5f8aa9ff756') in 0.014661 seconds
-  Import took 0.019145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/redToYellow.png
-  artifactKey: Guid(19d7a08c94f38a94aab708e669bdfea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/redToYellow.png using Guid(19d7a08c94f38a94aab708e669bdfea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d70cfda3f5ffbe87b595dbe3eedc85') in 0.012582 seconds
-  Import took 0.017077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/white.png
-  artifactKey: Guid(e572f7873d1a58a49ab991e53fba71e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/white.png using Guid(e572f7873d1a58a49ab991e53fba71e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeed23d06e9b66142518fc8df5bb5513') in 0.014808 seconds
-  Import took 0.019751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/yellow.png
-  artifactKey: Guid(64268698a55e2d546ac4af50cfee452b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/yellow.png using Guid(64268698a55e2d546ac4af50cfee452b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802dd19e2f9888e8aa8694a915f22319') in 0.015048 seconds
-  Import took 0.019145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/yellowToGreen.png
-  artifactKey: Guid(5ad84253d35469f4388f2f9cc2382293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/yellowToGreen.png using Guid(5ad84253d35469f4388f2f9cc2382293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fafaf535b2754e0dd1ff2d1610edc34') in 0.014796 seconds
-  Import took 0.019689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/whiteStop.png
-  artifactKey: Guid(2cfe61fb303c5d440999ede1aab17068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/whiteStop.png using Guid(2cfe61fb303c5d440999ede1aab17068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c85f5a79c46b6c2a2ea3321c47b2ac9') in 0.014123 seconds
-  Import took 0.018361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/whiteStopRollover.png
-  artifactKey: Guid(40db04cf1eae4ba43aec1d1d7f547214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/whiteStopRollover.png using Guid(40db04cf1eae4ba43aec1d1d7f547214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492140cd0a020017d49968fb74255002') in 0.014204 seconds
-  Import took 0.019665 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/iconMoore.png
-  artifactKey: Guid(54d8b277e9cd64949b3696ccf36a5f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/iconMoore.png using Guid(54d8b277e9cd64949b3696ccf36a5f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44657987284f9304cb2e711618116373') in 0.013314 seconds
-  Import took 0.017295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_04_Visual.png
-  artifactKey: Guid(9ef6524050dfd1c4c9536504aa2048ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_04_Visual.png using Guid(9ef6524050dfd1c4c9536504aa2048ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ca8592ebfe48d3ddb827f02924f5fd') in 0.015458 seconds
-  Import took 0.020439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/slopeStop1.png
-  artifactKey: Guid(76fd504bf8b40eb4181f2156ff1b8450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/slopeStop1.png using Guid(76fd504bf8b40eb4181f2156ff1b8450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b658235498351f0f1f541101c9b4bab3') in 0.013552 seconds
-  Import took 0.018641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/blackButton.png
-  artifactKey: Guid(2396297b6d8572640bdccff572cd05bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/blackButton.png using Guid(2396297b6d8572640bdccff572cd05bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b0abe8598722b95290e788bc7ba5dd') in 0.013093 seconds
-  Import took 0.018517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/modelBackgroundDown.png
-  artifactKey: Guid(069090165514e814285334729a6e5bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/modelBackgroundDown.png using Guid(069090165514e814285334729a6e5bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a53188fb686c5dfc8e03f68c1687b81') in 0.014092 seconds
-  Import took 0.018978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/TerrainToolkitEditorSkin.guiskin
-  artifactKey: Guid(538c5d82b88bac048ada66922e33821c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/TerrainToolkitEditorSkin.guiskin using Guid(538c5d82b88bac048ada66922e33821c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a40984a526770d5009868deb8b58aca') in 0.016819 seconds
-  Import took 0.021385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_00_Tx1.jpg
-  artifactKey: Guid(7d5853ddd349b8d418876417f4bf2573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_00_Tx1.jpg using Guid(7d5853ddd349b8d418876417f4bf2573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9249f66164269c0d1d446c0cf8c63c') in 0.015572 seconds
-  Import took 0.020502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_02_Tx2.jpg
-  artifactKey: Guid(d051e99da578ec44fa0521be6dd0efcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_02_Tx2.jpg using Guid(d051e99da578ec44fa0521be6dd0efcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb2043df9c9bde70fc8cb2450342d5d') in 0.015008 seconds
-  Import took 0.019289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/modelBackgroundHover.png
-  artifactKey: Guid(2d5c15aa954c2b34f9ebe154c29b6c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/modelBackgroundHover.png using Guid(2d5c15aa954c2b34f9ebe154c29b6c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256e10cb13f26e6b79f69d2761ec7f1e') in 0.015153 seconds
-  Import took 0.019476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/iconVonNeumann.png
-  artifactKey: Guid(e8af1417562c95a45962f58105b0052d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/iconVonNeumann.png using Guid(e8af1417562c95a45962f58105b0052d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c30da1efc92ee979603fefeb2863d9c') in 0.012652 seconds
-  Import took 0.017314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_02_Tx3.jpg
-  artifactKey: Guid(dc4dd15be86f08d4f845a7662d2b0a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_02_Tx3.jpg using Guid(dc4dd15be86f08d4f845a7662d2b0a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe7142a3969cd877a23f00f30a2edd3') in 0.015460 seconds
-  Import took 0.020586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/grey.png
-  artifactKey: Guid(87b9272c93a6d44439f0af27725774f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/grey.png using Guid(87b9272c93a6d44439f0af27725774f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b18ceaff776d31ceb4d926758ba54b') in 0.015380 seconds
-  Import took 0.020651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000450 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/Model_03_Tx2.jpg
-  artifactKey: Guid(fe8cc0e0cd4c79a4e98580db78c1c2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/Model_03_Tx2.jpg using Guid(fe8cc0e0cd4c79a4e98580db78c1c2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa55c752f2dffd77cf63a6447fbf62e') in 0.014776 seconds
-  Import took 0.019707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/cyanToBlue.png
-  artifactKey: Guid(19fd34362dbaa1d4f99977acf4fa88b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/cyanToBlue.png using Guid(19fd34362dbaa1d4f99977acf4fa88b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ff97d34ca83acf815c350af1e8e2a3') in 0.017328 seconds
-  Import took 0.022590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/com/heparo/terrain/toolkit/editor/resources/blackStop.png
-  artifactKey: Guid(ad385d57ea8a18d4dba1ca59dab369b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/com/heparo/terrain/toolkit/editor/resources/blackStop.png using Guid(ad385d57ea8a18d4dba1ca59dab369b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c1dc2724658624e50ca0550b4f27a6') in 0.013418 seconds
-  Import took 0.017870 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007583 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.365 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2169 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.8 MB.
-System memory in use after: 129.0 MB.
-
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2746.
-Total: 3.361900 ms (FindLiveObjects: 0.340300 ms CreateObjectMapping: 0.104700 ms MarkObjects: 2.777600 ms  DeleteObjects: 0.137400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.241954 seconds.
-  path: Assets/Honda/New Terrain.asset
-  artifactKey: Guid(de8bd3fd7649b2c4cbeaf215fdeb5847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/New Terrain.asset using Guid(de8bd3fd7649b2c4cbeaf215fdeb5847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fdd744922a3ebd7301df0f348c2dd9c') in 0.070477 seconds
-  Import took 0.076106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.511677 seconds.
-  path: Assets/Honda/resorce
-  artifactKey: Guid(688f767cc0107254dbffabd6ab2f9abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/resorce using Guid(688f767cc0107254dbffabd6ab2f9abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57d2604c1b87cd86f902d7dd9817ec1') in 0.009255 seconds
-  Import took 0.015825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 322.567277 seconds.
-  path: Assets/Honda/Terrain.prefab
-  artifactKey: Guid(a578eb9581f299341bc31c765cce6db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/Terrain.prefab using Guid(a578eb9581f299341bc31c765cce6db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc9bbab490d6feb4876bd096c0a1be4') in 0.023505 seconds
-  Import took 0.030878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004238 seconds.
-  path: Assets/Honda/Terrain.prefab
-  artifactKey: Guid(a578eb9581f299341bc31c765cce6db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/Terrain.prefab using Guid(a578eb9581f299341bc31c765cce6db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc9bbab490d6feb4876bd096c0a1be4') in 0.006729 seconds
-  Import took 0.012650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 72.060957 seconds.
-  path: Assets/Honda/NarrationBehaviour.cs
-  artifactKey: Guid(9db29b1209081374584a507bb73824b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/NarrationBehaviour.cs using Guid(9db29b1209081374584a507bb73824b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6183bd64274b7b7def1cbd5ea539a91') in 0.016530 seconds
-  Import took 0.024029 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009461 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.475 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2170 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.0 MB.
-System memory in use after: 129.2 MB.
-
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2749.
-Total: 4.638800 ms (FindLiveObjects: 0.292100 ms CreateObjectMapping: 0.119300 ms MarkObjects: 4.067300 ms  DeleteObjects: 0.158200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.210100 seconds.
-  path: Assets/Honda/NarrationPlayableAsset.cs
-  artifactKey: Guid(68a098698091ae141808d6fd288f3abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/NarrationPlayableAsset.cs using Guid(68a098698091ae141808d6fd288f3abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428b1d7edcbb0503497723161d4d9087') in 0.013687 seconds
-  Import took 0.020302 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008012 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.620 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2171 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.0 MB.
-System memory in use after: 129.2 MB.
-
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2752.
-Total: 5.990800 ms (FindLiveObjects: 0.739100 ms CreateObjectMapping: 0.258700 ms MarkObjects: 4.803900 ms  DeleteObjects: 0.186800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.392780 seconds.
-  path: Assets/Honda/NarrationBehaviour.cs
-  artifactKey: Guid(9db29b1209081374584a507bb73824b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/NarrationBehaviour.cs using Guid(9db29b1209081374584a507bb73824b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117cdc6ea630bdff0f4edce1ff0a46e1') in 0.012858 seconds
-  Import took 0.018206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.037979 seconds.
-  path: Assets/Honda/NarrationBehaviour.cs
-  artifactKey: Guid(9db29b1209081374584a507bb73824b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/NarrationBehaviour.cs using Guid(9db29b1209081374584a507bb73824b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117cdc6ea630bdff0f4edce1ff0a46e1') in 0.005214 seconds
-  Import took 0.009873 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017598 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.701 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2171 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.0 MB.
-System memory in use after: 129.2 MB.
-
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2754.
-Total: 3.065100 ms (FindLiveObjects: 0.350400 ms CreateObjectMapping: 0.150100 ms MarkObjects: 2.436500 ms  DeleteObjects: 0.126400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 161.627981 seconds.
-  path: Assets/Honda/NarrationPlayableAsset.cs
-  artifactKey: Guid(68a098698091ae141808d6fd288f3abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/NarrationPlayableAsset.cs using Guid(68a098698091ae141808d6fd288f3abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6c7337fa869c5f09f323b2ea849d6a') in 0.018403 seconds
-  Import took 0.027023 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007605 seconds.
+Registered in 0.007125 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.422 seconds
+- Completed reload, in  1.373 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2171 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.0 MB.
-System memory in use after: 129.2 MB.
+Unloading 2140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.6 MB.
+System memory in use after: 125.8 MB.
 
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2756.
-Total: 3.867200 ms (FindLiveObjects: 0.243100 ms CreateObjectMapping: 0.116700 ms MarkObjects: 3.350300 ms  DeleteObjects: 0.155600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.201166 seconds.
-  path: Assets/DefaultPlayables/NavMeshAgentControl
-  artifactKey: Guid(93b4d74e1158a4d48914db94fc4e87c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DefaultPlayables/NavMeshAgentControl using Guid(93b4d74e1158a4d48914db94fc4e87c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb6a88f36089d5e810cd7232ca0be2d') in 0.013510 seconds
-  Import took 0.020555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.431524 seconds.
-  path: Assets/DefaultPlayables/LightControl
-  artifactKey: Guid(5f5e3cf7f402b7b40894a67f55fad9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DefaultPlayables/LightControl using Guid(5f5e3cf7f402b7b40894a67f55fad9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ec83cff1d8f626355e958b44f47545') in 0.010971 seconds
-  Import took 0.016345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.437900 seconds.
-  path: Assets/DefaultPlayables/ScreenFader
-  artifactKey: Guid(1482b2b9e18dc0a43baf3c92d0cd7156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DefaultPlayables/ScreenFader using Guid(1482b2b9e18dc0a43baf3c92d0cd7156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635da33b9cf1810501171128bc0f18b4') in 0.009601 seconds
-  Import took 0.015064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.495715 seconds.
-  path: Assets/DefaultPlayables/TextSwitcher
-  artifactKey: Guid(2d691e3fbd7f57c4d81cf41595ca9cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DefaultPlayables/TextSwitcher using Guid(2d691e3fbd7f57c4d81cf41595ca9cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90083d4f7a54b826f2f12f4dfbecc27') in 0.009990 seconds
-  Import took 0.014784 seconds .
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2675.
+Total: 3.329700 ms (FindLiveObjects: 0.611800 ms CreateObjectMapping: 0.205400 ms MarkObjects: 2.376900 ms  DeleteObjects: 0.134600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009525 seconds.
+Registered in 0.007522 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.352 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.6 MB.
+System memory in use after: 125.8 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2677.
+Total: 3.036400 ms (FindLiveObjects: 0.257900 ms CreateObjectMapping: 0.099100 ms MarkObjects: 2.536000 ms  DeleteObjects: 0.142400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016189 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.358 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.6 MB.
+System memory in use after: 125.8 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2679.
+Total: 4.181800 ms (FindLiveObjects: 0.252600 ms CreateObjectMapping: 0.108400 ms MarkObjects: 3.606000 ms  DeleteObjects: 0.212500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017337 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.380 seconds
+- Completed reload, in  2.430 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2137 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.2 MB.
-System memory in use after: 128.5 MB.
+Unloading 2140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.6 MB.
+System memory in use after: 125.8 MB.
 
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2758.
-Total: 2.541200 ms (FindLiveObjects: 0.258000 ms CreateObjectMapping: 0.117400 ms MarkObjects: 2.069700 ms  DeleteObjects: 0.095000 ms)
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2681.
+Total: 2.614100 ms (FindLiveObjects: 0.252600 ms CreateObjectMapping: 0.089500 ms MarkObjects: 2.109400 ms  DeleteObjects: 0.161500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008248 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.581 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2136 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.3 MB.
-System memory in use after: 128.5 MB.
-
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2760.
-Total: 3.866900 ms (FindLiveObjects: 0.228500 ms CreateObjectMapping: 0.104400 ms MarkObjects: 3.381300 ms  DeleteObjects: 0.151500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007602 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.593 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2137 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.3 MB.
-System memory in use after: 128.6 MB.
-
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2762.
-Total: 4.575700 ms (FindLiveObjects: 0.503000 ms CreateObjectMapping: 0.223000 ms MarkObjects: 3.692900 ms  DeleteObjects: 0.154900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007850 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.377 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2137 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.4 MB.
-System memory in use after: 128.6 MB.
-
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2764.
-Total: 2.902300 ms (FindLiveObjects: 0.262400 ms CreateObjectMapping: 0.107800 ms MarkObjects: 2.388500 ms  DeleteObjects: 0.142300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 185.560863 seconds.
-  path: Assets/Honda/NarrationPlayableAsset.cs
-  artifactKey: Guid(68a098698091ae141808d6fd288f3abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/NarrationPlayableAsset.cs using Guid(68a098698091ae141808d6fd288f3abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc88fa25a72c9a5e1e4a54cc2573bb5') in 0.006564 seconds
-  Import took 0.011185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.134471 seconds.
-  path: Assets/Furniture
-  artifactKey: Guid(086c40a5e73b23947ad41ad384534ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture using Guid(086c40a5e73b23947ad41ad384534ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd977d87c815d35dca0a1f56df86cae39') in 0.012147 seconds
-  Import took 0.016549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.815436 seconds.
-  path: Assets/Furniture/Prefabs
-  artifactKey: Guid(5c371384bf255434b8b72959a8c2faf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Prefabs using Guid(5c371384bf255434b8b72959a8c2faf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9431981c71756120f75aa8eec5ff1e1') in 0.004251 seconds
-  Import took 0.008906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.321405 seconds.
-  path: Assets/Furniture/Source
-  artifactKey: Guid(15288ef8814f09740966a34e74cc18f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source using Guid(15288ef8814f09740966a34e74cc18f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad1e8f0290f3eff21078b7506c574d1') in 0.009574 seconds
-  Import took 0.014652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 73.526611 seconds.
-  path: Assets/Honda/SoldierA.prefab
-  artifactKey: Guid(0d50f0d00a117884da3349217e77cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/SoldierA.prefab using Guid(0d50f0d00a117884da3349217e77cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ff34b94afaa117a988a565f29e7b0d') in 0.649575 seconds
-  Import took 0.657314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.849775 seconds.
-  path: Assets/Honda/test.prefab
-  artifactKey: Guid(0d50f0d00a117884da3349217e77cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/test.prefab using Guid(0d50f0d00a117884da3349217e77cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e9e1c3ba47ab1f500e98c8631f4d8d') in 0.081039 seconds
-  Import took 0.088555 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007595 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.661 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2137 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 142.1 MB.
-System memory in use after: 142.3 MB.
-
-Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 2770.
-Total: 2.784900 ms (FindLiveObjects: 0.266100 ms CreateObjectMapping: 0.110700 ms MarkObjects: 2.245800 ms  DeleteObjects: 0.161100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 584.166086 seconds.
-  path: Assets/Honda/New Terrain.asset
-  artifactKey: Guid(de8bd3fd7649b2c4cbeaf215fdeb5847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/New Terrain.asset using Guid(de8bd3fd7649b2c4cbeaf215fdeb5847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df8e5e11094a34f0e8094e336e36719') in 0.095843 seconds
-  Import took 0.101171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/Honda/SoldierTimeline.playable
-  artifactKey: Guid(694a855e7acee9d49acc052f9411f68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/SoldierTimeline.playable using Guid(694a855e7acee9d49acc052f9411f68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a7f06dda5693b9dd697a59663b5531') in 0.025672 seconds
-  Import took 0.030680 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.502313 seconds.
-  path: Assets/Honda/Koruri-Bold.ttf
-  artifactKey: Guid(963ef55beb1dbe54cb73cde10f6b8dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/Koruri-Bold.ttf using Guid(963ef55beb1dbe54cb73cde10f6b8dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7479da08c25e59997ea364f16419b64f') in 0.067469 seconds
-  Import took 0.072002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.360455 seconds.
-  path: Assets/Honda/font.txt
-  artifactKey: Guid(ce70ce096b852f54caf8985b03f23937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/font.txt using Guid(ce70ce096b852f54caf8985b03f23937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd74783dc5629bb73679721ba5bc59c9') in 0.012629 seconds
-  Import took 0.017771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000692 seconds.
-  path: Assets/Honda/font.txt
-  artifactKey: Guid(ce70ce096b852f54caf8985b03f23937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/font.txt using Guid(ce70ce096b852f54caf8985b03f23937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd74783dc5629bb73679721ba5bc59c9') in 0.004396 seconds
-  Import took 0.009286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 227.444947 seconds.
-  path: Assets/Honda/font.txt
-  artifactKey: Guid(ce70ce096b852f54caf8985b03f23937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/font.txt using Guid(ce70ce096b852f54caf8985b03f23937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320dadbb18628697563a9e53cb9f73db') in 0.004137 seconds
-  Import took 0.009319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.045541 seconds.
-  path: Assets/Honda/font.txt
-  artifactKey: Guid(ce70ce096b852f54caf8985b03f23937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/font.txt using Guid(ce70ce096b852f54caf8985b03f23937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320dadbb18628697563a9e53cb9f73db') in 0.006014 seconds
-  Import took 0.011784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.693336 seconds.
-  path: Assets/Honda/Koruri-Bold SDF.asset
-  artifactKey: Guid(2975027a21740c342bf2e5154136dd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/Koruri-Bold SDF.asset using Guid(2975027a21740c342bf2e5154136dd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
- -> (artifact id: '482bc48ea6d7ecfbd73eeb74a24eedf8') in 0.352347 seconds
-  Import took 0.358518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/Honda/SoldierTimeline.playable
-  artifactKey: Guid(694a855e7acee9d49acc052f9411f68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/SoldierTimeline.playable using Guid(694a855e7acee9d49acc052f9411f68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9142a16244f997c61bdc4205f722c43e') in 0.006265 seconds
-  Import took 0.011232 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008381 seconds.
+Registered in 0.038429 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.383 seconds
+- Completed reload, in  1.863 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2150 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.3 MB.
-System memory in use after: 143.9 MB.
+Unloading 2140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.7 MB.
+System memory in use after: 125.9 MB.
 
-Unloading 89 unused Assets to reduce memory usage. Loaded Objects now: 2779.
-Total: 3.993700 ms (FindLiveObjects: 0.601600 ms CreateObjectMapping: 0.334400 ms MarkObjects: 2.625600 ms  DeleteObjects: 0.429400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 392.593504 seconds.
-  path: Assets/Honda/NarrationBehaviour.cs
-  artifactKey: Guid(9db29b1209081374584a507bb73824b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/NarrationBehaviour.cs using Guid(9db29b1209081374584a507bb73824b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67efc97f434c7872a0d086431a3ea55e') in 0.006353 seconds
-  Import took 0.010609 seconds .
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2683.
+Total: 3.393700 ms (FindLiveObjects: 0.356200 ms CreateObjectMapping: 0.367400 ms MarkObjects: 2.519800 ms  DeleteObjects: 0.148900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008226 seconds.
+Registered in 0.009802 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.379 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.7 MB.
+System memory in use after: 125.9 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2685.
+Total: 3.545600 ms (FindLiveObjects: 0.234500 ms CreateObjectMapping: 0.101000 ms MarkObjects: 3.071600 ms  DeleteObjects: 0.137100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.029982 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.426 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.7 MB.
+System memory in use after: 125.9 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2687.
+Total: 2.585600 ms (FindLiveObjects: 0.229900 ms CreateObjectMapping: 0.103200 ms MarkObjects: 2.112300 ms  DeleteObjects: 0.139100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010389 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.441 seconds
+- Completed reload, in  1.288 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2148 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.2 MB.
-System memory in use after: 143.8 MB.
+Unloading 2140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.7 MB.
+System memory in use after: 125.9 MB.
 
-Unloading 89 unused Assets to reduce memory usage. Loaded Objects now: 2781.
-Total: 2.998100 ms (FindLiveObjects: 0.252000 ms CreateObjectMapping: 0.131100 ms MarkObjects: 2.160700 ms  DeleteObjects: 0.452900 ms)
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2689.
+Total: 2.960800 ms (FindLiveObjects: 0.289100 ms CreateObjectMapping: 0.105200 ms MarkObjects: 2.394600 ms  DeleteObjects: 0.170100 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 236.573228 seconds.
-  path: Assets/Honda/NarrationBehaviour.cs
-  artifactKey: Guid(9db29b1209081374584a507bb73824b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/NarrationBehaviour.cs using Guid(9db29b1209081374584a507bb73824b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358b22534d98c667ab49d7a97898c728') in 0.008838 seconds
-  Import took 0.013250 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008183 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.335 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.6 MB.
+System memory in use after: 125.8 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2691.
+Total: 2.917200 ms (FindLiveObjects: 0.288200 ms CreateObjectMapping: 0.104300 ms MarkObjects: 2.383900 ms  DeleteObjects: 0.139400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007359 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.349 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.7 MB.
+System memory in use after: 125.9 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2693.
+Total: 3.134500 ms (FindLiveObjects: 0.227600 ms CreateObjectMapping: 0.264700 ms MarkObjects: 2.513300 ms  DeleteObjects: 0.127400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008943 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.235 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2140 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.7 MB.
+System memory in use after: 125.9 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2695.
+Total: 2.816100 ms (FindLiveObjects: 0.225300 ms CreateObjectMapping: 0.100900 ms MarkObjects: 2.352600 ms  DeleteObjects: 0.136000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
