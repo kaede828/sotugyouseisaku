@@ -162,11 +162,8 @@ public class Player : MonoBehaviour
     {
         //　ボーンをカメラの角度を向かせる
         RotateBone();
-        //Debug.Log(spine.eulerAngles.y);
-
-        
+        //Debug.Log(spine.eulerAngles.y);  
     }
-
 
     /// <summary>
     /// 腰のボーンの回転
