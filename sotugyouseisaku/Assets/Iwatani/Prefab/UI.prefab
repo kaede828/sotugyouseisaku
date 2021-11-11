@@ -580,6 +580,7 @@ GameObject:
   - component: {fileID: 761459531}
   - component: {fileID: 761459533}
   - component: {fileID: 761459532}
+  - component: {fileID: 2144323259}
   m_Layer: 5
   m_Name: totalBullet
   m_TagString: Untagged
@@ -648,6 +649,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 100
+--- !u!114 &2144323259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761459530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c51844170afff3469a8d9efc526e243, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  addForceBullet: {fileID: 0}
 --- !u!1 &780355205
 GameObject:
   m_ObjectHideFlags: 0

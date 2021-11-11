@@ -17,6 +17,7 @@ public class AddForceBullet : MonoBehaviour
     [SerializeField]
     private float maxBullets = 30f;
     public float bulletCount = 30f;
+    public float bulletHave  = 30f;
     [SerializeField]
     private Vector3 dis;
 
@@ -88,14 +89,30 @@ public class AddForceBullet : MonoBehaviour
             if (rlTime >= reloadTime)
             {
                 rlTime = 0;
-                bulletCount = maxBullets;
+                var bc = bulletCount;
+                if (bulletHave >= maxBullets)
+                {
+                    bulletCount = maxBullets;
+                    bulletHave -= maxBullets - bc;
+                }
+                else if(bc + bulletHave >= maxBullets)
+                {
+                    bulletCount = maxBullets;
+                    bulletHave -= maxBullets - bc;
+                }
+                else if(bc + bulletHave < maxBullets)
+                {
+                    bulletCount = bulletHave + bc;
+                    bulletHave = 0f;
+                }            
+
                 isReload = false;
             }
             rlTime += Time.deltaTime;
         }
 
         //ƒŠƒ[ƒh
-        if (Input.GetButton("joystick X") && maxBullets > bulletCount)
+        if (Input.GetButton("joystick X") && maxBullets > bulletCount && bulletHave != 0)
         {
             if(!isReload)
                 audio.PlayOneShot(reloadSe);
