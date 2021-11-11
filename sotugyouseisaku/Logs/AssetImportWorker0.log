@@ -1,289 +1,645 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'ja' Physical Memory: 16237 MB
+OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'ja' Physical Memory: 8133 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+C:\Program Files\Unity\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/sotugyouseisaku/sotugyouseisaku
+C:/Users/KPC-018A1702/Desktop/SotugyoSeisaku/sotugyouseisaku
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53092
-Successfully changed project path to: D:/sotugyouseisaku/sotugyouseisaku
-D:/sotugyouseisaku/sotugyouseisaku
+58951
+Successfully changed project path to: C:/Users/KPC-018A1702/Desktop/SotugyoSeisaku/sotugyouseisaku
+C:/Users/KPC-018A1702/Desktop/SotugyoSeisaku/sotugyouseisaku
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 209.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/sotugyouseisaku/sotugyouseisaku/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/KPC-018A1702/Desktop/SotugyoSeisaku/sotugyouseisaku/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
     Vendor:   
-    VRAM:     5980 MB
-    Driver:   30.0.14.7212
+    VRAM:     6052 MB
+    Driver:   30.0.14.9649
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001558 seconds.
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005562 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.03 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 94.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.861 seconds
+- Completed reload, in  2.984 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003557 seconds.
+Registered in 0.029130 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001B70B6A4F20 doesn't match image D:\sotugyouseisaku\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B70C84C290 doesn't match image D:\sotugyouseisaku\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.974 seconds
+- Completed reload, in  1.855 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2187 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.6 MB.
-System memory in use after: 128.7 MB.
+System memory in use before: 125.9 MB.
+System memory in use after: 125.9 MB.
 
 Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 2643.
-Total: 2.066800 ms (FindLiveObjects: 0.169900 ms CreateObjectMapping: 0.069500 ms MarkObjects: 1.656000 ms  DeleteObjects: 0.170600 ms)
+Total: 4.596100 ms (FindLiveObjects: 0.353000 ms CreateObjectMapping: 0.140100 ms MarkObjects: 3.790000 ms  DeleteObjects: 0.311100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Iwatani/irasuto/waku.png
-  artifactKey: Guid(9ade028355f3da441b7a481c41c2c7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/irasuto/waku.png using Guid(9ade028355f3da441b7a481c41c2c7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be27fa3ea6cf440bf059d15061c0773') in 0.037859 seconds
-  Import took 0.040766 seconds .
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395ada4539601d561f97dc50427d7b44') in 0.026534 seconds
+  Import took 0.034762 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.434992 seconds.
-  path: Assets/Iwatani/irasuto/waku.png
-  artifactKey: Guid(9ade028355f3da441b7a481c41c2c7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/irasuto/waku.png using Guid(9ade028355f3da441b7a481c41c2c7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be27fa3ea6cf440bf059d15061c0773') in 0.015488 seconds
-  Import took 0.018765 seconds .
+  Time since last request: 8.782444 seconds.
+  path: Assets/Scenes/Kawashita.unity
+  artifactKey: Guid(7739b5753c8ffae4bb2ecc893a663cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Kawashita.unity using Guid(7739b5753c8ffae4bb2ecc893a663cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849eec3b2101019f7b8a1fcc6fca7b86') in 0.014631 seconds
+  Import took 0.022075 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031275 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.573 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.1 MB.
+System memory in use after: 121.2 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2645.
+Total: 7.481000 ms (FindLiveObjects: 0.599100 ms CreateObjectMapping: 0.239100 ms MarkObjects: 5.620600 ms  DeleteObjects: 1.017900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.851092 seconds.
-  path: Assets/Iwatani/irasuto/waku.png
-  artifactKey: Guid(9ade028355f3da441b7a481c41c2c7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/irasuto/waku.png using Guid(9ade028355f3da441b7a481c41c2c7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c6fcadfde25e39377f092326697e84') in 0.033563 seconds
-  Import took 0.036559 seconds .
+  Time since last request: 4461.308546 seconds.
+  path: Assets/LowPolySoldiers_demo
+  artifactKey: Guid(6c60531c19ae16e4383e2b40f30d8515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolySoldiers_demo using Guid(6c60531c19ae16e4383e2b40f30d8515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b780e3e72925ab13dda99e79caded8') in 0.602098 seconds
+  Import took 0.914350 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 438.539764 seconds.
-  path: Assets/Iwatani/irasuto/waku.png
-  artifactKey: Guid(9ade028355f3da441b7a481c41c2c7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/irasuto/waku.png using Guid(9ade028355f3da441b7a481c41c2c7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc0dc3c39272ba4a5d7c261351d59bd') in 0.014862 seconds
-  Import took 0.018760 seconds .
+  Time since last request: 6.713920 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/books_paper_d.mat
+  artifactKey: Guid(cfe94b7c6014b1245b56c46d35cd406e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/books_paper_d.mat using Guid(cfe94b7c6014b1245b56c46d35cd406e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457680101796ab977bf92f646b286c42') in 1.424293 seconds
+  Import took 1.429858 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.677589 seconds.
-  path: Assets/Iwatani/irasuto/イラスト.png
-  artifactKey: Guid(ed1210d8cbb77fc468c670b8f218f409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/irasuto/イラスト.png using Guid(ed1210d8cbb77fc468c670b8f218f409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc720105354bf29556a5d4091486d549') in 0.006760 seconds
-  Import took 0.009973 seconds .
+  Time since last request: 0.000426 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_d.mat
+  artifactKey: Guid(8ea231131c0ecc64ca078b074ddd7129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_d.mat using Guid(8ea231131c0ecc64ca078b074ddd7129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b4ecfd7365aa4c2c476f8061e7adb4') in 0.070337 seconds
+  Import took 0.076943 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.289013 seconds.
-  path: Assets/Iwatani/irasuto/イラスト.png
-  artifactKey: Guid(ed1210d8cbb77fc468c670b8f218f409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/irasuto/イラスト.png using Guid(ed1210d8cbb77fc468c670b8f218f409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4588a43769de3d346cb888978d9c2eb6') in 0.004990 seconds
-  Import took 0.007959 seconds .
+  Time since last request: 0.000365 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_book_4_d.mat
+  artifactKey: Guid(3f6e37fdf70ee3649873addb4353ba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_book_4_d.mat using Guid(3f6e37fdf70ee3649873addb4353ba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879d4ffd901021fc7d6d4281758dccef') in 0.029652 seconds
+  Import took 0.035482 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 166.105931 seconds.
-  path: Assets/Iwatani/irasuto/waku 1.png
-  artifactKey: Guid(fed46f66a0d60fc4aac1a28ff270686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/irasuto/waku 1.png using Guid(fed46f66a0d60fc4aac1a28ff270686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9b9651831a941c67f4cd6afee37d50') in 0.007501 seconds
-  Import took 0.011112 seconds .
+  Time since last request: 0.001062 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/paper_single_page.mat
+  artifactKey: Guid(51170788b33ba304aa4b68ffef5ba924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/paper_single_page.mat using Guid(51170788b33ba304aa4b68ffef5ba924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3d7c293e846a51431102110300fda3') in 0.034021 seconds
+  Import took 0.040752 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.179371 seconds.
-  path: Assets/Iwatani/irasuto/waku 1.png
-  artifactKey: Guid(fed46f66a0d60fc4aac1a28ff270686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/irasuto/waku 1.png using Guid(fed46f66a0d60fc4aac1a28ff270686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8fc7571505153cdbff9bea9a3fb348') in 0.009127 seconds
-  Import took 0.012322 seconds .
+  Time since last request: 0.000338 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/clay_1_d.mat
+  artifactKey: Guid(0664a4889da60aa4aadaaed77fd6a556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/clay_1_d.mat using Guid(0664a4889da60aa4aadaaed77fd6a556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a70ae0891c9a4822335f0e017a02fd') in 0.055469 seconds
+  Import took 0.061253 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.925829 seconds.
-  path: Assets/Iwatani/irasuto/waku.png
-  artifactKey: Guid(fed46f66a0d60fc4aac1a28ff270686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/irasuto/waku.png using Guid(fed46f66a0d60fc4aac1a28ff270686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c3973fc2a279412cff06dd5228410f') in 0.005448 seconds
-  Import took 0.008694 seconds .
+  Time since last request: 0.000312 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/cobblestone_wall_1_fixed_d.mat
+  artifactKey: Guid(f08005055adb6774b8d7cd4b19858a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/cobblestone_wall_1_fixed_d.mat using Guid(f08005055adb6774b8d7cd4b19858a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79af67d7416086b7a28ee916d2a3ff31') in 0.045535 seconds
+  Import took 0.049947 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 51.169489 seconds.
-  path: Assets/Iwatani/irasuto/waku.png
-  artifactKey: Guid(fed46f66a0d60fc4aac1a28ff270686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/irasuto/waku.png using Guid(fed46f66a0d60fc4aac1a28ff270686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2552e6970776a6c6662a68a044fe0f6') in 0.012996 seconds
-  Import took 0.015975 seconds .
+  Time since last request: 0.000264 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/iron.mat
+  artifactKey: Guid(01fe39fbda1dcd94a91cba98e3847538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/iron.mat using Guid(01fe39fbda1dcd94a91cba98e3847538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4a8cacf6174b1221f6a842fabdc9d2') in 0.043199 seconds
+  Import took 0.047594 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 463.119712 seconds.
-  path: Assets/Iwatani/irasuto/waku.png
-  artifactKey: Guid(fed46f66a0d60fc4aac1a28ff270686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/irasuto/waku.png using Guid(fed46f66a0d60fc4aac1a28ff270686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39328cc5051ee4b41d856610e269b49d') in 0.006309 seconds
-  Import took 0.009937 seconds .
+  Time since last request: 0.000891 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_poor_d.mat
+  artifactKey: Guid(00d2fb0ba59dca84fb06f1e87df7b18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_poor_d.mat using Guid(00d2fb0ba59dca84fb06f1e87df7b18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7958a4de8af856ef46a58a93e3e98798') in 0.034229 seconds
+  Import took 0.039099 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000700 seconds.
-  path: Assets/Iwatani/irasuto/waku.png
-  artifactKey: Guid(fed46f66a0d60fc4aac1a28ff270686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/irasuto/waku.png using Guid(fed46f66a0d60fc4aac1a28ff270686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39328cc5051ee4b41d856610e269b49d') in 0.004073 seconds
-  Import took 0.007057 seconds .
+  Time since last request: 0.000271 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_book_3_d.mat
+  artifactKey: Guid(e721513dd67b1194eb34d01628a2ec38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_book_3_d.mat using Guid(e721513dd67b1194eb34d01628a2ec38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68500c43de17a793f1c39ad10e070be') in 0.030127 seconds
+  Import took 0.035199 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.814922 seconds.
-  path: Assets/Iwatani/irasuto/waku.png
-  artifactKey: Guid(fed46f66a0d60fc4aac1a28ff270686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/irasuto/waku.png using Guid(fed46f66a0d60fc4aac1a28ff270686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95b01fda112f9988eec690072eb96fb') in 0.008742 seconds
-  Import took 0.011798 seconds .
+  Time since last request: 0.000330 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/charcoal_1_d.mat
+  artifactKey: Guid(edae9c3fda9266046a7f482926164cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/charcoal_1_d.mat using Guid(edae9c3fda9266046a7f482926164cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae216015ed28c89cac70ec5234c5bf3f') in 0.076035 seconds
+  Import took 0.082453 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.800622 seconds.
-  path: Assets/Iwatani/irasuto/waku.png
-  artifactKey: Guid(fed46f66a0d60fc4aac1a28ff270686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/irasuto/waku.png using Guid(fed46f66a0d60fc4aac1a28ff270686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8143dfbdffd4cd2ccc4ff6a151c11c') in 0.005258 seconds
-  Import took 0.008267 seconds .
+  Time since last request: 0.000367 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/spice.mat
+  artifactKey: Guid(d634f695d7fc3b2479eaec83bc044d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/spice.mat using Guid(d634f695d7fc3b2479eaec83bc044d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1784c8fe65493fb1868518adda40f9') in 0.047998 seconds
+  Import took 0.054199 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 153.057359 seconds.
-  path: Assets/Iwatani/irasuto/イラスト.png
-  artifactKey: Guid(ed1210d8cbb77fc468c670b8f218f409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/irasuto/イラスト.png using Guid(ed1210d8cbb77fc468c670b8f218f409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef0d56dce8687f5355ac73eb0745fd2') in 0.004386 seconds
-  Import took 0.008097 seconds .
+  Time since last request: 3538.562024 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows
+  artifactKey: Guid(1818638566ee37143858904214216cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows using Guid(1818638566ee37143858904214216cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485680dcd82eb96076ec891dfa07b7a9') in 0.008828 seconds
+  Import took 0.022750 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001901 seconds.
-  path: Assets/Iwatani/irasuto/イラスト.png
-  artifactKey: Guid(ed1210d8cbb77fc468c670b8f218f409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/irasuto/イラスト.png using Guid(ed1210d8cbb77fc468c670b8f218f409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef0d56dce8687f5355ac73eb0745fd2') in 0.004794 seconds
-  Import took 0.007791 seconds .
+  Time since last request: 0.077743 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_small_window.001.prefab
+  artifactKey: Guid(10d54ce79fd337242b98b2ad05909496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_small_window.001.prefab using Guid(10d54ce79fd337242b98b2ad05909496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08f1eddf2bdcd50f8ae8659e9ebc001') in 0.149121 seconds
+  Import took 0.153384 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.552118 seconds.
-  path: Assets/Iwatani/irasuto/イラスト.png
-  artifactKey: Guid(ed1210d8cbb77fc468c670b8f218f409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/irasuto/イラスト.png using Guid(ed1210d8cbb77fc468c670b8f218f409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93a62f8a47b447cb6314a636eef8a16') in 0.007006 seconds
-  Import took 0.010233 seconds .
+  Time since last request: 0.000279 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_window.005.prefab
+  artifactKey: Guid(52dc7f7ed21ffa245b545931213906dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_window.005.prefab using Guid(52dc7f7ed21ffa245b545931213906dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a6a4c7e32776f96d11197585d9b650') in 0.056222 seconds
+  Import took 0.060070 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.636783 seconds.
-  path: Assets/Iwatani/irasuto/イラスト.png
-  artifactKey: Guid(ed1210d8cbb77fc468c670b8f218f409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/irasuto/イラスト.png using Guid(ed1210d8cbb77fc468c670b8f218f409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2ce04cfb350e5a3e141719dc439d82') in 0.004991 seconds
-  Import took 0.008090 seconds .
+  Time since last request: 0.000326 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_window.000.prefab
+  artifactKey: Guid(ca4e7ab8e8418d545904cca68e59acd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_window.000.prefab using Guid(ca4e7ab8e8418d545904cca68e59acd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823686ba524dd767d74902aee1bfc2fb') in 0.047022 seconds
+  Import took 0.051116 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 322.916420 seconds.
-  path: Assets/Iwatani/font
-  artifactKey: Guid(2e218176986736d48a3ee2aa4cb3e71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/font using Guid(2e218176986736d48a3ee2aa4cb3e71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279583f9d9f1258481166c6f9841ccb9') in 0.005226 seconds
-  Import took 0.008665 seconds .
+  Time since last request: 0.000342 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_small_window.prefab
+  artifactKey: Guid(d8014ef3ca7293a429b63863c6c81d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_small_window.prefab using Guid(d8014ef3ca7293a429b63863c6c81d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a53d3341474feee11dc99d1d1ca97d5') in 0.049321 seconds
+  Import took 0.053126 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.757868 seconds.
-  path: Assets/Iwatani/font/ParNumIHT.ttf
-  artifactKey: Guid(45922544a3bfa7549b89d2f426677914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/font/ParNumIHT.ttf using Guid(45922544a3bfa7549b89d2f426677914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda68bc2612be66425aba9ea77db6c4f') in 0.039892 seconds
-  Import took 0.043006 seconds .
+  Time since last request: 0.000371 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_window.003.prefab
+  artifactKey: Guid(a774924507dd9b5478cb1e44f9a07616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_window.003.prefab using Guid(a774924507dd9b5478cb1e44f9a07616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c8100520b86300dfa435a24dd19e33') in 0.050105 seconds
+  Import took 0.054030 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 374.507476 seconds.
-  path: Assets/Iwatani/font/din1451alt.ttf
-  artifactKey: Guid(f64377842a7c08944a85c0f62c5480a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/font/din1451alt.ttf using Guid(f64377842a7c08944a85c0f62c5480a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b220e34083008ff467cbc881c05bd4') in 0.010850 seconds
-  Import took 0.014358 seconds .
+  Time since last request: 0.000328 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_window.001.prefab
+  artifactKey: Guid(f3bf6bca6a7098d4abfff4f29071d085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_window.001.prefab using Guid(f3bf6bca6a7098d4abfff4f29071d085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ece528afd1eb88cdba3e620f097788e') in 0.044908 seconds
+  Import took 0.049327 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2006.765846 seconds.
-  path: Assets/Iwatani/Prefab/109532_open3dmodel.com/Engine.3ds
-  artifactKey: Guid(928f1bddb9e60134d97e396ccdc7bdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/Prefab/109532_open3dmodel.com/Engine.3ds using Guid(928f1bddb9e60134d97e396ccdc7bdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c89dea31149534185ad54b1d11041b2') in 0.138359 seconds
-  Import took 0.142460 seconds .
+  Time since last request: 0.000277 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_small_window.003.prefab
+  artifactKey: Guid(4cf304a6d224be546b145335f0eba3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_small_window.003.prefab using Guid(4cf304a6d224be546b145335f0eba3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebf2cf80707a0a64734b31aa3c82ace') in 0.038525 seconds
+  Import took 0.043253 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Iwatani/Prefab/109532_open3dmodel.com/Generator & Engine_01.obj
-  artifactKey: Guid(b8aad1a19c8bfd141911ecdf2058671a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/Prefab/109532_open3dmodel.com/Generator & Engine_01.obj using Guid(b8aad1a19c8bfd141911ecdf2058671a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da29d5a3334acd5c6de996a195b54870') in 0.111489 seconds
-  Import took 0.114755 seconds .
+  Time since last request: 0.000249 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_window.002.prefab
+  artifactKey: Guid(3448623c01e519642a5569aff23adda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_window.002.prefab using Guid(3448623c01e519642a5569aff23adda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9699464b696acd180392559ccf5a7ade') in 0.040833 seconds
+  Import took 0.046051 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Iwatani/Prefab/109532_open3dmodel.com/Engine.obj
-  artifactKey: Guid(101da6a12283eb24d960e79eddb68f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/Prefab/109532_open3dmodel.com/Engine.obj using Guid(101da6a12283eb24d960e79eddb68f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2faa58413332ad247a255abf612c66') in 0.034618 seconds
-  Import took 0.037692 seconds .
+  Time since last request: 0.000378 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_small_window.005.prefab
+  artifactKey: Guid(f9e762e80a7d6ba46b9380c93601d3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_small_window.005.prefab using Guid(f9e762e80a7d6ba46b9380c93601d3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95380181853fb785735057bdff2e8ae1') in 0.043795 seconds
+  Import took 0.049530 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Iwatani/Prefab/109532_open3dmodel.com/Generator & Engine_01.3ds
-  artifactKey: Guid(20ea69b1a11185c4a8f5c3185213e4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/Prefab/109532_open3dmodel.com/Generator & Engine_01.3ds using Guid(20ea69b1a11185c4a8f5c3185213e4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d8ea712a10ac1dd054bacc7dc8858a') in 0.069256 seconds
-  Import took 0.072417 seconds .
+  Time since last request: 0.000311 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_small_window.002.prefab
+  artifactKey: Guid(826d42eb59dff5e43b712a0cfaeeb1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_small_window.002.prefab using Guid(826d42eb59dff5e43b712a0cfaeeb1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4798ace9bca2778943a258139081b1') in 0.042385 seconds
+  Import took 0.046970 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Iwatani/Prefab/109532_open3dmodel.com/Generator_01.3ds
-  artifactKey: Guid(41c3bb2d73ef2b240b4cdd4d39873022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/Prefab/109532_open3dmodel.com/Generator_01.3ds using Guid(41c3bb2d73ef2b240b4cdd4d39873022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0547bdadd6c4b6c2f39b1001d37a3d') in 0.028850 seconds
-  Import took 0.032243 seconds .
+  Time since last request: 0.000259 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_window.004.prefab
+  artifactKey: Guid(b9b61e50c1fdac347af56147de2c1376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_window.004.prefab using Guid(b9b61e50c1fdac347af56147de2c1376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace0059e4e22a63d3b98dc3e9721c7c9') in 0.037808 seconds
+  Import took 0.041889 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Iwatani/Prefab/109532_open3dmodel.com/Generator_01.obj
-  artifactKey: Guid(ef727bfc550e3854ebee2811fbf6bc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Iwatani/Prefab/109532_open3dmodel.com/Generator_01.obj using Guid(ef727bfc550e3854ebee2811fbf6bc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a310149da3f71fa538ceca891c5e514') in 0.046332 seconds
-  Import took 0.049749 seconds .
+  Time since last request: 0.000265 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_small_window.004.prefab
+  artifactKey: Guid(a5becdc8b9d8889498b1e3ae583f52db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Castle walls/Tower/Windows/tower_small_window.004.prefab using Guid(a5becdc8b9d8889498b1e3ae583f52db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94aac612aa31e2e80ddf8d847963422a') in 0.041203 seconds
+  Import took 0.045512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.079766 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Columns/Stone
+  artifactKey: Guid(01d23fb8044366842923c8b74799ff4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Columns/Stone using Guid(01d23fb8044366842923c8b74799ff4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edddf0f07fac9bf43c7f334b878166e') in 0.010713 seconds
+  Import took 0.015773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052156 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Columns/Stone/stone_column.001.prefab
+  artifactKey: Guid(d2fb27fcdceac704f815bfe369ceaf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Columns/Stone/stone_column.001.prefab using Guid(d2fb27fcdceac704f815bfe369ceaf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e8b03868555c4377fdd3d34eab081f') in 0.061189 seconds
+  Import took 0.065723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Columns/Stone/stone_column.prefab
+  artifactKey: Guid(f579f83a069454a4d9b0b7518ef3b6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Columns/Stone/stone_column.prefab using Guid(f579f83a069454a4d9b0b7518ef3b6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe5eb4cfef1409bb0008964f51451ef') in 0.026912 seconds
+  Import took 0.031467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002255 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Columns/Stone/stone_column.prefab
+  artifactKey: Guid(f579f83a069454a4d9b0b7518ef3b6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Columns/Stone/stone_column.prefab using Guid(f579f83a069454a4d9b0b7518ef3b6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe5eb4cfef1409bb0008964f51451ef') in 0.020033 seconds
+  Import took 0.026379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.524077 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Stairs
+  artifactKey: Guid(6960e76c64050aa4dacb03dc65b97e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Stairs using Guid(6960e76c64050aa4dacb03dc65b97e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933f1dcef2b854a8d09b60b8cee70511') in 0.007638 seconds
+  Import took 0.012351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053744 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Stairs/stone_stairs.prefab
+  artifactKey: Guid(bf2fbad40791acd49990f2f65d1e3115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Stairs/stone_stairs.prefab using Guid(bf2fbad40791acd49990f2f65d1e3115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d63f09c424ea062d3d65bcd4576aa7f') in 0.045822 seconds
+  Import took 0.049876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Stairs/wood_stairs.prefab
+  artifactKey: Guid(90def6c32e7b9fa458dfdd4b6ea67ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Stairs/wood_stairs.prefab using Guid(90def6c32e7b9fa458dfdd4b6ea67ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db48e8dc6f1d7e1eff8a8e7b5c87135') in 0.064722 seconds
+  Import took 0.069748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Stairs/wood_stairs_support.prefab
+  artifactKey: Guid(edb0d94010558614c976dfa15f61dee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Prefabs/Stairs/wood_stairs_support.prefab using Guid(edb0d94010558614c976dfa15f61dee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2743216097ce1ebc505276fd8095e1') in 0.033713 seconds
+  Import took 0.037812 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013455 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.632 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.6 MB.
+System memory in use after: 124.8 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2687.
+Total: 3.295000 ms (FindLiveObjects: 0.248000 ms CreateObjectMapping: 0.098400 ms MarkObjects: 2.805500 ms  DeleteObjects: 0.121200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015951 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.823 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.6 MB.
+System memory in use after: 124.8 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2689.
+Total: 3.744100 ms (FindLiveObjects: 0.384500 ms CreateObjectMapping: 0.218900 ms MarkObjects: 2.917200 ms  DeleteObjects: 0.221800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006176 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.463 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.6 MB.
+System memory in use after: 124.9 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2691.
+Total: 3.998900 ms (FindLiveObjects: 0.320200 ms CreateObjectMapping: 0.114600 ms MarkObjects: 3.432000 ms  DeleteObjects: 0.130400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009955 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.445 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.6 MB.
+System memory in use after: 124.8 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2693.
+Total: 3.374200 ms (FindLiveObjects: 0.500900 ms CreateObjectMapping: 0.158700 ms MarkObjects: 2.601500 ms  DeleteObjects: 0.110700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009226 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.021 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.7 MB.
+System memory in use after: 124.9 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2695.
+Total: 3.499700 ms (FindLiveObjects: 0.294800 ms CreateObjectMapping: 0.386700 ms MarkObjects: 2.686300 ms  DeleteObjects: 0.130700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010935 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.914 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.7 MB.
+System memory in use after: 124.9 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2697.
+Total: 3.966000 ms (FindLiveObjects: 0.279100 ms CreateObjectMapping: 0.284900 ms MarkObjects: 3.263900 ms  DeleteObjects: 0.136100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 40455.017448 seconds.
+  path: Assets/Scenes/Kawashita.unity
+  artifactKey: Guid(7739b5753c8ffae4bb2ecc893a663cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Kawashita.unity using Guid(7739b5753c8ffae4bb2ecc893a663cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4775e33760e6175fecb8dd2e4b7484b1') in 0.918146 seconds
+  Import took 0.925079 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010144 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.086 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.7 MB.
+System memory in use after: 124.9 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2699.
+Total: 4.242300 ms (FindLiveObjects: 0.473000 ms CreateObjectMapping: 0.261600 ms MarkObjects: 3.321500 ms  DeleteObjects: 0.184100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3600.524244 seconds.
+  path: Assets/Scenes/Game
+  artifactKey: Guid(46b26ad895ddb5d44841e601211cc9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game using Guid(46b26ad895ddb5d44841e601211cc9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1306faf7338b01892e05397cf0ebde') in 0.108585 seconds
+  Import took 0.212143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4421.112875 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/dark.mat
+  artifactKey: Guid(8653c28f8f9110f43a0fb41a118f1af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/dark.mat using Guid(8653c28f8f9110f43a0fb41a118f1af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dedb001315415e9d4596191d7db5ebb') in 0.587533 seconds
+  Import took 0.605684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3667.123384 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_book_2_d.mat
+  artifactKey: Guid(e5e845b6ac5f8dc429a548e827f4fb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/canvas_book_2_d.mat using Guid(e5e845b6ac5f8dc429a548e827f4fb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae22fbf5af67c978f45928c29f2cdc4c') in 0.167274 seconds
+  Import took 0.189796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/mapsozai/Mega Fantasy Props Pack/Materials/dark_iron.mat
+  artifactKey: Guid(92c80c0d26945b34a9d0c7d295afeb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Mega Fantasy Props Pack/Materials/dark_iron.mat using Guid(92c80c0d26945b34a9d0c7d295afeb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d4ade48151d8df91b4ed2ca30e1b9d') in 0.072125 seconds
+  Import took 0.077953 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.157472 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.616 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.8 MB.
+System memory in use after: 125.0 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2702.
+Total: 3.308100 ms (FindLiveObjects: 0.253400 ms CreateObjectMapping: 0.098400 ms MarkObjects: 2.833200 ms  DeleteObjects: 0.121700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006097 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.215 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.7 MB.
+System memory in use after: 124.9 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2704.
+Total: 3.826000 ms (FindLiveObjects: 0.370400 ms CreateObjectMapping: 0.124700 ms MarkObjects: 3.213400 ms  DeleteObjects: 0.116400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.272 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.7 MB.
+System memory in use after: 124.9 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2706.
+Total: 3.676500 ms (FindLiveObjects: 0.237900 ms CreateObjectMapping: 0.103400 ms MarkObjects: 3.211500 ms  DeleteObjects: 0.122900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2291.246371 seconds.
+  path: Assets/Prefab/map2 (1).prefab
+  artifactKey: Guid(e7e3dbea1b0d8514fb3c94ebe6403499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/map2 (1).prefab using Guid(e7e3dbea1b0d8514fb3c94ebe6403499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690d3777700a49e7c9967d0963748605') in 3.279460 seconds
+  Import took 3.312183 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005856 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.247 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2710.
+Total: 2.653300 ms (FindLiveObjects: 0.238100 ms CreateObjectMapping: 0.100000 ms MarkObjects: 2.096900 ms  DeleteObjects: 0.217400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.401112 seconds.
+  path: Assets/Prefab/洋館_1.prefab
+  artifactKey: Guid(636799c8609859843b21f9338878b7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/洋館_1.prefab using Guid(636799c8609859843b21f9338878b7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b87e4d5e74cd6d6061f1e4fee7d6d96') in 0.152938 seconds
+  Import took 0.159813 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
