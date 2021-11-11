@@ -16,6 +16,6 @@ public class Bullets : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        gameObject.GetComponent<Text>().text = +addForceBullet.bulletCount + "/Åá";
+        gameObject.GetComponent<Text>().text = addForceBullet.bulletCount.ToString();
     }
 }
