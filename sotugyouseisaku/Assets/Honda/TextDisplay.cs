@@ -14,6 +14,10 @@ public class TextDisplay : MonoBehaviour
     public float second = 1;//テキスト表示を何秒待つか
     bool isTimer;//タイマーのスタート
     public Image texthaikei;//テキストの後ろの透過イメージ
+    public Text opskiptext;
+    [SerializeField]float count;
+    bool opend;//オープニングが終わったかどうか
+    public Player player;
 
     void Start()
     {
@@ -22,10 +26,47 @@ public class TextDisplay : MonoBehaviour
         displayTextSpeed = 0;
         textStop = false;
         isTimer = false;
+        opskiptext.enabled = true;
+        count = 0;
+    }
+
+    private void Update()
+    {
+        if(opend)
+        {
+            return;
+        }
+        if (Input.GetKey("joystick button 1"))
+        {//B長押しでスキップ
+            count++;
+        }
+        else
+        {
+            count = 0;
+        }
+
+        if (count > 180)
+        {
+            this.GetComponent<Text>().text = "";//テキストを消す
+            displayText = ""; //表示させる文字列も消す
+            textCharNumber = 0; //文字の番号を最初にする
+            textStop = true; //セリフ表示を止める
+            isTimer = false;
+            timer = 0;
+            texthaikei.enabled = false;
+            opend = true;
+            opskiptext.enabled = false;
+            player.OpEnd();
+        }
     }
 
     void FixedUpdate()
     {
+        if(opend)
+        {//opが終わっていたら何もしない
+            return;
+        }
+
         if (isTimer)
         {
             timer += Time.deltaTime;
@@ -68,9 +109,12 @@ public class TextDisplay : MonoBehaviour
                             isTimer = false;
                             timer = 0;
                             texthaikei.enabled = false;
+                            opend = true;
+                            player.OpEnd();//プレイヤーを操作可能に
                         }
                     }
                 }
+
 
                 this.GetComponent<Text>().text = displayText;//画面上にdisplayTextを表示
             }
