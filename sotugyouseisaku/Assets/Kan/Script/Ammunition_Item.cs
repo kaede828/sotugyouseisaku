@@ -29,6 +29,7 @@ public class Ammunition_Item : MonoBehaviour
         {
             var p = other.gameObject.GetComponentInChildren<AddForceBullet>();
             p.bulletHave += bullets;
+            Destroy(gameObject);
         }
     }
 }
