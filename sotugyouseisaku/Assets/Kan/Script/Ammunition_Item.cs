@@ -22,4 +22,13 @@ public class Ammunition_Item : MonoBehaviour
     {
         return bullets;
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "Player")
+        {
+            var p = other.gameObject.GetComponentInChildren<AddForceBullet>();
+            p.bulletHave += bullets;
+        }
+    }
 }
