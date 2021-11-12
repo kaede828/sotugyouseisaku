@@ -104,7 +104,7 @@ public class Player : MonoBehaviour
 
         if (!opend)
         {//オープニングが終わっていなかったら操作出来ないように
-            return;
+            //return;
         }
         //　キャラクターの向きを変更する
         RotateChara();
@@ -257,6 +257,7 @@ public class Player : MonoBehaviour
     public void OpEnd()
     {
         opend = true;
+        if(director != null)
         director.Stop();
 
     }
