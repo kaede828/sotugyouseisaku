@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using DG.Tweening;
 using UnityEngine.Rendering.PostProcessing;
+using UnityEngine.Playables;
 
 public class Player : MonoBehaviour
 {
@@ -66,6 +67,11 @@ public class Player : MonoBehaviour
     const float max = 24.0f;
     private float spineZ;
 
+    [SerializeField]
+    private PlayableDirector director;//オープニング用
+    bool opend;//オープニングが終わったかどうか
+    bool start;//座標変えるよう
+
     // Start is called before the first frame update
     void Start()
     {
@@ -85,11 +91,21 @@ public class Player : MonoBehaviour
 
 
         hp = Playerhp;
+
+        director = GetComponent<PlayableDirector>();
+        start = false;
+        opend = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+
+
+        if (!opend)
+        {//オープニングが終わっていなかったら操作出来ないように
+            return;
+        }
         //　キャラクターの向きを変更する
         RotateChara();
         //　視点の向きを変える
@@ -140,6 +156,12 @@ public class Player : MonoBehaviour
                 fov => Camera.main.fieldOfView = fov,
                 defaultFov / 1,
                 waitTime);
+        }
+
+        if(opend&&!start)
+        {
+            this.transform.position = new Vector3(2.885363f, 0.5000005f, 1);
+            start = true;
         }
         Death();
     }
@@ -230,6 +252,13 @@ public class Player : MonoBehaviour
         {
             SceneManager.LoadScene("GameOver");
         }
+    }
+
+    public void OpEnd()
+    {
+        opend = true;
+        director.Stop();
+
     }
 }
 
