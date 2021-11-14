@@ -27,7 +27,7 @@ public class EnemyNum : MonoBehaviour
     void Update()
     {
         
-        if (num==5)
+        if (num>=5)
         {
             SceneManager.LoadScene("GameClear");
         }
