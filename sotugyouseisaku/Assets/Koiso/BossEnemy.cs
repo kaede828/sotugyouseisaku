@@ -13,12 +13,15 @@ public class BossEnemy : MonoBehaviour
         ATTACK
     }
     [SerializeField] private EnemyState state = EnemyState.PATROL;
-    [SerializeField] private int hp = 100;
-    [SerializeField] private int speed = 20;
+    [SerializeField] private int hp = 1000;
+    [SerializeField]
+    private int speed = 10
+        ;
     //ダメ―ジエフェクト
     [SerializeField] private GameObject bloodObj;
     //攻撃の判定
-    [SerializeField] private GameObject attack;
+    [SerializeField] private GameObject rightArm;
+    [SerializeField] private GameObject leftArm;
     //巡回地点オブジェクト
     [SerializeField] public Transform[] points;
     //巡回地点のオブジェクト数
@@ -33,20 +36,24 @@ public class BossEnemy : MonoBehaviour
     [SerializeField] int attackDistance = 0;
     RaycastHit hit;
 
+    //形態
+    public int bossForm = 0;
+
     private Animator animator;
 
     bool isChase = true;
-    bool isAttack = true;
+    public bool isAttack = true;
     bool isLook = false;
 
-    [SerializeField] private EnemyNum enemyNum;
+    bool run = false;
 
     //追加しました。弾があったたら
     public bool isBulletHit = false;
     public Vector3 hitPos;
     void Start()
     {
-        attack.SetActive(false);
+        rightArm.SetActive(false);
+        leftArm.SetActive(false);
         agent = GetComponent<NavMeshAgent>();
         GotoNextPoint();
         agent.speed = speed;
@@ -94,6 +101,7 @@ public class BossEnemy : MonoBehaviour
         }
         state = EnemyState.CHASE;
         animator.SetTrigger("chase");
+
         agent.destination = player.position;
     }
 
@@ -117,43 +125,51 @@ public class BossEnemy : MonoBehaviour
         }
         else
         {
-            hp -= 20;
+            hp -= 10;
         }
+
+        switch (hp)
+        {
+            case 300:
+                bossForm = 2;
+                break;
+            case 600:
+                bossForm = 1;
+                break;
+            case 1000:
+                bossForm = 0;
+                break;
+        }
+
         StartCoroutine("Colortimer", 0.1f);
     }
 
     //攻撃クールダウン
-    IEnumerator Attacktimer(int time)
+    IEnumerator Attacktimer(float time)
     {
         state = EnemyState.ATTACK;
-        attack.SetActive(true);
+        isAttack = false;
+        rightArm.SetActive(true);
+        leftArm.SetActive(true);
         //Material mat = this.GetComponent<Renderer>().material;
         while (time >= 0)
         {
-            agent.velocity = Vector3.zero;
-            agent.isStopped = true;
+            agent.speed = 5;
+            //agent.velocity = Vector3.zero;
+            //agent.isStopped = true;
+
             //mat.color = new Color(0.0f, 0.0f, 1.0f, 1.0f);
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(1);
             Debug.Log(time);
             --time;
-            attack.SetActive(false);
-        }
-        //mat.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
-        agent.isStopped = false;
-        isAttack = true;
-    }
 
-    //状態を表す点滅
-    IEnumerator Colortimer(int time)
-    {
-        //Material mat = this.GetComponent<Renderer>().material;
-        while (time >= 0)
-        {
-            //mat.color = new Color(1.0f, 0.0f, 0.0f, 1.0f);
-            yield return new WaitForSeconds(0.1f);
-            --time;
         }
+        agent.speed = 10;
         //mat.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+        rightArm.SetActive(false);
+        leftArm.SetActive(false);
+        //agent.isStopped = false;
+        isAttack = true;
     }
 
     IEnumerator Deathtimer(int time)
@@ -161,12 +177,12 @@ public class BossEnemy : MonoBehaviour
         while (time >= 0)
         {
             //mat.color = new Color(1.0f, 0.0f, 0.0f, 1.0f);
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(0.5f);
             --time;
         }
         Destroy(this.gameObject);
         //mat.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
-        Call();
+        //Call();
     }
 
     // ゲーム実行中の繰り返し処理
@@ -191,8 +207,6 @@ public class BossEnemy : MonoBehaviour
         //        break;
         //}
 
-
-
         if (Physics.Raycast(ray, out hit, chaseDistance))
         {
             if (hit.collider.tag == "Player")
@@ -201,16 +215,37 @@ public class BossEnemy : MonoBehaviour
                 {
                     if (isAttack)
                     {
-                        StartCoroutine("Attacktimer", 1);
-                        animator.SetTrigger("attack");
-                        isAttack = false;
+                        switch (bossForm)
+                        {
+                            case 0:
+
+                                StartCoroutine("Attacktimer", 1f);
+                                animator.SetTrigger("attack");
+                                break;
+
+                            case 1:
+                                StartCoroutine("Attacktimer", 1.5f);
+                                animator.SetTrigger("attack2");
+                                break;
+
+                            case 2:
+                                StartCoroutine("Attacktimer", 2.5f);
+                                animator.SetTrigger("attack3");
+                                break;
+                        }
+
+
                     }
                 }
                 PlayerChase();
             }
+
             else Patrol();
         }
         else Patrol();
+
+        //agent.velocity = (agent.steeringTarget - transform.position).normalized * agent.speed;
+        //transform.forward = agent.steeringTarget - transform.position;
 
         //追加、弾が当たったら
         BulletHit(isBulletHit);
@@ -219,7 +254,7 @@ public class BossEnemy : MonoBehaviour
 
     private void Call()
     {
-        enemyNum.DeathNum();
+        //enemyNum.DeathNum();
     }
 
 
