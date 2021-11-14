@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using DG.Tweening;
 using UnityEngine.Rendering.PostProcessing;
+using UnityEngine.Playables;
 
 public class Player : MonoBehaviour
 {
@@ -11,11 +12,12 @@ public class Player : MonoBehaviour
     private int Playerhp;
     public int hp;
     [SerializeField]
-    private float speed = 5.0f; //速度
+    private float speed = 10.0f; //速度
     [SerializeField]
     private float jump = 2.0f; //ジャンプ
     public float g = 9.8f; //重力
-    private float moveS = 2.0f;
+    //[SerializeField]
+    //private float moveS = 2.0f;
     private float x, z;
     private float L2;
 
@@ -66,6 +68,13 @@ public class Player : MonoBehaviour
     const float max = 24.0f;
     private float spineZ;
 
+
+    private PlayableDirector director;//オープニング用
+    bool opend;//オープニングが終わったかどうか
+    bool start;//座標変えるよう
+
+    Rigidbody rb;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -81,28 +90,40 @@ public class Player : MonoBehaviour
         charaRotFlag = false;
 
         //post = GetComponent<postEffect>();
-
-
+        rb = GetComponent<Rigidbody>();
+        //speed = moveS;
 
         hp = Playerhp;
+
+        director = GetComponent<PlayableDirector>();
+        start = false;
+        opend = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+
+
+        if (!opend)
+        {//オープニングが終わっていなかったら操作出来ないように
+            //return;
+        }
         //　キャラクターの向きを変更する
         RotateChara();
         //　視点の向きを変える
         RotateCamera();
 
-        x = Input.GetAxis("Horizontal") * moveS;
-        z = Input.GetAxis("Vertical") * moveS;
+        x = Input.GetAxis("Horizontal");
+        z = Input.GetAxis("Vertical");
+
 
         if (charaCon.isGrounded)
         {
-            pos = new Vector3(x, 0, z);
+            pos = new Vector3(x, 0, z).normalized;
             pos = transform.TransformDirection(pos);
             pos *= speed;
+           
 
             animator.SetFloat("Forward", Input.GetAxis("Vertical"));
             animator.SetFloat("Lateral", Input.GetAxis("Horizontal"));
@@ -124,7 +145,8 @@ public class Player : MonoBehaviour
         {
             //ズーム中
             cameraSpeed = 50.0f;
-            moveS = 1.5f;
+            //moveS = 1.5f;
+            speed = 7.5f;
             System.Console.WriteLine("L2");
             DOTween.To(() => Camera.main.fieldOfView,
                 fov => Camera.main.fieldOfView = fov,
@@ -135,11 +157,18 @@ public class Player : MonoBehaviour
         {
             //ズームしてない時
             cameraSpeed = 100.0f;
-            moveS = 2.0f;
+            //moveS = 2.0f;
+            speed = 10.0f;
             DOTween.To(() => Camera.main.fieldOfView,
                 fov => Camera.main.fieldOfView = fov,
                 defaultFov / 1,
                 waitTime);
+        }
+
+        if(opend&&!start)
+        {
+            this.transform.position = new Vector3(2.885363f, 0.5000005f, 1);
+            start = true;
         }
         Death();
     }
@@ -230,6 +259,14 @@ public class Player : MonoBehaviour
         {
             SceneManager.LoadScene("GameOver");
         }
+    }
+
+    public void OpEnd()
+    {
+        opend = true;
+        if(director != null)
+        director.Stop();
+
     }
 }
 

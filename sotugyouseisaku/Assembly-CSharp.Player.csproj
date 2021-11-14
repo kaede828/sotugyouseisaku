@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,12 +53,18 @@
     <UnityVersion>2020.3.11f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\koike\Scripts\title.cs" />
     <Compile Include="Assets\Kan\Script\ReloadTime.cs" />
     <Compile Include="Assets\Koiso\DestroyObj.cs" />
     <Compile Include="Assets\Kan\Script\AddForceBullet.cs" />
     <Compile Include="Assets\Honda\OpText.cs" />
+    <Compile Include="Assets\Koiso\BossEnemy.cs" />
+    <Compile Include="Assets\Honda\NobelScript.cs" />
     <Compile Include="Assets\naichilab\FadeManager\Sample\FadeSample.cs" />
+    <Compile Include="Assets\TotalBullet.cs" />
     <Compile Include="Assets\Iwatani\script\hatudenki.cs" />
     <Compile Include="Assets\koike\Scripts\postEffect.cs" />
     <Compile Include="Assets\Kan\Script\RayHitBullet.cs" />
@@ -68,7 +74,7 @@
     <Compile Include="Assets\Kan\Script\Bullets.cs" />
     <Compile Include="Assets\Koiso\EnemyNum.cs" />
     <Compile Include="Assets\Kan\Script\PlayerBulletsState.cs" />
-    <Compile Include="Assets\Laterns and candles\scripts\CameraFacing.cs" />
+    <Compile Include="Assets\mapsozai\Laterns and candles\scripts\CameraFacing.cs" />
     <Compile Include="Assets\Koiso\Test.cs" />
     <Compile Include="Assets\Koiso\SpiderEnemyMove.cs" />
     <Compile Include="Assets\koike\Scripts\Flash.cs" />
@@ -76,7 +82,8 @@
     <Compile Include="Assets\Koiso\GamClear.cs" />
     <Compile Include="Assets\Iwatani\script\hatudenkiManager.cs" />
     <Compile Include="Assets\Iwatani\script\minimapPos.cs" />
-    <Compile Include="Assets\Laterns and candles\scripts\ExtendedFlycam.cs" />
+    <Compile Include="Assets\mapsozai\Laterns and candles\scripts\ExtendedFlycam.cs" />
+    <Compile Include="Assets\Honda\TextDisplay.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Kan\Script\Gun_UI.cs" />
     <Compile Include="Assets\naichilab\FadeManager\Scripts\FadeManager.cs" />
@@ -90,11 +97,40 @@
     <Compile Include="Assets\koike\Scripts\GameOver.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\mapsozai\Room\Settings\Note.txt" />
+    <None Include="Assets\mapsozai\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\Materials\1. Main Material Folder.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\mapsozai\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\Models\1. Models.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\mapsozai\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\Textures\1. Main Texture Folder.txt" />
     <None Include="Assets\Procedural_Materials\Read me.txt" />
-    <None Include="Assets\Laterns and candles\Shaders\GlassStainedBumpDistort.shader" />
+    <None Include="Assets\mapsozai\Laterns and candles\Shaders\GlassStainedBumpDistort.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\FantasyEnvironments\Environments\README.txt" />
+    <None Include="Assets\mapsozai\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\1. Read Me!.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\mapsozai\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\Prefabs\1. Main Prefab Folder.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\mapsozai\Mega Fantasy Props Pack\README.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Honda\font.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\mapsozai\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\FreePack vs Full Pack\1. Free vs Full.txt" />
     <None Include="Assets\mapsozai\_Television_set\SpecGrayscaleSF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

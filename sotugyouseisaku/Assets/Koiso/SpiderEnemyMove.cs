@@ -106,6 +106,11 @@ public class SpiderEnemyMove : MonoBehaviour
             //Œü‚«‚ğƒvƒŒƒCƒ„[‚É•Ï‚¦‚é
             transform.rotation = Quaternion.LookRotation(player.position - transform.position);
         }
+        else if (animator.GetCurrentAnimatorClipInfo(0)[0].clip.name == "pounce")
+        {
+            Debug.Log("”ò‚Ñ‚Â‚«’†");
+            transform.position += transform.forward * 10 * Time.deltaTime;
+        }
 
         state = EnemyState.CHASE;
         if(downSpider.activeSelf)
@@ -265,11 +270,7 @@ public class SpiderEnemyMove : MonoBehaviour
 
         BulletHit(isBulletHit);
 
-        if (animator.GetCurrentAnimatorClipInfo(0)[0].clip.name=="pounce")
-        {
-            Debug.Log("”ò‚Ñ‚Â‚«’†");
-            transform.position += transform.forward * 10 * Time.deltaTime;
-        }
+
     }
 
     //private void Call()
