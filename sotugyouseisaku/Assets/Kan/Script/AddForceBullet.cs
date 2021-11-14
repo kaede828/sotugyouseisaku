@@ -183,6 +183,14 @@ public class AddForceBullet : MonoBehaviour
                 sem.hitPos = hit.point;
                 sem.isBulletHit = true;
             }
+
+            if (hit.collider.gameObject.tag == "Boss")
+            {
+                Debug.Log("a");
+                var sem = hit.collider.gameObject.GetComponent<BossEnemy>();
+                sem.hitPos = hit.point;
+                sem.isBulletHit = true;
+            }
         }
 
     }
