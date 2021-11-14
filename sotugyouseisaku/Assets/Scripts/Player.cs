@@ -68,7 +68,7 @@ public class Player : MonoBehaviour
     const float max = 24.0f;
     private float spineZ;
 
-    [SerializeField]
+
     private PlayableDirector director;//オープニング用
     bool opend;//オープニングが終わったかどうか
     bool start;//座標変えるよう
