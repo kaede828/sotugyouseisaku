@@ -8,11 +8,16 @@ public class title : MonoBehaviour
 {
     private float titleTime;
     bool timeF;
+    public AudioClip se;
+    AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
         titleTime = 0;
         timeF = false;
+        audioSource = GetComponent<AudioSource>();
+        //audioSource.pitch = 1.2f;
     }
 
     // Update is called once per frame
@@ -21,18 +26,16 @@ public class title : MonoBehaviour
         if (Input.GetKeyDown("joystick button 0"))
         {
             timeF = true;
-            
+            audioSource.PlayOneShot(se);
         }
     
         if (timeF == true)
         {
             titleTime += Time.deltaTime;
             Debug.Log("ŽžŠÔ" + titleTime);
-            if (titleTime >= 2.0f)
+            if (titleTime >= 2.5f)
             {
-                
-                //SceneManager.LoadScene("Game");
-                FadeManager.Instance.LoadScene("Game", 1.0f);
+                FadeManager.Instance.LoadScene("Game", 2.0f);
                 titleTime = 0.0f;
                 timeF = false;
             }

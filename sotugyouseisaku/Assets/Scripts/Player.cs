@@ -12,11 +12,12 @@ public class Player : MonoBehaviour
     private int Playerhp;
     public int hp;
     [SerializeField]
-    private float speed = 5.0f; //速度
+    private float speed = 10.0f; //速度
     [SerializeField]
     private float jump = 2.0f; //ジャンプ
     public float g = 9.8f; //重力
-    private float moveS = 2.0f;
+    //[SerializeField]
+    //private float moveS = 2.0f;
     private float x, z;
     private float L2;
 
@@ -67,10 +68,12 @@ public class Player : MonoBehaviour
     const float max = 24.0f;
     private float spineZ;
 
-    [SerializeField]
+
     private PlayableDirector director;//オープニング用
     bool opend;//オープニングが終わったかどうか
     bool start;//座標変えるよう
+
+    Rigidbody rb;
 
     // Start is called before the first frame update
     void Start()
@@ -87,8 +90,8 @@ public class Player : MonoBehaviour
         charaRotFlag = false;
 
         //post = GetComponent<postEffect>();
-
-
+        rb = GetComponent<Rigidbody>();
+        //speed = moveS;
 
         hp = Playerhp;
 
@@ -111,14 +114,16 @@ public class Player : MonoBehaviour
         //　視点の向きを変える
         RotateCamera();
 
-        x = Input.GetAxis("Horizontal") * moveS;
-        z = Input.GetAxis("Vertical") * moveS;
+        x = Input.GetAxis("Horizontal");
+        z = Input.GetAxis("Vertical");
+
 
         if (charaCon.isGrounded)
         {
-            pos = new Vector3(x, 0, z);
+            pos = new Vector3(x, 0, z).normalized;
             pos = transform.TransformDirection(pos);
             pos *= speed;
+           
 
             animator.SetFloat("Forward", Input.GetAxis("Vertical"));
             animator.SetFloat("Lateral", Input.GetAxis("Horizontal"));
@@ -140,7 +145,8 @@ public class Player : MonoBehaviour
         {
             //ズーム中
             cameraSpeed = 50.0f;
-            moveS = 1.5f;
+            //moveS = 1.5f;
+            speed = 7.5f;
             System.Console.WriteLine("L2");
             DOTween.To(() => Camera.main.fieldOfView,
                 fov => Camera.main.fieldOfView = fov,
@@ -151,7 +157,8 @@ public class Player : MonoBehaviour
         {
             //ズームしてない時
             cameraSpeed = 100.0f;
-            moveS = 2.0f;
+            //moveS = 2.0f;
+            speed = 10.0f;
             DOTween.To(() => Camera.main.fieldOfView,
                 fov => Camera.main.fieldOfView = fov,
                 defaultFov / 1,

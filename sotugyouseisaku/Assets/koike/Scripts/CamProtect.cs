@@ -33,7 +33,7 @@ public class CamProtect : MonoBehaviour
     {
         if (Physics.CheckSphere(gameObject.transform.position, 0.3f, Mask))
         {
-            transform.position = Vector3.Lerp(transform.position, gameObject.transform.position, 0.6f);
+            transform.position = Vector3.Lerp(transform.position, gameObject.transform.position, 0.5f);
         }
         else if (Physics.SphereCast(gameObject.transform.position, 0.3f, (transform.position - gameObject.transform.position).normalized, out Hit, Distance, Mask))
         {
