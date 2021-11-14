@@ -19,7 +19,7 @@ public class minimapPos : MonoBehaviour
     void Start()
     {
         oldPos = player.GetComponent<Transform>().position;
-        this.gameObject.GetComponent<RectTransform>().anchoredPosition3D = new Vector3(oldPos.x * 8, oldPos.z * 3, 0);
+        this.gameObject.GetComponent<RectTransform>().anchoredPosition3D = new Vector3(oldPos.y * 3, oldPos.z * 6, 0);
         GameObject[] gameObjects = GameObject.FindGameObjectsWithTag("minimap");
         for (int i = 0; i < gameObjects.Length; i++)
         {
@@ -36,7 +36,7 @@ public class minimapPos : MonoBehaviour
         newPos = player.GetComponent<Transform>().position;
         Vector3 velocity;
         velocity = new Vector3(newPos.x, newPos.z, 0) - new Vector3(oldPos.x, oldPos.z, 0);
-        this.gameObject.GetComponent<RectTransform>().anchoredPosition3D += new Vector3(velocity.y * 2.3f, velocity.x * -2.2f, 0);
+        this.gameObject.GetComponent<RectTransform>().anchoredPosition3D += new Vector3(velocity.x * 2.3f, velocity.y * 2.2f, 0);
         oldPos = player.GetComponent<Transform>().position;
 
         if(Input.GetButtonUp("joystick Y"))
