@@ -21,7 +21,7 @@ public class ButtonEvent : MonoBehaviour
     void OnEnable()
     {
         //　装備アイテム選択中にステータス画面を抜けた時にボタンが無効化したままの場合もあるので立ち上げ時に有効化する
-        GetComponent<Button>().interactable = true;
+        //GetComponent<Button>().interactable = true;
     }
 
     public void OnGameExit()
