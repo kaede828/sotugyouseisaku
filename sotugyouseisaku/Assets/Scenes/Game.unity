@@ -97,8 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 055b494a5c05fc341b3ce1d795223e6e,
-    type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 3d5c866e9730a18449445f371495ec86,
     type: 2}
 --- !u!196 &4
@@ -4201,7 +4200,7 @@ PrefabInstance:
     - target: {fileID: 222469317512360198, guid: effdf31baed532f4cabc83e75bfc0495,
         type: 3}
       propertyPath: m_RootOrder
-      value: 43
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 222469317512360198, guid: effdf31baed532f4cabc83e75bfc0495,
         type: 3}
@@ -5571,6 +5570,11 @@ PrefabInstance:
       objectReference: {fileID: 113294050}
     - target: {fileID: 8949231995800413837, guid: a45b331c877aef346a5f0d9d1762d138,
         type: 3}
+      propertyPath: points.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8949231995800413837, guid: a45b331c877aef346a5f0d9d1762d138,
+        type: 3}
       propertyPath: points.Array.data[0]
       value: 
       objectReference: {fileID: 798402475}
@@ -5831,6 +5835,11 @@ PrefabInstance:
       propertyPath: Bbutton
       value: 
       objectReference: {fileID: 1826780676}
+    - target: {fileID: 8074966563144657566, guid: 5c1b8397b1b4a174e9a909566d4b8dbb,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8074966563144657566, guid: 5c1b8397b1b4a174e9a909566d4b8dbb,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
