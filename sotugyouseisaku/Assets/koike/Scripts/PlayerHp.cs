@@ -15,6 +15,6 @@ public class PlayerHp : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        gameObject.GetComponent<Text>().text ="HP: " + player.hp + "/100";
+        gameObject.GetComponent<Text>().text = player.hp + "/100";
     }
 }
