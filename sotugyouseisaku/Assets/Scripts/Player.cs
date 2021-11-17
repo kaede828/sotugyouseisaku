@@ -170,6 +170,11 @@ public class Player : MonoBehaviour
             this.transform.position = new Vector3(2.885363f, 0.5000005f, 1);
             start = true;
         }
+
+        if(Input.GetKeyDown(KeyCode.A))
+        {
+            hp = Playerhp;
+        }
         Death();
     }
     
