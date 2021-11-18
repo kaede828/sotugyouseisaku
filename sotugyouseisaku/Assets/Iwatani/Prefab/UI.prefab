@@ -390,6 +390,7 @@ GameObject:
   - component: {fileID: 527576458}
   - component: {fileID: 527576460}
   - component: {fileID: 527576459}
+  - component: {fileID: 1045406815}
   m_Layer: 5
   m_Name: HPpint
   m_TagString: Untagged
@@ -458,6 +459,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 100
+--- !u!114 &1045406815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527576457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4be87171f5fa574d99987fb5d47749d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &680019584
 GameObject:
   m_ObjectHideFlags: 0
@@ -648,7 +662,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 30
 --- !u!114 &2144323259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -661,7 +675,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c51844170afff3469a8d9efc526e243, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addForceBullet: {fileID: 0}
 --- !u!1 &780355205
 GameObject:
   m_ObjectHideFlags: 0
@@ -905,9 +918,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66693f1debefb0c44b46856f5d04cf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addForceBullet: {fileID: 0}
-  slider: {fileID: 1713284279}
-  texture: {fileID: 2006471971}
 --- !u!1 &1179616794
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,7 +1252,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1f80b0b7aa2d7945a7d032ccb35f8d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addForceBullet: {fileID: 0}
 --- !u!1 &1597190138
 GameObject:
   m_ObjectHideFlags: 0
@@ -1697,6 +1706,7 @@ GameObject:
   - component: {fileID: 7261974861323831353}
   - component: {fileID: 7261974861323831350}
   - component: {fileID: 7261974861323831351}
+  - component: {fileID: 1045406816}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -1792,6 +1802,19 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &1045406816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7261974861323831348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34611de0de78778409fa6b064012b1dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseUI: {fileID: 0}
 --- !u!1 &7261974861411881186
 GameObject:
   m_ObjectHideFlags: 0
