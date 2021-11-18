@@ -16,10 +16,14 @@ public class minimapPos : MonoBehaviour
     List<Image> imageList = new List<Image>();
     bool mapflag=false;
 
+    GameObject Optext;
+
+    TextDisplay Textdisplay;
+
     void Start()
     {
         oldPos = player.GetComponent<Transform>().position;
-        this.gameObject.GetComponent<RectTransform>().anchoredPosition3D = new Vector3(oldPos.y * 3, oldPos.z * 6, 0);
+        this.gameObject.GetComponent<RectTransform>().anchoredPosition3D = new Vector3(180,-275, 0);
         GameObject[] gameObjects = GameObject.FindGameObjectsWithTag("minimap");
         for (int i = 0; i < gameObjects.Length; i++)
         {
@@ -28,18 +32,25 @@ public class minimapPos : MonoBehaviour
         }
         textObject = GameObject.FindGameObjectWithTag("1Ftext");
         text = textObject.GetComponent<Text>();
+
+        Optext= GameObject.FindGameObjectWithTag("OPtext");
+
+        Textdisplay= Optext.GetComponent<TextDisplay>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        newPos = player.GetComponent<Transform>().position;
-        Vector3 velocity;
-        velocity = new Vector3(newPos.x, newPos.z, 0) - new Vector3(oldPos.x, oldPos.z, 0);
-        this.gameObject.GetComponent<RectTransform>().anchoredPosition3D += new Vector3(velocity.x * 2.3f, velocity.y * 2.2f, 0);
-        oldPos = player.GetComponent<Transform>().position;
+        if(Textdisplay.opend)
+        {
+            newPos = player.GetComponent<Transform>().position;
+            Vector3 velocity;
+            velocity = new Vector3(newPos.x, newPos.z, 0) - new Vector3(oldPos.x, oldPos.z, 0);
+            this.gameObject.GetComponent<RectTransform>().anchoredPosition3D += new Vector3(velocity.x * 2.3f, velocity.y * 2.3f, 0);
+            oldPos = player.GetComponent<Transform>().position;
+        }
 
-        if(Input.GetButtonUp("joystick Y"))
+        if(Input.GetButtonUp("joystick Y")&& Textdisplay.opend)
         {
             if(mapflag)
             {

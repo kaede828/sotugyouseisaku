@@ -456,6 +456,14 @@ PrefabInstance:
       propertyPath: addForceBullet
       value: 
       objectReference: {fileID: 1611185449}
+    - target: {fileID: 1220540464, guid: d64a3a45eafb1f94e99f822766e8be74, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 175.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1220540464, guid: d64a3a45eafb1f94e99f822766e8be74, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -175
+      objectReference: {fileID: 0}
     - target: {fileID: 1539318183, guid: d64a3a45eafb1f94e99f822766e8be74, type: 3}
       propertyPath: player
       value: 
@@ -3971,6 +3979,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6154923602493480397, guid: 0bb81c149166a414e9adc35fa10278de,
+        type: 3}
+      propertyPath: m_TagString
+      value: OPtext
+      objectReference: {fileID: 0}
     - target: {fileID: 6154923602493480403, guid: 0bb81c149166a414e9adc35fa10278de,
         type: 3}
       propertyPath: player
