@@ -103,7 +103,8 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        hp = Mathf.Clamp(hp, 0, 100);
+        post.vigparam = Mathf.Clamp(post.vigparam, 0, 0.61f);
 
         if (!opend)
         {//オープニングが終わっていなかったら操作出来ないように
@@ -169,6 +170,11 @@ public class Player : MonoBehaviour
         {
             this.transform.position = new Vector3(2.885363f, 0.5000005f, 1);
             start = true;
+        }
+
+        if(Input.GetKeyDown(KeyCode.A))
+        {
+            hp = Playerhp;
         }
         Death();
     }
