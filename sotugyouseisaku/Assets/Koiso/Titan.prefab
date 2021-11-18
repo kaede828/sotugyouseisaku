@@ -503,7 +503,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   hp: 1000
-  speed: 20
+  speed: 15
   bloodObj: {fileID: 1577872286368343206, guid: a8b38a1e74ef2de4e9a882cf517a4575,
     type: 3}
   rightArm: {fileID: 8949231995773185063}
@@ -516,6 +516,7 @@ MonoBehaviour:
   attackDistance: 5
   bossForm: 0
   isAttack: 1
+  isDeath: 0
   isBulletHit: 0
   hitPos: {x: 0, y: 0, z: 0}
 --- !u!65 &3884060946097289647
