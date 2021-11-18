@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class ButtonEvent : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject pauseSoundUI;
     // Start is called before the first frame update
     void Start()
     {
@@ -55,5 +57,12 @@ public class ButtonEvent : MonoBehaviour
         {
             return;
         }
+    }
+
+    //サウンド画面を出す
+    public void PauseSound()
+    {
+        gameObject.SetActive(!gameObject.activeSelf);
+        pauseSoundUI.SetActive(!pauseSoundUI.activeSelf);
     }
 }
