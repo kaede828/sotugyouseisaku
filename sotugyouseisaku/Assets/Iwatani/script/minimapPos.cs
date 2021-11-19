@@ -23,7 +23,7 @@ public class minimapPos : MonoBehaviour
     void Start()
     {
         oldPos = player.GetComponent<Transform>().position;
-        this.gameObject.GetComponent<RectTransform>().anchoredPosition3D = new Vector3(180,-275, 0);
+        this.gameObject.GetComponent<RectTransform>().anchoredPosition3D = new Vector3(177.5f,-275, 0);
         GameObject[] gameObjects = GameObject.FindGameObjectsWithTag("minimap");
         for (int i = 0; i < gameObjects.Length; i++)
         {

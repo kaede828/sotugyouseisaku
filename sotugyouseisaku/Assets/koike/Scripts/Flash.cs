@@ -6,10 +6,12 @@ using UnityEngine.UI;
 public class Flash : MonoBehaviour
 {
     private Image img;
+    bool titleFlash;
 
     // Start is called before the first frame update
     void Start()
     {
+        titleFlash = false;
         img = GetComponent<Image>();
         img.color = Color.clear;
     }
@@ -19,7 +21,11 @@ public class Flash : MonoBehaviour
     {
         if (Input.GetKeyDown("joystick button 0"))
         {
-            img.color = new Color(1, 1, 1, 1);
+            if (titleFlash == false)
+            {
+                img.color = new Color(1, 1, 1, 1);
+                titleFlash = true;
+            }
         }
         else
         {

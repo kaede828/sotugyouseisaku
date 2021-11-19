@@ -109,9 +109,9 @@ public class Player : MonoBehaviour
         hp = Mathf.Clamp(hp, 0, 100);
         post.vigparam = Mathf.Clamp(post.vigparam, 0, 0.61f);
 
-        if (!opend)
+        if (!opend&&director !=null)
         {//オープニングが終わっていなかったら操作出来ないように
-            //return;
+            return;
         }
         //　キャラクターの向きを変更する
         RotateChara();
