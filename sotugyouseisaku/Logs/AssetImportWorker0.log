@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
 OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'ja' Physical Memory: 16325 MB
@@ -667,3 +668,142 @@ Start importing Assets/koike/Prefab/FirstAidKit_Red.prefab using Guid(885babc756
   Import took 0.121051 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+=======
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1348; Version 2009; 64bit' Language: 'ja' Physical Memory: 8080 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/sotu/sotugyouseisaku
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61717
+Successfully changed project path to: C:/sotu/sotugyouseisaku
+C:/sotu/sotugyouseisaku
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 67.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/sotu/sotugyouseisaku/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   
+    VRAM:     1977 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002488 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 68.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.216 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006327 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E48C3AE020 doesn't match image C:\sotu\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E48D12FE20 doesn't match image C:\sotu\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.339 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2221 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.9 MB.
+System memory in use after: 123.1 MB.
+
+Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 2675.
+Total: 3.446000 ms (FindLiveObjects: 0.329100 ms CreateObjectMapping: 0.133200 ms MarkObjects: 2.646900 ms  DeleteObjects: 0.334900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Kan/Model/AmmoBox.fbx
+  artifactKey: Guid(656e956eba9cf6a43aabda589cd6836b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kan/Model/AmmoBox.fbx using Guid(656e956eba9cf6a43aabda589cd6836b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b178bf8fc908562fe54eaaec5b8ff9') in 0.258685 seconds
+  Import took 0.264768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Kan/Model
+  artifactKey: Guid(8c905c3e2b8cd724fa90e3449e2ff397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kan/Model using Guid(8c905c3e2b8cd724fa90e3449e2ff397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f020c45bce91633295bd396dac3daa0d') in 0.003561 seconds
+  Import took 0.008453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.900567 seconds.
+  path: Assets/Kan/Model/tex
+  artifactKey: Guid(44fd89b59faf82e4285a423b989d2499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kan/Model/tex using Guid(44fd89b59faf82e4285a423b989d2499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ab42d481a8085acc3fb3a572a0027f') in 0.004919 seconds
+  Import took 0.010662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045528 seconds.
+  path: Assets/Kan/Model/tex/Tex_0009_1.jpg
+  artifactKey: Guid(a8de3ab2b46514147918db59366c21dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kan/Model/tex/Tex_0009_1.jpg using Guid(a8de3ab2b46514147918db59366c21dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662e6dd8e70e8f6ee4339ac23ec73554') in 0.033098 seconds
+  Import took 0.038475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Kan/Model/tex/Tex_0010_1.jpg
+  artifactKey: Guid(34da23a266d962e47a0a2091607b8d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kan/Model/tex/Tex_0010_1.jpg using Guid(34da23a266d962e47a0a2091607b8d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e584e94ed4fc028448db225ffe41fb4') in 0.013733 seconds
+  Import took 0.019613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.424116 seconds.
+  path: Assets/Kan/Model/AmmoBox.fbx
+  artifactKey: Guid(656e956eba9cf6a43aabda589cd6836b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kan/Model/AmmoBox.fbx using Guid(656e956eba9cf6a43aabda589cd6836b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd422f06dcbf6d4d89e9a6f2ff28ea1') in 0.103627 seconds
+  Import took 0.116932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Kan/Model/Tex_0010_1.jpg
+  artifactKey: Guid(47160aad71786204f80179fc6321e7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kan/Model/Tex_0010_1.jpg using Guid(47160aad71786204f80179fc6321e7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab33a9dda6e8bf37d4e628e35277e20') in 0.010448 seconds
+  Import took 0.017181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Kan/Model/Tex_0009_1.jpg
+  artifactKey: Guid(3a240ef718a366849a174bc8885a5a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kan/Model/Tex_0009_1.jpg using Guid(3a240ef718a366849a174bc8885a5a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ac0687cc0ccefd5ad7f24a4aa5d6ec') in 0.014333 seconds
+  Import took 0.021204 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+>>>>>>> master

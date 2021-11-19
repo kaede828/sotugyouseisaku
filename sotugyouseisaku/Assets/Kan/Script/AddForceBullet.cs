@@ -124,7 +124,7 @@ public class AddForceBullet : MonoBehaviour
             return;
         }
 
-        //　マウスの左クリックで撃つ
+        //　マウスの左クリックで撃つ  Input.GetMouseButton(0);
         if (Input.GetAxis("joystick R2") > 0)
         {
 
@@ -186,7 +186,7 @@ public class AddForceBullet : MonoBehaviour
 
             if (hit.collider.gameObject.tag == "Boss")
             {
-                Debug.Log("a");
+                //Debug.Log("a");
                 var sem = hit.collider.gameObject.GetComponent<BossEnemy>();
                 sem.hitPos = hit.point;
                 sem.isBulletHit = true;

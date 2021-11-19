@@ -16,7 +16,7 @@ public class TextDisplay : MonoBehaviour
     public Image texthaikei;//テキストの後ろの透過イメージ
     public Text opskiptext;
     float count;
-    bool opend;//オープニングが終わったかどうか
+    public bool opend;//オープニングが終わったかどうか
     public Player player;
 
     void Start()

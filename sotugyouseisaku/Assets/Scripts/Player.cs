@@ -75,6 +75,9 @@ public class Player : MonoBehaviour
 
     Rigidbody rb;
 
+    //追加
+    public bool Damage = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -178,18 +181,35 @@ public class Player : MonoBehaviour
         }
         Death();
     }
-    
-    
+
+    IEnumerator DamageTimer(int time)
+    {
+        Debug.Log("コルーチン");
+        //Material mat = this.GetComponent<Renderer>().material;
+        while (time >= 0)
+        {
+            Damage = false;
+            //mat.color = new Color(1.0f, 0.0f, 0.0f, 1.0f);
+            yield return new WaitForSeconds(1);
+            --time;
+        }
+        Damage = true;
+        //mat.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+    }
+
+
 
     private void OnTriggerEnter(Collider collider)
     {
-        if (collider.gameObject.tag == "Attack")
+        if (Damage && collider.gameObject.tag == "Attack")
         {
+            StartCoroutine("DamageTimer", 1);
             hp = hp - 10;
             //ポストエフェクトVignetteの値加算
             post.vigparam += 0.061f;
             Debug.Log("Player@vigparam"+post.vigparam);
             //Debug.Log("プレイヤーHP : " + hp);
+           
         }
     }
 
