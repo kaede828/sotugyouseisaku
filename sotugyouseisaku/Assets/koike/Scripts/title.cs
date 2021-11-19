@@ -10,12 +10,14 @@ public class title : MonoBehaviour
     bool timeF;
     public AudioClip se;
     AudioSource audioSource;
+    bool titleSe;
 
     // Start is called before the first frame update
     void Start()
     {
         titleTime = 0;
         timeF = false;
+        titleSe = false;
         audioSource = GetComponent<AudioSource>();
         //audioSource.pitch = 1.2f;
     }
@@ -26,7 +28,11 @@ public class title : MonoBehaviour
         if (Input.GetKeyDown("joystick button 0"))
         {
             timeF = true;
-            audioSource.PlayOneShot(se);
+            if(titleSe == false)
+            {
+                audioSource.PlayOneShot(se);
+                titleSe = true;
+            }        
         }
     
         if (timeF == true)

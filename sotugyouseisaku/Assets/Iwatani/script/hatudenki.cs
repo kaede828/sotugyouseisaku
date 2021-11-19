@@ -10,16 +10,26 @@ public class hatudenki : MonoBehaviour
     bool hit=false;
     Slider slider=null;
     float value;
+    [SerializeField]
+    int hatudenkicount;//現在の発電機を起動した数
+    int hatudenkigoal;//いくつ開ければ扉が開くか
 
     // Start is called before the first frame update
     void Start()
     {
         //slider = sliderObject.GetComponent<Slider>();
+        hatudenkicount = 0;
+        hatudenkigoal = 5;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(hatudenkicount>=hatudenkigoal)
+        {//発電機を規定個稼働させたらボスの扉を開く
+            Debug.Log("扉があいた");
+        }
+
         if (hit)
         {          
             Bbutton.color = new Color(1, 1, 1, 1);
@@ -29,8 +39,8 @@ public class hatudenki : MonoBehaviour
         if(value>=100)
         {
             value = 0;
+            hatudenkicount += 1;
         }
-       
     }
 
     private void OnTriggerStay(Collider other)
