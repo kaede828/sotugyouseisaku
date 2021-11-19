@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class BossEnemy : MonoBehaviour
 {
@@ -51,6 +52,8 @@ public class BossEnemy : MonoBehaviour
     //追加しました。弾があったたら
     public bool isBulletHit = false;
     public Vector3 hitPos;
+
+    float count;
     void Start()
     {
         rightArm.SetActive(false);
@@ -61,6 +64,7 @@ public class BossEnemy : MonoBehaviour
         animator = GetComponent<Animator>();
         isBulletHit = false;
         hitPos = Vector3.zero;
+        count = 0;
     }
 
     void GotoNextPoint()
@@ -123,7 +127,7 @@ public class BossEnemy : MonoBehaviour
             agent.isStopped = true;
             animator.SetTrigger("death");
             StartCoroutine("Deathtimer", 3);
-
+            SceneManager.LoadScene("GameClear");
         }
         else
         {
@@ -143,7 +147,7 @@ public class BossEnemy : MonoBehaviour
                 break;
         }
 
-        StartCoroutine("Colortimer", 0.1f);
+        //StartCoroutine("Colortimer", 0.1f);
     }
 
     //攻撃クールダウン
@@ -190,6 +194,7 @@ public class BossEnemy : MonoBehaviour
     // ゲーム実行中の繰り返し処理
     void Update()
     {
+
 
         playerPos = (player.position - transform.position) + new Vector3(0, 1, 0);
         Ray ray = new Ray(transform.position, playerPos);
