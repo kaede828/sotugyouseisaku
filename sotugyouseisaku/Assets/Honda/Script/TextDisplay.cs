@@ -15,7 +15,7 @@ public class TextDisplay : MonoBehaviour
     bool isTimer;//タイマーのスタート
     public Image texthaikei;//テキストの後ろの透過イメージ
     public Text opskiptext;
-    float count;
+    [SerializeField]float count;
     public bool opend;//オープニングが終わったかどうか
     public Player player;
 
@@ -45,7 +45,7 @@ public class TextDisplay : MonoBehaviour
             count = 0;
         }
 
-        if (count >= 180)
+        if (count >= 60)
         {
             this.GetComponent<Text>().text = "";//テキストを消す
             displayText = ""; //表示させる文字列も消す
