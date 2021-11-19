@@ -38,6 +38,7 @@ public class EnemyMove : MonoBehaviour
     bool isChase=true;
     bool isAttack = true;
     bool isLook = false;
+    public bool isDeath = false;
 
     [SerializeField] private EnemyNum enemyNum;
 
@@ -109,6 +110,7 @@ public class EnemyMove : MonoBehaviour
         state = EnemyState.DAMAGE;
         if(hp <= 0)
         {
+            isDeath = true;
             agent.velocity = Vector3.zero;
             agent.isStopped = true;
             animator.SetTrigger("death");
@@ -199,7 +201,7 @@ public class EnemyMove : MonoBehaviour
             {
                 if (Physics.Raycast(ray, out hit, attackDistance))
                 {
-                    if (isAttack)
+                    if (isAttack && !isDeath)
                     {
                         StartCoroutine("Attacktimer", 1);
                         animator.SetTrigger("attack");
@@ -214,7 +216,6 @@ public class EnemyMove : MonoBehaviour
 
         //’Ç‰ÁA’e‚ª“–‚½‚Á‚½‚ç
         BulletHit(isBulletHit);
-
     }
 
     private void Call()

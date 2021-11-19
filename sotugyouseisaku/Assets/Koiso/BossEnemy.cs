@@ -44,6 +44,7 @@ public class BossEnemy : MonoBehaviour
     bool isChase = true;
     public bool isAttack = true;
     bool isLook = false;
+    public bool isDeath = false;
 
     bool run = false;
 
@@ -117,6 +118,7 @@ public class BossEnemy : MonoBehaviour
         state = EnemyState.DAMAGE;
         if (hp <= 0)
         {
+            isDeath = true;
             agent.velocity = Vector3.zero;
             agent.isStopped = true;
             animator.SetTrigger("death");
@@ -213,7 +215,7 @@ public class BossEnemy : MonoBehaviour
             {
                 if (Physics.Raycast(ray, out hit, attackDistance))
                 {
-                    if (isAttack)
+                    if (isAttack && !isDeath)
                     {
                         switch (bossForm)
                         {
@@ -249,6 +251,11 @@ public class BossEnemy : MonoBehaviour
 
         //’Ç‰ÁA’e‚ª“–‚½‚Á‚½‚ç
         BulletHit(isBulletHit);
+
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            Damage();
+        }
 
     }
 

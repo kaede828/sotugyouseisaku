@@ -56,10 +56,12 @@
     <Compile Include="Assets\koike\Scripts\title.cs" />
     <Compile Include="Assets\Iwatani\script\Pause.cs" />
     <Compile Include="Assets\Iwatani\script\setselected.cs" />
+    <Compile Include="Assets\koike\Scripts\Heal_Item.cs" />
     <Compile Include="Assets\Kan\Script\ReloadTime.cs" />
     <Compile Include="Assets\Koiso\DestroyObj.cs" />
     <Compile Include="Assets\Kan\Script\AddForceBullet.cs" />
     <Compile Include="Assets\Honda\OpText.cs" />
+    <Compile Include="Assets\Kan\Script\SoundManager.cs" />
     <Compile Include="Assets\Koiso\BossEnemy.cs" />
     <Compile Include="Assets\Honda\NobelScript.cs" />
     <Compile Include="Assets\naichilab\FadeManager\Sample\FadeSample.cs" />
@@ -74,6 +76,7 @@
     <Compile Include="Assets\Koiso\EnemyNum.cs" />
     <Compile Include="Assets\Kan\Script\PlayerBulletsState.cs" />
     <Compile Include="Assets\mapsozai\Laterns and candles\scripts\CameraFacing.cs" />
+    <Compile Include="Assets\Kan\Script\ZombieSound.cs" />
     <Compile Include="Assets\Koiso\Test.cs" />
     <Compile Include="Assets\Koiso\SpiderEnemyMove.cs" />
     <Compile Include="Assets\koike\Scripts\Flash.cs" />
@@ -91,12 +94,14 @@
     <Compile Include="Assets\Kan\Script\BulletAttack.cs" />
     <Compile Include="Assets\Koiso\EnemyMove.cs" />
     <Compile Include="Assets\Koiso\RayTest.cs" />
+    <Compile Include="Assets\Kan\Script\SoundPos.cs" />
     <Compile Include="Assets\Koiso\SpiderDamage.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\koike\Scripts\CamProtect.cs" />
     <Compile Include="Assets\Iwatani\script\PauseExit.cs" />
     <Compile Include="Assets\Kan\Script\Ammunition_Item.cs" />
     <Compile Include="Assets\koike\Scripts\GameOver.cs" />
+    <Compile Include="Assets\Kan\Script\PauseSoundExit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
