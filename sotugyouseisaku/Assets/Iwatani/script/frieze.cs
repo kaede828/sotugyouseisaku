@@ -13,6 +13,6 @@ public class frieze : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        gameObject.transform.rotation = Quaternion.Euler(0, 0, 0);
+        gameObject.transform.rotation = Quaternion.Euler(gameObject.transform.rotation.x, gameObject.transform.rotation.y, 0);
     }
 }
