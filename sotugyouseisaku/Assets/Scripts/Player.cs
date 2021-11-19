@@ -78,6 +78,8 @@ public class Player : MonoBehaviour
     //追加
     public bool Damage = true;
 
+    float opskipcount;//プレイヤーの位置をずれないようにするためのカウント
+
     // Start is called before the first frame update
     void Start()
     {
@@ -101,6 +103,7 @@ public class Player : MonoBehaviour
         director = GetComponent<PlayableDirector>();
         start = false;
         opend = false;
+        opskipcount = 0;
     }
 
     // Update is called once per frame
@@ -171,8 +174,12 @@ public class Player : MonoBehaviour
 
         if(opend&&!start)
         {
-            this.transform.position = new Vector3(2.885363f, 0.5000005f, 1);
-            start = true;
+            opskipcount++;
+            if (opskipcount > 5)
+            {
+                this.transform.position = new Vector3(11.5f, 0, 1);
+                start = true;
+            }
         }
 
         if(Input.GetKeyDown(KeyCode.A))
