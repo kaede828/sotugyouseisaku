@@ -168,7 +168,7 @@ public class EnemyMove : MonoBehaviour
         }
         Destroy(this.gameObject);
         //mat.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
-        Call();
+        //Call();
     }
 
     // ƒQ[ƒ€Às’†‚ÌŒJ‚è•Ô‚µˆ—
@@ -218,10 +218,10 @@ public class EnemyMove : MonoBehaviour
         BulletHit(isBulletHit);
     }
 
-    private void Call()
-    {
-        enemyNum.DeathNum();
-    }
+    //private void Call()
+    //{
+    //    enemyNum.DeathNum();
+    //}
 
 
 }

@@ -19,18 +19,18 @@ public class EnemyNum : MonoBehaviour
     }
     public void DeathNum()
     {
-        num++;
-        Debug.Log(num);
+        //num++;
+        //Debug.Log(num);
     }
 
     // Update is called once per frame
     void Update()
     {
         
-        if (num>=5)
-        {
-            SceneManager.LoadScene("GameClear");
-        }
+        //if (num>=5)
+        //{
+        //    SceneManager.LoadScene("GameClear");
+        //}
     }
 
     
