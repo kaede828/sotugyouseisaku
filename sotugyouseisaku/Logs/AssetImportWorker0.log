@@ -1,0 +1,461 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1348; Version 2009; 64bit' Language: 'ja' Physical Memory: 7873 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/team02.2/sotugyouseisaku
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61034
+Successfully changed project path to: C:/team02.2/sotugyouseisaku
+C:/team02.2/sotugyouseisaku
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 86.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/team02.2/sotugyouseisaku/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   
+    VRAM:     6081 MB
+    Driver:   22.21.13.8216
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002836 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 73.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.516 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007857 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.452 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2223 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.8 MB.
+System memory in use after: 124.9 MB.
+
+Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 2677.
+Total: 3.668000 ms (FindLiveObjects: 0.426400 ms CreateObjectMapping: 0.157300 ms MarkObjects: 2.735700 ms  DeleteObjects: 0.347000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Honda
+  artifactKey: Guid(22768ea531432a34286cfe367a50c675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda using Guid(22768ea531432a34286cfe367a50c675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1c67e30c1841d003cf42e544b3350e') in 0.015376 seconds
+  Import took 0.023168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Honda/07LogoTypeGothic-Condense.ttf
+  artifactKey: Guid(38119b8685eb6e24785b16babcf4643a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/07LogoTypeGothic-Condense.ttf using Guid(38119b8685eb6e24785b16babcf4643a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e1a12bfe93cae19a5331c781cb8046') in 0.220527 seconds
+  Import took 0.225906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Honda/op.prefab
+  artifactKey: Guid(0b98f4b0a541ed345a4636153a2c3789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/op.prefab using Guid(0b98f4b0a541ed345a4636153a2c3789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb9d85e7937a15c3f35c1e06e367a0c') in 0.080955 seconds
+  Import took 0.088620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/Scenes/Honda.unity
+  artifactKey: Guid(9fdfd563e54509e4bbfc524e48a8e6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Honda.unity using Guid(9fdfd563e54509e4bbfc524e48a8e6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ac5ca6904a43686689fd03a8478141') in 0.011722 seconds
+  Import took 0.017650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Honda/test.prefab
+  artifactKey: Guid(0d50f0d00a117884da3349217e77cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/test.prefab using Guid(0d50f0d00a117884da3349217e77cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec322024c75f3d72c90b64513636a43e') in 0.151239 seconds
+  Import took 0.158593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Honda/SoldierTimeline.playable
+  artifactKey: Guid(694a855e7acee9d49acc052f9411f68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/SoldierTimeline.playable using Guid(694a855e7acee9d49acc052f9411f68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31bcccbe2acabba315b4ba1311c380ad') in 0.038925 seconds
+  Import took 0.044047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Honda/NewLayer 1.terrainlayer
+  artifactKey: Guid(a5e494c738b260349aad3fc407afa52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/NewLayer 1.terrainlayer using Guid(a5e494c738b260349aad3fc407afa52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1c2f4a8621bc6f70246b64feb880a2') in 0.030909 seconds
+  Import took 0.037417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Honda/NewLayer.terrainlayer
+  artifactKey: Guid(e14482059ec6da6409c759a453694528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/NewLayer.terrainlayer using Guid(e14482059ec6da6409c759a453694528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0014694a6b48a6f527e747fbeea2db') in 0.018507 seconds
+  Import took 0.025261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Honda/New Terrain.asset
+  artifactKey: Guid(de8bd3fd7649b2c4cbeaf215fdeb5847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/New Terrain.asset using Guid(de8bd3fd7649b2c4cbeaf215fdeb5847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7897f1357a972cea2531db965c03f91b') in 0.036218 seconds
+  Import took 0.042700 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007848 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.281 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2157 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 136.1 MB.
+
+Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 2729.
+Total: 2.949800 ms (FindLiveObjects: 0.338200 ms CreateObjectMapping: 0.145000 ms MarkObjects: 2.202500 ms  DeleteObjects: 0.262500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 665.372274 seconds.
+  path: Assets/Honda/SoldierTimeline 1.playable
+  artifactKey: Guid(16216e3da24a35e4abd8465c4622b783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/SoldierTimeline 1.playable using Guid(16216e3da24a35e4abd8465c4622b783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2bb7257be510651263daefe67e9cdb') in 0.111238 seconds
+  Import took 0.118826 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.129944 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.665 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2157 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 136.2 MB.
+
+Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2731.
+Total: 4.178000 ms (FindLiveObjects: 0.308400 ms CreateObjectMapping: 0.158800 ms MarkObjects: 3.393000 ms  DeleteObjects: 0.316400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008222 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.318 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2157 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.2 MB.
+
+Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2733.
+Total: 3.058000 ms (FindLiveObjects: 0.273500 ms CreateObjectMapping: 0.104400 ms MarkObjects: 2.375300 ms  DeleteObjects: 0.303300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008065 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.714 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2157 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.2 MB.
+
+Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2735.
+Total: 3.760400 ms (FindLiveObjects: 0.380600 ms CreateObjectMapping: 0.129900 ms MarkObjects: 2.904600 ms  DeleteObjects: 0.343400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1595.564507 seconds.
+  path: Assets/Honda/Sound
+  artifactKey: Guid(5e98805dd45a13c43814f59bd3857a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Sound using Guid(5e98805dd45a13c43814f59bd3857a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbc1e96b7968e7c0f6b83c9c332c43c') in 0.013945 seconds
+  Import took 0.020153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058256 seconds.
+  path: Assets/Honda/Sound/News-Alert01-2.mp3
+  artifactKey: Guid(9ff35955700334044aeb3ae60a716be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Sound/News-Alert01-2.mp3 using Guid(9ff35955700334044aeb3ae60a716be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e127fa46bf2f7cd48ecb99ef8f0dd653') in 0.336634 seconds
+  Import took 0.342811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000594 seconds.
+  path: Assets/Honda/Sound/■ - ドア開閉14.mp3
+  artifactKey: Guid(f1a3f0a94e3d6c94c928734ccf283497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Sound/■ - ドア開閉14.mp3 using Guid(f1a3f0a94e3d6c94c928734ccf283497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e870a88eba2e8fa47f50c8ca7d64ef') in 0.022764 seconds
+  Import took 0.028890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Honda/Sound/■ - ドア開閉10.mp3
+  artifactKey: Guid(dd2d11f82a863544b9f2293c068d4bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Sound/■ - ドア開閉10.mp3 using Guid(dd2d11f82a863544b9f2293c068d4bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a50ddba073d5e7fb454ef18c1e5b19') in 0.019877 seconds
+  Import took 0.024444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Honda/Sound/ドアノブ（がちゃがちゃ）03.mp3
+  artifactKey: Guid(fd34c1780313d1b4c945ead7598d1ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Sound/ドアノブ（がちゃがちゃ）03.mp3 using Guid(fd34c1780313d1b4c945ead7598d1ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2f92e51ed8a84a368d6ca86f2b99c0') in 0.017397 seconds
+  Import took 0.023212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001194 seconds.
+  path: Assets/Honda/Sound/ドアノブ（がちゃがちゃ）03.mp3
+  artifactKey: Guid(fd34c1780313d1b4c945ead7598d1ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Sound/ドアノブ（がちゃがちゃ）03.mp3 using Guid(fd34c1780313d1b4c945ead7598d1ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2f92e51ed8a84a368d6ca86f2b99c0') in 0.011420 seconds
+  Import took 0.016385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.585548 seconds.
+  path: Assets/Honda/Sound/ta_ge_tree01.mp3
+  artifactKey: Guid(b25c2304ad045a546b7650b636a2eaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Sound/ta_ge_tree01.mp3 using Guid(b25c2304ad045a546b7650b636a2eaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d35cb4e17b93d26790a50eb527341c7') in 0.019686 seconds
+  Import took 0.024671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000837 seconds.
+  path: Assets/Honda/Sound/ta_ge_tree01.mp3
+  artifactKey: Guid(b25c2304ad045a546b7650b636a2eaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Sound/ta_ge_tree01.mp3 using Guid(b25c2304ad045a546b7650b636a2eaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d35cb4e17b93d26790a50eb527341c7') in 0.013771 seconds
+  Import took 0.020320 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007534 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.692 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2157 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.2 MB.
+
+Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2740.
+Total: 3.621500 ms (FindLiveObjects: 0.283600 ms CreateObjectMapping: 0.126300 ms MarkObjects: 2.644600 ms  DeleteObjects: 0.564700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009272 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.651 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2157 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.3 MB.
+
+Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2742.
+Total: 5.390400 ms (FindLiveObjects: 0.432800 ms CreateObjectMapping: 0.146500 ms MarkObjects: 4.428400 ms  DeleteObjects: 0.379800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008012 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.400 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2157 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 136.3 MB.
+
+Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2744.
+Total: 3.340100 ms (FindLiveObjects: 0.238800 ms CreateObjectMapping: 0.104200 ms MarkObjects: 2.673100 ms  DeleteObjects: 0.322900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008051 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.416 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2157 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 136.3 MB.
+
+Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2746.
+Total: 3.185300 ms (FindLiveObjects: 0.249200 ms CreateObjectMapping: 0.111300 ms MarkObjects: 2.523300 ms  DeleteObjects: 0.300200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1106.781451 seconds.
+  path: Assets/Honda/Sound/災害・土砂崩れ.mp3
+  artifactKey: Guid(a6e71eb5baf28af4ab57be820a269956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Sound/災害・土砂崩れ.mp3 using Guid(a6e71eb5baf28af4ab57be820a269956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6abf6a3dcbf685b9fbb2c34d1d92a27f') in 0.228065 seconds
+  Import took 0.233249 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011241 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.687 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2157 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 136.3 MB.
+
+Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2749.
+Total: 4.172700 ms (FindLiveObjects: 0.662800 ms CreateObjectMapping: 0.365600 ms MarkObjects: 2.660200 ms  DeleteObjects: 0.482400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007807 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.463 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2157 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.2 MB.
+
+Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2751.
+Total: 3.418600 ms (FindLiveObjects: 0.263700 ms CreateObjectMapping: 0.112500 ms MarkObjects: 2.731700 ms  DeleteObjects: 0.309300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007877 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.340 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2157 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 136.3 MB.
+
+Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2753.
+Total: 3.035600 ms (FindLiveObjects: 0.261700 ms CreateObjectMapping: 0.219200 ms MarkObjects: 2.248100 ms  DeleteObjects: 0.305500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010423 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.370 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2157 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 136.3 MB.
+
+Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2755.
+Total: 4.857800 ms (FindLiveObjects: 0.637800 ms CreateObjectMapping: 0.431200 ms MarkObjects: 3.462500 ms  DeleteObjects: 0.324500 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
