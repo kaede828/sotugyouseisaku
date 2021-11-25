@@ -143,6 +143,26 @@ public class EnemyMove : MonoBehaviour
         //mat.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
         agent.isStopped = false;
         isAttack = true;
+    } 
+    
+    IEnumerator steotimer(int time)
+    {
+        state = EnemyState.ATTACK;
+        attack.SetActive(true);
+        //Material mat = this.GetComponent<Renderer>().material;
+        while (time >= 0)
+        {
+            agent.velocity = Vector3.zero;
+            agent.isStopped = true;
+            //mat.color = new Color(0.0f, 0.0f, 1.0f, 1.0f);
+            yield return new WaitForSeconds(1f);
+            Debug.Log(time);
+            --time;
+            attack.SetActive(false);
+        }
+        //mat.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+        agent.isStopped = false;
+        isAttack = true;
     }
 
     //èÛë‘Çï\Ç∑ì_ñ≈
@@ -207,6 +227,11 @@ public class EnemyMove : MonoBehaviour
                         animator.SetTrigger("attack");
                         isAttack = false;
                     }
+                }
+
+                if(Physics.Raycast(ray, out hit, attackDistance))
+                {
+
                 }
                 PlayerChase();
             }
