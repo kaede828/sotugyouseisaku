@@ -16,8 +16,7 @@ public class BossEnemy : MonoBehaviour
     [SerializeField] private EnemyState state = EnemyState.PATROL;
     [SerializeField] private int hp = 1000;
     [SerializeField]
-    private int speed = 10
-        ;
+    private int speed = 10;
     //ダメ―ジエフェクト
     [SerializeField] private GameObject bloodObj;
     //攻撃の判定
@@ -34,17 +33,21 @@ public class BossEnemy : MonoBehaviour
     //発見距離
     [SerializeField] int chaseDistance = 50;
     //攻撃距離
-    [SerializeField] int attackDistance = 0;
+    [SerializeField] int attackDistance = 5;
+    //ダッシュしてくる距離
+    [SerializeField] int dashDistance = 20;
     RaycastHit hit;
+    //プレイヤーとの距離
+    private float playerDistance;
 
     //形態
     public int bossForm = 0;
 
     private Animator animator;
 
-    bool isChase = true;
+    bool isChase = false;
     public bool isAttack = true;
-    bool isLook = false;
+    bool isDash = false;
     public bool isDeath = false;
 
     bool run = false;
@@ -99,6 +102,7 @@ public class BossEnemy : MonoBehaviour
 
     void PlayerChase()
     {
+        isChase = true;
         if (isAttack)
         {
             //向きをプレイヤーに変える
@@ -170,7 +174,7 @@ public class BossEnemy : MonoBehaviour
             --time;
 
         }
-        agent.speed = 10;
+        agent.speed = speed;
         //mat.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
         rightArm.SetActive(false);
         leftArm.SetActive(false);
@@ -218,8 +222,13 @@ public class BossEnemy : MonoBehaviour
         {
             if (hit.collider.tag == "Player")
             {
+                playerDistance = hit.distance;
+
+
                 if (Physics.Raycast(ray, out hit, attackDistance))
                 {
+                    isDash = false;
+                    agent.speed = speed;
                     if (isAttack && !isDeath)
                     {
                         switch (bossForm)
@@ -244,12 +253,29 @@ public class BossEnemy : MonoBehaviour
 
                     }
                 }
+                else if(playerDistance>=dashDistance)
+                {
+                    isDash = true;
+                }
+
+
                 PlayerChase();
             }
 
             else Patrol();
+
         }
-        else Patrol();
+        else
+        {
+            Patrol();
+        }
+
+        if(isDash)
+        {
+            agent.speed = 30;
+            Debug.Log("プレイヤーとの距離は" + playerDistance);
+            Debug.Log("ダッシュ中");
+        }
 
         //agent.velocity = (agent.steeringTarget - transform.position).normalized * agent.speed;
         //transform.forward = agent.steeringTarget - transform.position;
