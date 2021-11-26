@@ -11,9 +11,10 @@ public class BossEnemy : MonoBehaviour
         PATROL,
         CHASE,
         DAMAGE,
-        ATTACK
+        ATTACK,
+        Idle
     }
-    [SerializeField] private EnemyState state = EnemyState.PATROL;
+    [SerializeField] private EnemyState state = EnemyState.Idle;
     [SerializeField] private int hp = 1000;
     [SerializeField]
     private int speed = 10;
@@ -56,18 +57,20 @@ public class BossEnemy : MonoBehaviour
     public bool isBulletHit = false;
     public Vector3 hitPos;
 
-    float count;
+    Player bossEventplayer;//ボスイベント用プレイヤー
+
+
     void Start()
     {
         rightArm.SetActive(false);
         leftArm.SetActive(false);
         agent = GetComponent<NavMeshAgent>();
-        GotoNextPoint();
+        //GotoNextPoint();
         agent.speed = speed;
         animator = GetComponent<Animator>();
         isBulletHit = false;
         hitPos = Vector3.zero;
-        count = 0;
+        bossEventplayer = player.GetComponent<Player>();
     }
 
     void GotoNextPoint()
@@ -112,6 +115,19 @@ public class BossEnemy : MonoBehaviour
         animator.SetTrigger("chase");
 
         agent.destination = player.position;
+    }
+
+    void Idle()
+    {
+        state = EnemyState.Idle;
+        //止まっているアニメーション
+    }
+
+    //追加 ボス登場演出の前
+    void EntryStart()
+    {
+        //少し前に歩かせる
+        GotoNextPoint();
     }
 
     void Patrol()
@@ -198,7 +214,16 @@ public class BossEnemy : MonoBehaviour
     // ゲーム実行中の繰り返し処理
     void Update()
     {
+        //プレイヤーがボス部屋に入ったら
+        if(bossEventplayer.bossevent == true&&bossEventplayer.bosseventend == false)
+        {//ボス登場イベント開始
+            EntryStart();
+        }
 
+        if(bossEventplayer.bosseventend ==false)
+        {//ボス登場演出が終わるまでプレイヤーを追いかけない
+            return;
+        }
 
         playerPos = (player.position - transform.position) + new Vector3(0, 1, 0);
         Ray ray = new Ray(transform.position, playerPos);
@@ -262,12 +287,12 @@ public class BossEnemy : MonoBehaviour
                 PlayerChase();
             }
 
-            else Patrol();
+            else Idle();
 
         }
         else
         {
-            Patrol();
+            Idle();
         }
 
         if(isDash)
@@ -282,11 +307,6 @@ public class BossEnemy : MonoBehaviour
 
         //追加、弾が当たったら
         BulletHit(isBulletHit);
-
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            Damage();
-        }
 
     }
 
