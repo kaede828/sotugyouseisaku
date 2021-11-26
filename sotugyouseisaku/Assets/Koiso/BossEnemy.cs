@@ -287,12 +287,12 @@ public class BossEnemy : MonoBehaviour
                 PlayerChase();
             }
 
-            else Idle();
+            else PlayerChase();
 
         }
         else
         {
-            Idle();
+            Patrol();
         }
 
         if(isDash)

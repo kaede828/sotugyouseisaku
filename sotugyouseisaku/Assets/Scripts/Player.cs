@@ -84,8 +84,10 @@ public class Player : MonoBehaviour
     public bool bossevent = false;//プレイヤーがボス部屋の中に入ったか
     public bool bosseventend = false;//ボスの登場演出がこのゲームで終わっているか
 
-    float bossZoom = 8.0f;//ボス登場時のズーム
-    float bossWaitTime = 1.0f;//ボス登場時のズームにかける時間
+    float bossZoom = 3.0f;//ボス登場時のズーム
+    float bossWaitTime = 1.5f;//ボス登場時のズームにかける時間
+
+    Vector3 CameraTarget;
 
     // Start is called before the first frame update
     void Start()
@@ -118,10 +120,15 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        hp = Mathf.Clamp(hp, 0, 100);
+        post.vigparam = Mathf.Clamp(post.vigparam, 0, 0.61f);
+
         //ボス登場演出中
         if (bossevent == true && bosseventend == false)
         {
-            myCamera.LookAt(bossEnemy.transform);
+            CameraTarget = bossEnemy.transform.position;
+            CameraTarget.y = -48;//y座標だけ固定する
+            myCamera.LookAt(CameraTarget);
             //ズーム中
             cameraSpeed = 50.0f;
             //moveS = 1.5f;
@@ -129,17 +136,12 @@ public class Player : MonoBehaviour
             System.Console.WriteLine("L2");
             DOTween.To(() => Camera.main.fieldOfView,
                 fov => Camera.main.fieldOfView = fov,
-                defaultFov / zoom,
-                waitTime);
+                defaultFov / bossZoom,
+                bossWaitTime);
             StartCoroutine("BossEvent");//3秒間カメラをボスの方向へ
-        }
+        }        
 
-        hp = Mathf.Clamp(hp, 0, 100);
-        post.vigparam = Mathf.Clamp(post.vigparam, 0, 0.61f);
-
-        
-
-        if ((!opend&&director !=null)||bossevent)
+        if ((!opend&&director !=null)||(bossevent&&!bosseventend))
         {//オープニングが終わっていなかったら操作出来ないように
             return;
         }
@@ -184,8 +186,8 @@ public class Player : MonoBehaviour
             System.Console.WriteLine("L2");
             DOTween.To(() => Camera.main.fieldOfView,
                 fov => Camera.main.fieldOfView = fov,
-                defaultFov / bossZoom,
-                bossWaitTime);
+                defaultFov / zoom,
+                waitTime);
         }
         else
         {
