@@ -110,6 +110,7 @@ public class TextDisplay : MonoBehaviour
                             timer = 0;
                             texthaikei.enabled = false;
                             opend = true;
+                            opskiptext.enabled = false;
                             player.OpEnd();//プレイヤーを操作可能に
                         }
                     }
