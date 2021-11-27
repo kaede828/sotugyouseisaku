@@ -41,9 +41,12 @@ public class StepZombieMove : MonoBehaviour
 
     bool isChase = true;
     bool isAttack = true;
-    bool isStep = true;
+    bool isRightStep = false;
+    bool isLeftStep = false;
     bool isLook = false;
     public bool isDeath = false;
+
+    int rand=0;
 
     [SerializeField] private EnemyNum enemyNum;
 
@@ -52,6 +55,7 @@ public class StepZombieMove : MonoBehaviour
     public Vector3 hitPos;
     void Start()
     {
+        rand=Random.Range(1, 2);
         attack.SetActive(false);
         agent = GetComponent<NavMeshAgent>();
         GotoNextPoint();
@@ -59,6 +63,15 @@ public class StepZombieMove : MonoBehaviour
         animator = GetComponent<Animator>();
         isBulletHit = false;
         hitPos = Vector3.zero;
+
+        switch (rand)
+        {
+            case 1:isRightStep = true;
+                break;
+            case 2:
+                isLeftStep = true;
+                break;
+        }
     }
 
     void GotoNextPoint()
@@ -164,7 +177,16 @@ public class StepZombieMove : MonoBehaviour
         }
         //mat.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
         agent.isStopped = false;
-        isStep = true;
+        rand = Random.Range(1, 2);
+        switch (rand)
+        {
+            case 1:
+                isRightStep = true;
+                break;
+            case 2:
+                isLeftStep = true;
+                break;
+        }
     }
 
     //èÛë‘Çï\Ç∑ì_ñ≈
@@ -232,11 +254,17 @@ public class StepZombieMove : MonoBehaviour
                 }
                 if (Physics.Raycast(ray, out hit, stepDistance))
                 {
-                    if(isStep&&!isDeath)
+                    if(isRightStep&&!isDeath)
                     {
                         StartCoroutine("steptimer", 1);
-                        animator.SetTrigger("step");
-                        isStep = false;
+                        animator.SetTrigger("rightstep");
+                        isRightStep = false;
+                    }
+                    if(isLeftStep&&!isDeath)
+                    {
+                        StartCoroutine("steptimer", 1);
+                        animator.SetTrigger("leftstep");
+                        isLeftStep = false;
                     }
                 }
                 PlayerChase();

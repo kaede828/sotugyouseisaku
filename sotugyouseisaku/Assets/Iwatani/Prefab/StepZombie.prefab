@@ -1847,10 +1847,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1861629610531933692}
   - component: {fileID: 1861629610539361206}
-  - component: {fileID: 1861629610532098456}
   - component: {fileID: 1861629610532098457}
   - component: {fileID: 1861629610532098463}
   - component: {fileID: 5510151595273679641}
+  - component: {fileID: 2024830579}
   m_Layer: 7
   m_Name: StepZombie
   m_TagString: Zombie
@@ -1890,44 +1890,20 @@ Animator:
   m_GameObject: {fileID: 1861629610532098460}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: abfe6fc5a9b390a488839c1fc3b58dcd, type: 3}
-  m_Controller: {fileID: 9100000, guid: cd56a61d3b0ee6e4c8e0b3291e34b5d1, type: 2}
+  m_Controller: {fileID: 9100000, guid: b8ee835f259263a4aac079421d21bd79, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
-  m_WarningMessage: 
+  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
+    are already bound by a Humanoid avatar. These transforms can only be changed
+    by Humanoid clips.\n\tTransform 'metarig'\n\tTransform 'upper_arm.L'\n\tTransform
+    'thigh.L'\n\tTransform 'toe.L'\n\tTransform 'f_ring.01.R'\n\tTransform 'shoulder.R'\n\tTransform
+    'shin.L'\n\tTransform 'foot.L'\n\tTransform 'foot.R'\n\tTransform 'f_middle.01.L'\n\tand
+    more ...\n\tFrom animation clip 'mixamo.com'"
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1861629610532098456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1861629610532098460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1045cf4d1d57c444dbdc78a1230a698b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  state: 0
-  hp: 100
-  speed: 10
-  bloodObj: {fileID: 1577872286368343206, guid: a8b38a1e74ef2de4e9a882cf517a4575,
-    type: 3}
-  attack: {fileID: 4476778219337781057}
-  points:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  player: {fileID: 6366208532008371464, guid: 5c1b8397b1b4a174e9a909566d4b8dbb, type: 3}
-  chaseDistance: 50
-  attackDistance: 2
-  isDeath: 0
-  enemyNum: {fileID: 0}
-  isBulletHit: 0
-  hitPos: {x: 0, y: 0, z: 0}
 --- !u!136 &1861629610532098457
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2060,6 +2036,36 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2024830579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861629610532098460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 989c1c191f629804e9aa1282a3072cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+  hp: 100
+  speed: 5
+  bloodObj: {fileID: 1577872286368343206, guid: a8b38a1e74ef2de4e9a882cf517a4575,
+    type: 3}
+  attack: {fileID: 4476778219337781057}
+  points:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  player: {fileID: 0}
+  chaseDistance: 50
+  attackDistance: 0
+  stepDistance: 20
+  isDeath: 0
+  enemyNum: {fileID: 0}
+  isBulletHit: 0
+  hitPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1861629610532098462
 GameObject:
   m_ObjectHideFlags: 0
