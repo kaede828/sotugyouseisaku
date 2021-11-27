@@ -80,6 +80,15 @@ public class Player : MonoBehaviour
 
     float opskipcount;//プレイヤーの位置をずれないようにするためのカウント
 
+    public BossEnemy bossEnemy;
+    public bool bossevent = false;//プレイヤーがボス部屋の中に入ったか
+    public bool bosseventend = false;//ボスの登場演出がこのゲームで終わっているか
+
+    float bossZoom = 3.0f;//ボス登場時のズーム
+    float bossWaitTime = 1.5f;//ボス登場時のズームにかける時間
+
+    Vector3 CameraTarget;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -104,6 +113,8 @@ public class Player : MonoBehaviour
         start = false;
         opend = false;
         opskipcount = 0;
+        bossevent = false;
+        bosseventend = false;
     }
 
     // Update is called once per frame
@@ -112,7 +123,25 @@ public class Player : MonoBehaviour
         hp = Mathf.Clamp(hp, 0, 100);
         post.vigparam = Mathf.Clamp(post.vigparam, 0, 0.61f);
 
-        if (!opend&&director !=null)
+        //ボス登場演出中
+        if (bossevent == true && bosseventend == false)
+        {
+            CameraTarget = bossEnemy.transform.position;
+            CameraTarget.y = -48;//y座標だけ固定する
+            myCamera.LookAt(CameraTarget);
+            //ズーム中
+            cameraSpeed = 50.0f;
+            //moveS = 1.5f;
+            speed = 7.5f;
+            System.Console.WriteLine("L2");
+            DOTween.To(() => Camera.main.fieldOfView,
+                fov => Camera.main.fieldOfView = fov,
+                defaultFov / bossZoom,
+                bossWaitTime);
+            StartCoroutine("BossEvent");//3秒間カメラをボスの方向へ
+        }        
+
+        if ((!opend&&director !=null)||(bossevent&&!bosseventend))
         {//オープニングが終わっていなかったら操作出来ないように
             return;
         }
@@ -218,6 +247,11 @@ public class Player : MonoBehaviour
             //Debug.Log("プレイヤーHP : " + hp);
            
         }
+
+        if(collider.gameObject.tag == "BossEventHit")
+        {
+            bossevent = true;
+        }
     }
 
     void LateUpdate()
@@ -300,6 +334,13 @@ public class Player : MonoBehaviour
         if(director != null)
         director.Stop();
 
+    }
+
+    IEnumerator BossEvent()
+    {//ボスイベントの時間だけ操作不能に
+        yield return new WaitForSeconds(3.0f);
+        bossevent = false;
+        bosseventend = true;
     }
 }
 
