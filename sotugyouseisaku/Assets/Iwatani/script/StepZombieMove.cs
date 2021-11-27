@@ -232,12 +232,13 @@ public class StepZombieMove : MonoBehaviour
                 }
                 if (Physics.Raycast(ray, out hit, stepDistance))
                 {
-                    StartCoroutine("steptimer", 1);
-                    animator.SetTrigger("step");
-                    isStep = false; 
+                    if(isStep&&!isDeath)
+                    {
+                        StartCoroutine("steptimer", 1);
+                        animator.SetTrigger("step");
+                        isStep = false;
+                    }
                 }
-
-
                 PlayerChase();
             }
             else Patrol();
