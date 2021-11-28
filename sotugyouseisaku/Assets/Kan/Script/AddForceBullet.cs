@@ -45,6 +45,9 @@ public class AddForceBullet : MonoBehaviour
     //íeç≠
     [SerializeField]
     private GameObject bulletHolePrefab;
+    //Ç‹Ç∏ÇÈÉtÉâÉbÉVÉÖ
+    [SerializeField]
+    ParticleSystem muzzleFlashParticle = null;
     void Start()
     {
         rayCameraPos = new Vector3(Screen.width / 2, Screen.height / 2, 0.1f);
@@ -135,6 +138,7 @@ public class AddForceBullet : MonoBehaviour
             {
                 Shot();
                 Judge();
+                muzzleFlashParticle.Play();
                 bulletCount--;
                 count = 0.0f;
             }

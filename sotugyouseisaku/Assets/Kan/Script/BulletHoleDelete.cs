@@ -16,7 +16,6 @@ public class BulletHoleDelete : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(countTime);
         countTime += Time.deltaTime;
         if (countTime > deadTime)
         {        
