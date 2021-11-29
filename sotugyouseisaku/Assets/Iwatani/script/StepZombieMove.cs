@@ -177,7 +177,8 @@ public class StepZombieMove : MonoBehaviour
         }
         //mat.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
         agent.isStopped = false;
-        rand = Random.Range(1, 2);
+        rand = Random.Range(1, 3);
+        //Debug.Log(rand);
         switch (rand)
         {
             case 1:
@@ -254,22 +255,22 @@ public class StepZombieMove : MonoBehaviour
                 }
                 if (Physics.Raycast(ray, out hit, stepDistance))
                 {
-                    if(isRightStep&&!isDeath)
+                    if (isRightStep && !isDeath)
                     {
-                        StartCoroutine("steptimer", 1);
+                        StartCoroutine("steptimer", 5);
                         animator.SetTrigger("rightstep");
                         isRightStep = false;
                     }
-                    if(isLeftStep&&!isDeath)
+                    if (isLeftStep&&!isDeath)
                     {
-                        StartCoroutine("steptimer", 1);
+                        StartCoroutine("steptimer", 5);
                         animator.SetTrigger("leftstep");
                         isLeftStep = false;
                     }
                 }
                 PlayerChase();
             }
-            else Patrol();
+            //else Patrol();
         }
         else Patrol();
 
