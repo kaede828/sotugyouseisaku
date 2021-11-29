@@ -92,7 +92,7 @@ public class hatudenkiManager : MonoBehaviour
             }
         }
 
-        if (hatudenkiCount==0&&cam)
+        if (hatudenkiHitList.Count <= 0&&cam)
         {
             camera.depth = 1;
             StartCoroutine(DelayCoroutine(180, () =>

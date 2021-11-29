@@ -42,6 +42,12 @@ public class AddForceBullet : MonoBehaviour
     //リロードSE
     [SerializeField]
     private AudioClip reloadSe;
+    //弾痕
+    [SerializeField]
+    private GameObject bulletHolePrefab;
+    //まずるフラッシュ
+    [SerializeField]
+    ParticleSystem muzzleFlashParticle = null;
     void Start()
     {
         rayCameraPos = new Vector3(Screen.width / 2, Screen.height / 2, 0.1f);
@@ -132,6 +138,7 @@ public class AddForceBullet : MonoBehaviour
             {
                 Shot();
                 Judge();
+                muzzleFlashParticle.Play();
                 bulletCount--;
                 count = 0.0f;
             }
@@ -158,17 +165,15 @@ public class AddForceBullet : MonoBehaviour
         //　当たったコライダを入れておく変数
         RaycastHit[] hits;
         //　Sphereの形でレイを飛ばしEnemyレイヤーのものをhitsに入れる
-        hits = Physics.SphereCastAll(ray, muzzleRadius, range, LayerMask.GetMask("Enemy"));
+        //hits = Physics.SphereCastAll(ray, muzzleRadius, range, LayerMask.GetMask("Enemy"));
+        int layerMask = 1 << 7 | 1 << 9;
+        hits = Physics.SphereCastAll(ray, muzzleRadius, range,layerMask);
+
         //　射程距離をdistanceに入れる
         float distance = range;
 
         foreach (var hit in hits)
         {
-            //敵を消す
-            //var em = hit.collider.gameObject.GetComponent<EnemyMove>();
-            //em.hitPos = hit.point;
-            //em.isBulletHit = true;
-            ////Destroy(hit.collider.gameObject);
             if (hit.collider.gameObject.tag == "Enemy")
             {
                 var sem = hit.collider.gameObject.GetComponent<SpiderEnemyMove>();
@@ -178,7 +183,6 @@ public class AddForceBullet : MonoBehaviour
 
             if (hit.collider.gameObject.tag == "Zombie")
             {
-                Debug.Log("a");
                 var sem = hit.collider.gameObject.GetComponent<EnemyMove>();
                 sem.hitPos = hit.point;
                 sem.isBulletHit = true;
@@ -190,6 +194,16 @@ public class AddForceBullet : MonoBehaviour
                 var sem = hit.collider.gameObject.GetComponent<BossEnemy>();
                 sem.hitPos = hit.point;
                 sem.isBulletHit = true;
+            }
+
+            if(hit.collider.gameObject.tag == "Building")
+            {
+                //弾痕生成
+                var bulletHoleInstance =
+                    Instantiate<GameObject>(
+                        bulletHolePrefab, hit.point - muzzle.forward * 0.001f,
+                        Quaternion.FromToRotation(Vector3.up, hit.normal),
+                        hit.collider.transform);
             }
         }
 

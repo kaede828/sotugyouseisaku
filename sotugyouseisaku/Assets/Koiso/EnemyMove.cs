@@ -143,7 +143,7 @@ public class EnemyMove : MonoBehaviour
         //mat.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
         agent.isStopped = false;
         isAttack = true;
-    }
+    } 
 
     //状態を表す点滅
     IEnumerator Colortimer(int time)
@@ -168,7 +168,7 @@ public class EnemyMove : MonoBehaviour
         }
         Destroy(this.gameObject);
         //mat.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
-        Call();
+        //Call();
     }
 
     // ゲーム実行中の繰り返し処理
@@ -208,7 +208,6 @@ public class EnemyMove : MonoBehaviour
                         isAttack = false;
                     }
                 }
-                PlayerChase();
             }
             else Patrol();
         }
@@ -218,10 +217,10 @@ public class EnemyMove : MonoBehaviour
         BulletHit(isBulletHit);
     }
 
-    private void Call()
-    {
-        enemyNum.DeathNum();
-    }
+    //private void Call()
+    //{
+    //    enemyNum.DeathNum();
+    //}
 
 
 }

@@ -1581,6 +1581,7 @@ MonoBehaviour:
   player: {fileID: 0}
   chaseDistance: 50
   attackDistance: 5
+  isDeath: 0
   enemyNum: {fileID: 0}
   isBulletHit: 0
   hitPos: {x: 0, y: 0, z: 0}
@@ -1990,6 +1991,11 @@ PrefabInstance:
       objectReference: {fileID: 1675647973}
     - target: {fileID: 8949231995800413837, guid: a45b331c877aef346a5f0d9d1762d138,
         type: 3}
+      propertyPath: dashDistance
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8949231995800413837, guid: a45b331c877aef346a5f0d9d1762d138,
+        type: 3}
       propertyPath: points.Array.data[0]
       value: 
       objectReference: {fileID: 1715800916}
@@ -2377,6 +2383,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1698430868, guid: 5c1b8397b1b4a174e9a909566d4b8dbb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6366208532008371464, guid: 5c1b8397b1b4a174e9a909566d4b8dbb,
         type: 3}
       propertyPath: m_RootOrder
@@ -4747,6 +4757,7 @@ MonoBehaviour:
   player: {fileID: 0}
   chaseDistance: 50
   attackDistance: 1
+  isDeath: 0
   enemyNum: {fileID: 0}
   isBulletHit: 0
   hitPos: {x: 0, y: 0, z: 0}

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -34,7 +35,11 @@ public class hatudenkiHP : MonoBehaviour
         //Debug.Log(slider.value);
         if(slider.value>=100)
         {
-            Destroy(gameObject);
+            StartCoroutine(DelayCoroutine(3, () =>
+            {
+                Destroy(gameObject);
+            }));
+            
         }
         if (value < slider.value&&sourceCheck(source))
         {
@@ -53,5 +58,15 @@ public class hatudenkiHP : MonoBehaviour
     static bool sourceCheck(AudioSource source)
     {
         return source.time == 0.0f && !source.isPlaying;
+    }
+
+    private IEnumerator DelayCoroutine(int Count, Action action)
+    {
+        for (var i = 0; i < Count; i++)
+        {
+            yield return null;
+        }
+
+        action?.Invoke();
     }
 }
