@@ -193,8 +193,6 @@ public class EnemyMove : MonoBehaviour
         //        break;
         //}
 
-       
-
         if (Physics.Raycast(ray, out hit, chaseDistance))
         {
             if (hit.collider.tag == "Player")
@@ -208,6 +206,7 @@ public class EnemyMove : MonoBehaviour
                         isAttack = false;
                     }
                 }
+                PlayerChase();
             }
             else Patrol();
         }

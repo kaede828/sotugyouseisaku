@@ -1,29 +1,29 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1348; Version 2009; 64bit' Language: 'ja' Physical Memory: 8133 MB
+OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'ja' Physical Memory: 16325 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/KPC-018A1702/Desktop/SotugyoSeisaku/sotugyouseisaku
+C:/Users/kaede/OneDrive/デスクトップ/team02_2/sotugyouseisaku
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59968
-Successfully changed project path to: C:/Users/KPC-018A1702/Desktop/SotugyoSeisaku/sotugyouseisaku
-C:/Users/KPC-018A1702/Desktop/SotugyoSeisaku/sotugyouseisaku
+64163
+Successfully changed project path to: C:/Users/kaede/OneDrive/デスクトップ/team02_2/sotugyouseisaku
+C:/Users/kaede/OneDrive/デスクトップ/team02_2/sotugyouseisaku
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 85.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 75.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/KPC-018A1702/Desktop/SotugyoSeisaku/sotugyouseisaku/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kaede/OneDrive/デスクトップ/team02_2/sotugyouseisaku/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -32,82 +32,592 @@ Direct3D:
     VRAM:     6052 MB
     Driver:   30.0.14.9649
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002558 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003253 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 86.17 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 72.11 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.266 seconds
+- Completed reload, in  1.429 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008794 seconds.
+Registered in 0.006122 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000029BF466DC20 doesn't match image C:\Users\KPC-018A1702\Desktop\SotugyoSeisaku\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000029BF8A69300 doesn't match image C:\Users\KPC-018A1702\Desktop\SotugyoSeisaku\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.409 seconds
+- Completed reload, in  1.384 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 123.1 MB.
-System memory in use after: 123.3 MB.
+System memory in use before: 125.9 MB.
+System memory in use after: 126.0 MB.
 
 Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 2680.
-Total: 3.626100 ms (FindLiveObjects: 0.279400 ms CreateObjectMapping: 0.149200 ms MarkObjects: 2.763900 ms  DeleteObjects: 0.432200 ms)
+Total: 3.302000 ms (FindLiveObjects: 0.572000 ms CreateObjectMapping: 0.155900 ms MarkObjects: 2.228100 ms  DeleteObjects: 0.344500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/mapsozai
-  artifactKey: Guid(10ef1cd7fe81eb74e961e13f9f4f601d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mapsozai using Guid(10ef1cd7fe81eb74e961e13f9f4f601d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb91e24ada71d52eb4db6995c63e74a2') in 0.012863 seconds
-  Import took 0.018249 seconds .
+  path: Assets/Prefab/room3.prefab
+  artifactKey: Guid(e72b7a52312d40442bd71abe99fc753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/room3.prefab using Guid(e72b7a52312d40442bd71abe99fc753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cf70b95d85b2c953f1054d688a81c2') in 0.299022 seconds
+  Import took 0.312986 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.011812 seconds.
-  path: Assets/Scenes/Kawashita.unity
-  artifactKey: Guid(7739b5753c8ffae4bb2ecc893a663cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Kawashita.unity using Guid(7739b5753c8ffae4bb2ecc893a663cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708b61f4c472ae2026699b73703091c1') in 0.014802 seconds
-  Import took 0.020456 seconds .
+  Time since last request: 0.000283 seconds.
+  path: Assets/Prefab/map 1.prefab
+  artifactKey: Guid(e1460f9b28a8adb47b5c6b234f6fcad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/map 1.prefab using Guid(e1460f9b28a8adb47b5c6b234f6fcad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfee02a0ec0bbae44f216b04fa7a0074') in 0.049455 seconds
+  Import took 0.054154 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 37.735491 seconds.
-  path: Assets/mapsozai/uploads_files_630659_asc.fbx
-  artifactKey: Guid(8b131e47f1437dd45be7d44b9da33d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mapsozai/uploads_files_630659_asc.fbx using Guid(8b131e47f1437dd45be7d44b9da33d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8096cfbb06da4b2071f6cadc99fe0b48') in 0.718930 seconds
-  Import took 0.725395 seconds .
+  Time since last request: 0.000351 seconds.
+  path: Assets/Prefab/洋館_1.prefab
+  artifactKey: Guid(636799c8609859843b21f9338878b7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/洋館_1.prefab using Guid(636799c8609859843b21f9338878b7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7622c4396054bf9747d2cca49c76d0f4') in 0.053179 seconds
+  Import took 0.058600 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 601.200327 seconds.
-  path: Assets/mapsozai/Medieval Structure Kit/Materials/Buildings
-  artifactKey: Guid(585dd48669a927047a3d72c7088c3333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mapsozai/Medieval Structure Kit/Materials/Buildings using Guid(585dd48669a927047a3d72c7088c3333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70be1b6293c5cdabd65648c777f08067') in 0.010788 seconds
-  Import took 0.018154 seconds .
+  Time since last request: 0.000275 seconds.
+  path: Assets/Prefab/room5.prefab
+  artifactKey: Guid(f780b384184fe184685cd6ccf0e06e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/room5.prefab using Guid(f780b384184fe184685cd6ccf0e06e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472abe7467ffa794e183e440fbdea99c') in 0.045312 seconds
+  Import took 0.049618 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000826 seconds.
-  path: Assets/mapsozai/Medieval Structure Kit/Materials/Buildings
-  artifactKey: Guid(585dd48669a927047a3d72c7088c3333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mapsozai/Medieval Structure Kit/Materials/Buildings using Guid(585dd48669a927047a3d72c7088c3333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70be1b6293c5cdabd65648c777f08067') in 0.002868 seconds
-  Import took 0.008253 seconds .
+  Time since last request: 0.000290 seconds.
+  path: Assets/Prefab/map.prefab
+  artifactKey: Guid(545ee1dbae7c2034c828b3a9d8331892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/map.prefab using Guid(545ee1dbae7c2034c828b3a9d8331892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7904f67e5ed33bc6472bd49ff51862') in 0.017788 seconds
+  Import took 0.023047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Prefab/SoldierA.prefab
+  artifactKey: Guid(5c1b8397b1b4a174e9a909566d4b8dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SoldierA.prefab using Guid(5c1b8397b1b4a174e9a909566d4b8dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99cdda6c407a0c2ad1803e0b12b4bab0') in 0.145007 seconds
+  Import took 0.152658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Prefab/room1.prefab
+  artifactKey: Guid(8943a4e0f3c7a364fbf6550da88b9cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/room1.prefab using Guid(8943a4e0f3c7a364fbf6550da88b9cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063dac87c86af2b0da386ae449393ace') in 0.054759 seconds
+  Import took 0.061137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Prefab/Cube.prefab
+  artifactKey: Guid(bc3552ca9b4289d4d9b8d634106d21b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Cube.prefab using Guid(bc3552ca9b4289d4d9b8d634106d21b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854f1d02bec4c33e3878e444c1cc4f99') in 0.025592 seconds
+  Import took 0.030190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Prefab/playerprot.prefab
+  artifactKey: Guid(0fa36839e8399e946b7ac0b534c90b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/playerprot.prefab using Guid(0fa36839e8399e946b7ac0b534c90b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f13bf16c1bbd06d6c4ca6649d89f995') in 0.016210 seconds
+  Import took 0.020875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Prefab/Soldier_demo.prefab
+  artifactKey: Guid(441714cc484a45146a1891e2d4846122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Soldier_demo.prefab using Guid(441714cc484a45146a1891e2d4846122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f34e518e79c2b610c0800f8f471391e') in 0.048093 seconds
+  Import took 0.054154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Prefab/洋館_2.prefab
+  artifactKey: Guid(a0fefb09f6d20344989690a197976a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/洋館_2.prefab using Guid(a0fefb09f6d20344989690a197976a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9469f5c033170b463844467aee498f84') in 0.115896 seconds
+  Import took 0.122554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Prefab/Cube (1).prefab
+  artifactKey: Guid(4b1fee46d0b40104e990cb12d7493e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Cube (1).prefab using Guid(4b1fee46d0b40104e990cb12d7493e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf7827054e8ca1d6c9c09d1ea1cea16') in 0.025666 seconds
+  Import took 0.030962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Prefab/room6.prefab
+  artifactKey: Guid(287f011a8e54be44fbc1b8107b3e7415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/room6.prefab using Guid(287f011a8e54be44fbc1b8107b3e7415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6abe5c33ab35d5420565e6cd074e1905') in 0.109463 seconds
+  Import took 0.121895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Prefab/洋館_3.prefab
+  artifactKey: Guid(8853bd2dbff82194a9b7adf91dd64dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/洋館_3.prefab using Guid(8853bd2dbff82194a9b7adf91dd64dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb939f8a67166495b0e6d84f6dadf75') in 0.324332 seconds
+  Import took 0.349277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Prefab/1F.prefab
+  artifactKey: Guid(133b258e48f2d5f4f9e796b4735b8c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/1F.prefab using Guid(133b258e48f2d5f4f9e796b4735b8c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7775f775dee5e0fe9e8715ddb8c907') in 0.015152 seconds
+  Import took 0.019693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Prefab/postEffect.prefab
+  artifactKey: Guid(b83b738dc4c7c4245aa9c09116c0ae78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/postEffect.prefab using Guid(b83b738dc4c7c4245aa9c09116c0ae78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd85c2be1434d0e5a4b3d78817b5c44') in 0.023238 seconds
+  Import took 0.029274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Prefab/Hall.prefab
+  artifactKey: Guid(e036cd0fa3e01d347b25015d7037022e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Hall.prefab using Guid(e036cd0fa3e01d347b25015d7037022e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0ac74e5a74b834eee35d4d8c64814a') in 0.020937 seconds
+  Import took 0.026526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Prefab/tabales.prefab
+  artifactKey: Guid(8d3591eec3402e240b5f58a25992c35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/tabales.prefab using Guid(8d3591eec3402e240b5f58a25992c35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c032f3612dfab23ae097c3ca44ce8b07') in 0.026854 seconds
+  Import took 0.031021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Prefab/map2 (1).prefab
+  artifactKey: Guid(e7e3dbea1b0d8514fb3c94ebe6403499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/map2 (1).prefab using Guid(e7e3dbea1b0d8514fb3c94ebe6403499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63782d441594d86a2c1cce444033dc11') in 1.233996 seconds
+  Import took 1.267215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Prefab/room4.prefab
+  artifactKey: Guid(df9ea65076c6957448399afea91d7abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/room4.prefab using Guid(df9ea65076c6957448399afea91d7abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3567aab3b04f3c35b8d6237b50d90fd1') in 0.072231 seconds
+  Import took 0.079832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.059587 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets
+  artifactKey: Guid(53787cd94206fb940ad5722a088a2d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets using Guid(53787cd94206fb940ad5722a088a2d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a457412de93b85e6a1ea6dd2a2b2760') in 0.008047 seconds
+  Import took 0.012651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006231 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets
+  artifactKey: Guid(53787cd94206fb940ad5722a088a2d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets using Guid(53787cd94206fb940ad5722a088a2d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a457412de93b85e6a1ea6dd2a2b2760') in 0.004733 seconds
+  Import took 0.009433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.484088 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs
+  artifactKey: Guid(c9acc6a1280ef9d439aaddb88af807b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs using Guid(c9acc6a1280ef9d439aaddb88af807b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909187398c58f545a5dc9bbb6b2017fe') in 0.011383 seconds
+  Import took 0.016710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065856 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/DungeonGateDEP_ST.prefab
+  artifactKey: Guid(b7d21f1436f2e9943bcc6a2ade057053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/DungeonGateDEP_ST.prefab using Guid(b7d21f1436f2e9943bcc6a2ade057053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04ec85943848113b374137945566d5e') in 0.084284 seconds
+  Import took 0.088966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/PillarA2DEP_ST.prefab
+  artifactKey: Guid(4881923339e8b8d49934c314a55bebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/PillarA2DEP_ST.prefab using Guid(4881923339e8b8d49934c314a55bebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52345e23dbc6698387b19eff99dea0d') in 0.183397 seconds
+  Import took 0.190247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsWindowB1_ST.prefab
+  artifactKey: Guid(c72196e78ca2bd144a6ece62fad0b798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsWindowB1_ST.prefab using Guid(c72196e78ca2bd144a6ece62fad0b798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30bcbabc66cce081ec909bbd43f5091') in 0.188744 seconds
+  Import took 0.196105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsBottomA_ST.prefab
+  artifactKey: Guid(fee4035f303fb1e48b130b830c23f49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsBottomA_ST.prefab using Guid(fee4035f303fb1e48b130b830c23f49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e0a8379642537e0eefd71b64c82b70') in 0.053360 seconds
+  Import took 0.060307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsTopA_ST.prefab
+  artifactKey: Guid(024b7e337c87e0149a4cbcfd8292ce7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsTopA_ST.prefab using Guid(024b7e337c87e0149a4cbcfd8292ce7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c823749de59707a886e34848af8799') in 0.053151 seconds
+  Import took 0.059814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsMidle_ST.prefab
+  artifactKey: Guid(2998b5d34fc488545954a5e01b0462f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsMidle_ST.prefab using Guid(2998b5d34fc488545954a5e01b0462f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b056e08a447463eef7538717ac84e470') in 0.051515 seconds
+  Import took 0.058272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallBlockA03ADEP.prefab
+  artifactKey: Guid(f881312789ac37f4e9a109e0dfd84b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallBlockA03ADEP.prefab using Guid(f881312789ac37f4e9a109e0dfd84b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfc297cfa3b02d7ee53afc83ca14a6d') in 0.104900 seconds
+  Import took 0.109438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/SuportBeamCDEP_ST.prefab
+  artifactKey: Guid(0ed637d1075a0184e8b49e81b3c66097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/SuportBeamCDEP_ST.prefab using Guid(0ed637d1075a0184e8b49e81b3c66097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e200ee09d56ba2b56ec29531604bc212') in 0.085656 seconds
+  Import took 0.089948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallBlockA02ADEP.prefab
+  artifactKey: Guid(cc13072d91f23644ca13f679632426ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallBlockA02ADEP.prefab using Guid(cc13072d91f23644ca13f679632426ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62a742aa225d82f0510495fc0fa183b') in 0.048216 seconds
+  Import took 0.053133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/StoneArchDEP_ST.prefab
+  artifactKey: Guid(15bb5a066e6966e4abb2d26f51f8b516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/StoneArchDEP_ST.prefab using Guid(15bb5a066e6966e4abb2d26f51f8b516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5079d72ff72f648051f1932282e1b213') in 0.204868 seconds
+  Import took 0.212210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallBlockA01ADEP.prefab
+  artifactKey: Guid(a017b7cfc91c81844ae3bc1ed6d84d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallBlockA01ADEP.prefab using Guid(a017b7cfc91c81844ae3bc1ed6d84d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093e5c782deecb01551d13a2337872de') in 0.032987 seconds
+  Import took 0.038470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/DungeonStructureTowerDEP_ST.prefab
+  artifactKey: Guid(3bdfacaee031fad44a81bc6c2a67d179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/DungeonStructureTowerDEP_ST.prefab using Guid(3bdfacaee031fad44a81bc6c2a67d179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51caa7a7990e8a04f05b20e8f8cc5ab') in 0.202717 seconds
+  Import took 0.209472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/SuportBeamDDEP_ST.prefab
+  artifactKey: Guid(86aec6df794e71547af8e1258dbb0aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/SuportBeamDDEP_ST.prefab using Guid(86aec6df794e71547af8e1258dbb0aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f54fc7a2233aee86482072d376e7ea') in 0.030612 seconds
+  Import took 0.034901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/PillarADEP_ST.prefab
+  artifactKey: Guid(6f4246912bea49942a823a954f93d157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/PillarADEP_ST.prefab using Guid(6f4246912bea49942a823a954f93d157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d20fcd67ad746be7863a406c0a571ac') in 0.208685 seconds
+  Import took 0.216840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/DungeonStructureHeadDEP_ST.prefab
+  artifactKey: Guid(19f0d44f83181c64aaee4796197eb52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/DungeonStructureHeadDEP_ST.prefab using Guid(19f0d44f83181c64aaee4796197eb52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc0ed61cd4a8cff5b75777c6b4c6806') in 0.238424 seconds
+  Import took 0.250175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/SuportBeamADEP_ST.prefab
+  artifactKey: Guid(05621cf18ffdbc347a5dedd09d576380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/SuportBeamADEP_ST.prefab using Guid(05621cf18ffdbc347a5dedd09d576380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d75ef3e59e578dcf6cb17db198d6f37') in 0.031797 seconds
+  Import took 0.036769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsWindowA1_ST.prefab
+  artifactKey: Guid(39d703c5b34d9a54985ce84532b098da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsWindowA1_ST.prefab using Guid(39d703c5b34d9a54985ce84532b098da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1bad256dfcd03784dad64106e25a14') in 0.057449 seconds
+  Import took 0.064380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Dwarven Dungeon Entrance_Scene.prefab
+  artifactKey: Guid(6cd36f5ade0ee474ab43ad38e0ba25b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Dwarven Dungeon Entrance_Scene.prefab using Guid(6cd36f5ade0ee474ab43ad38e0ba25b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda844fa095485d62994e040fe82a43b') in 0.242189 seconds
+  Import took 0.257920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/SuportBeamBDEP_ST.prefab
+  artifactKey: Guid(396ec105a7b8ac34b8282db4b9cd0b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/SuportBeamBDEP_ST.prefab using Guid(396ec105a7b8ac34b8282db4b9cd0b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e96783857adc0da5d64d37cf22f3ea1') in 0.029390 seconds
+  Import took 0.035511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsBottomB_ST.prefab
+  artifactKey: Guid(4a5671e23279ff243b82037573e55e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsBottomB_ST.prefab using Guid(4a5671e23279ff243b82037573e55e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2af099ca3d89cd1370bc8dd19bfbeff') in 0.054387 seconds
+  Import took 0.061350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.707471 seconds.
+  path: Assets/mapsozai/Room/prefabs/book.prefab
+  artifactKey: Guid(f5a1bb1bf8641274c88db4c73f943ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/prefabs/book.prefab using Guid(f5a1bb1bf8641274c88db4c73f943ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419f48d126b36ec672480fd9ddc48bcc') in 0.021397 seconds
+  Import took 0.027483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/mapsozai/Room/prefabs/bookcaseKai.prefab
+  artifactKey: Guid(ed55e8502e6457c4f9e4316e7e61dda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/prefabs/bookcaseKai.prefab using Guid(ed55e8502e6457c4f9e4316e7e61dda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bc2abed55abc70980c0fad5fcbdbd0') in 0.025385 seconds
+  Import took 0.030160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/mapsozai/Room/prefabs/candle.prefab
+  artifactKey: Guid(9d012b73caba62246906034d78994c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/prefabs/candle.prefab using Guid(9d012b73caba62246906034d78994c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1c64410fbf1e10c258c823c0a2d9bf') in 0.016394 seconds
+  Import took 0.021155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/mapsozai/Room/prefabs/Full roof.prefab
+  artifactKey: Guid(9884b1a9ded4dc240b53c0978ec88137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/prefabs/Full roof.prefab using Guid(9884b1a9ded4dc240b53c0978ec88137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e753b5db9e63393611e7cc3df03b1b19') in 0.079968 seconds
+  Import took 0.085133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/mapsozai/Room/prefabs/tabel.prefab
+  artifactKey: Guid(a5ab52c5408d7e0499ce5e019116f6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/prefabs/tabel.prefab using Guid(a5ab52c5408d7e0499ce5e019116f6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a76e27614deddb3b7c83512b97532c') in 0.024069 seconds
+  Import took 0.029843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/mapsozai/Room/prefabs/chandiler.prefab
+  artifactKey: Guid(2e57ba42788234646b2d6b76f15dac76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/prefabs/chandiler.prefab using Guid(2e57ba42788234646b2d6b76f15dac76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0f1d9a1d42077aa9160818dfcbaf0f') in 0.019869 seconds
+  Import took 0.025953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/mapsozai/Room/prefabs/Window.prefab
+  artifactKey: Guid(ac1d6bc633cb75f43b455f34daf7fd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/prefabs/Window.prefab using Guid(ac1d6bc633cb75f43b455f34daf7fd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695299d8934ad3b2a911fe59b0cbe512') in 0.086323 seconds
+  Import took 0.091880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/mapsozai/Room/prefabs/window00.prefab
+  artifactKey: Guid(09fd774473e8b114b8d4338ec5fc5d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/prefabs/window00.prefab using Guid(09fd774473e8b114b8d4338ec5fc5d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5427b3e2194f625515c75c12b880b0') in 0.017069 seconds
+  Import took 0.021304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/mapsozai/Room/prefabs/CH0.prefab
+  artifactKey: Guid(33aa3234397faa044af73f4700427d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/prefabs/CH0.prefab using Guid(33aa3234397faa044af73f4700427d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7343f6edd38163efb085fa9b533c89') in 0.026285 seconds
+  Import took 0.032864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/mapsozai/Room/prefabs/pillers.prefab
+  artifactKey: Guid(f7195cee3b068c54a895c90d16bb7fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/prefabs/pillers.prefab using Guid(f7195cee3b068c54a895c90d16bb7fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c685f786f1250356a5d953762e26c7') in 0.106571 seconds
+  Import took 0.112101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/mapsozai/Room/prefabs/bookcase.prefab
+  artifactKey: Guid(e701c442dd73c844b9f5a0c6ed6e59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/prefabs/bookcase.prefab using Guid(e701c442dd73c844b9f5a0c6ed6e59e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41b81d4cfb13099cf227e8a289b44dd') in 0.027867 seconds
+  Import took 0.032435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/mapsozai/Room/prefabs/door.prefab
+  artifactKey: Guid(4277c84f4eb45414089869ec9eed16a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/prefabs/door.prefab using Guid(4277c84f4eb45414089869ec9eed16a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4670400d668b0cc205a7b2da106659f') in 0.018819 seconds
+  Import took 0.023685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/mapsozai/Room/prefabs/roof piece.prefab
+  artifactKey: Guid(a6b1194453112994298b9a98aad645f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/prefabs/roof piece.prefab using Guid(a6b1194453112994298b9a98aad645f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33c22ef02c58a633049ea3b7c6704d3') in 0.024707 seconds
+  Import took 0.030181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/mapsozai/Room/prefabs/chair.prefab
+  artifactKey: Guid(0941535f5a7c0d846a45a6370dc4036b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/prefabs/chair.prefab using Guid(0941535f5a7c0d846a45a6370dc4036b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa1e5d5bcfaa7d1891ed44dade4ef40') in 0.024998 seconds
+  Import took 0.031172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/mapsozai/Room/prefabs/BookCase 1.prefab
+  artifactKey: Guid(8cd11acbbfe2dac4294648ef5dd95c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/prefabs/BookCase 1.prefab using Guid(8cd11acbbfe2dac4294648ef5dd95c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda87dfb4b43e3e0422ac3f299bfdd10') in 0.025504 seconds
+  Import took 0.031110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/mapsozai/Room/prefabs/Ground.prefab
+  artifactKey: Guid(2619ececdb14aea42a9a5ea90854b3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/prefabs/Ground.prefab using Guid(2619ececdb14aea42a9a5ea90854b3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37864ed38f361742701d09a2ac245186') in 0.027135 seconds
+  Import took 0.032735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/mapsozai/Room/prefabs/BookCase (1).prefab
+  artifactKey: Guid(71eea8f2b088d7440a0566f6eebb7ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/prefabs/BookCase (1).prefab using Guid(71eea8f2b088d7440a0566f6eebb7ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca932910deab818ae8861655138598cf') in 0.025897 seconds
+  Import took 0.032173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/mapsozai/Room/prefabs/fire.prefab
+  artifactKey: Guid(4672393f346060446996dc28733539e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/prefabs/fire.prefab using Guid(4672393f346060446996dc28733539e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fccf6a6d03d4c887597b4e197f1c5e44') in 0.015335 seconds
+  Import took 0.019750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/mapsozai/Room/prefabs/miain.prefab
+  artifactKey: Guid(440d9e69d5aceca4a89f47c4f96043ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Room/prefabs/miain.prefab using Guid(440d9e69d5aceca4a89f47c4f96043ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f36c4a49ad42ce00575c5256c94dc0') in 0.157813 seconds
+  Import took 0.162904 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006628 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.384 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2159 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.3 MB.
+System memory in use after: 142.5 MB.
+
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 2696.
+Total: 3.210000 ms (FindLiveObjects: 0.263800 ms CreateObjectMapping: 0.096800 ms MarkObjects: 2.371300 ms  DeleteObjects: 0.476800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007633 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.338 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2159 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.4 MB.
+System memory in use after: 142.5 MB.
+
+Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2698.
+Total: 3.235700 ms (FindLiveObjects: 0.249400 ms CreateObjectMapping: 0.167500 ms MarkObjects: 2.534400 ms  DeleteObjects: 0.283200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1627.762473 seconds.
+  path: Assets/koike/Prefab/2F_room3.prefab
+  artifactKey: Guid(356e9e6f5907bf143a87d3a166acaea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/koike/Prefab/2F_room3.prefab using Guid(356e9e6f5907bf143a87d3a166acaea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbb35cb2146ac4cd1d4139a0363acaf') in 0.185225 seconds
+  Import took 0.191310 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

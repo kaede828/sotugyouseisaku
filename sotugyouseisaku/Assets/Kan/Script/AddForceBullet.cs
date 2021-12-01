@@ -187,6 +187,12 @@ public class AddForceBullet : MonoBehaviour
                 sem.hitPos = hit.point;
                 sem.isBulletHit = true;
             }
+            if (hit.collider.gameObject.tag == "StepZombie")
+            {
+                var sem = hit.collider.gameObject.GetComponent<StepZombieMove>();
+                sem.hitPos = hit.point;
+                sem.isBulletHit = true;
+            }
 
             if (hit.collider.gameObject.tag == "Boss")
             {
