@@ -1,241 +1,113 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1387; Version 2009; 64bit' Language: 'ja' Physical Memory: 8080 MB
+OS: 'Windows 10 Home; OS build 19043.1348; Version 2009; 64bit' Language: 'ja' Physical Memory: 8133 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+C:\Program Files\Unity\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/sotu/sotugyouseisaku
+C:/Users/KPC-018A1702/Desktop/SotugyoSeisaku/sotugyouseisaku
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59242
-Successfully changed project path to: C:/sotu/sotugyouseisaku
-C:/sotu/sotugyouseisaku
+59968
+Successfully changed project path to: C:/Users/KPC-018A1702/Desktop/SotugyoSeisaku/sotugyouseisaku
+C:/Users/KPC-018A1702/Desktop/SotugyoSeisaku/sotugyouseisaku
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 79.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 85.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/sotu/sotugyouseisaku/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/KPC-018A1702/Desktop/SotugyoSeisaku/sotugyouseisaku/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
     Vendor:   
-    VRAM:     1977 MB
-    Driver:   30.0.14.7212
+    VRAM:     6052 MB
+    Driver:   30.0.14.9649
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002577 seconds.
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002558 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 67.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 86.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.685 seconds
+- Completed reload, in  1.266 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006515 seconds.
+Registered in 0.008794 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001BC7CEC12D0 doesn't match image C:\sotu\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-0000029BF466DC20 doesn't match image C:\Users\KPC-018A1702\Desktop\SotugyoSeisaku\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001BC7CE8C300 doesn't match image C:\sotu\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.274 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.8 MB.
-System memory in use after: 125.9 MB.
-
-Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 2680.
-Total: 2.883300 ms (FindLiveObjects: 0.267500 ms CreateObjectMapping: 0.134000 ms MarkObjects: 2.103600 ms  DeleteObjects: 0.377000 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/Kan.unity
-  artifactKey: Guid(19c8025f01c21064d9e44738e2c40f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Kan.unity using Guid(19c8025f01c21064d9e44738e2c40f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6b0d5ed884d6ead17d978149239458') in 0.014891 seconds
-  Import took 0.020160 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006984 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001BACEA42EB0 doesn't match image C:\sotu\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001BC7CD6C830 doesn't match image C:\sotu\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.562 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2159 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.9 MB.
-System memory in use after: 120.0 MB.
-
-Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2682.
-Total: 3.218400 ms (FindLiveObjects: 0.266900 ms CreateObjectMapping: 0.101100 ms MarkObjects: 2.417600 ms  DeleteObjects: 0.431400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006267 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001BC7CE85EA0 doesn't match image C:\sotu\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001BAC7B64E40 doesn't match image C:\sotu\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.551 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2159 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.9 MB.
-System memory in use after: 120.1 MB.
-
-Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2684.
-Total: 5.349900 ms (FindLiveObjects: 0.690100 ms CreateObjectMapping: 0.272300 ms MarkObjects: 3.798500 ms  DeleteObjects: 0.586900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 4837.640839 seconds.
-  path: Assets/Scenes/Kan.unity
-  artifactKey: Guid(19c8025f01c21064d9e44738e2c40f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Kan.unity using Guid(19c8025f01c21064d9e44738e2c40f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a352e42f8168ab0bdf302a743346c8bb') in 0.510491 seconds
-  Import took 0.517250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.762376 seconds.
-  path: Assets/Koiso
-  artifactKey: Guid(327f8a4e9fcd5b246a131a3d9fd40dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Koiso using Guid(327f8a4e9fcd5b246a131a3d9fd40dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d34283afc5dd34989f037c0b56911fa') in 0.010837 seconds
-  Import took 0.015513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.383799 seconds.
-  path: Assets/Kan/Sound
-  artifactKey: Guid(14e98c06a2cf03d48b316eeb478a3cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kan/Sound using Guid(14e98c06a2cf03d48b316eeb478a3cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e322278c937e718ae91ed48d8c9201') in 0.009999 seconds
-  Import took 0.017788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.172165 seconds.
-  path: Assets/Kan/Prefab/SpiderSound.prefab
-  artifactKey: Guid(78771272391133a47b20061791712731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kan/Prefab/SpiderSound.prefab using Guid(78771272391133a47b20061791712731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a781226cee722749658cb314e31cbb') in 0.080009 seconds
-  Import took 0.092710 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006495 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001BAC4AADF20 doesn't match image C:\sotu\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001BAC9C18840 doesn't match image C:\sotu\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.395 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2159 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.0 MB.
-System memory in use after: 120.1 MB.
-
-Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2686.
-Total: 3.244200 ms (FindLiveObjects: 0.234200 ms CreateObjectMapping: 0.091500 ms MarkObjects: 2.554300 ms  DeleteObjects: 0.362900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2088.686792 seconds.
-  path: Assets/Scenes/Game.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2bee95ec76f9b54d163735afa17de1') in 0.220580 seconds
-  Import took 0.227214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.521759 seconds.
-  path: Assets/Scenes/kaede.unity
-  artifactKey: Guid(fa8954cd8b9f784478dc9cd0bc4c0853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/kaede.unity using Guid(fa8954cd8b9f784478dc9cd0bc4c0853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f69bd90cd4d44ca95172dd9596b8fd') in 0.010300 seconds
-  Import took 0.017254 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 747.810284 seconds.
-  path: Assets/Kan/Prefab/TitanSound.prefab
-  artifactKey: Guid(c22c43d2ad19f7d46ad8ec760e0f73b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kan/Prefab/TitanSound.prefab using Guid(c22c43d2ad19f7d46ad8ec760e0f73b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76f5fd394bdf41929364a7c8374447d') in 0.146054 seconds
-  Import took 0.213537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.360909 seconds.
-  path: Assets/Kan/Prefab/TitanSound.prefab
-  artifactKey: Guid(c22c43d2ad19f7d46ad8ec760e0f73b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kan/Prefab/TitanSound.prefab using Guid(c22c43d2ad19f7d46ad8ec760e0f73b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f2b059a502eaf753edb14492b3450e') in 0.006067 seconds
-  Import took 0.012417 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006071 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001BCAB7D8010 doesn't match image C:\sotu\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001BAC9C18840 doesn't match image C:\sotu\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-0000029BF8A69300 doesn't match image C:\Users\KPC-018A1702\Desktop\SotugyoSeisaku\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.496 seconds
+- Completed reload, in  1.409 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2159 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.0 MB.
-System memory in use after: 120.1 MB.
+Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.1 MB.
+System memory in use after: 123.3 MB.
 
-Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2688.
-Total: 4.068100 ms (FindLiveObjects: 0.347500 ms CreateObjectMapping: 0.185200 ms MarkObjects: 3.121200 ms  DeleteObjects: 0.412200 ms)
+Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 2680.
+Total: 3.626100 ms (FindLiveObjects: 0.279400 ms CreateObjectMapping: 0.149200 ms MarkObjects: 2.763900 ms  DeleteObjects: 0.432200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/mapsozai
+  artifactKey: Guid(10ef1cd7fe81eb74e961e13f9f4f601d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai using Guid(10ef1cd7fe81eb74e961e13f9f4f601d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb91e24ada71d52eb4db6995c63e74a2') in 0.012863 seconds
+  Import took 0.018249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.011812 seconds.
+  path: Assets/Scenes/Kawashita.unity
+  artifactKey: Guid(7739b5753c8ffae4bb2ecc893a663cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Kawashita.unity using Guid(7739b5753c8ffae4bb2ecc893a663cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708b61f4c472ae2026699b73703091c1') in 0.014802 seconds
+  Import took 0.020456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.735491 seconds.
+  path: Assets/mapsozai/uploads_files_630659_asc.fbx
+  artifactKey: Guid(8b131e47f1437dd45be7d44b9da33d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/uploads_files_630659_asc.fbx using Guid(8b131e47f1437dd45be7d44b9da33d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8096cfbb06da4b2071f6cadc99fe0b48') in 0.718930 seconds
+  Import took 0.725395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 601.200327 seconds.
+  path: Assets/mapsozai/Medieval Structure Kit/Materials/Buildings
+  artifactKey: Guid(585dd48669a927047a3d72c7088c3333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Medieval Structure Kit/Materials/Buildings using Guid(585dd48669a927047a3d72c7088c3333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70be1b6293c5cdabd65648c777f08067') in 0.010788 seconds
+  Import took 0.018154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000826 seconds.
+  path: Assets/mapsozai/Medieval Structure Kit/Materials/Buildings
+  artifactKey: Guid(585dd48669a927047a3d72c7088c3333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mapsozai/Medieval Structure Kit/Materials/Buildings using Guid(585dd48669a927047a3d72c7088c3333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70be1b6293c5cdabd65648c777f08067') in 0.002868 seconds
+  Import took 0.008253 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
