@@ -23,7 +23,7 @@ public class DoorScript : MonoBehaviour
             animator.SetBool("Open", !animator.GetBool("Open"));
         }
 
-        Debug.Log(isNear);
+        //Debug.Log(isNear);
     }
 
     void OnTriggerEnter(Collider col)
