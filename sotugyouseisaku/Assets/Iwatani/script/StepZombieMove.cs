@@ -168,15 +168,12 @@ public class StepZombieMove : MonoBehaviour
         //Material mat = this.GetComponent<Renderer>().material;
         while (time >= 0)
         {
-            agent.velocity = Vector3.zero;
-            agent.isStopped = true;
             //mat.color = new Color(0.0f, 0.0f, 1.0f, 1.0f);
             yield return new WaitForSeconds(1f);
             Debug.Log(time);
             --time;
         }
         //mat.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
-        agent.isStopped = false;
         rand = Random.Range(1, 3);
         //Debug.Log(rand);
         switch (rand)
@@ -261,7 +258,7 @@ public class StepZombieMove : MonoBehaviour
                         animator.SetTrigger("rightstep");
                         isRightStep = false;
                     }
-                    if (isLeftStep&&!isDeath)
+                    if (isLeftStep && !isDeath)
                     {
                         StartCoroutine("steptimer", 5);
                         animator.SetTrigger("leftstep");
@@ -270,7 +267,7 @@ public class StepZombieMove : MonoBehaviour
                 }
                 PlayerChase();
             }
-            //else Patrol();
+            else Patrol();
         }
         else Patrol();
 
