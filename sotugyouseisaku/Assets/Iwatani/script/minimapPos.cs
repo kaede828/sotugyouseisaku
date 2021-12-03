@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,12 +8,18 @@ public class minimapPos : MonoBehaviour
     [SerializeField]
     private GameObject player;
     GameObject textObject;
+    GameObject ikkaigameObject;
+    GameObject nikaigameObject;
     Text text;
     Vector3 oldPos;
     Vector3 newPos;
     List<GameObject> gameobjectList = new List<GameObject>();
     List<Image> imageList = new List<Image>();
+    Image ikkaiimage;
+    Image nikaiimage;
     bool mapflag=false;
+    public bool ikkaiimageflag = true;
+    public bool nikaiimageflag = false;
 
     GameObject Optext;
 
@@ -31,6 +36,11 @@ public class minimapPos : MonoBehaviour
             imageList.Add(gameobjectList[i].GetComponent<Image>());
         }
         textObject = GameObject.FindGameObjectWithTag("1Ftext");
+        ikkaigameObject = GameObject.FindGameObjectWithTag("1Fimage");
+        nikaigameObject = GameObject.FindGameObjectWithTag("2Fimage");
+
+        ikkaiimage = ikkaigameObject.GetComponent<Image>();
+        nikaiimage = nikaigameObject.GetComponent<Image>();
         text = textObject.GetComponent<Text>();
 
         Optext= GameObject.FindGameObjectWithTag("OPtext");
@@ -55,10 +65,13 @@ public class minimapPos : MonoBehaviour
             if(mapflag)
             {
                 mapflag = false;
+                ikkaiimage.color = new Color(ikkaiimage.color.r, ikkaiimage.color.g, ikkaiimage.color.b, 0);
+                nikaiimage.color = new Color(ikkaiimage.color.r, ikkaiimage.color.g, ikkaiimage.color.b, 0);
             }
             else
             {
                 mapflag = true;
+
             }
             
         }
@@ -71,6 +84,20 @@ public class minimapPos : MonoBehaviour
                 imageList[i].color= new Color(imageList[i].color.r, imageList[i].color.g, imageList[i].color.b, 1);
             }
             text.color= new Color(text.color.r, text.color.g, text.color.b, 1);
+
+            if (ikkaiimageflag)
+            {
+                ikkaiimage.color = new Color(ikkaiimage.color.r, ikkaiimage.color.g, ikkaiimage.color.b, 1);
+                nikaiimage.color = new Color(nikaiimage.color.r, nikaiimage.color.g, nikaiimage.color.b, 0);
+                text.text = "1F";
+            }
+
+            if (nikaiimageflag)
+            {
+                ikkaiimage.color = new Color(ikkaiimage.color.r, ikkaiimage.color.g, ikkaiimage.color.b, 0);
+                nikaiimage.color = new Color(nikaiimage.color.r, nikaiimage.color.g, nikaiimage.color.b, 1);
+                text.text = "2F";
+            }
         }
         else
         {

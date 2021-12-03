@@ -645,8 +645,9 @@ GameObject:
   - component: {fileID: 6366208532274895303}
   - component: {fileID: 8074966563458602579}
   - component: {fileID: 8074966561816221174}
-  - component: {fileID: 1698430869}
-  - component: {fileID: 1698430868}
+  - component: {fileID: 1136933708}
+  - component: {fileID: 1136933707}
+  - component: {fileID: 4754323435752439240}
   m_Layer: 8
   m_Name: SoldierA
   m_TagString: Player
@@ -748,6 +749,9 @@ MonoBehaviour:
   spine: {fileID: 6366208532008371468}
   post: {fileID: 0}
   Damage: 1
+  bossEnemy: {fileID: 0}
+  bossevent: 0
+  bosseventend: 0
 --- !u!82 &8074966563458602579
 AudioSource:
   m_ObjectHideFlags: 0
@@ -857,7 +861,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Bbutton: {fileID: 0}
---- !u!54 &1698430869
+--- !u!54 &1136933708
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -873,7 +877,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!320 &1698430868
+--- !u!320 &1136933707
 PlayableDirector:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -892,8 +896,22 @@ PlayableDirector:
     value: {fileID: 6366208532017933012}
   - key: {fileID: -2082545527464126752, guid: 694a855e7acee9d49acc052f9411f68e, type: 2}
     value: {fileID: 0}
+  - key: {fileID: -1223777166044484690, guid: 694a855e7acee9d49acc052f9411f68e, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
+--- !u!114 &4754323435752439240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6366208532008409448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 614fae2f27a71a54f955abd2b2ce7a2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6366208532008409450
 GameObject:
   m_ObjectHideFlags: 0
@@ -2371,12 +2389,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 170110aa26fdec748ab0766b89aec058, type: 3}
---- !u!1 &3278647474364434273 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8491898217854418865, guid: 170110aa26fdec748ab0766b89aec058,
-    type: 3}
-  m_PrefabInstance: {fileID: 6366208531980712144}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2143990640572677824 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5015229664975504912, guid: 170110aa26fdec748ab0766b89aec058,
@@ -2395,6 +2407,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b8dbc2db7c4e334ba7e555f679f4315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &3278647474364434273 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8491898217854418865, guid: 170110aa26fdec748ab0766b89aec058,
+    type: 3}
+  m_PrefabInstance: {fileID: 6366208531980712144}
+  m_PrefabAsset: {fileID: 0}
 --- !u!198 &8935115694152953532 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 2568943549228013164, guid: 170110aa26fdec748ab0766b89aec058,
