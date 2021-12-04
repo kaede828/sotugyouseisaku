@@ -259,6 +259,11 @@ public class Player : MonoBehaviour
         {
             eventManager.EdStart();
         }
+
+        if(collider.gameObject.tag == "GameClearFlag")
+        {
+            SceneManager.LoadScene("GameClear");
+        }
     }
 
     void LateUpdate()

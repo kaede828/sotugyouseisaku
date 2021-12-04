@@ -58,6 +58,7 @@ public class BossEnemy : MonoBehaviour
     public Vector3 hitPos;
 
     Player bossEventplayer;//ボスイベント用プレイヤー
+    public GameObject bossClearDoor;
 
 
     void Start()
@@ -147,7 +148,6 @@ public class BossEnemy : MonoBehaviour
             agent.isStopped = true;
             animator.SetTrigger("death");
             StartCoroutine("Deathtimer", 3);
-            SceneManager.LoadScene("GameClear");
         }
         else
         {
@@ -207,6 +207,10 @@ public class BossEnemy : MonoBehaviour
             --time;
         }
         Destroy(this.gameObject);
+       if(bossClearDoor != null)
+        {
+            bossClearDoor.SetActive(false);
+        }
         //mat.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
         //Call();
     }
