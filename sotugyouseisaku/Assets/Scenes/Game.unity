@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4366757, g: 0.48427194, b: 0.5645252, a: 1}
+  m_IndirectSpecularColor: {r: 0.43667564, g: 0.48427135, b: 0.5645232, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -18487,6 +18487,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8949231995800413837, guid: a45b331c877aef346a5f0d9d1762d138,
         type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8949231995800413837, guid: a45b331c877aef346a5f0d9d1762d138,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 113294050}
@@ -18519,6 +18524,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Titan
+      objectReference: {fileID: 0}
+    - target: {fileID: 8949231996355682636, guid: a45b331c877aef346a5f0d9d1762d138,
+        type: 3}
+      propertyPath: m_Acceleration
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8949231996355682636, guid: a45b331c877aef346a5f0d9d1762d138,
+        type: 3}
+      propertyPath: m_AngularSpeed
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 8949231996355682636, guid: a45b331c877aef346a5f0d9d1762d138,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a45b331c877aef346a5f0d9d1762d138, type: 3}

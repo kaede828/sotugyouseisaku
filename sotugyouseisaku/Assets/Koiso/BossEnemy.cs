@@ -305,6 +305,10 @@ public class BossEnemy : MonoBehaviour
             Debug.Log("プレイヤーとの距離は" + playerDistance);
             Debug.Log("ダッシュ中");
         }
+        else
+        {
+            agent.speed = speed;
+        }
 
         //agent.velocity = (agent.steeringTarget - transform.position).normalized * agent.speed;
         //transform.forward = agent.steeringTarget - transform.position;
