@@ -15,11 +15,11 @@ C:/team02.2/sotugyouseisaku
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50118
+49606
 Successfully changed project path to: C:/team02.2/sotugyouseisaku
 C:/team02.2/sotugyouseisaku
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 79.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 83.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,271 +35,479 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003196 seconds.
+Registered in 0.003164 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 81.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 75.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.319 seconds
+- Completed reload, in  1.620 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008301 seconds.
+Registered in 0.007897 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001FC8A2F4020 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-0000020171132EC0 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FC8CDB7050 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.458 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2228 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.9 MB.
-System memory in use after: 127.1 MB.
-
-Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 2688.
-Total: 3.803300 ms (FindLiveObjects: 0.564000 ms CreateObjectMapping: 0.264900 ms MarkObjects: 2.742500 ms  DeleteObjects: 0.229700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Honda/Prefab/Terrain.prefab
-  artifactKey: Guid(a578eb9581f299341bc31c765cce6db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/Prefab/Terrain.prefab using Guid(a578eb9581f299341bc31c765cce6db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cedca7ed268c97c31825530730e9b7') in 0.062083 seconds
-  Import took 0.067131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000489 seconds.
-  path: Assets/Honda
-  artifactKey: Guid(22768ea531432a34286cfe367a50c675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda using Guid(22768ea531432a34286cfe367a50c675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1c67e30c1841d003cf42e544b3350e') in 0.007594 seconds
-  Import took 0.012093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Honda/07LogoTypeGothic-Condense.ttf
-  artifactKey: Guid(38119b8685eb6e24785b16babcf4643a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/07LogoTypeGothic-Condense.ttf using Guid(38119b8685eb6e24785b16babcf4643a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e1a12bfe93cae19a5331c781cb8046') in 0.149334 seconds
-  Import took 0.154952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Honda/Prefab/op.prefab
-  artifactKey: Guid(2543536f6a4e01f4b850a0600ed2c62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/Prefab/op.prefab using Guid(2543536f6a4e01f4b850a0600ed2c62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afb5308b7ea03ad2d022c39bca7f16f') in 0.025209 seconds
-  Import took 0.030990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Honda/EdTimeline.playable
-  artifactKey: Guid(2705dd8a0ad848b46a0ff4da74d67b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/EdTimeline.playable using Guid(2705dd8a0ad848b46a0ff4da74d67b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff22a9413be93260648087455cf584c9') in 0.024608 seconds
-  Import took 0.030100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Honda/Prefab/EdTimelineStart.prefab
-  artifactKey: Guid(967868800a1e0974e811a0e94626bf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/Prefab/EdTimelineStart.prefab using Guid(967868800a1e0974e811a0e94626bf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93824af965506fdf85778d039802826a') in 0.010985 seconds
-  Import took 0.016647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Honda/test.prefab
-  artifactKey: Guid(0d50f0d00a117884da3349217e77cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/test.prefab using Guid(0d50f0d00a117884da3349217e77cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a59a3301d71464106f9845e8245a6e') in 0.156513 seconds
-  Import took 0.162594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Honda/EventManager.prefab
-  artifactKey: Guid(fad3c3b27e86975499240712c1b58e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/EventManager.prefab using Guid(fad3c3b27e86975499240712c1b58e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc1504d43d65c9bcae76373f644d25d') in 0.017312 seconds
-  Import took 0.023085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Honda/SoldierTimeline.playable
-  artifactKey: Guid(694a855e7acee9d49acc052f9411f68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/SoldierTimeline.playable using Guid(694a855e7acee9d49acc052f9411f68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2a85c48cb5278ac487a1d68afc5939') in 0.017897 seconds
-  Import took 0.023820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000567 seconds.
-  path: Assets/Honda/Prefab/Targets.prefab
-  artifactKey: Guid(a406af3cd0d6215458fcfd9ef9c4b5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/Prefab/Targets.prefab using Guid(a406af3cd0d6215458fcfd9ef9c4b5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d21f66ea2d33d4dd96eb7387a6e18f0') in 0.011403 seconds
-  Import took 0.017832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/Honda/Prefab/Terrain (1).prefab
-  artifactKey: Guid(028c51ac636a136479f2c5e35835a448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/Prefab/Terrain (1).prefab using Guid(028c51ac636a136479f2c5e35835a448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2597b9da966864f5855a0b0324d3e10d') in 0.010739 seconds
-  Import took 0.015380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Honda/NewLayer.terrainlayer
-  artifactKey: Guid(035f1950de8d53248a91a9f66f8fa247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/NewLayer.terrainlayer using Guid(035f1950de8d53248a91a9f66f8fa247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2574c3efbc4014b105e95212db864b62') in 0.037095 seconds
-  Import took 0.042531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Honda/Prefab/AmmoBox.prefab
-  artifactKey: Guid(e84f1ac869fa82341be89598f1f9fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/Prefab/AmmoBox.prefab using Guid(e84f1ac869fa82341be89598f1f9fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb538d021cc5aa8c3b72766695159e3') in 0.032994 seconds
-  Import took 0.039235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/Honda/Prefab/BossEventHit.prefab
-  artifactKey: Guid(df64b0135b2ee3b4786f7aa8c1db5268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/Prefab/BossEventHit.prefab using Guid(df64b0135b2ee3b4786f7aa8c1db5268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2234d91268a1e6d14618c2f1c8964007') in 0.010245 seconds
-  Import took 0.015472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Honda/NewLayer 1.terrainlayer
-  artifactKey: Guid(2393a942802d89a46b42c59e554ce80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/NewLayer 1.terrainlayer using Guid(2393a942802d89a46b42c59e554ce80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca582faa38a74e3ad1ee6e09ad95ece7') in 0.016778 seconds
-  Import took 0.022133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Honda/Prefab/SpiderEnemys.prefab
-  artifactKey: Guid(7606114dfb928dc429393a94e5c70b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/Prefab/SpiderEnemys.prefab using Guid(7606114dfb928dc429393a94e5c70b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a9f2d38ae058799379111cd7dd5d06') in 0.097222 seconds
-  Import took 0.105224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000402 seconds.
-  path: Assets/Honda/Prefab/ZombieEnemys.prefab
-  artifactKey: Guid(913142a57deee5c4a89f0215c6bcbba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/Prefab/ZombieEnemys.prefab using Guid(913142a57deee5c4a89f0215c6bcbba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ac84fdd5792631a6169983fe5fe091') in 0.137994 seconds
-  Import took 0.146665 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Honda/Prefab/StepZombieEnemys.prefab
-  artifactKey: Guid(c05952bc574b2ef4899c563947b8a48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/Prefab/StepZombieEnemys.prefab using Guid(c05952bc574b2ef4899c563947b8a48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e5619fcbe5cd3336f033aba98d6d3f') in 0.057293 seconds
-  Import took 0.063563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Honda/Prefab/GameClearFlag.prefab
-  artifactKey: Guid(89dc07dddeaa6d54f8b6106a2cdb815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/Prefab/GameClearFlag.prefab using Guid(89dc07dddeaa6d54f8b6106a2cdb815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692393385a221419a79f3d7fe4d92f80') in 0.012389 seconds
-  Import took 0.017568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/Honda/Prefab/hatudenki.prefab
-  artifactKey: Guid(aecca86b7ead2e049aefb3dc44e99046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/Prefab/hatudenki.prefab using Guid(aecca86b7ead2e049aefb3dc44e99046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabd0f19c3e407a8a113e5413d44fcd0') in 0.011432 seconds
-  Import took 0.017527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/Honda/New Terrain.asset
-  artifactKey: Guid(de8bd3fd7649b2c4cbeaf215fdeb5847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/New Terrain.asset using Guid(de8bd3fd7649b2c4cbeaf215fdeb5847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1628fb95ae49749d91e4d5e17c8e411') in 0.039088 seconds
-  Import took 0.045785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Honda/Prefab
-  artifactKey: Guid(eb4821056669b4d499785c24dada60b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/Prefab using Guid(eb4821056669b4d499785c24dada60b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6c641c8e1dc063c2976a629ba5dd87') in 0.007821 seconds
-  Import took 0.013790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Honda/Prefab/BossClearDoor.prefab
-  artifactKey: Guid(f5cd40f00e7710e48a7cddcf70f54916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/Prefab/BossClearDoor.prefab using Guid(f5cd40f00e7710e48a7cddcf70f54916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4d53f7b3f846bd19d1d3f5b2000209') in 0.016252 seconds
-  Import took 0.021305 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009361 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001FC89E02010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FC8D0DA020 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.500 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2161 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.6 MB.
-System memory in use after: 139.8 MB.
-
-Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 2741.
-Total: 3.488100 ms (FindLiveObjects: 0.350700 ms CreateObjectMapping: 0.334900 ms MarkObjects: 2.681400 ms  DeleteObjects: 0.119100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007633 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001FC8C8D6020 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001FC8FD84450 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-0000020174009C20 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.274 seconds
+- Completed reload, in  1.486 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2228 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.9 MB.
+System memory in use after: 127.2 MB.
+
+Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 2688.
+Total: 2.611400 ms (FindLiveObjects: 0.234900 ms CreateObjectMapping: 0.113500 ms MarkObjects: 2.118400 ms  DeleteObjects: 0.143500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Honda/Prefab/SpiderEnemys.prefab
+  artifactKey: Guid(7606114dfb928dc429393a94e5c70b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/SpiderEnemys.prefab using Guid(7606114dfb928dc429393a94e5c70b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3657dc63c2c22bffdc6c1e2db326cdd') in 0.348497 seconds
+  Import took 0.360462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Honda/Prefab/ZombieEnemys.prefab
+  artifactKey: Guid(913142a57deee5c4a89f0215c6bcbba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/ZombieEnemys.prefab using Guid(913142a57deee5c4a89f0215c6bcbba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffee862e48199db41124b88530b9d7cf') in 0.228964 seconds
+  Import took 0.240079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Honda/Prefab/StepZombieEnemys.prefab
+  artifactKey: Guid(c05952bc574b2ef4899c563947b8a48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/StepZombieEnemys.prefab using Guid(c05952bc574b2ef4899c563947b8a48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e33f8547cf6c74658d5b528797c411') in 0.149100 seconds
+  Import took 0.158576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 927.222759 seconds.
+  path: Assets/Honda/Prefab/FirstAidKits.prefab
+  artifactKey: Guid(b886d5ff4e318d9489dfb46852328793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/FirstAidKits.prefab using Guid(b886d5ff4e318d9489dfb46852328793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0dc9e2f4259ae007cc0d336e56922f') in 0.045063 seconds
+  Import took 0.052674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024106 seconds.
+  path: Assets/Honda/Prefab/FirstAidKits.prefab
+  artifactKey: Guid(b886d5ff4e318d9489dfb46852328793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/FirstAidKits.prefab using Guid(b886d5ff4e318d9489dfb46852328793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0dc9e2f4259ae007cc0d336e56922f') in 0.027416 seconds
+  Import took 0.034336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.615850 seconds.
+  path: Assets/Honda/Prefab/AmmoBox.prefab
+  artifactKey: Guid(e84f1ac869fa82341be89598f1f9fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/AmmoBox.prefab using Guid(e84f1ac869fa82341be89598f1f9fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d2b91f05ff4364948586511086fbf0') in 0.032112 seconds
+  Import took 0.038665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.873101 seconds.
+  path: Assets/Honda/Prefab/AmmoBox.prefab
+  artifactKey: Guid(e84f1ac869fa82341be89598f1f9fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/AmmoBox.prefab using Guid(e84f1ac869fa82341be89598f1f9fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee171d30b87cca49ea5c06ebbed7673') in 0.057449 seconds
+  Import took 0.063514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 743.475672 seconds.
+  path: Assets/Honda/Prefab/AmmoBox.prefab
+  artifactKey: Guid(e84f1ac869fa82341be89598f1f9fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/AmmoBox.prefab using Guid(e84f1ac869fa82341be89598f1f9fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5430e7314dd9e1a81037915c060961f7') in 0.049836 seconds
+  Import took 0.056483 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009100 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002017552F010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020173E0EC20 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.335 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2161 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.6 MB.
-System memory in use after: 139.8 MB.
+System memory in use before: 141.5 MB.
+System memory in use after: 141.7 MB.
 
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2743.
-Total: 4.576500 ms (FindLiveObjects: 0.262800 ms CreateObjectMapping: 0.104100 ms MarkObjects: 4.095300 ms  DeleteObjects: 0.112600 ms)
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2698.
+Total: 2.757400 ms (FindLiveObjects: 0.220900 ms CreateObjectMapping: 0.101300 ms MarkObjects: 2.302700 ms  DeleteObjects: 0.131600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 269.586514 seconds.
+  path: Assets/Honda/Prefab/AmmoBox.prefab
+  artifactKey: Guid(e84f1ac869fa82341be89598f1f9fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/AmmoBox.prefab using Guid(e84f1ac869fa82341be89598f1f9fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00997ee7f37d73fa38a0b8e143ec9a9b') in 0.113738 seconds
+  Import took 0.119183 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007951 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000201791DEE10 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020182318770 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.341 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2161 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.6 MB.
+System memory in use after: 141.8 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2701.
+Total: 2.906200 ms (FindLiveObjects: 0.248000 ms CreateObjectMapping: 0.148000 ms MarkObjects: 2.373100 ms  DeleteObjects: 0.135600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.171363 seconds.
+  path: Assets/Honda/Prefab/hatudenki.prefab
+  artifactKey: Guid(aecca86b7ead2e049aefb3dc44e99046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/hatudenki.prefab using Guid(aecca86b7ead2e049aefb3dc44e99046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254997d5a38835ea3c4c4e91f930c4e8') in 0.067286 seconds
+  Import took 0.075330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.962964 seconds.
+  path: Assets/Honda/Prefab/hatudenki.prefab
+  artifactKey: Guid(aecca86b7ead2e049aefb3dc44e99046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/hatudenki.prefab using Guid(aecca86b7ead2e049aefb3dc44e99046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcb9f7a46790f95da2512ce0ce33810') in 0.007122 seconds
+  Import took 0.015878 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008526 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000201AAFE1A30 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000201710D1010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.462 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2161 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.6 MB.
+System memory in use after: 141.8 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2703.
+Total: 2.769600 ms (FindLiveObjects: 0.301100 ms CreateObjectMapping: 0.132900 ms MarkObjects: 2.218800 ms  DeleteObjects: 0.115600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011217 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020179B7F220 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000201A62B1010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.336 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2161 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.6 MB.
+System memory in use after: 141.8 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2705.
+Total: 2.767900 ms (FindLiveObjects: 0.230900 ms CreateObjectMapping: 0.107800 ms MarkObjects: 2.297400 ms  DeleteObjects: 0.130600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 640.276520 seconds.
+  path: Assets/Honda/Prefab/hatudenki.prefab
+  artifactKey: Guid(aecca86b7ead2e049aefb3dc44e99046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/hatudenki.prefab using Guid(aecca86b7ead2e049aefb3dc44e99046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8870ca8106825a88564e3572337ca14e') in 0.113548 seconds
+  Import took 0.121780 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009876 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020178952010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002018204D030 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.701 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2161 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.5 MB.
+System memory in use after: 141.7 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2707.
+Total: 3.182200 ms (FindLiveObjects: 0.416000 ms CreateObjectMapping: 0.162900 ms MarkObjects: 2.493100 ms  DeleteObjects: 0.108200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1172.288865 seconds.
+  path: Assets/Iwatani
+  artifactKey: Guid(1197bfa22401c894fad3333beb43b6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani using Guid(1197bfa22401c894fad3333beb43b6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3a085eb5de146cdbb066f579b67e6b') in 0.019023 seconds
+  Import took 0.028058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080253 seconds.
+  path: Assets/Iwatani/工具箱をあさる.mp3
+  artifactKey: Guid(f9e650588e2ff474eacb597e072f9cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/工具箱をあさる.mp3 using Guid(f9e650588e2ff474eacb597e072f9cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed00c47fbb3c0bc948427289da78602f') in 0.203300 seconds
+  Import took 0.209694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.308991 seconds.
+  path: Assets/Iwatani/irasuto
+  artifactKey: Guid(9fb9ca5fb852f094d8b60805b88db1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/irasuto using Guid(9fb9ca5fb852f094d8b60805b88db1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ac7ba89e2ad7ddd27d349f1976a420') in 0.009533 seconds
+  Import took 0.015748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074868 seconds.
+  path: Assets/Iwatani/irasuto/1F.png
+  artifactKey: Guid(3511ca3966530754ebe0ff6fe1c5b9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/irasuto/1F.png using Guid(3511ca3966530754ebe0ff6fe1c5b9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa541c732f41760fef8dd58b34f47c7') in 0.088250 seconds
+  Import took 0.095854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Iwatani/irasuto/back.png
+  artifactKey: Guid(2a486fc3c565d5442bc7fb4446971fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/irasuto/back.png using Guid(2a486fc3c565d5442bc7fb4446971fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6530852962c717263f29891923da7926') in 0.028341 seconds
+  Import took 0.034130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000637 seconds.
+  path: Assets/Iwatani/irasuto/waku.png
+  artifactKey: Guid(fed46f66a0d60fc4aac1a28ff270686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/irasuto/waku.png using Guid(fed46f66a0d60fc4aac1a28ff270686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565a58bec2901637e4339e1a6b2f0142') in 0.022818 seconds
+  Import took 0.028789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Iwatani/irasuto/イラスト.png
+  artifactKey: Guid(ed1210d8cbb77fc468c670b8f218f409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/irasuto/イラスト.png using Guid(ed1210d8cbb77fc468c670b8f218f409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72e0124254494319c3104a76f801668') in 0.018183 seconds
+  Import took 0.024242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Iwatani/irasuto/1Fa.png
+  artifactKey: Guid(b7c22d518c91f924d8a07da6a4797cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/irasuto/1Fa.png using Guid(b7c22d518c91f924d8a07da6a4797cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868fad49a32815a4b702b602aeb9ab01') in 0.038484 seconds
+  Import took 0.045117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Iwatani/irasuto/radial-slider-bold.png
+  artifactKey: Guid(e4c894e2794dbf342b6866bbcce8a4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/irasuto/radial-slider-bold.png using Guid(e4c894e2794dbf342b6866bbcce8a4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fd06baafb85cc6cdfa137322b094ab') in 0.020521 seconds
+  Import took 0.026398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Iwatani/irasuto/2階a.png
+  artifactKey: Guid(dd0ff48d11e1fcb458cc80fdbc2a6aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/irasuto/2階a.png using Guid(dd0ff48d11e1fcb458cc80fdbc2a6aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61b67181d106e210f1ab3ddc400750e') in 0.045770 seconds
+  Import took 0.051105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Iwatani/irasuto/Bbutton.png
+  artifactKey: Guid(714a807452a5e074b8b5cbb5046e412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/irasuto/Bbutton.png using Guid(714a807452a5e074b8b5cbb5046e412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9470b82e040b64e7116315c93dcb1ab1') in 0.027011 seconds
+  Import took 0.033985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.804649 seconds.
+  path: Assets/Iwatani/Prefab
+  artifactKey: Guid(f691267706912a34680d66fd31fc3984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/Prefab using Guid(f691267706912a34680d66fd31fc3984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca16cc0565541ac3c7e3023d7378fb7') in 0.010972 seconds
+  Import took 0.017191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069782 seconds.
+  path: Assets/Iwatani/Prefab/A.prefab
+  artifactKey: Guid(7a4a9356f10a9e342aa5e843927bc025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/Prefab/A.prefab using Guid(7a4a9356f10a9e342aa5e843927bc025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a0020f586147af4c7181ed27eb4cfd') in 0.018127 seconds
+  Import took 0.023617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Iwatani/Prefab/C.prefab
+  artifactKey: Guid(e8054da1554424240868b1439f743f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/Prefab/C.prefab using Guid(e8054da1554424240868b1439f743f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e207ea4215bffde6d0dc0bab31d340') in 0.009540 seconds
+  Import took 0.015876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Iwatani/Prefab/E.prefab
+  artifactKey: Guid(35c09383ad6f8624689475ca459599e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/Prefab/E.prefab using Guid(35c09383ad6f8624689475ca459599e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1b1eeee44d5d6e3c2c4b642aad8b96') in 0.011129 seconds
+  Import took 0.016909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Iwatani/Prefab/B.prefab
+  artifactKey: Guid(2f7d0a4e81c28dd488e3b1304e312f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/Prefab/B.prefab using Guid(2f7d0a4e81c28dd488e3b1304e312f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfe9befd50494466b84294f6d674eeb') in 0.010557 seconds
+  Import took 0.015715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Iwatani/Prefab/bossdoorCamera.prefab
+  artifactKey: Guid(99a59a18267013946a3489296ce73c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/Prefab/bossdoorCamera.prefab using Guid(99a59a18267013946a3489296ce73c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5be8ba5d74c940b467e084e59916cd') in 0.015373 seconds
+  Import took 0.021316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Iwatani/Prefab/hatudenki.prefab
+  artifactKey: Guid(caa52eeca2b0e8045b683a95527013cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/Prefab/hatudenki.prefab using Guid(caa52eeca2b0e8045b683a95527013cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2f103da1aae3ac9050e35b261b8b58') in 0.060227 seconds
+  Import took 0.066405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Iwatani/Prefab/Bbutton.prefab
+  artifactKey: Guid(c02d1576b7371884fb61b5d6de28a7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/Prefab/Bbutton.prefab using Guid(c02d1576b7371884fb61b5d6de28a7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b966a4b84c6b6c075293b424037952a') in 0.008069 seconds
+  Import took 0.014685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Iwatani/Prefab/Door.prefab
+  artifactKey: Guid(6fd974e5049123a4d8851406bec1d057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/Prefab/Door.prefab using Guid(6fd974e5049123a4d8851406bec1d057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3882fd07071860cb016669fae18cc7') in 0.016543 seconds
+  Import took 0.021997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Iwatani/Prefab/PauseUI.prefab
+  artifactKey: Guid(effdf31baed532f4cabc83e75bfc0495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/Prefab/PauseUI.prefab using Guid(effdf31baed532f4cabc83e75bfc0495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32bd23ff157ddb6a3486641adbd5e22') in 0.028325 seconds
+  Import took 0.033782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Iwatani/Prefab/StepZombie.prefab
+  artifactKey: Guid(abf40f742b2a9c64cace501e39e0cf9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/Prefab/StepZombie.prefab using Guid(abf40f742b2a9c64cace501e39e0cf9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a713df99a985be36f43729ed2a865536') in 0.113721 seconds
+  Import took 0.120428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Iwatani/Prefab/D.prefab
+  artifactKey: Guid(59d5d9a3a0c2fbe428f838204d38e0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/Prefab/D.prefab using Guid(59d5d9a3a0c2fbe428f838204d38e0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f17bd1a0e949d4218f8f64e935e75f1') in 0.010299 seconds
+  Import took 0.015737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Iwatani/Prefab/hatudenkiManager.prefab
+  artifactKey: Guid(bbc4f1131cd08fe4c89ca169db2dba1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/Prefab/hatudenkiManager.prefab using Guid(bbc4f1131cd08fe4c89ca169db2dba1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2db99fe2caf7d685bc14ff83424644') in 0.014265 seconds
+  Import took 0.020619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Iwatani/Prefab/hatudenkiHit.prefab
+  artifactKey: Guid(411f0239fc3696c4a9647d76651a78e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/Prefab/hatudenkiHit.prefab using Guid(411f0239fc3696c4a9647d76651a78e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2cd8864e3615bac45ebe869f709ecc3') in 0.021055 seconds
+  Import took 0.025927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Iwatani/Prefab/UI.prefab
+  artifactKey: Guid(d64a3a45eafb1f94e99f822766e8be74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/Prefab/UI.prefab using Guid(d64a3a45eafb1f94e99f822766e8be74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59551de6217626da39f2dcad2e5f8afa') in 0.022501 seconds
+  Import took 0.029650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.603643 seconds.
+  path: Assets/Iwatani/Prefab/hatudenkiManager.prefab
+  artifactKey: Guid(bbc4f1131cd08fe4c89ca169db2dba1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/Prefab/hatudenkiManager.prefab using Guid(bbc4f1131cd08fe4c89ca169db2dba1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0822abee89244b861f5eae5160139097') in 0.010855 seconds
+  Import took 0.017109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037290 seconds.
+  path: Assets/Iwatani/Prefab/hatudenkiManager.prefab
+  artifactKey: Guid(bbc4f1131cd08fe4c89ca169db2dba1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Iwatani/Prefab/hatudenkiManager.prefab using Guid(bbc4f1131cd08fe4c89ca169db2dba1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0822abee89244b861f5eae5160139097') in 0.008918 seconds
+  Import took 0.014032 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
