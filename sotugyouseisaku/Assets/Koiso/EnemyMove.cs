@@ -14,7 +14,7 @@ public class EnemyMove : MonoBehaviour
     }
     [SerializeField] private EnemyState state = EnemyState.PATROL;
     [SerializeField] private int hp = 100;
-    [SerializeField] private int speed = 20;
+    [SerializeField] private int speed = 5;
     //ダメ―ジエフェクト
     [SerializeField] private GameObject bloodObj;
     //攻撃の判定
