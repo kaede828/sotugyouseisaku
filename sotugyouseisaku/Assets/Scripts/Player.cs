@@ -88,6 +88,7 @@ public class Player : MonoBehaviour
     float bossWaitTime = 1.5f;//ボス登場時のズームにかける時間
 
     Vector3 CameraTarget;
+    EventManager eventManager;
 
     // Start is called before the first frame update
     void Start()
@@ -115,6 +116,7 @@ public class Player : MonoBehaviour
         opskipcount = 0;
         bossevent = false;
         bosseventend = false;
+        eventManager = this.GetComponent<EventManager>();
     }
 
     // Update is called once per frame
@@ -251,6 +253,16 @@ public class Player : MonoBehaviour
         if(collider.gameObject.tag == "BossEventHit")
         {
             bossevent = true;
+        }
+
+        if(collider.gameObject.tag == "EdTimelineStart")
+        {
+            eventManager.EdStart();
+        }
+
+        if(collider.gameObject.tag == "GameClearFlag")
+        {
+            SceneManager.LoadScene("GameClear");
         }
     }
 
