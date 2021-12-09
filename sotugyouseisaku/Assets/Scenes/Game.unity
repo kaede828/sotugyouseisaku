@@ -1149,6 +1149,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132641557}
   m_Mesh: {fileID: -7479946734113766208, guid: ce36751b0ae26a34e856faa458c677c9, type: 3}
+--- !u!198 &133630909 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4928183852759812935, guid: 5c1b8397b1b4a174e9a909566d4b8dbb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1790546841}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &134599880
 Mesh:
   m_ObjectHideFlags: 0
@@ -3355,12 +3361,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 297805625}
   m_Mesh: {fileID: -7418172549267459880, guid: ce36751b0ae26a34e856faa458c677c9, type: 3}
---- !u!198 &300765610 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 2845859671816217829, guid: 5c1b8397b1b4a174e9a909566d4b8dbb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1790546841}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &311303901
 GameObject:
   m_ObjectHideFlags: 0
@@ -19176,10 +19176,30 @@ PrefabInstance:
         type: 3}
       propertyPath: muzzleFlashParticle
       value: 
-      objectReference: {fileID: 300765610}
+      objectReference: {fileID: 133630909}
+    - target: {fileID: 2143990640572677824, guid: 5c1b8397b1b4a174e9a909566d4b8dbb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.442
+      objectReference: {fileID: 0}
+    - target: {fileID: 2143990640572677824, guid: 5c1b8397b1b4a174e9a909566d4b8dbb,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.661
+      objectReference: {fileID: 0}
+    - target: {fileID: 2143990640572677824, guid: 5c1b8397b1b4a174e9a909566d4b8dbb,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.346
+      objectReference: {fileID: 0}
     - target: {fileID: 3452126064353904410, guid: 5c1b8397b1b4a174e9a909566d4b8dbb,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928183852759812935, guid: 5c1b8397b1b4a174e9a909566d4b8dbb,
+        type: 3}
+      propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6366208531738586991, guid: 5c1b8397b1b4a174e9a909566d4b8dbb,
@@ -19361,7 +19381,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 8af4bc8d5f38e394e8ce58613ae15307, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8074966563458602579, guid: 5c1b8397b1b4a174e9a909566d4b8dbb,
         type: 3}
       propertyPath: rolloffMode
@@ -50626,6 +50646,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1136933701}
+    - target: {fileID: 5123818203162457018, guid: b886d5ff4e318d9489dfb46852328793,
+        type: 3}
+      propertyPath: se
+      value: 
+      objectReference: {fileID: 8300000, guid: ace50d33e3e26de49b651357ae54b876, type: 3}
     - target: {fileID: 5123818203162457018, guid: b886d5ff4e318d9489dfb46852328793,
         type: 3}
       propertyPath: post

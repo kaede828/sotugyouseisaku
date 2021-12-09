@@ -89,6 +89,7 @@ public class Player : MonoBehaviour
 
     Vector3 CameraTarget;
     EventManager eventManager;
+    
 
     // Start is called before the first frame update
     void Start()

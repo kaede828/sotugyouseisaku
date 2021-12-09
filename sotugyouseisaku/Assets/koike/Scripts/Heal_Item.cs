@@ -12,6 +12,8 @@ public class Heal_Item : MonoBehaviour
 
     public postEffect post;
 
+    [SerializeField]
+    private AudioClip se;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +35,7 @@ public class Heal_Item : MonoBehaviour
             {
                 player.hp += heal;
                 post.vigparam -= 0.061f * 2;
+                other.gameObject.GetComponent<AudioSource>().PlayOneShot(se);
                 Destroy(gameObject);           
             }           
         }
