@@ -247,7 +247,6 @@ public class Player : MonoBehaviour
             post.vigparam += 0.061f;
             Debug.Log("Player@vigparam"+post.vigparam);
             //Debug.Log("ÉvÉåÉCÉÑÅ[HP : " + hp);
-           
         }
 
         if(collider.gameObject.tag == "BossEventHit")
