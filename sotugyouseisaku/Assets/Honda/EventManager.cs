@@ -9,7 +9,7 @@ using UnityEngine.Timeline;
 public class EventManager : MonoBehaviour
 {
     //EDのタイムラインをセット
-    [SerializeField] private TimelineAsset edtimeline;
+    [SerializeField] private TimelineAsset[] timelines;
     private PlayableDirector director;//PlayableDirector型の変数directorを宣言
 
     // Start is called before the first frame update
@@ -25,7 +25,12 @@ public class EventManager : MonoBehaviour
     }
 
     public void EdStart()
-    {//設定されたタイムラインを再生させる
-           director.Play(edtimeline);
+    {//エンディングのタイムラインを再生させる
+           director.Play(timelines[0]);
+    }
+
+    public void BossRoomEnter()
+    {//ボス部屋に降りるエレベーターのタイムラインを再生
+        director.Play(timelines[1]);
     }
 }
