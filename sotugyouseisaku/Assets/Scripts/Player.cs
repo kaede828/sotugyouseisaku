@@ -90,6 +90,8 @@ public class Player : MonoBehaviour
     Vector3 CameraTarget;
     EventManager eventManager;
     public ElevatorScript elevator;
+    public ElevatorScript downElevator;
+    bool isBossRoomEnter = false;
     
 
     // Start is called before the first frame update
@@ -119,6 +121,7 @@ public class Player : MonoBehaviour
         bossevent = false;
         bosseventend = false;
         eventManager = this.GetComponent<EventManager>();
+        isBossRoomEnter = false;
     }
 
     // Update is called once per frame
@@ -260,6 +263,14 @@ public class Player : MonoBehaviour
         {//エンディングのスターと
             eventManager.EdStart();
             elevator.ElevatorUp();
+        }
+
+        if(collider.gameObject.tag == "BossRoomEnter"&&!isBossRoomEnter)
+        {
+            //ボス部屋に降りるタイムラインを再生
+            eventManager.BossRoomEnter();
+            downElevator.ElevatorDown();
+            isBossRoomEnter = true;
         }
 
         if(collider.gameObject.tag == "GameClearFlag")

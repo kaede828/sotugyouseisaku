@@ -9,10 +9,12 @@ public class ElevatorScript : MonoBehaviour
     //エレベーターのタイムラインをセット
     [SerializeField] private TimelineAsset timeline;
     private PlayableDirector director;
+    private bool isElevatorDown;
     // Start is called before the first frame update
     void Start()
     {
         director = this.GetComponent<PlayableDirector>();
+        isElevatorDown = false;
     }
 
     // Update is called once per frame
@@ -24,5 +26,14 @@ public class ElevatorScript : MonoBehaviour
     public void ElevatorUp()
     {
         director.Play(timeline);
+    }
+
+    public void ElevatorDown()
+    {
+        if (!isElevatorDown)
+        {
+            director.Play(timeline);
+            isElevatorDown = true;
+        }
     }
 }
