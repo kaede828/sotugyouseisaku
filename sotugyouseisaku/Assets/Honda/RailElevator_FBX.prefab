@@ -43937,6 +43937,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2880106162801601778}
   - component: {fileID: 7945533049434870549}
+  - component: {fileID: 578121134}
+  - component: {fileID: 578121132}
+  - component: {fileID: 578121133}
   m_Layer: 0
   m_Name: RailElevator_elevator_m
   m_TagString: Untagged
@@ -43951,7 +43954,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8256703274262039537}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 1.5448265, z: 0.07537689}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -44097,6 +44100,57 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 1, z: 3.1}
   m_Center: {x: 0, y: -0.3, z: 0}
+--- !u!320 &578121134
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8256703274262039537}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 563b2d4544eabbd4d93e7e6eb1c0ec14, type: 2}
+  m_InitialState: 0
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -9048736218710541074, guid: 563b2d4544eabbd4d93e7e6eb1c0ec14, type: 2}
+    value: {fileID: 578121132}
+  m_ExposedReferences:
+    m_References: []
+--- !u!95 &578121132
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8256703274262039537}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &578121133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8256703274262039537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e59a03eb3cd54240826665d80b8e81b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeline: {fileID: 11400000, guid: 563b2d4544eabbd4d93e7e6eb1c0ec14, type: 2}
 --- !u!1 &8309203510319054712
 GameObject:
   m_ObjectHideFlags: 0

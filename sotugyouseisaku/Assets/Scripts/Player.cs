@@ -90,6 +90,7 @@ public class Player : MonoBehaviour
     Vector3 CameraTarget;
     EventManager eventManager;
     public ElevatorScript elevator;
+    public ElevatorScript downElevator;
     bool isBossRoomEnter = false;
     
 
@@ -268,6 +269,7 @@ public class Player : MonoBehaviour
         {
             //ボス部屋に降りるタイムラインを再生
             eventManager.BossRoomEnter();
+            downElevator.ElevatorDown();
             isBossRoomEnter = true;
         }
 
