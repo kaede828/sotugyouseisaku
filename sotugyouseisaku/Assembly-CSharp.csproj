@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{26598E1B-6BC1-702A-42CD-FE3836BDCCD1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -147,8 +148,12 @@
     <None Include="Assets\mapsozai\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\FreePack vs Full Pack\1. Free vs Full.txt" />
     <None Include="Assets\mapsozai\_Television_set\SpecGrayscaleSF.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="UniRx, Version=5.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\UniRx.5.4.1.0\lib\UniRx.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -775,10 +780,6 @@
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{A3F10363-5084-FA7E-37BC-1D850F7C1086}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniRx.csproj">
-      <Project>{1B85C4F0-D500-C54A-5224-1AF21B7F66A2}</Project>
-      <Name>UniRx</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
