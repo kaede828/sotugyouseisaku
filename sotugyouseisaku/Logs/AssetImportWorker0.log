@@ -15,11 +15,11 @@ C:/team02.2/sotugyouseisaku
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59055
+59345
 Successfully changed project path to: C:/team02.2/sotugyouseisaku
 C:/team02.2/sotugyouseisaku
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 81.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 77.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,231 +35,711 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002946 seconds.
+Registered in 0.003010 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 74.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 71.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.637 seconds
+- Completed reload, in  1.612 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008370 seconds.
+Registered in 0.009832 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027CF4804E30 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-000001E8736BFCE0 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027CF34C29A0 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-000001E8759B37C0 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.436 seconds
+- Completed reload, in  1.614 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2230 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 127.1 MB.
 System memory in use after: 127.3 MB.
 
 Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 2691.
-Total: 2.928000 ms (FindLiveObjects: 0.240100 ms CreateObjectMapping: 0.121300 ms MarkObjects: 2.414900 ms  DeleteObjects: 0.150600 ms)
+Total: 2.846000 ms (FindLiveObjects: 0.261100 ms CreateObjectMapping: 0.121000 ms MarkObjects: 2.290200 ms  DeleteObjects: 0.171900 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/Honda/RailElevator_FBX.prefab
+  artifactKey: Guid(da31ab5c93d969043b00cdd28d902e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/RailElevator_FBX.prefab using Guid(da31ab5c93d969043b00cdd28d902e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e657b51ca1b29f6859cfd10f5f06f7f') in 0.190893 seconds
+  Import took 0.199928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
   path: Assets/Honda/BossRoomEnter.playable
   artifactKey: Guid(f8323447cdf5433498738b085f41049a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/BossRoomEnter.playable using Guid(f8323447cdf5433498738b085f41049a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129e2d8160101423e90ad4ca7e521d82') in 0.048272 seconds
-  Import took 0.052220 seconds .
+Start importing Assets/Honda/BossRoomEnter.playable using Guid(f8323447cdf5433498738b085f41049a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f73098f2238cfe4aa3535332be368f') in 0.009682 seconds
+  Import took 0.014747 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.646452 seconds.
+  Time since last request: 0.000410 seconds.
   path: Assets/Honda/DownElevator.playable
   artifactKey: Guid(563b2d4544eabbd4d93e7e6eb1c0ec14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/DownElevator.playable using Guid(563b2d4544eabbd4d93e7e6eb1c0ec14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee268f2febee33bdcac16d51f62a4dc4') in 0.008923 seconds
-  Import took 0.013602 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002777 seconds.
-  path: Assets/Honda/DownElevator.playable
-  artifactKey: Guid(563b2d4544eabbd4d93e7e6eb1c0ec14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/DownElevator.playable using Guid(563b2d4544eabbd4d93e7e6eb1c0ec14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee268f2febee33bdcac16d51f62a4dc4') in 0.005045 seconds
-  Import took 0.009130 seconds .
+Start importing Assets/Honda/DownElevator.playable using Guid(563b2d4544eabbd4d93e7e6eb1c0ec14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5a4dbe8989a752f62e843c2b199963') in 0.007045 seconds
+  Import took 0.013786 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.017174 seconds.
+Registered in 0.013486 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027CF3075020 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-000001E879EE2020 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027CF3838A20 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-000001E8735E37B0 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.325 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.0 MB.
+System memory in use after: 125.2 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2700.
+Total: 2.752200 ms (FindLiveObjects: 0.225000 ms CreateObjectMapping: 0.101300 ms MarkObjects: 2.283600 ms  DeleteObjects: 0.140900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 381.184161 seconds.
+  path: Assets/Honda/EventManager.prefab
+  artifactKey: Guid(fad3c3b27e86975499240712c1b58e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/EventManager.prefab using Guid(fad3c3b27e86975499240712c1b58e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5576ee3ffc9a917f22ac6fb3bc741938') in 0.121885 seconds
+  Import took 0.128255 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022459 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E6C1AB3B60 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E87B3CB7E0 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.348 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.1 MB.
+System memory in use after: 125.3 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2702.
+Total: 3.010000 ms (FindLiveObjects: 0.271800 ms CreateObjectMapping: 0.103400 ms MarkObjects: 2.521400 ms  DeleteObjects: 0.112100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 270.260801 seconds.
+  path: Assets/Honda/Prefab/op.prefab
+  artifactKey: Guid(2543536f6a4e01f4b850a0600ed2c62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/op.prefab using Guid(2543536f6a4e01f4b850a0600ed2c62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afb5308b7ea03ad2d022c39bca7f16f') in 0.083713 seconds
+  Import took 0.088096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Honda/Prefab/EdTimelineStart.prefab
+  artifactKey: Guid(967868800a1e0974e811a0e94626bf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/EdTimelineStart.prefab using Guid(967868800a1e0974e811a0e94626bf2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93824af965506fdf85778d039802826a') in 0.013933 seconds
+  Import took 0.018902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Honda/Prefab/FirstAidKits.prefab
+  artifactKey: Guid(b886d5ff4e318d9489dfb46852328793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/FirstAidKits.prefab using Guid(b886d5ff4e318d9489dfb46852328793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f2f2a4051dfac55083e25db953ce2a') in 0.131783 seconds
+  Import took 0.138482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Honda/Prefab/Targets.prefab
+  artifactKey: Guid(a406af3cd0d6215458fcfd9ef9c4b5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/Targets.prefab using Guid(a406af3cd0d6215458fcfd9ef9c4b5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d21f66ea2d33d4dd96eb7387a6e18f0') in 0.012146 seconds
+  Import took 0.016788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Honda/Prefab/Terrain (1).prefab
+  artifactKey: Guid(028c51ac636a136479f2c5e35835a448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/Terrain (1).prefab using Guid(028c51ac636a136479f2c5e35835a448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2597b9da966864f5855a0b0324d3e10d') in 0.012759 seconds
+  Import took 0.018978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Honda/Prefab/AmmoBox.prefab
+  artifactKey: Guid(e84f1ac869fa82341be89598f1f9fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/AmmoBox.prefab using Guid(e84f1ac869fa82341be89598f1f9fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc9feae8375318574d7d895188849ac') in 0.042446 seconds
+  Import took 0.049603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Honda/Prefab/BossEventHit.prefab
+  artifactKey: Guid(df64b0135b2ee3b4786f7aa8c1db5268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/BossEventHit.prefab using Guid(df64b0135b2ee3b4786f7aa8c1db5268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2234d91268a1e6d14618c2f1c8964007') in 0.011634 seconds
+  Import took 0.017070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Honda/Prefab/SpiderEnemys.prefab
+  artifactKey: Guid(7606114dfb928dc429393a94e5c70b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/SpiderEnemys.prefab using Guid(7606114dfb928dc429393a94e5c70b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3657dc63c2c22bffdc6c1e2db326cdd') in 0.276643 seconds
+  Import took 0.290373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Honda/Prefab/ZombieEnemys.prefab
+  artifactKey: Guid(913142a57deee5c4a89f0215c6bcbba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/ZombieEnemys.prefab using Guid(913142a57deee5c4a89f0215c6bcbba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffee862e48199db41124b88530b9d7cf') in 0.288601 seconds
+  Import took 0.300710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Honda/Prefab/StepZombieEnemys.prefab
+  artifactKey: Guid(c05952bc574b2ef4899c563947b8a48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/StepZombieEnemys.prefab using Guid(c05952bc574b2ef4899c563947b8a48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea60f008c467a19d69648b607328f4b3') in 0.159100 seconds
+  Import took 0.168592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Honda/Prefab/GameClearFlag.prefab
+  artifactKey: Guid(89dc07dddeaa6d54f8b6106a2cdb815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/GameClearFlag.prefab using Guid(89dc07dddeaa6d54f8b6106a2cdb815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692393385a221419a79f3d7fe4d92f80') in 0.011542 seconds
+  Import took 0.015654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Honda/Prefab/hatudenki.prefab
+  artifactKey: Guid(aecca86b7ead2e049aefb3dc44e99046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/hatudenki.prefab using Guid(aecca86b7ead2e049aefb3dc44e99046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12199d7bf1415c344f44499c05fb7751') in 0.014486 seconds
+  Import took 0.021351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Honda/Prefab/Terrain.prefab
+  artifactKey: Guid(a578eb9581f299341bc31c765cce6db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/Terrain.prefab using Guid(a578eb9581f299341bc31c765cce6db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cedca7ed268c97c31825530730e9b7') in 0.012591 seconds
+  Import took 0.018291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Honda/Prefab
+  artifactKey: Guid(eb4821056669b4d499785c24dada60b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab using Guid(eb4821056669b4d499785c24dada60b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6c641c8e1dc063c2976a629ba5dd87') in 0.010244 seconds
+  Import took 0.016531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Honda/Prefab/BossClearDoor.prefab
+  artifactKey: Guid(f5cd40f00e7710e48a7cddcf70f54916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/Prefab/BossClearDoor.prefab using Guid(f5cd40f00e7710e48a7cddcf70f54916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4d53f7b3f846bd19d1d3f5b2000209') in 0.020466 seconds
+  Import took 0.025620 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007667 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E877397010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E87745A6A0 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.385 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.0 MB.
+System memory in use after: 142.2 MB.
+
+Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2709.
+Total: 2.922500 ms (FindLiveObjects: 0.259100 ms CreateObjectMapping: 0.116800 ms MarkObjects: 2.317900 ms  DeleteObjects: 0.227000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015704 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E877397010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8AB475010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.369 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.0 MB.
+System memory in use after: 142.2 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2711.
+Total: 2.775800 ms (FindLiveObjects: 0.250600 ms CreateObjectMapping: 0.106500 ms MarkObjects: 2.309200 ms  DeleteObjects: 0.108200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 275.188315 seconds.
+  path: Assets/Honda/EventManager.prefab
+  artifactKey: Guid(fad3c3b27e86975499240712c1b58e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/EventManager.prefab using Guid(fad3c3b27e86975499240712c1b58e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00823670e3ee6e5e6edb4edfb1469bc0') in 0.612514 seconds
+  Import took 0.619935 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007299 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E6C1AB3B60 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E87E1CE130 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.680 seconds
+- Completed reload, in  1.329 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.1 MB.
-System memory in use after: 121.3 MB.
+System memory in use before: 141.9 MB.
+System memory in use after: 142.1 MB.
 
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2693.
-Total: 3.716900 ms (FindLiveObjects: 0.273600 ms CreateObjectMapping: 0.139400 ms MarkObjects: 3.154200 ms  DeleteObjects: 0.148300 ms)
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2713.
+Total: 5.205500 ms (FindLiveObjects: 0.763000 ms CreateObjectMapping: 0.341000 ms MarkObjects: 3.891300 ms  DeleteObjects: 0.207600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007503 seconds.
+Registered in 0.009729 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027CF7324040 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-000001E880FE7010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027CF464F010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-000001E8818A7740 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.353 seconds
+- Completed reload, in  1.828 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.1 MB.
-System memory in use after: 121.3 MB.
+System memory in use before: 142.0 MB.
+System memory in use after: 142.2 MB.
 
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2695.
-Total: 2.639400 ms (FindLiveObjects: 0.235700 ms CreateObjectMapping: 0.108300 ms MarkObjects: 2.181900 ms  DeleteObjects: 0.112000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 347.805517 seconds.
-  path: Assets/Honda/RailElevator_FBX (1) 1.prefab
-  artifactKey: Guid(fc252652eb8e9a0468ec8782f4e3efca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/RailElevator_FBX (1) 1.prefab using Guid(fc252652eb8e9a0468ec8782f4e3efca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5ce10b8596fe6884017a512613bc71') in 0.344184 seconds
-  Import took 0.356134 seconds .
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2715.
+Total: 2.983400 ms (FindLiveObjects: 0.281700 ms CreateObjectMapping: 0.115700 ms MarkObjects: 2.437600 ms  DeleteObjects: 0.147000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007214 seconds.
+Registered in 0.006982 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027CF7FE9D20 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-000001E880FE7010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027CF7FAC0E0 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-000001E8A3984B10 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.417 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.1 MB.
-System memory in use after: 126.3 MB.
+System memory in use before: 142.0 MB.
+System memory in use after: 142.2 MB.
 
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2704.
-Total: 3.127200 ms (FindLiveObjects: 0.285100 ms CreateObjectMapping: 0.113000 ms MarkObjects: 2.604500 ms  DeleteObjects: 0.123000 ms)
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2717.
+Total: 2.951200 ms (FindLiveObjects: 0.216700 ms CreateObjectMapping: 0.097600 ms MarkObjects: 2.516600 ms  DeleteObjects: 0.119000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.014847 seconds.
+Registered in 0.011372 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027CFFBF2DD0 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-000001E8A9F75020 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027CF464F010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-000001E881E6F250 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.425 seconds
+- Completed reload, in  1.711 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.0 MB.
+System memory in use after: 142.3 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2719.
+Total: 2.640900 ms (FindLiveObjects: 0.242200 ms CreateObjectMapping: 0.115400 ms MarkObjects: 2.122900 ms  DeleteObjects: 0.146300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007305 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E880FE7010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8CB8A7030 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.309 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.1 MB.
+System memory in use after: 142.3 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2721.
+Total: 3.130000 ms (FindLiveObjects: 0.268600 ms CreateObjectMapping: 0.105000 ms MarkObjects: 2.502500 ms  DeleteObjects: 0.252600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007705 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E880FE7010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A5D2B010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.058 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.0 MB.
+System memory in use after: 142.2 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2723.
+Total: 2.870000 ms (FindLiveObjects: 0.258500 ms CreateObjectMapping: 0.114300 ms MarkObjects: 2.390500 ms  DeleteObjects: 0.105500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027911 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E880FE7010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8793B6050 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.574 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.1 MB.
-System memory in use after: 126.3 MB.
+System memory in use before: 142.1 MB.
+System memory in use after: 142.3 MB.
 
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2706.
-Total: 3.099200 ms (FindLiveObjects: 0.473400 ms CreateObjectMapping: 0.194600 ms MarkObjects: 2.294300 ms  DeleteObjects: 0.117500 ms)
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2725.
+Total: 2.903400 ms (FindLiveObjects: 0.252700 ms CreateObjectMapping: 0.113000 ms MarkObjects: 2.331700 ms  DeleteObjects: 0.203700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007985 seconds.
+Registered in 0.116832 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027CF7F794F0 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-000001E880FE7010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027B40B4B960 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-000001E8D0C80010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.478 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.1 MB.
+System memory in use after: 142.3 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2727.
+Total: 4.021800 ms (FindLiveObjects: 0.812200 ms CreateObjectMapping: 0.193900 ms MarkObjects: 2.909200 ms  DeleteObjects: 0.104500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006797 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E880FE7010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E87EEA3010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.340 seconds
+- Completed reload, in  1.408 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.0 MB.
-System memory in use after: 126.2 MB.
+System memory in use before: 142.1 MB.
+System memory in use after: 142.3 MB.
 
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2708.
-Total: 2.572100 ms (FindLiveObjects: 0.230600 ms CreateObjectMapping: 0.102100 ms MarkObjects: 2.078600 ms  DeleteObjects: 0.141500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 473.225361 seconds.
-  path: Assets/Honda/test.prefab
-  artifactKey: Guid(0d50f0d00a117884da3349217e77cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/test.prefab using Guid(0d50f0d00a117884da3349217e77cd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7267b9412f1ba0ee87b5e82318f2315') in 0.438924 seconds
-  Import took 0.447827 seconds .
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2729.
+Total: 3.874400 ms (FindLiveObjects: 0.295100 ms CreateObjectMapping: 0.112200 ms MarkObjects: 3.342200 ms  DeleteObjects: 0.123300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009505 seconds.
+Registered in 0.007665 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027CF7FE9D20 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-000001E880FE7010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027CF72B1030 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-000001E6C0DA6AB0 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.293 seconds
+- Completed reload, in  1.347 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.0 MB.
-System memory in use after: 140.2 MB.
+System memory in use before: 142.1 MB.
+System memory in use after: 142.3 MB.
 
-Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 2715.
-Total: 3.218600 ms (FindLiveObjects: 0.368900 ms CreateObjectMapping: 0.115300 ms MarkObjects: 2.599400 ms  DeleteObjects: 0.133600 ms)
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2731.
+Total: 2.902200 ms (FindLiveObjects: 0.240200 ms CreateObjectMapping: 0.116400 ms MarkObjects: 2.314800 ms  DeleteObjects: 0.229600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016243 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E880FE7010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8E779F490 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.291 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.0 MB.
+System memory in use after: 142.2 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2733.
+Total: 3.454200 ms (FindLiveObjects: 0.598900 ms CreateObjectMapping: 0.311000 ms MarkObjects: 2.431500 ms  DeleteObjects: 0.111500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007086 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E880FE7010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8E78B2010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.395 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.1 MB.
+System memory in use after: 142.3 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2735.
+Total: 5.151000 ms (FindLiveObjects: 0.243900 ms CreateObjectMapping: 0.121800 ms MarkObjects: 2.367600 ms  DeleteObjects: 2.416400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.958962 seconds.
-  path: Assets/Honda/RailElevator_FBX.prefab
-  artifactKey: Guid(da31ab5c93d969043b00cdd28d902e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Honda/RailElevator_FBX.prefab using Guid(da31ab5c93d969043b00cdd28d902e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3732f9253b39cc95c1bc054775938815') in 0.157804 seconds
-  Import took 0.165559 seconds .
+  Time since last request: 951.517345 seconds.
+  path: Assets/Honda/EventManager.prefab
+  artifactKey: Guid(fad3c3b27e86975499240712c1b58e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/EventManager.prefab using Guid(fad3c3b27e86975499240712c1b58e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df4ca0674b9ac9bb10c5ac15e2d7ef0') in 3.025271 seconds
+  Import took 3.031716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005371 seconds.
+  path: Assets/Honda/EventManager.prefab
+  artifactKey: Guid(fad3c3b27e86975499240712c1b58e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/EventManager.prefab using Guid(fad3c3b27e86975499240712c1b58e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df4ca0674b9ac9bb10c5ac15e2d7ef0') in 0.011216 seconds
+  Import took 0.018924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.879797 seconds.
+  path: Assets/Honda/EventManager.prefab
+  artifactKey: Guid(fad3c3b27e86975499240712c1b58e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/EventManager.prefab using Guid(fad3c3b27e86975499240712c1b58e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072c6a3306466996262472c42bc38f2c') in 0.014794 seconds
+  Import took 0.022106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.513180 seconds.
+  path: Assets/Honda/EventManager.prefab
+  artifactKey: Guid(fad3c3b27e86975499240712c1b58e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Honda/EventManager.prefab using Guid(fad3c3b27e86975499240712c1b58e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8658f3e7f35a03c52f0e69b04d0733eb') in 0.013456 seconds
+  Import took 0.020406 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007202 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E8F2C9B010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8A4654F10 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.466 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.1 MB.
+System memory in use after: 142.3 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2737.
+Total: 3.129000 ms (FindLiveObjects: 0.263800 ms CreateObjectMapping: 0.116000 ms MarkObjects: 2.631000 ms  DeleteObjects: 0.101200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007458 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E8E779F490 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8B40E5010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.638 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.1 MB.
+System memory in use after: 142.3 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2739.
+Total: 2.854000 ms (FindLiveObjects: 0.269600 ms CreateObjectMapping: 0.115800 ms MarkObjects: 2.351400 ms  DeleteObjects: 0.116000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007826 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E8E779F490 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E8FA1BD020 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.287 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.1 MB.
+System memory in use after: 142.3 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2741.
+Total: 3.235700 ms (FindLiveObjects: 0.227800 ms CreateObjectMapping: 0.106400 ms MarkObjects: 2.772300 ms  DeleteObjects: 0.128300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007328 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E8E779F490 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E907954010 doesn't match image C:\team02.2\sotugyouseisaku\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.459 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.0 MB.
+System memory in use after: 142.2 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2743.
+Total: 2.622100 ms (FindLiveObjects: 0.233400 ms CreateObjectMapping: 0.101500 ms MarkObjects: 2.146800 ms  DeleteObjects: 0.139100 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -32,6 +32,8 @@ public class hatudenkiManager : MonoBehaviour
     bool cam = false;
     int ransu;
     int aCou=0;
+    public EventText eventText;//追加　発電機つけた時にテキスト表示用
+    public EventText eventText2;//追加　発電機つけた時にテキスト表示用
 
     void Start()
     {
@@ -102,9 +104,13 @@ public class hatudenkiManager : MonoBehaviour
             StartCoroutine(DelayCoroutine(600, () =>
              {
                  camera.depth = -1;
+                 //追加　扉が開いた後の説明テキスト
+                 eventText2.SpecifiedTextNumber(2);//発電機をすべてつけた時のテキスト
              }));
 
         }
+
+        HatudenkiText();
     }
 
     private IEnumerator DelayCoroutine(int Count, Action action)
@@ -115,5 +121,15 @@ public class hatudenkiManager : MonoBehaviour
         }
 
         action?.Invoke();
+    }
+    
+    //追加　発電機つけた時のテキスト表示
+    private void HatudenkiText()
+    {
+        if(hatudenkiHitList.Count == 9)
+        {
+            eventText.SpecifiedTextNumber(1);//初めの発電機をつけた時にテキスト
+        }
+
     }
 }
