@@ -89,6 +89,7 @@ public class Player : MonoBehaviour
 
     Vector3 CameraTarget;
     EventManager eventManager;
+    public ElevatorScript elevator;
     
 
     // Start is called before the first frame update
@@ -256,8 +257,9 @@ public class Player : MonoBehaviour
         }
 
         if(collider.gameObject.tag == "EdTimelineStart")
-        {
+        {//エンディングのスターと
             eventManager.EdStart();
+            elevator.ElevatorUp();
         }
 
         if(collider.gameObject.tag == "GameClearFlag")

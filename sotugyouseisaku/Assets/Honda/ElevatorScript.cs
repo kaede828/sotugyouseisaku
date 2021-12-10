@@ -18,10 +18,6 @@ public class ElevatorScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.Z))
-        {
-            ElevatorUp();
-        }
     }
 
     //エレベーターを上にあげるタイムラインを再生
