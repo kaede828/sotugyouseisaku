@@ -1853,7 +1853,7 @@ GameObject:
   - component: {fileID: 2024830579}
   m_Layer: 7
   m_Name: StepZombie
-  m_TagString: Zombie
+  m_TagString: StepZombie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2052,10 +2052,9 @@ MonoBehaviour:
   points:
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 0}
   player: {fileID: 0}
   chaseDistance: 50
-  attackDistance: 0
+  attackDistance: 2
   stepDistance: 20
   isDeath: 0
   enemyNum: {fileID: 0}

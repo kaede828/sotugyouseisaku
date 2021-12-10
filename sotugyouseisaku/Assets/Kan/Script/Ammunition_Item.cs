@@ -6,6 +6,8 @@ public class Ammunition_Item : MonoBehaviour
 {
     [SerializeField]
     private int bullets = 30;
+    [SerializeField]
+    private AudioClip se;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +31,7 @@ public class Ammunition_Item : MonoBehaviour
         {
             var p = other.gameObject.GetComponentInChildren<AddForceBullet>();
             p.bulletHave += bullets;
+            other.gameObject.GetComponent<AudioSource>().PlayOneShot(se);
             Destroy(gameObject);
         }
     }

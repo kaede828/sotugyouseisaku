@@ -89,6 +89,7 @@ public class Player : MonoBehaviour
 
     Vector3 CameraTarget;
     EventManager eventManager;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -247,7 +248,6 @@ public class Player : MonoBehaviour
             post.vigparam += 0.061f;
             Debug.Log("Player@vigparam"+post.vigparam);
             //Debug.Log("ÉvÉåÉCÉÑÅ[HP : " + hp);
-           
         }
 
         if(collider.gameObject.tag == "BossEventHit")
