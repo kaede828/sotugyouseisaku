@@ -32,11 +32,7 @@ public class EventText : MonoBehaviour
 
     private void Update()
     {
-        //でバック用 後で消す
-        if(Input.GetKey(KeyCode.G))
-        {
-            eventStart = true;
-        }
+
     }
 
     void FixedUpdate()
@@ -108,5 +104,6 @@ public class EventText : MonoBehaviour
     public void SpecifiedTextNumber(int i)
     {
         this.specifiedText = i;
+        eventStart = true;
     }
 }
