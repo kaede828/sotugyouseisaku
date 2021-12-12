@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 0.5
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.4339623, g: 0.36886793, b: 0.36886793, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 51b74d7bad397457d883c5940f7664d8, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 0.5
   m_FlareFadeSpeed: 2.25
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4366757, g: 0.48427194, b: 0.5645252, a: 1}
+  m_IndirectSpecularColor: {r: 0.094257064, g: 0.11950516, b: 0.15506512, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11673,7 +11673,7 @@ PrefabInstance:
     - target: {fileID: 8792883692872641261, guid: fad3c3b27e86975499240712c1b58e43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 62
+      value: 63
       objectReference: {fileID: 0}
     - target: {fileID: 8792883692872641261, guid: fad3c3b27e86975499240712c1b58e43,
         type: 3}
@@ -13785,6 +13785,26 @@ PrefabInstance:
       propertyPath: Bbutton
       value: 
       objectReference: {fileID: 1826780676}
+    - target: {fileID: 8074966563144657566, guid: 5c1b8397b1b4a174e9a909566d4b8dbb,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.90588236
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074966563144657566, guid: 5c1b8397b1b4a174e9a909566d4b8dbb,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.90588236
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074966563144657566, guid: 5c1b8397b1b4a174e9a909566d4b8dbb,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.90588236
+      objectReference: {fileID: 0}
+    - target: {fileID: 8074966563144657566, guid: 5c1b8397b1b4a174e9a909566d4b8dbb,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 1.8
+      objectReference: {fileID: 0}
     - target: {fileID: 8074966563144657566, guid: 5c1b8397b1b4a174e9a909566d4b8dbb,
         type: 3}
       propertyPath: m_Lightmapping
@@ -41392,7 +41412,7 @@ PrefabInstance:
     - target: {fileID: 3227130905962170814, guid: 2f0bc196d4d65f7418e30777c75dbeb3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 64
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 3227130905962170814, guid: 2f0bc196d4d65f7418e30777c75dbeb3,
         type: 3}
@@ -42909,7 +42929,7 @@ PrefabInstance:
     - target: {fileID: 5793413879298272608, guid: 5885f5e438785494a9b0582301279255,
         type: 3}
       propertyPath: m_RootOrder
-      value: 63
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 5793413879298272608, guid: 5885f5e438785494a9b0582301279255,
         type: 3}
