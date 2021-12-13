@@ -10160,6 +10160,18 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!114 &1599096186 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4530279162998049099, guid: fad3c3b27e86975499240712c1b58e43,
+    type: 3}
+  m_PrefabInstance: {fileID: 326030120}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11d671c9f445a8a4ca49d01d6ca75fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1602909356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12460,6 +12472,11 @@ PrefabInstance:
       propertyPath: bossEnemy
       value: 
       objectReference: {fileID: 1105934709}
+    - target: {fileID: 6366208532274895303, guid: 5c1b8397b1b4a174e9a909566d4b8dbb,
+        type: 3}
+      propertyPath: eventText
+      value: 
+      objectReference: {fileID: 1599096186}
     - target: {fileID: 6366208532274895303, guid: 5c1b8397b1b4a174e9a909566d4b8dbb,
         type: 3}
       propertyPath: goalTarget

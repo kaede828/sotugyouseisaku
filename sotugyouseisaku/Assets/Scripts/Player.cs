@@ -100,6 +100,7 @@ public class Player : MonoBehaviour
     public GameObject cameratargt;
     bool endcamera = false;
     bool bossend = false;
+    public EventText eventText;
 
     // Start is called before the first frame update
     void Start()
@@ -163,7 +164,7 @@ public class Player : MonoBehaviour
 
         if(isEnding&&!bossend)
         {
-
+            CameraTarget = BossClearDoor.transform.position;
             Bip001.SetActive(false);
             //*****ボスの倒れる演出*****//
             if (bossEnemy != null)
@@ -291,6 +292,7 @@ public class Player : MonoBehaviour
         {//エンディングのスターと
             endcamera = true;
             bossend = true;
+            CameraTarget = cameratargt.transform.position;
             eventManager.EdStart();
             elevator.ElevatorUp();
         }
@@ -402,8 +404,9 @@ public class Player : MonoBehaviour
     IEnumerator EndingEvent()
     {//エンディング
         yield return new WaitForSeconds(3.0f);
+        //エンディング用のテキスト
+        eventText.SpecifiedTextNumber(3);
         //ドアの方向を向かせる
-        CameraTarget = BossClearDoor.transform.position;
         myCamera.LookAt(CameraTarget);
 
         //扉に向かって歩く
