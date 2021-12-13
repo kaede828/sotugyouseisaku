@@ -1,347 +1,97 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'ja' Physical Memory: 16325 MB
+OS: 'Windows 10 Home; OS build 17134.1304; Version 1803; 64bit' Language: 'ja' Physical Memory: 8057 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+D:\Unity\Unity2020.3.11\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/kaede/OneDrive/デスクトップ/team02_2/sotugyouseisaku
+D:/seisaku2021/sotugyouseisaku
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59252
-Successfully changed project path to: C:/Users/kaede/OneDrive/デスクトップ/team02_2/sotugyouseisaku
-C:/Users/kaede/OneDrive/デスクトップ/team02_2/sotugyouseisaku
+64172
+Successfully changed project path to: D:/seisaku2021/sotugyouseisaku
+D:/seisaku2021/sotugyouseisaku
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 88.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 193.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/kaede/OneDrive/デスクトップ/team02_2/sotugyouseisaku/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/Unity2020.3.11/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/seisaku2021/sotugyouseisaku/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Renderer: Intel(R) Iris(R) Plus Graphics 640 (ID=0x5926)
     Vendor:   
-    VRAM:     6052 MB
-    Driver:   30.0.14.9649
+    VRAM:     4028 MB
+    Driver:   27.20.100.8682
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Mono path[0] = 'D:/Unity/Unity2020.3.11/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Unity2020.3.11/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/Unity2020.3.11/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004242 seconds.
+Register platform support module: D:/Unity/Unity2020.3.11/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013459 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 80.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 67.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.732 seconds
+- Completed reload, in  4.529 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007550 seconds.
+Registered in 0.226779 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.535 seconds
+- Completed reload, in  1.828 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2230 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.2 MB.
-System memory in use after: 127.4 MB.
+System memory in use before: 124.8 MB.
+System memory in use after: 125.0 MB.
 
 Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 2692.
-Total: 2.873400 ms (FindLiveObjects: 0.231200 ms CreateObjectMapping: 0.109700 ms MarkObjects: 2.371100 ms  DeleteObjects: 0.160000 ms)
+Total: 2.854223 ms (FindLiveObjects: 0.256000 ms CreateObjectMapping: 0.166667 ms MarkObjects: 2.262668 ms  DeleteObjects: 0.167556 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/New Terrain.asset
   artifactKey: Guid(9b09e539baa243442ba40d29eadc0d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(9b09e539baa243442ba40d29eadc0d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607be6ffbaa3b1b90badb23d8d222bb7') in 0.098824 seconds
-  Import took 0.103005 seconds .
+Start importing Assets/New Terrain.asset using Guid(9b09e539baa243442ba40d29eadc0d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ee616cba9a2cff67f4e216a6704432') in 0.230859 seconds
+  Import took 0.237394 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 632.910066 seconds.
-  path: Assets/koike/Canvas.prefab
-  artifactKey: Guid(520cfcf487bc2d240b5d7adf382df099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Canvas.prefab using Guid(520cfcf487bc2d240b5d7adf382df099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156c027b19608143a31ea54bccce9f4b') in 0.041555 seconds
-  Import took 0.047180 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008002 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.245 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.9 MB.
+System memory in use after: 119.1 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/koike/toil.FBX
-  artifactKey: Guid(627c15ce76e656649885ac5da498a3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/toil.FBX using Guid(627c15ce76e656649885ac5da498a3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67867bd4dea35c022d63a0497bb6660') in 0.231914 seconds
-  Import took 0.236257 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/koike/MADHAZARD.png
-  artifactKey: Guid(fcb12a30c97a8b24596e1e8333e6253f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/MADHAZARD.png using Guid(fcb12a30c97a8b24596e1e8333e6253f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ceb420d20389faf33886b4314ef687d') in 0.075887 seconds
-  Import took 0.079668 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000404 seconds.
-  path: Assets/koike/GAMEOVER.png
-  artifactKey: Guid(8fdfdbe2c2890484090e80b537dd7d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/GAMEOVER.png using Guid(8fdfdbe2c2890484090e80b537dd7d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8fa069d0b02f179d96f2c542e63420') in 0.036653 seconds
-  Import took 0.040563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/koike/se_horror2.wav
-  artifactKey: Guid(fa45db7269586cd4b9d63690b22a1892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/se_horror2.wav using Guid(fa45db7269586cd4b9d63690b22a1892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22dbded44a2220c70972a05ecd84bda2') in 0.050743 seconds
-  Import took 0.054549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/koike/MADHAZARD4.png
-  artifactKey: Guid(b2c3a1658fa0edb4b868afe71381e1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/MADHAZARD4.png using Guid(b2c3a1658fa0edb4b868afe71381e1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f67f447b217d9bb2349e2b6212f986') in 0.026627 seconds
-  Import took 0.031233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/koike/Toilet Stalls (freestd.3DS
-  artifactKey: Guid(7aa10a8f24a0e174e8c6268b5ccf4003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Toilet Stalls (freestd.3DS using Guid(7aa10a8f24a0e174e8c6268b5ccf4003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c306c1970828ac7c6b17f9575f6e43') in 0.262773 seconds
-  Import took 0.267176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/koike/MADHAZARD4.png
-  artifactKey: Guid(b2c3a1658fa0edb4b868afe71381e1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/MADHAZARD4.png using Guid(b2c3a1658fa0edb4b868afe71381e1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f67f447b217d9bb2349e2b6212f986') in 0.013550 seconds
-  Import took 0.018175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.918242 seconds.
-  path: Assets/koike/Prefab
-  artifactKey: Guid(5ab18880937dbd04788439fc4594841f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab using Guid(5ab18880937dbd04788439fc4594841f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad7785421d88745f813db35a12ec9ab') in 0.007340 seconds
-  Import took 0.011503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006448 seconds.
-  path: Assets/koike/Prefab
-  artifactKey: Guid(5ab18880937dbd04788439fc4594841f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab using Guid(5ab18880937dbd04788439fc4594841f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad7785421d88745f813db35a12ec9ab') in 0.003388 seconds
-  Import took 0.007849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.050929 seconds.
-  path: Assets/koike/Prefab/2F_room1.prefab
-  artifactKey: Guid(3a699f2e9e999d4498df11f6091adf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/2F_room1.prefab using Guid(3a699f2e9e999d4498df11f6091adf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e673700ea2fee0e244e37c769808abfd') in 0.102774 seconds
-  Import took 0.112004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/koike/Prefab/2F_room6.prefab
-  artifactKey: Guid(fb6b1c9f99d6bd64d911c8951254ce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/2F_room6.prefab using Guid(fb6b1c9f99d6bd64d911c8951254ce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea62c67d6d90f21b8cab6d317cee314') in 0.197548 seconds
-  Import took 0.212680 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/koike/Prefab/room.prefab
-  artifactKey: Guid(b92aff78e680b404c8c7bfc11869f74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/room.prefab using Guid(b92aff78e680b404c8c7bfc11869f74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fe636ae9ab54d9a24b2cc430e5c2fe') in 0.025536 seconds
-  Import took 0.031159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/koike/Prefab/2F_room2.prefab
-  artifactKey: Guid(7c235e838004cc7468092f0c3ff65046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/2F_room2.prefab using Guid(7c235e838004cc7468092f0c3ff65046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce51846b4d390629896e6dbf57510445') in 0.081420 seconds
-  Import took 0.091105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/koike/Prefab/FogDensity.prefab
-  artifactKey: Guid(7415df47d0e3d1947aa181fe38011d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/FogDensity.prefab using Guid(7415df47d0e3d1947aa181fe38011d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c5bbd8a299c38e110f6124beb2162b') in 0.017940 seconds
-  Import took 0.022419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/koike/Prefab/room2.prefab
-  artifactKey: Guid(e40b77abe1d1da34998e1ad0ed104659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/room2.prefab using Guid(e40b77abe1d1da34998e1ad0ed104659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050864e3e452330e5ba7403f52b854c5') in 0.134566 seconds
-  Import took 0.150358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/koike/Prefab/2F_room4.prefab
-  artifactKey: Guid(28359dceeae837f448676c9794276236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/2F_room4.prefab using Guid(28359dceeae837f448676c9794276236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec8d520dfa7602138880661a3b72e38') in 0.031080 seconds
-  Import took 0.037126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/koike/Prefab/2F_room3.prefab
-  artifactKey: Guid(356e9e6f5907bf143a87d3a166acaea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/2F_room3.prefab using Guid(356e9e6f5907bf143a87d3a166acaea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbb35cb2146ac4cd1d4139a0363acaf') in 0.039322 seconds
-  Import took 0.046162 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/koike/Prefab/2F_room5.prefab
-  artifactKey: Guid(b77da89d99cece5469c16c92c401da65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/2F_room5.prefab using Guid(b77da89d99cece5469c16c92c401da65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774fcb6eddb2a0d1e981074479dc326f') in 0.065949 seconds
-  Import took 0.073886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/koike/Prefab/toilet.prefab
-  artifactKey: Guid(107b1b007deda7147b86d4b0b8c5697d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/toilet.prefab using Guid(107b1b007deda7147b86d4b0b8c5697d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68538d5c41c626cd7d3adf3d9cda781c') in 0.026450 seconds
-  Import took 0.031528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/koike/Prefab/2F_room8.prefab
-  artifactKey: Guid(5885f5e438785494a9b0582301279255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/2F_room8.prefab using Guid(5885f5e438785494a9b0582301279255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aacef5d187843c6c00f817938a873a4b') in 0.067439 seconds
-  Import took 0.075500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/koike/Prefab/healBox.prefab
-  artifactKey: Guid(324f2e2697e8d2f42b5e14a3421d3894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/healBox.prefab using Guid(324f2e2697e8d2f42b5e14a3421d3894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745d7e7fc42e3de3238b68095598f84e') in 0.016149 seconds
-  Import took 0.020417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/koike/Prefab/woodsBox.prefab
-  artifactKey: Guid(8caab2d05877ef14eba37a632cd36e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/woodsBox.prefab using Guid(8caab2d05877ef14eba37a632cd36e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a6ba0e6484800d8a74cdda65b8de1b') in 0.033110 seconds
-  Import took 0.039627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/koike/Prefab/2F_room7.prefab
-  artifactKey: Guid(a5bbfe97c154a044e9db9e100d7f64df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/2F_room7.prefab using Guid(a5bbfe97c154a044e9db9e100d7f64df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe94496b8883e64389b28e0a3d80719') in 0.129527 seconds
-  Import took 0.142472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/koike/Prefab/Boss_room.prefab
-  artifactKey: Guid(52238d211b166654e930ac19882b74d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/Boss_room.prefab using Guid(52238d211b166654e930ac19882b74d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130ef8821afd2e238d35ba29ee2cc7e3') in 0.018423 seconds
-  Import took 0.022945 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/koike/Prefab/HP_UI.prefab
-  artifactKey: Guid(13df50a4988fb57489486339ea119562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/HP_UI.prefab using Guid(13df50a4988fb57489486339ea119562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711ad596001a41b40f899f9749e256a7') in 0.011682 seconds
-  Import took 0.017672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/koike/Prefab/2F_room9.prefab
-  artifactKey: Guid(2f0bc196d4d65f7418e30777c75dbeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/2F_room9.prefab using Guid(2f0bc196d4d65f7418e30777c75dbeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea23f6c33b0d315e79917f343c6d751') in 0.027810 seconds
-  Import took 0.032256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/koike/Prefab/Lights.prefab
-  artifactKey: Guid(243897f9b1f11f4448171f8e0c7dcf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/Lights.prefab using Guid(243897f9b1f11f4448171f8e0c7dcf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33aad667fa9def64ce2c37f07c9845ca') in 0.011048 seconds
-  Import took 0.016438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/koike/Prefab/toilet_room.prefab
-  artifactKey: Guid(7ed3e164702c47e49ba1a8192517ff1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/toilet_room.prefab using Guid(7ed3e164702c47e49ba1a8192517ff1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f0ffd98f882f5b2d01042b9f43af89') in 0.070285 seconds
-  Import took 0.077763 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/koike/Prefab/FirstAidKit_Red.prefab
-  artifactKey: Guid(885babc7569c9fa43a950c221c48c9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/FirstAidKit_Red.prefab using Guid(885babc7569c9fa43a950c221c48c9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f98202f54a5413d2fd3035ea96d1d9') in 0.027754 seconds
-  Import took 0.033585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/koike/Prefab/laten&smallcloset.prefab
-  artifactKey: Guid(4862e7238f8b245429065eaa506152fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/laten&smallcloset.prefab using Guid(4862e7238f8b245429065eaa506152fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5741831ee56cfbe316d0a881bb4731cf') in 0.037339 seconds
-  Import took 0.042350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/koike/Prefab/FirstAidKit_Red.prefab
-  artifactKey: Guid(885babc7569c9fa43a950c221c48c9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/FirstAidKit_Red.prefab using Guid(885babc7569c9fa43a950c221c48c9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f98202f54a5413d2fd3035ea96d1d9') in 0.020887 seconds
-  Import took 0.027353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 407.756643 seconds.
-  path: Assets/koike/Prefab/2F_room8.prefab
-  artifactKey: Guid(5885f5e438785494a9b0582301279255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/koike/Prefab/2F_room8.prefab using Guid(5885f5e438785494a9b0582301279255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c368360d9c5676e13acd1723806ce647') in 0.091263 seconds
-  Import took 0.102036 seconds .
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 2696.
+Total: 2.832890 ms (FindLiveObjects: 0.273333 ms CreateObjectMapping: 0.111556 ms MarkObjects: 2.282668 ms  DeleteObjects: 0.164000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
