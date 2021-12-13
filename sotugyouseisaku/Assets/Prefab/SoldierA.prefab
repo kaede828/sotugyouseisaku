@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &899091076922147959
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8397501755623782166}
+  m_Layer: 8
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8397501755623782166
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899091076922147959}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.03, y: 2.25, z: 1.8439977}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6366208532008371464}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &8074966562143004389
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -673,6 +703,7 @@ Transform:
   - {fileID: 5310673010366883979}
   - {fileID: 8074966561755952539}
   - {fileID: 8529859233154933865}
+  - {fileID: 8397501755623782166}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -752,6 +783,11 @@ MonoBehaviour:
   bossEnemy: {fileID: 0}
   bossevent: 0
   bosseventend: 0
+  elevator: {fileID: 0}
+  downElevator: {fileID: 0}
+  BossClearDoor: {fileID: 0}
+  goalTarget: {fileID: 0}
+  Bip001: {fileID: 0}
 --- !u!82 &8074966563458602579
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2476,6 +2512,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6366208531980712144}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3278647474364434273 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8491898217854418865, guid: 170110aa26fdec748ab0766b89aec058,
+    type: 3}
+  m_PrefabInstance: {fileID: 6366208531980712144}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1162247952752354669 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5222049888820256189, guid: 170110aa26fdec748ab0766b89aec058,
@@ -2488,9 +2530,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b8dbc2db7c4e334ba7e555f679f4315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &3278647474364434273 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8491898217854418865, guid: 170110aa26fdec748ab0766b89aec058,
-    type: 3}
-  m_PrefabInstance: {fileID: 6366208531980712144}
-  m_PrefabAsset: {fileID: 0}

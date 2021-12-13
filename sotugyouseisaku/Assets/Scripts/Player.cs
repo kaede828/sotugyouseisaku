@@ -92,7 +92,14 @@ public class Player : MonoBehaviour
     public ElevatorScript elevator;
     public ElevatorScript downElevator;
     bool isBossRoomEnter = false;
-    
+    bool isEnding = false;//エンディング中かどうか
+
+    public GameObject BossClearDoor;
+    public Transform goalTarget;
+    public GameObject Bip001;//銃のオブジェクト
+    public GameObject cameratargt;
+    bool endcamera = false;
+    bool bossend = false;
 
     // Start is called before the first frame update
     void Start()
@@ -129,6 +136,12 @@ public class Player : MonoBehaviour
     {
         hp = Mathf.Clamp(hp, 0, 100);
         post.vigparam = Mathf.Clamp(post.vigparam, 0, 0.61f);
+        if(endcamera)
+        {
+            CameraTarget = cameratargt.transform.position;
+            myCamera.LookAt(CameraTarget);
+            return;
+        }
 
         //ボス登場演出中
         if (bossevent == true && bosseventend == false)
@@ -146,10 +159,25 @@ public class Player : MonoBehaviour
                 defaultFov / bossZoom,
                 bossWaitTime);
             StartCoroutine("BossEvent");//3秒間カメラをボスの方向へ
-        }        
+        }
 
-        if ((!opend&&director !=null)||(bossevent&&!bosseventend))
-        {//オープニングが終わっていなかったら操作出来ないように
+        if(isEnding&&!bossend)
+        {
+
+            Bip001.SetActive(false);
+            //*****ボスの倒れる演出*****//
+            if (bossEnemy != null)
+            {
+                CameraTarget = bossEnemy.transform.position;
+                CameraTarget.y = -49;//y座標だけ固定する
+                myCamera.LookAt(CameraTarget);
+            }
+            //扉のほうを向かせる
+            StartCoroutine("EndingEvent");
+        }
+
+        if ((!opend&&director !=null)||(bossevent&&!bosseventend)||isEnding == true)
+        {//オープニング中、ボスイベント中、エンディング中は操作出来ないように
             return;
         }
         //　キャラクターの向きを変更する
@@ -259,8 +287,10 @@ public class Player : MonoBehaviour
             bossevent = true;
         }
 
-        if(collider.gameObject.tag == "EdTimelineStart")
+        if(collider.gameObject.tag == "EdTimelineStart"&&isEnding)
         {//エンディングのスターと
+            endcamera = true;
+            bossend = true;
             eventManager.EdStart();
             elevator.ElevatorUp();
         }
@@ -366,7 +396,28 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(3.0f);
         bossevent = false;
         bosseventend = true;
+
     }
+
+    IEnumerator EndingEvent()
+    {//エンディング
+        yield return new WaitForSeconds(3.0f);
+        //ドアの方向を向かせる
+        CameraTarget = BossClearDoor.transform.position;
+        myCamera.LookAt(CameraTarget);
+
+        //扉に向かって歩く
+        yield return new WaitForSeconds(3.0f);
+        transform.position = Vector3.MoveTowards(transform.position, goalTarget.position, 0.15f);
+    }
+
+
+    public void Endling()
+    {//エンディング
+        isEnding = true;
+    }
+
+
 }
 
 

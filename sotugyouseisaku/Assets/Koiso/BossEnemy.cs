@@ -147,6 +147,7 @@ public class BossEnemy : MonoBehaviour
             agent.velocity = Vector3.zero;
             agent.isStopped = true;
             animator.SetTrigger("death");
+            bossEventplayer.Endling();//プレイヤーのエンディングスタート
             StartCoroutine("Deathtimer", 3);
         }
         else
