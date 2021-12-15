@@ -380,23 +380,7 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 189525744, guid: d64a3a45eafb1f94e99f822766e8be74, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 319805717, guid: d64a3a45eafb1f94e99f822766e8be74, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1136933701}
-    - target: {fileID: 680019586, guid: d64a3a45eafb1f94e99f822766e8be74, type: 3}
-      propertyPath: m_Color.a
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 803541886, guid: d64a3a45eafb1f94e99f822766e8be74, type: 3}
-      propertyPath: m_Color.a
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1045406815, guid: d64a3a45eafb1f94e99f822766e8be74, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1136933701}
@@ -408,10 +392,6 @@ PrefabInstance:
       propertyPath: addForceBullet
       value: 
       objectReference: {fileID: 1611185449}
-    - target: {fileID: 1865785152, guid: d64a3a45eafb1f94e99f822766e8be74, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2038380103, guid: d64a3a45eafb1f94e99f822766e8be74, type: 3}
       propertyPath: pauseUI
       value: 
@@ -526,8 +506,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1045406815, guid: d64a3a45eafb1f94e99f822766e8be74, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d64a3a45eafb1f94e99f822766e8be74, type: 3}
 --- !u!4 &113294050 stripped
 Transform:
