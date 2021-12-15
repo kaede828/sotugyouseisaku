@@ -791,6 +791,7 @@ MonoBehaviour:
   Bip001: {fileID: 6366208532008409364}
   cameratargt: {fileID: 899091076922147959}
   eventText: {fileID: 0}
+  damageSE: {fileID: 8300000, guid: 6f305e291043d2d45b4019f0f09b0d7b, type: 3}
 --- !u!82 &8074966563458602579
 AudioSource:
   m_ObjectHideFlags: 0
@@ -802,7 +803,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

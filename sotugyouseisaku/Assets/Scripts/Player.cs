@@ -102,6 +102,10 @@ public class Player : MonoBehaviour
     bool bossend = false;
     public EventText eventText;
 
+    private AudioSource source;
+    [SerializeField]
+    private AudioClip damageSE;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -130,6 +134,7 @@ public class Player : MonoBehaviour
         bosseventend = false;
         eventManager = this.GetComponent<EventManager>();
         isBossRoomEnter = false;
+        source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -281,12 +286,14 @@ public class Player : MonoBehaviour
             //ポストエフェクトVignetteの値加算
             post.vigparam += 0.061f;
             Debug.Log("Player@vigparam"+post.vigparam);
+            source.PlayOneShot(damageSE);
             //Debug.Log("プレイヤーHP : " + hp);
         }
 
         if(collider.gameObject.tag == "BossEventHit")
         {
             bossevent = true;
+            GameObject.FindGameObjectWithTag("BGM").GetComponent<BGM>().isBoss = true;
         }
 
         if(collider.gameObject.tag == "EdTimelineStart"&&isEnding)
