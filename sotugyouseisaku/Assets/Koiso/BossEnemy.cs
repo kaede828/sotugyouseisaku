@@ -166,6 +166,7 @@ public class BossEnemy : MonoBehaviour
             animator.SetTrigger("death");
             bossEventplayer.Endling();//プレイヤーのエンディングスタート
             StartCoroutine("Deathtimer", 3);
+            GameObject.FindGameObjectWithTag("BGM").GetComponent<BGM>().isClear = true;
         }
         else
         {
