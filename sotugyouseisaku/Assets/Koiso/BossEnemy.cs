@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
+using UniRx;
+using UniRx.Triggers;
 
 public class BossEnemy : MonoBehaviour
 {
@@ -52,6 +54,8 @@ public class BossEnemy : MonoBehaviour
     public bool isDeath = false;
 
     bool run = false;
+    Vector3 runPlayerPos;
+    float countdown=6;
 
     //追加しました。弾があったたら
     public bool isBulletHit = false;
@@ -72,6 +76,18 @@ public class BossEnemy : MonoBehaviour
         isBulletHit = false;
         hitPos = Vector3.zero;
         bossEventplayer = player.GetComponent<Player>();
+        agent.acceleration = 100;
+
+        var trigger = animator.GetBehaviour<ObservableStateMachineTrigger>();
+        trigger
+            .OnStateEnterAsObservable()
+            .Where(x => x.StateInfo.IsName("Run"))
+            .Subscribe(x => {
+                agent.speed = 50;
+                runPlayerPos = player.position;
+                
+                agent.destination = runPlayerPos;
+            }).AddTo(this);
     }
 
     void GotoNextPoint()
@@ -106,6 +122,7 @@ public class BossEnemy : MonoBehaviour
 
     void PlayerChase()
     {
+    
         isChase = true;
         if (isAttack)
         {
@@ -158,12 +175,21 @@ public class BossEnemy : MonoBehaviour
         switch (hp)
         {
             case 300:
+                run = true;
+                agent.speed = 0;
+                animator.SetTrigger("shout");
                 bossForm = 2;
                 break;
             case 600:
+                run = true;
+                agent.speed = 0;
+                animator.SetTrigger("shout");
                 bossForm = 1;
                 break;
             case 1000:
+                run = true;
+                agent.speed = 0;
+                animator.SetTrigger("shout");
                 bossForm = 0;
                 break;
         }
@@ -174,6 +200,7 @@ public class BossEnemy : MonoBehaviour
     //攻撃クールダウン
     IEnumerator Attacktimer(float time)
     {
+        countdown = 6;
         state = EnemyState.ATTACK;
         isAttack = false;
         rightArm.SetActive(true);
@@ -247,6 +274,15 @@ public class BossEnemy : MonoBehaviour
         //    case EnemyState.ATTACK:
         //        break;
         //}
+        if(run)
+        {
+            if (!agent.pathPending && agent.remainingDistance < 0.5f)
+            {
+                StartCoroutine("Attacktimer", 2.5f);
+                animator.SetTrigger("attack3");
+                run = false;
+            }
+        }
 
         if (Physics.Raycast(ray, out hit, chaseDistance))
         {
@@ -259,7 +295,7 @@ public class BossEnemy : MonoBehaviour
                 {
                     isDash = false;
                     agent.speed = speed;
-                    if (isAttack && !isDeath)
+                    if (isAttack && !isDeath && !run)
                     {
                         switch (bossForm)
                         {
@@ -288,34 +324,45 @@ public class BossEnemy : MonoBehaviour
                     isDash = true;
                 }
 
-
+                if (!run)
+                {
+                    PlayerChase();
+                }
+                
+            }
+            else if(!run)
+            {
                 PlayerChase();
             }
 
-            else PlayerChase();
-
         }
-        else
+        else if(!run)
         {
             Patrol();
         }
 
-        if(isDash)
+        if(!run)
         {
-            agent.speed = 30;
-            Debug.Log("プレイヤーとの距離は" + playerDistance);
-            Debug.Log("ダッシュ中");
+            if (countdown >= 0)
+            {
+                countdown -= Time.deltaTime;
+            }
+            else
+            {
+                StartCoroutine("Attacktimer", 1.5f);
+                animator.SetTrigger("attack2");
+                countdown = 6;
+            }
         }
-        else
-        {
-            agent.speed = speed;
-        }
-
+      
+       
         //agent.velocity = (agent.steeringTarget - transform.position).normalized * agent.speed;
         //transform.forward = agent.steeringTarget - transform.position;
 
         //追加、弾が当たったら
         BulletHit(isBulletHit);
+
+ 
 
     }
 
