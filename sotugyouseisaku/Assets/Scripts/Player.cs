@@ -93,8 +93,8 @@ public class Player : MonoBehaviour
     public ElevatorScript downElevator;
     bool isBossRoomEnter = false;
     bool isEnding = false;//エンディング中かどうか
-
     public GameObject BossClearDoor;
+    public GameObject BossClear;
     public Transform goalTarget;
     public GameObject Bip001;//銃のオブジェクト
     public GameObject cameratargt;
@@ -165,12 +165,13 @@ public class Player : MonoBehaviour
         if(isEnding&&!bossend)
         {
             CameraTarget = BossClearDoor.transform.position;
+            BossClear.SetActive(false);
             Bip001.SetActive(false);
             //*****ボスの倒れる演出*****//
             if (bossEnemy != null)
             {
                 CameraTarget = bossEnemy.transform.position;
-                CameraTarget.y = -49;//y座標だけ固定する
+                CameraTarget.y = -50;//y座標だけ固定する
                 myCamera.LookAt(CameraTarget);
             }
             //扉のほうを向かせる
