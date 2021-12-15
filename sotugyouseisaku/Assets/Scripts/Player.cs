@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using DG.Tweening;
 using UnityEngine.Rendering.PostProcessing;
@@ -33,7 +34,10 @@ public class Player : MonoBehaviour
     private Quaternion charaRot;  //キャラクターの角度
 
     //カメラ移動のスピード
-    private float cameraSpeed = 0.5f;
+    private float cameraSpeed = 100.0f;
+    //カメラ感度UI
+    [SerializeField]
+    private GameObject pauseSoundUI;
 
     //　キャラが回転中かどうか？
     private bool charaRotFlag;
@@ -215,8 +219,6 @@ public class Player : MonoBehaviour
         pos.y -= g * Time.deltaTime;
         charaCon.Move(pos * Time.deltaTime);
 
-       
-
         //ズーム
         if (Input.GetAxis("joystick L2") > 0)
         {
@@ -233,7 +235,7 @@ public class Player : MonoBehaviour
         else
         {
             //ズームしてない時
-            cameraSpeed = 100.0f;
+            cameraSpeed = pauseSoundUI.transform.GetChild(4).GetComponent<Slider>().value;
             //moveS = 2.0f;
             speed = 10.0f;
             DOTween.To(() => Camera.main.fieldOfView,
