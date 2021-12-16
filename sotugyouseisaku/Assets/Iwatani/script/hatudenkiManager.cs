@@ -26,6 +26,11 @@ public class hatudenkiManager : MonoBehaviour
     private GameObject eventCamera;
     [SerializeField]
     private GameObject door;
+    [SerializeField]
+    private GameObject door2;
+    [SerializeField]
+    private GameObject door3;
+
     Camera camera;
     GameObject canvasObject;
     GameObject sliderObject;
@@ -100,6 +105,8 @@ public class hatudenkiManager : MonoBehaviour
             StartCoroutine(DelayCoroutine(180, () =>
             {
                 door.SetActive(false);
+                door2.SetActive(false);
+                door3.SetActive(false);
             }));
             StartCoroutine(DelayCoroutine(600, () =>
              {

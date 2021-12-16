@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using DG.Tweening;
 using UnityEngine.Rendering.PostProcessing;
@@ -33,7 +34,10 @@ public class Player : MonoBehaviour
     private Quaternion charaRot;  //キャラクターの角度
 
     //カメラ移動のスピード
-    private float cameraSpeed = 0.5f;
+    private float cameraSpeed = 100.0f;
+    //カメラ感度UI
+    [SerializeField]
+    private GameObject pauseSoundUI;
 
     //　キャラが回転中かどうか？
     private bool charaRotFlag;
@@ -93,14 +97,18 @@ public class Player : MonoBehaviour
     public ElevatorScript downElevator;
     bool isBossRoomEnter = false;
     bool isEnding = false;//エンディング中かどうか
-
     public GameObject BossClearDoor;
+    public GameObject BossClear;
     public Transform goalTarget;
     public GameObject Bip001;//銃のオブジェクト
     public GameObject cameratargt;
     bool endcamera = false;
     bool bossend = false;
     public EventText eventText;
+
+    private AudioSource source;
+    [SerializeField]
+    private AudioClip damageSE;
 
     // Start is called before the first frame update
     void Start()
@@ -130,6 +138,7 @@ public class Player : MonoBehaviour
         bosseventend = false;
         eventManager = this.GetComponent<EventManager>();
         isBossRoomEnter = false;
+        source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -165,12 +174,13 @@ public class Player : MonoBehaviour
         if(isEnding&&!bossend)
         {
             CameraTarget = BossClearDoor.transform.position;
+            BossClear.SetActive(false);
             Bip001.SetActive(false);
             //*****ボスの倒れる演出*****//
             if (bossEnemy != null)
             {
                 CameraTarget = bossEnemy.transform.position;
-                CameraTarget.y = -49;//y座標だけ固定する
+                CameraTarget.y = -50;//y座標だけ固定する
                 myCamera.LookAt(CameraTarget);
             }
             //扉のほうを向かせる
@@ -210,8 +220,6 @@ public class Player : MonoBehaviour
         pos.y -= g * Time.deltaTime;
         charaCon.Move(pos * Time.deltaTime);
 
-       
-
         //ズーム
         if (Input.GetAxis("joystick L2") > 0)
         {
@@ -228,7 +236,7 @@ public class Player : MonoBehaviour
         else
         {
             //ズームしてない時
-            cameraSpeed = 100.0f;
+            cameraSpeed = pauseSoundUI.transform.GetChild(4).GetComponent<Slider>().value;
             //moveS = 2.0f;
             speed = 10.0f;
             DOTween.To(() => Camera.main.fieldOfView,
@@ -280,12 +288,14 @@ public class Player : MonoBehaviour
             //ポストエフェクトVignetteの値加算
             post.vigparam += 0.061f;
             Debug.Log("Player@vigparam"+post.vigparam);
+            source.PlayOneShot(damageSE);
             //Debug.Log("プレイヤーHP : " + hp);
         }
 
         if(collider.gameObject.tag == "BossEventHit")
         {
             bossevent = true;
+            GameObject.FindGameObjectWithTag("BGM").GetComponent<BGM>().isBoss = true;
         }
 
         if(collider.gameObject.tag == "EdTimelineStart"&&isEnding)
