@@ -15,6 +15,8 @@ public class hatudenkiHP : MonoBehaviour
     [SerializeField]
     AudioClip se;
     public float Hp;
+    [SerializeField]
+    GameObject spotLight;
 
     // Start is called before the first frame update
     void Start()
@@ -35,8 +37,9 @@ public class hatudenkiHP : MonoBehaviour
         //Debug.Log(slider.value);
         if(slider.value>=100)
         {
-            StartCoroutine(DelayCoroutine(3, () =>
+            StartCoroutine(DelayCoroutine(5, () =>
             {
+                Destroy(spotLight);
                 Destroy(gameObject);
             }));
             
