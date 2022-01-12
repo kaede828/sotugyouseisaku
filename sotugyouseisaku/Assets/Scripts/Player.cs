@@ -110,6 +110,8 @@ public class Player : MonoBehaviour
     [SerializeField]
     private AudioClip damageSE;
 
+    public int healCount;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -129,6 +131,7 @@ public class Player : MonoBehaviour
         //speed = moveS;
 
         hp = Playerhp;
+        healCount = 2;
 
         director = GetComponent<PlayableDirector>();
         start = false;
@@ -255,10 +258,7 @@ public class Player : MonoBehaviour
             }
         }
 
-        if(Input.GetKeyDown(KeyCode.A))
-        {
-            hp = Playerhp;
-        }
+       
         Death();
     }
 
@@ -315,7 +315,12 @@ public class Player : MonoBehaviour
             isBossRoomEnter = true;
         }
 
-        if(collider.gameObject.tag == "GameClearFlag")
+        if (collider.gameObject.tag == "Heal")
+        {
+             healCount+= 1;
+        }
+
+        if (collider.gameObject.tag == "GameClearFlag")
         {
             SceneManager.LoadScene("GameClear");
         }

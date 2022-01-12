@@ -7,9 +7,7 @@ public class Heal_Item : MonoBehaviour
 
     [SerializeField]
     private int heal = 20;
-
     public Player player;
-
     public postEffect post;
 
     [SerializeField]
@@ -17,13 +15,22 @@ public class Heal_Item : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetButtonDown("joystick R1"))
+        {
+            if (player.hp < 100 && player.healCount > 0)
+            {
+                player.hp += heal;
+                post.vigparam -= 0.061f * 2;
+                player.healCount -=1;
+                Debug.Log("回復ストック" + player.healCount);
+            }
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -31,13 +38,9 @@ public class Heal_Item : MonoBehaviour
         
         if (other.gameObject.tag == "Player")
         {
-            if(player.hp < 100)
-            {
-                player.hp += heal;
-                post.vigparam -= 0.061f * 2;
-                other.gameObject.GetComponent<AudioSource>().PlayOneShot(se);
-                Destroy(gameObject);           
-            }           
+            //Debug.Log("回復ストック" + count);
+            other.gameObject.GetComponent<AudioSource>().PlayOneShot(se);
+            Destroy(gameObject);
         }
     }
 }
