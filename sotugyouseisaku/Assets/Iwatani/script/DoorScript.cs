@@ -15,6 +15,7 @@ public class DoorScript : MonoBehaviour
     private AudioClip closeSE;
     private new AudioSource audio;
 
+    float count = 0;
     void Start()
     {
         isNear = false;
@@ -27,10 +28,24 @@ public class DoorScript : MonoBehaviour
         if (Input.GetButtonDown("joystick B") && isNear)
         {
             Debug.Log("open");
+            Debug.Log(animator.GetBool("Open"));
             animator.SetBool("Open", !animator.GetBool("Open"));
             IsPlaySE(!animator.GetBool("Open"));
         }
 
+        Debug.Log(count);
+        if(animator.GetBool("Open"))
+        {
+            count += Time.deltaTime;
+        }
+        
+        if (count >= 3) 
+        {
+            animator.SetBool("Open", false);
+            count = 0;
+        }
+
+        
         //Debug.Log(isNear);
     }
 

@@ -13,7 +13,15 @@ public class SoundManager : MonoBehaviour
     [SerializeField]
     private Transform zombies;
     [SerializeField]
+    private Transform zombies2;
+    [SerializeField]
+    private Transform zombiesEx;
+    [SerializeField]
+    private Transform zombiesEx2;
+    [SerializeField]
     private Transform spiders;
+    [SerializeField]
+    private Transform spiders2;
     [SerializeField]
     private Transform titan;
 
@@ -29,6 +37,8 @@ public class SoundManager : MonoBehaviour
     [SerializeField]
     private GameObject pauseSoundUI;
 
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,13 +49,39 @@ public class SoundManager : MonoBehaviour
             z.GetComponent<SoundPos>().SetTrans(zombies.transform.GetChild(i).transform);
             seList.Add(z);
         }
+        for (int i = 0; i < zombies2.transform.childCount; i++)
+        {
+            var z = Instantiate(zombieSE);
+            z.GetComponent<SoundPos>().SetTrans(zombies2.transform.GetChild(i).transform);
+            seList.Add(z);
+        }
         for (int i = 0; i < spiders.transform.childCount; i++)
         {
             var y = Instantiate(spiderSE);
             y.GetComponent<SoundPos>().SetTrans(spiders.transform.GetChild(i).transform);
             seList.Add(y);
         }
+        for (int i = 0; i < spiders2.transform.childCount; i++)
+        {
+            var y = Instantiate(spiderSE);
+            y.GetComponent<SoundPos>().SetTrans(spiders2.transform.GetChild(i).transform);
+            seList.Add(y);
+        }
+        ///
 
+        for (int i = 0; i < zombiesEx.transform.childCount; i++)
+        {
+            var z = Instantiate(zombieSE);
+            z.GetComponent<SoundPos>().SetTrans(zombiesEx.transform.GetChild(i).transform);
+            seList.Add(z);
+        }
+        for (int i = 0; i < zombiesEx2.transform.childCount; i++)
+        {
+            var z = Instantiate(zombieSE);
+            z.GetComponent<SoundPos>().SetTrans(zombiesEx2.transform.GetChild(i).transform);
+            seList.Add(z);
+        }
+        ///
         var x = Instantiate(titanSE);
         x.GetComponent<SoundPos>().SetTrans(titan.transform);
         seList.Add(x);
