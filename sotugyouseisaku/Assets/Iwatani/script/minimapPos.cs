@@ -10,6 +10,8 @@ public class minimapPos : MonoBehaviour
     GameObject textObject;
     GameObject ikkaigameObject;
     GameObject nikaigameObject;
+    [SerializeField]
+    GameObject batumark;
     Text text;
     Vector3 oldPos;
     Vector3 newPos;
