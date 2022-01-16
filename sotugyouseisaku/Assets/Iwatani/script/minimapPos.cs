@@ -26,7 +26,7 @@ public class minimapPos : MonoBehaviour
     GameObject Optext;
     int value;
     TextDisplay Textdisplay;
-    hatudenki hatu;
+    Player p;
 
     void Start()
     {
@@ -49,6 +49,8 @@ public class minimapPos : MonoBehaviour
         Optext = GameObject.FindGameObjectWithTag("OPtext");
 
         Textdisplay = Optext.GetComponent<TextDisplay>();
+
+        p= GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
     }
 
     // Update is called once per frame
@@ -113,18 +115,22 @@ public class minimapPos : MonoBehaviour
         if (value >= 100)
         {
             Vector3 trans = this.gameObject.GetComponent<RectTransform>().anchoredPosition3D;
-            Debug.Log(trans);
+            //Debug.Log(trans);
             Instantiate(batumark, new Vector3(0,0,0),Quaternion.identity, transform.parent.gameObject.transform);
             value = 0;
         }
 
-        if(true)
+        if(p.hit==true)
         {
             if (Input.GetButton("joystick B"))
             {
-                Debug.Log("a");
+                //Debug.Log("a");
                 value += 1;
             }
+        }
+        else
+        {
+            Debug.Log("”­“d‹@‚É“–‚½‚Á‚Ä‚È‚¢");
         }
     }
 }
