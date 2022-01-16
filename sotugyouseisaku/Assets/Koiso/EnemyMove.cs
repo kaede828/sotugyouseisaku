@@ -81,7 +81,7 @@ public class EnemyMove : MonoBehaviour
             //Vector3 hitPos = other.ClosestPointOnBounds(this.transform.position);
             Instantiate(bloodObj, hitPos, Quaternion.identity);
             Damage();
-            Debug.Log("“GHP : " + hp);
+            //Debug.Log("“GHP : " + hp);
             isBulletHit = false;
         }
     }

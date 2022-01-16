@@ -112,6 +112,8 @@ public class Player : MonoBehaviour
 
     public int healCount;
 
+    public bool hit=false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -257,8 +259,9 @@ public class Player : MonoBehaviour
                 start = true;
             }
         }
+        Debug.Log("hit" + hit);
+        hit = false;
 
-       
         Death();
     }
 
@@ -323,6 +326,23 @@ public class Player : MonoBehaviour
         if (collider.gameObject.tag == "GameClearFlag")
         {
             SceneManager.LoadScene("GameClear");
+        }
+
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.tag == "hatudenkiHit")
+        {
+            hit = true;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "hatudenkiHit")
+        {
+            hit = false;
         }
     }
 

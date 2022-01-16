@@ -277,7 +277,7 @@ public class BossEnemy : MonoBehaviour
         //}
         if(run)
         {
-            if (!agent.pathPending && agent.remainingDistance < 0.5f)
+            if (!agent.pathPending && agent.remainingDistance < 1f)
             {
                 StartCoroutine("Attacktimer", 2.5f);
                 animator.SetTrigger("attack3");
