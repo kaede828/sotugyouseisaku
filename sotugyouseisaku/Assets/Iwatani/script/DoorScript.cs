@@ -33,7 +33,7 @@ public class DoorScript : MonoBehaviour
             IsPlaySE(!animator.GetBool("Open"));
         }
 
-        Debug.Log(count);
+        //Debug.Log(count);
         if(animator.GetBool("Open"))
         {
             count += Time.deltaTime;
