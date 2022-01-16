@@ -11,7 +11,9 @@ public class Heal_Item : MonoBehaviour
     public postEffect post;
 
     [SerializeField]
-    private AudioClip se;
+    private AudioClip getSE;
+    [SerializeField]
+    private AudioClip useSE;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +30,8 @@ public class Heal_Item : MonoBehaviour
                 player.hp += heal;
                 post.vigparam -= 0.061f * 2;
                 player.healCount -=1;
-                Debug.Log("回復ストック" + player.healCount);
+                Debug.Log("回復ストック" + player.healCount);              
+                player.GetComponent<AudioSource>().PlayOneShot(useSE);
             }
         }
     }
@@ -39,7 +42,7 @@ public class Heal_Item : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             //Debug.Log("回復ストック" + count);
-            other.gameObject.GetComponent<AudioSource>().PlayOneShot(se);
+            other.gameObject.GetComponent<AudioSource>().PlayOneShot(getSE);
             Destroy(gameObject);
         }
     }
