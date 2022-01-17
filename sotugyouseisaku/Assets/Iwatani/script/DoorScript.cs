@@ -27,13 +27,13 @@ public class DoorScript : MonoBehaviour
     {
         if (Input.GetButtonDown("joystick B") && isNear)
         {
-            Debug.Log("open");
-            Debug.Log(animator.GetBool("Open"));
+            //Debug.Log("open");
+            //Debug.Log(animator.GetBool("Open"));
             animator.SetBool("Open", !animator.GetBool("Open"));
             IsPlaySE(!animator.GetBool("Open"));
         }
 
-        Debug.Log(count);
+        //Debug.Log(count);
         if(animator.GetBool("Open"))
         {
             count += Time.deltaTime;

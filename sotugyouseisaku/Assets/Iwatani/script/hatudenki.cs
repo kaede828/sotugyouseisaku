@@ -62,7 +62,6 @@ public class hatudenki : MonoBehaviour
         if(other.gameObject.tag == "hatudenkiHit")
         {
             hit = false;
-            value = 0;
         }
     }
 }
