@@ -17,7 +17,7 @@ public class EventText : MonoBehaviour
     public Image texthaikei;//テキストの後ろの透過イメージ
     bool eventStart;//テキストの表示を始めるかどうか
     public int textKind = -1;//インスタンス毎にテキストが持つ数字(インスペクターで設定)
-    private int specifiedText = 0;//実行時に指定されるテキスト
+    //private int specifiedText = 0;//実行時に指定されるテキスト
 
     void Start()
     {
@@ -42,10 +42,10 @@ public class EventText : MonoBehaviour
             return;
         }
 
-        if(textKind != specifiedText)
-        {//このテキストがもつ変数と指定された番号が違うなら何もしない
-            return;
-        }
+        //if(textKind != specifiedText)
+        //{//このテキストがもつ変数と指定された番号が違うなら何もしない
+        //    return;
+        //}
         if (isTimer)
         {
             timer += Time.deltaTime;
@@ -101,9 +101,9 @@ public class EventText : MonoBehaviour
     }
 
     //他のスクリプトから数字でどのテキストを表示するか呼び出す関数
-    public void SpecifiedTextNumber(int i)
+    public void SpecifiedTextNumber()
     {
-        this.specifiedText = i;
+        //this.specifiedText = i;
         eventStart = true;
     }
 }

@@ -440,7 +440,7 @@ public class Player : MonoBehaviour
     {//エンディング
         yield return new WaitForSeconds(3.0f);
         //エンディング用のテキスト
-        eventText.SpecifiedTextNumber(3);
+        eventText.SpecifiedTextNumber();
         //ドアの方向を向かせる
         myCamera.LookAt(CameraTarget);
 
