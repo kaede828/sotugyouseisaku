@@ -32,6 +32,10 @@ public class hatudenkiManager : MonoBehaviour
     private GameObject door2;
     [SerializeField]
     private GameObject door3;
+    [SerializeField]
+    private FenceUpDown fence;
+    [SerializeField]
+    private FenceUpDown fence2;
 
     Camera camera;
     Camera camera2;
@@ -161,8 +165,9 @@ public class hatudenkiManager : MonoBehaviour
         {
             camera.depth = 1;
             StartCoroutine(DelayCoroutine(60, () =>
-            {//“SŠiŽq‚ðÁ‚·(‚ ‚Æ‚ÅƒAƒjƒ[ƒVƒ‡ƒ“‚É‚·‚é)
-                door.SetActive(false);
+            {//ò‚ðŠJ‚¯‚é
+                //door.SetActive(false);
+                fence.DownFence();
             }));
             StartCoroutine(DelayCoroutine(180, () =>
             {
@@ -176,8 +181,9 @@ public class hatudenkiManager : MonoBehaviour
         {
             camera2.depth = 1;
             StartCoroutine(DelayCoroutine(60, () =>
-            {//“SŠiŽq‚ðÁ‚·(‚ ‚Æ‚ÅƒAƒjƒ[ƒVƒ‡ƒ“‚É‚·‚é)
-                door2.SetActive(false);
+            {//“SŠiŽq‚ðÁ‚·
+                fence2.DownFence();
+                //door2.SetActive(false);
                 door3.SetActive(false);
             }));
             StartCoroutine(DelayCoroutine(180, () =>

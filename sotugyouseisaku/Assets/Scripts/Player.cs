@@ -121,11 +121,10 @@ public class Player : MonoBehaviour
     private GameObject eventCamera;
     Camera camera;//2Fに入った時のイベント用
     [SerializeField]
-    private GameObject fence;
+    private FenceUpDown fence;
     [SerializeField]
     private GameObject fence2;
     private bool is2FStart = false;//2階に入った時用
-    private Animator Fenceanim;//フェンスアニメーション用
 
     // Start is called before the first frame update
     void Start()
@@ -158,7 +157,6 @@ public class Player : MonoBehaviour
         isBossRoomEnter = false;
         source = GetComponent<AudioSource>();
         camera = eventCamera.GetComponent<Camera>();
-        Fenceanim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -281,7 +279,6 @@ public class Player : MonoBehaviour
 
         if(Input.GetKey(KeyCode.A))
         {
-            Fenceanim.SetBool("isDown", true);
         }
     }
 
@@ -350,12 +347,12 @@ public class Player : MonoBehaviour
 
         if (collider.gameObject.tag == "2FStartCol"&&!is2FStart)
         {
-            is2FStart = true;
+            is2FStart = true;           
             camera.depth = 1;
+            fence2.SetActive(true);//2Fの柵を出す
             StartCoroutine(DelayCoroutine(60, () =>
-            {//1Fと2Fの間を封鎖する(あとでアニメーションにする)
-                fence.SetActive(false);//1Fの柵を消す
-                fence2.SetActive(false);//2Fの柵を消す
+            {//1Fと2Fの間を封鎖する
+                fence.UpFence();//1Fの柵を出す               
             }));
             StartCoroutine(DelayCoroutine(180, () =>
             {
@@ -490,17 +487,6 @@ public class Player : MonoBehaviour
     public void Endling()
     {//エンディング
         isEnding = true;
-    }
-
-    private IEnumerator Start2FCoroutine()
-    {
-        camera.depth = 1;
-        yield return new WaitForSeconds(1f);
-        fence.SetActive(false);//1Fの柵を消す
-        fence2.SetActive(false);//2Fの柵を消す
-        yield return new WaitForSeconds(1f);
-        camera.depth = -1;
-        start2FText.SpecifiedTextNumber();
     }
 
     private IEnumerator DelayCoroutine(int Count, Action action)
