@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -112,7 +113,19 @@ public class Player : MonoBehaviour
 
     public int healCount;
 
-    public bool hit=false;
+    public bool hit = false;
+
+    [SerializeField]
+    private EventText start2FText;//2Fに入った時に出すテキスト
+    [SerializeField]
+    private GameObject eventCamera;
+    Camera camera;//2Fに入った時のイベント用
+    [SerializeField]
+    private GameObject fence;
+    [SerializeField]
+    private GameObject fence2;
+    private bool is2FStart = false;//2階に入った時用
+    private Animator Fenceanim;//フェンスアニメーション用
 
     // Start is called before the first frame update
     void Start()
@@ -144,6 +157,8 @@ public class Player : MonoBehaviour
         eventManager = this.GetComponent<EventManager>();
         isBossRoomEnter = false;
         source = GetComponent<AudioSource>();
+        camera = eventCamera.GetComponent<Camera>();
+        Fenceanim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -151,7 +166,7 @@ public class Player : MonoBehaviour
     {
         hp = Mathf.Clamp(hp, 0, 100);
         post.vigparam = Mathf.Clamp(post.vigparam, 0, 0.61f);
-        if(endcamera)
+        if (endcamera)
         {
             CameraTarget = cameratargt.transform.position;
             myCamera.LookAt(CameraTarget);
@@ -176,7 +191,7 @@ public class Player : MonoBehaviour
             StartCoroutine("BossEvent");//3秒間カメラをボスの方向へ
         }
 
-        if(isEnding&&!bossend)
+        if (isEnding && !bossend)
         {
             CameraTarget = BossClearDoor.transform.position;
             BossClear.SetActive(false);
@@ -192,7 +207,7 @@ public class Player : MonoBehaviour
             StartCoroutine("EndingEvent");
         }
 
-        if ((!opend&&director !=null)||(bossevent&&!bosseventend)||isEnding == true)
+        if ((!opend && director != null) || (bossevent && !bosseventend) || isEnding == true)
         {//オープニング中、ボスイベント中、エンディング中は操作出来ないように
             return;
         }
@@ -210,7 +225,7 @@ public class Player : MonoBehaviour
             pos = new Vector3(x, 0, z).normalized;
             pos = transform.TransformDirection(pos);
             pos *= speed;
-           
+
 
             animator.SetFloat("Forward", Input.GetAxis("Vertical"));
             animator.SetFloat("Lateral", Input.GetAxis("Horizontal"));
@@ -250,7 +265,7 @@ public class Player : MonoBehaviour
                 waitTime);
         }
 
-        if(opend&&!start)
+        if (opend && !start)
         {
             opskipcount++;
             if (opskipcount > 5)
@@ -263,6 +278,11 @@ public class Player : MonoBehaviour
         hit = false;
 
         Death();
+
+        if(Input.GetKey(KeyCode.A))
+        {
+            Fenceanim.SetBool("isDown", true);
+        }
     }
 
     IEnumerator DamageTimer(int time)
@@ -290,18 +310,18 @@ public class Player : MonoBehaviour
             hp = hp - 10;
             //ポストエフェクトVignetteの値加算
             post.vigparam += 0.061f;
-            Debug.Log("Player@vigparam"+post.vigparam);
+            Debug.Log("Player@vigparam" + post.vigparam);
             source.PlayOneShot(damageSE);
             //Debug.Log("プレイヤーHP : " + hp);
         }
 
-        if(collider.gameObject.tag == "BossEventHit")
+        if (collider.gameObject.tag == "BossEventHit")
         {
             bossevent = true;
             GameObject.FindGameObjectWithTag("BGM").GetComponent<BGM>().isBoss = true;
         }
 
-        if(collider.gameObject.tag == "EdTimelineStart"&&isEnding)
+        if (collider.gameObject.tag == "EdTimelineStart" && isEnding)
         {//エンディングのスターと
             endcamera = true;
             bossend = true;
@@ -310,7 +330,7 @@ public class Player : MonoBehaviour
             elevator.ElevatorUp();
         }
 
-        if(collider.gameObject.tag == "BossRoomEnter"&&!isBossRoomEnter)
+        if (collider.gameObject.tag == "BossRoomEnter" && !isBossRoomEnter)
         {
             //ボス部屋に降りるタイムラインを再生
             eventManager.BossRoomEnter();
@@ -320,12 +340,29 @@ public class Player : MonoBehaviour
 
         if (collider.gameObject.tag == "Heal")
         {
-             healCount+= 1;
+            healCount += 1;
         }
 
         if (collider.gameObject.tag == "GameClearFlag")
         {
             SceneManager.LoadScene("GameClear");
+        }
+
+        if (collider.gameObject.tag == "2FStartCol"&&!is2FStart)
+        {
+            is2FStart = true;
+            camera.depth = 1;
+            StartCoroutine(DelayCoroutine(60, () =>
+            {//1Fと2Fの間を封鎖する(あとでアニメーションにする)
+                fence.SetActive(false);//1Fの柵を消す
+                fence2.SetActive(false);//2Fの柵を消す
+            }));
+            StartCoroutine(DelayCoroutine(180, () =>
+            {
+                camera.depth = -1;
+                //柵を閉じるカメラに変わった後テキスト
+                start2FText.SpecifiedTextNumber();//初めの発電機をつけた時にテキスト
+            }));
         }
 
     }
@@ -414,7 +451,7 @@ public class Player : MonoBehaviour
 
     void Death()
     {
-        if(hp <= 0 )
+        if (hp <= 0)
         {
             SceneManager.LoadScene("GameOver");
         }
@@ -423,8 +460,8 @@ public class Player : MonoBehaviour
     public void OpEnd()
     {
         opend = true;
-        if(director != null)
-        director.Stop();
+        if (director != null)
+            director.Stop();
 
     }
 
@@ -455,7 +492,26 @@ public class Player : MonoBehaviour
         isEnding = true;
     }
 
+    private IEnumerator Start2FCoroutine()
+    {
+        camera.depth = 1;
+        yield return new WaitForSeconds(1f);
+        fence.SetActive(false);//1Fの柵を消す
+        fence2.SetActive(false);//2Fの柵を消す
+        yield return new WaitForSeconds(1f);
+        camera.depth = -1;
+        start2FText.SpecifiedTextNumber();
+    }
 
+    private IEnumerator DelayCoroutine(int Count, Action action)
+    {
+        for (var i = 0; i < Count; i++)
+        {
+            yield return null;
+        }
+
+        action?.Invoke();
+    }
 }
 
 
