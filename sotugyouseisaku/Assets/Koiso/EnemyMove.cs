@@ -136,7 +136,7 @@ public class EnemyMove : MonoBehaviour
             agent.isStopped = true;
             //mat.color = new Color(0.0f, 0.0f, 1.0f, 1.0f);
             yield return new WaitForSeconds(1f);
-            Debug.Log(time);
+            //Debug.Log(time);
             --time;
             attack.SetActive(false);
         }
