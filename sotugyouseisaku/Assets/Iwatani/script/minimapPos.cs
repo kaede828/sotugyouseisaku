@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 
+[RequireComponent(typeof(Graphic))]
 public class minimapPos : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -13,6 +14,8 @@ public class minimapPos : MonoBehaviour
     GameObject nikaigameObject;
     [SerializeField]
     GameObject batumark;
+    [SerializeField]
+    GameObject rootMap;
     Text text;
     Vector3 oldPos;
     Vector3 newPos;
@@ -21,12 +24,15 @@ public class minimapPos : MonoBehaviour
     Image ikkaiimage;
     Image nikaiimage;
     bool mapflag = false;
+    bool batuflag;
     public bool ikkaiimageflag = true;
     public bool nikaiimageflag = false;
     GameObject Optext;
     int value;
     TextDisplay Textdisplay;
     Player p;
+
+
 
     void Start()
     {
@@ -112,25 +118,45 @@ public class minimapPos : MonoBehaviour
             text.color = new Color(text.color.r, text.color.g, text.color.b, 0);
         }
 
-        if (value >= 100)
+        if (value >= 95)
         {
-            Vector3 trans = this.gameObject.GetComponent<RectTransform>().anchoredPosition3D;
+            //Debug.Log("生成しました");
+            //現在のプレイヤーアイコンの位置
+            Vector3 trans = this.gameObject.GetComponent<RectTransform>().anchoredPosition3D;  
             //Debug.Log(trans);
-            Instantiate(batumark, new Vector3(0,0,0),Quaternion.identity, transform.parent.gameObject.transform);
+            // ローカル座標にインスタンス生成
+            var instance = Instantiate(batumark, transform);
+            imageList.Add(instance.GetComponent<Image>());
+            instance.transform.parent = rootMap.transform;
+            instance.GetComponent<RectTransform>().localPosition = trans;
+            instance.SetActive(true);
+            batuflag = true;
+            
+        }
+        if (batuflag)
+        {
+            //Debug.Log("リセットしました");
             value = 0;
+            batuflag = false;
+            p.hit = false;
         }
 
         if(p.hit==true)
         {
             if (Input.GetButton("joystick B"))
             {
-                //Debug.Log("a");
+                //Debug.Log("value"+value);
                 value += 1;
+            }
+            else
+            {
+                value = 0;
+                //Debug.Log("value" + value);
             }
         }
         else
         {
-            Debug.Log("発電機に当たってない");
+            //Debug.Log("発電機に当たってない");
         }
     }
 }

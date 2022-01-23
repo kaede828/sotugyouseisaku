@@ -272,8 +272,8 @@ public class Player : MonoBehaviour
                 start = true;
             }
         }
-        Debug.Log("hit" + hit);
-        hit = false;
+        //Debug.Log("hit" + hit);
+        //hit = false;
 
         Death();
 
@@ -284,7 +284,7 @@ public class Player : MonoBehaviour
 
     IEnumerator DamageTimer(int time)
     {
-        Debug.Log("コルーチン");
+        //Debug.Log("コルーチン");
         //Material mat = this.GetComponent<Renderer>().material;
         while (time >= 0)
         {
@@ -307,7 +307,7 @@ public class Player : MonoBehaviour
             hp = hp - 10;
             //ポストエフェクトVignetteの値加算
             post.vigparam += 0.061f;
-            Debug.Log("Player@vigparam" + post.vigparam);
+            //Debug.Log("Player@vigparam" + post.vigparam);
             source.PlayOneShot(damageSE);
             //Debug.Log("プレイヤーHP : " + hp);
         }
@@ -361,17 +361,11 @@ public class Player : MonoBehaviour
                 start2FText.SpecifiedTextNumber();//初めの発電機をつけた時にテキスト
             }));
         }
-
-    }
-
-    private void OnTriggerStay(Collider other)
-    {
-        if (other.gameObject.tag == "hatudenkiHit")
+        if (collider.gameObject.tag == "hatudenkiHit")
         {
             hit = true;
         }
     }
-
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "hatudenkiHit")
