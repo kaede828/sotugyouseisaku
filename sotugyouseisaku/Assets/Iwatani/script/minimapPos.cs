@@ -36,6 +36,8 @@ public class minimapPos : MonoBehaviour
 
     void Start()
     {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
         oldPos = player.GetComponent<Transform>().position;
         this.gameObject.GetComponent<RectTransform>().anchoredPosition3D = new Vector3(177.5f, -275, 0);
         GameObject[] gameObjects = GameObject.FindGameObjectsWithTag("minimap");
@@ -104,6 +106,14 @@ public class minimapPos : MonoBehaviour
 
             if (nikaiimageflag)
             {
+                for (int i = 0; i < imageList.Count; i++)
+                {
+                    if(imageList[i].gameObject.tag=="batu")
+                    {
+                        Destroy(imageList[i]);
+                        imageList.Remove(imageList[i]);
+                    }
+                }
                 ikkaiimage.color = new Color(ikkaiimage.color.r, ikkaiimage.color.g, ikkaiimage.color.b, 0);
                 nikaiimage.color = new Color(nikaiimage.color.r, nikaiimage.color.g, nikaiimage.color.b, 1);
                 text.text = "2F";
@@ -118,9 +128,9 @@ public class minimapPos : MonoBehaviour
             text.color = new Color(text.color.r, text.color.g, text.color.b, 0);
         }
 
-        if (value >= 95)
+        if (value >= 99)
         {
-            //Debug.Log("生成しました");
+            Debug.Log("生成しました");
             //現在のプレイヤーアイコンの位置
             Vector3 trans = this.gameObject.GetComponent<RectTransform>().anchoredPosition3D;  
             //Debug.Log(trans);
