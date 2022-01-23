@@ -37,8 +37,8 @@ public class hatudenkiManager : MonoBehaviour
     [SerializeField]
     private FenceUpDown fence2;
 
-    Camera camera;
-    Camera camera2;
+    //Camera camera;
+    //Camera camera2;
     GameObject canvasObject;
     GameObject sliderObject;
     bool cam = false;
@@ -58,10 +58,13 @@ public class hatudenkiManager : MonoBehaviour
 
     void Start()
     {
-        camera = eventCamera.GetComponent<Camera>();
+        if (eventCamera != null)
+        {
+            eventCamera.SetActive(false);
+        }
         if (eventCamera2 != null)
         {
-            camera2 = eventCamera2.GetComponent<Camera>();
+            eventCamera2.SetActive(false);
         }
         for (int i = start; i < spawnPosList.Count; i++)
         {
@@ -163,7 +166,7 @@ public class hatudenkiManager : MonoBehaviour
         //1階の発電機を一つ付けた時
         if (hatudenkiHitList.Count == 3)
         {
-            camera.depth = 1;
+            eventCamera.SetActive(true);
             StartCoroutine(DelayCoroutine(60, () =>
             {//柵を開ける
                 //door.SetActive(false);
@@ -171,7 +174,7 @@ public class hatudenkiManager : MonoBehaviour
             }));
             StartCoroutine(DelayCoroutine(180, () =>
             {
-                camera.depth = -1;
+                eventCamera.SetActive(false);
                 //追加　扉が開いた後の説明テキスト
                 eventText.SpecifiedTextNumber();//初めの発電機をつけた時にテキスト
             }));
@@ -179,7 +182,8 @@ public class hatudenkiManager : MonoBehaviour
         //1階の発電機をすべて付けたら
         if (hatudenkiHitList.Count <= 0 && cam)
         {
-            camera2.depth = 1;
+            eventCamera2.SetActive(true);
+            //camera2.depth = 1;
             StartCoroutine(DelayCoroutine(60, () =>
             {//鉄格子を消す
                 fence2.DownFence();
@@ -188,7 +192,8 @@ public class hatudenkiManager : MonoBehaviour
             }));
             StartCoroutine(DelayCoroutine(180, () =>
             {
-                camera2.depth = -1;
+                eventCamera2.SetActive(false);
+                //camera2.depth = -1;
                 //追加　扉が開いた後の説明テキスト
                 eventText2.SpecifiedTextNumber();//1階の発電機を全てつけた時にテキスト
             }));
@@ -201,7 +206,8 @@ public class hatudenkiManager : MonoBehaviour
     {
         if (hatudenkiHitList.Count <= 0 && cam)
         {
-            camera.depth = 1;
+            eventCamera.SetActive(true);
+            //camera.depth = 1;
             StartCoroutine(DelayCoroutine(60, () =>
             {
                 door.SetActive(false);
@@ -210,7 +216,8 @@ public class hatudenkiManager : MonoBehaviour
             }));
             StartCoroutine(DelayCoroutine(180, () =>
             {
-                camera.depth = -1;
+                eventCamera.SetActive(false);
+                //camera.depth = -1;
                 //追加　扉が開いた後の説明テキスト
                 eventText2.SpecifiedTextNumber();//発電機をすべてつけた時のテキスト
             }));
