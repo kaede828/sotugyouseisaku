@@ -491,7 +491,7 @@ public class Player : MonoBehaviour
     {
             if (hp < 100 && healCount > 0 )
             {
-                hp += 20;
+                hp += heal;
                 post.vigparam -= 0.061f * 2;
                 Debug.Log("回復ストック" + healCount);
                 healCount -= 1;
