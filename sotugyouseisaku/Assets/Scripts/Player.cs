@@ -23,6 +23,9 @@ public class Player : MonoBehaviour
     private float x, z;
     private float L2;
 
+    [SerializeField]
+    private int heal = 20;
+
     private CharacterController charaCon;//キャラクターコントローラー
     private Vector3 pos = Vector3.zero; //座標
 
@@ -125,6 +128,8 @@ public class Player : MonoBehaviour
     [SerializeField]
     private GameObject fence2;
     private bool is2FStart = false;//2階に入った時用
+
+    public Heal_Item healItem;
 
     // Start is called before the first frame update
     void Start()
@@ -280,6 +285,11 @@ public class Player : MonoBehaviour
         if(Input.GetKey(KeyCode.A))
         {
         }
+
+        if (Input.GetButtonDown("joystick R1"))
+        {
+            Heal();
+        }
     }
 
     IEnumerator DamageTimer(int time)
@@ -335,10 +345,10 @@ public class Player : MonoBehaviour
             isBossRoomEnter = true;
         }
 
-        if (collider.gameObject.tag == "Heal")
-        {
-            healCount += 1;
-        }
+        //if (collider.gameObject.tag == "Heal")
+        //{
+        //    healCount += 1;
+        //}
 
         if (collider.gameObject.tag == "GameClearFlag")
         {
@@ -477,6 +487,16 @@ public class Player : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, goalTarget.position, 0.15f);
     }
 
+    void Heal()
+    {
+            if (hp < 100 && healCount > 0 )
+            {
+                hp += 20;
+                post.vigparam -= 0.061f * 2;
+                Debug.Log("回復ストック" + healCount);
+                healCount -= 1;
+            } 
+    }
 
     public void Endling()
     {//エンディング
