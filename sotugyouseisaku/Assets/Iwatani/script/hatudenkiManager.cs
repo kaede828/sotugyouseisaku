@@ -167,12 +167,12 @@ public class hatudenkiManager : MonoBehaviour
         if (hatudenkiHitList.Count == 3)
         {
             eventCamera.SetActive(true);
-            StartCoroutine(DelayCoroutine(60, () =>
+            StartCoroutine(DelayCoroutine(120, () =>
             {//柵を開ける
                 //door.SetActive(false);
                 fence.DownFence();
             }));
-            StartCoroutine(DelayCoroutine(180, () =>
+            StartCoroutine(DelayCoroutine(240, () =>
             {
                 eventCamera.SetActive(false);
                 //追加　扉が開いた後の説明テキスト
@@ -184,13 +184,13 @@ public class hatudenkiManager : MonoBehaviour
         {
             eventCamera2.SetActive(true);
             //camera2.depth = 1;
-            StartCoroutine(DelayCoroutine(60, () =>
+            StartCoroutine(DelayCoroutine(120, () =>
             {//鉄格子を消す
                 fence2.DownFence();
                 //door2.SetActive(false);
                 door3.SetActive(false);
             }));
-            StartCoroutine(DelayCoroutine(180, () =>
+            StartCoroutine(DelayCoroutine(240, () =>
             {
                 eventCamera2.SetActive(false);
                 //camera2.depth = -1;
@@ -208,13 +208,13 @@ public class hatudenkiManager : MonoBehaviour
         {
             eventCamera.SetActive(true);
             //camera.depth = 1;
-            StartCoroutine(DelayCoroutine(60, () =>
+            StartCoroutine(DelayCoroutine(120, () =>
             {
                 door.SetActive(false);
                 door2.SetActive(false);
                 door3.SetActive(false);
             }));
-            StartCoroutine(DelayCoroutine(180, () =>
+            StartCoroutine(DelayCoroutine(240, () =>
             {
                 eventCamera.SetActive(false);
                 //camera.depth = -1;
