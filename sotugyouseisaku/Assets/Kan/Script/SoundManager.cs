@@ -38,7 +38,6 @@ public class SoundManager : MonoBehaviour
     private GameObject pauseSoundUI;
 
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -46,25 +45,35 @@ public class SoundManager : MonoBehaviour
         for (int i = 0; i < zombies.transform.childCount; i++)
         {
             var z = Instantiate(zombieSE);
+            z.name = "àÍäKÉ]ÉìÉr:" + i.ToString();
             z.GetComponent<SoundPos>().SetTrans(zombies.transform.GetChild(i).transform);
+            z.GetComponent<ZombieSound>().py = false;
+            z.GetComponent<ZombieSound>().zombie = zombies.transform.GetChild(i).gameObject;
             seList.Add(z);
         }
         for (int i = 0; i < zombies2.transform.childCount; i++)
         {
             var z = Instantiate(zombieSE);
+            z.name = "ìÒäKÉ]ÉìÉr:" + i.ToString();
             z.GetComponent<SoundPos>().SetTrans(zombies2.transform.GetChild(i).transform);
+            z.GetComponent<ZombieSound>().py = true;
+            z.GetComponent<ZombieSound>().zombie = zombies2.transform.GetChild(i).gameObject;
             seList.Add(z);
         }
         for (int i = 0; i < spiders.transform.childCount; i++)
         {
             var y = Instantiate(spiderSE);
+            y.name = "àÍäKÉNÉÇ:" + i.ToString();
             y.GetComponent<SoundPos>().SetTrans(spiders.transform.GetChild(i).transform);
+            y.GetComponent<ZombieSound>().py = false;
             seList.Add(y);
         }
         for (int i = 0; i < spiders2.transform.childCount; i++)
         {
             var y = Instantiate(spiderSE);
+            y.name = "ìÒäKÉNÉÇ:" + i.ToString();
             y.GetComponent<SoundPos>().SetTrans(spiders2.transform.GetChild(i).transform);
+            y.GetComponent<ZombieSound>().py = true;
             seList.Add(y);
         }
         ///
@@ -72,17 +81,24 @@ public class SoundManager : MonoBehaviour
         for (int i = 0; i < zombiesEx.transform.childCount; i++)
         {
             var z = Instantiate(zombieSE);
+            z.name = "àÍäKÉXÉeÉbÉvÉ]ÉìÉr:" + i.ToString();
             z.GetComponent<SoundPos>().SetTrans(zombiesEx.transform.GetChild(i).transform);
+            z.GetComponent<ZombieSound>().py = false;
+            z.GetComponent<ZombieSound>().zombie = zombiesEx.transform.GetChild(i).gameObject;
             seList.Add(z);
         }
         for (int i = 0; i < zombiesEx2.transform.childCount; i++)
         {
             var z = Instantiate(zombieSE);
+            z.name = "ìÒäKÉXÉeÉbÉvÉ]ÉìÉr:" + i.ToString();
             z.GetComponent<SoundPos>().SetTrans(zombiesEx2.transform.GetChild(i).transform);
+            z.GetComponent<ZombieSound>().py = true;
+            z.GetComponent<ZombieSound>().zombie = zombiesEx2.transform.GetChild(i).gameObject;
             seList.Add(z);
         }
         ///
         var x = Instantiate(titanSE);
+        x.name = "É{ÉX";
         x.GetComponent<SoundPos>().SetTrans(titan.transform);
         seList.Add(x);
         seList.Add(playerSE);
