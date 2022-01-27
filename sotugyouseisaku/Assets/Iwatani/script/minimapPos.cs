@@ -109,7 +109,7 @@ public class minimapPos : MonoBehaviour
             {
                 if(baturemoveflag)
                 {
-                    for (int i = 0; i < imageList.Count; i++)
+                    for (int i = 0; i <= imageList.Count; i++)
                     {
                         if (imageList[i].gameObject.tag == "batu")
                         {
@@ -117,8 +117,9 @@ public class minimapPos : MonoBehaviour
                             imageList.Remove(imageList[i]);
                         }
                     }
+                    baturemoveflag = false;
                 }
-                baturemoveflag = false;
+                
 
                 ikkaiimage.color = new Color(ikkaiimage.color.r, ikkaiimage.color.g, ikkaiimage.color.b, 0);
                 nikaiimage.color = new Color(nikaiimage.color.r, nikaiimage.color.g, nikaiimage.color.b, 1);
