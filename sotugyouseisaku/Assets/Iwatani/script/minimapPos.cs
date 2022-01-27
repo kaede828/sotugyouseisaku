@@ -25,6 +25,7 @@ public class minimapPos : MonoBehaviour
     Image nikaiimage;
     bool mapflag = false;
     bool batuflag;
+    bool baturemoveflag=true;
     public bool ikkaiimageflag = true;
     public bool nikaiimageflag = false;
     GameObject Optext;
@@ -106,14 +107,19 @@ public class minimapPos : MonoBehaviour
 
             if (nikaiimageflag)
             {
-                for (int i = 0; i < imageList.Count; i++)
+                if(baturemoveflag)
                 {
-                    if(imageList[i].gameObject.tag=="batu")
+                    for (int i = 0; i < imageList.Count; i++)
                     {
-                        Destroy(imageList[i]);
-                        imageList.Remove(imageList[i]);
+                        if (imageList[i].gameObject.tag == "batu")
+                        {
+                            Destroy(imageList[i].gameObject);
+                            imageList.Remove(imageList[i]);
+                        }
                     }
                 }
+                baturemoveflag = false;
+
                 ikkaiimage.color = new Color(ikkaiimage.color.r, ikkaiimage.color.g, ikkaiimage.color.b, 0);
                 nikaiimage.color = new Color(nikaiimage.color.r, nikaiimage.color.g, nikaiimage.color.b, 1);
                 text.text = "2F";
@@ -168,5 +174,7 @@ public class minimapPos : MonoBehaviour
         {
             //Debug.Log("”­“d‹@‚É“–‚½‚Á‚Ä‚È‚¢");
         }
+
+        Debug.Log("value" + value);
     }
 }

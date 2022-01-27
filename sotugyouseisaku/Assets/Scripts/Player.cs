@@ -371,14 +371,14 @@ public class Player : MonoBehaviour
                 start2FText.SpecifiedTextNumber();//初めの発電機をつけた時にテキスト
             }));
         }
-        if (collider.gameObject.tag == "hatudenkiHit")
+        if (collider.gameObject.tag == "hatudenkiHit"|| collider.gameObject.tag == "2FhatudenkiHit")
         {
             hit = true;
         }
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "hatudenkiHit")
+        if (other.gameObject.tag == "hatudenkiHit" || other.gameObject.tag == "2FhatudenkiHit")
         {
             hit = false;
         }
