@@ -54,7 +54,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 10
+  MaxDistance: 15
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -154,3 +154,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   zombieSE: {fileID: 8300000, guid: 706341b267ebef64abc726a93a3ab81f, type: 3}
+  point: {x: 0, y: 1.5, z: 0}
+  py: 0
+  zombie: {fileID: 0}

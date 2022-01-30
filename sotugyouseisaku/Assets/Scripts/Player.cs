@@ -23,6 +23,9 @@ public class Player : MonoBehaviour
     private float x, z;
     private float L2;
 
+    [SerializeField]
+    private int heal = 20;
+
     private CharacterController charaCon;//キャラクターコントローラー
     private Vector3 pos = Vector3.zero; //座標
 
@@ -119,12 +122,13 @@ public class Player : MonoBehaviour
     private EventText start2FText;//2Fに入った時に出すテキスト
     [SerializeField]
     private GameObject eventCamera;
-    Camera camera;//2Fに入った時のイベント用
     [SerializeField]
     private FenceUpDown fence;
     [SerializeField]
     private GameObject fence2;
     private bool is2FStart = false;//2階に入った時用
+
+    public Heal_Item healItem;
 
     // Start is called before the first frame update
     void Start()
@@ -156,7 +160,6 @@ public class Player : MonoBehaviour
         eventManager = this.GetComponent<EventManager>();
         isBossRoomEnter = false;
         source = GetComponent<AudioSource>();
-        camera = eventCamera.GetComponent<Camera>();
     }
 
     // Update is called once per frame
@@ -280,6 +283,11 @@ public class Player : MonoBehaviour
         if(Input.GetKey(KeyCode.A))
         {
         }
+
+        if (Input.GetButtonDown("joystick R1"))
+        {
+            Heal();
+        }
     }
 
     IEnumerator DamageTimer(int time)
@@ -335,10 +343,10 @@ public class Player : MonoBehaviour
             isBossRoomEnter = true;
         }
 
-        if (collider.gameObject.tag == "Heal")
-        {
-            healCount += 1;
-        }
+        //if (collider.gameObject.tag == "Heal")
+        //{
+        //    healCount += 1;
+        //}
 
         if (collider.gameObject.tag == "GameClearFlag")
         {
@@ -347,8 +355,8 @@ public class Player : MonoBehaviour
 
         if (collider.gameObject.tag == "2FStartCol"&&!is2FStart)
         {
-            is2FStart = true;           
-            camera.depth = 1;
+            is2FStart = true;
+            eventCamera.SetActive(true);
             fence2.SetActive(true);//2Fの柵を出す
             StartCoroutine(DelayCoroutine(60, () =>
             {//1Fと2Fの間を封鎖する
@@ -356,19 +364,19 @@ public class Player : MonoBehaviour
             }));
             StartCoroutine(DelayCoroutine(180, () =>
             {
-                camera.depth = -1;
+                eventCamera.SetActive(false);
                 //柵を閉じるカメラに変わった後テキスト
                 start2FText.SpecifiedTextNumber();//初めの発電機をつけた時にテキスト
             }));
         }
-        if (collider.gameObject.tag == "hatudenkiHit")
+        if (collider.gameObject.tag == "hatudenkiHit"|| collider.gameObject.tag == "2FhatudenkiHit")
         {
             hit = true;
         }
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "hatudenkiHit")
+        if (other.gameObject.tag == "hatudenkiHit" || other.gameObject.tag == "2FhatudenkiHit")
         {
             hit = false;
         }
@@ -477,6 +485,16 @@ public class Player : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, goalTarget.position, 0.15f);
     }
 
+    void Heal()
+    {
+            if (hp < 100 && healCount > 0 )
+            {
+                hp += heal;
+                post.vigparam -= 0.061f * 2;
+                Debug.Log("回復ストック" + healCount);
+                healCount -= 1;
+            } 
+    }
 
     public void Endling()
     {//エンディング

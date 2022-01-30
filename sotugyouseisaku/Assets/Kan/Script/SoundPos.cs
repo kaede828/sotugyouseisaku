@@ -28,6 +28,8 @@ public class SoundPos : MonoBehaviour
         {
             //“G‚É‚Â‚¢‚Ä‚¢‚­
             transform.position = other.position;
+            var p = transform.position;
+            transform.position = p;
         }
     }
 }

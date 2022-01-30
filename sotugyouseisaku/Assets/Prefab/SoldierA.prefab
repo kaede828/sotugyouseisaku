@@ -776,6 +776,8 @@ MonoBehaviour:
   speed: 10
   jump: 5
   g: 13
+  heal: 20
+  pauseSoundUI: {fileID: 0}
   cameraRotForward: 1
   cameraRotateLimit: 30
   spine: {fileID: 6366208532008371468}
@@ -787,11 +789,19 @@ MonoBehaviour:
   elevator: {fileID: 0}
   downElevator: {fileID: 0}
   BossClearDoor: {fileID: 0}
+  BossClear: {fileID: 0}
   goalTarget: {fileID: 0}
   Bip001: {fileID: 6366208532008409364}
   cameratargt: {fileID: 899091076922147959}
   eventText: {fileID: 0}
-  damageSE: {fileID: 8300000, guid: 6f305e291043d2d45b4019f0f09b0d7b, type: 3}
+  damageSE: {fileID: 8300000, guid: 4c2188172f508b743aff4a8c0bf85d06, type: 3}
+  healCount: 0
+  hit: 0
+  start2FText: {fileID: 0}
+  eventCamera: {fileID: 0}
+  fence: {fileID: 0}
+  fence2: {fileID: 0}
+  healItem: {fileID: 0}
 --- !u!82 &8074966563458602579
 AudioSource:
   m_ObjectHideFlags: 0
@@ -954,6 +964,8 @@ PlayableDirector:
     value: {fileID: 6366208532017933012}
   - key: {fileID: -980455816545593854, guid: f8323447cdf5433498738b085f41049a, type: 2}
     value: {fileID: 6366208532017933012}
+  - key: {fileID: -8547958726120786885, guid: 694a855e7acee9d49acc052f9411f68e, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &1136933710
@@ -1450,7 +1462,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.05
-  far clip plane: 1000
+  far clip plane: 200
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -1625,13 +1637,13 @@ Light:
   m_Shape: 0
   m_Color: {r: 0.49411765, g: 0.44313726, b: 0.44313726, a: 1}
   m_Intensity: 2
-  m_Range: 20
+  m_Range: 50
   m_SpotAngle: 60
   m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
+    m_Type: 2
+    m_Resolution: 0
     m_CustomResolution: -1
     m_Strength: 1
     m_Bias: 0.05
