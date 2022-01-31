@@ -10,11 +10,17 @@ public class postEffect : MonoBehaviour
     PostProcessVolume postProcess;
     Vignette vignette;
 
+    public float exposure;//postExposure‚Ì’l
+    ColorGrading colGrad;
+
+
 
     //public GameObject postEffe;
     // Start is called before the first frame update
     void Start()
     {
+        exposure = 0.3f;
+
         //PostVolumeŽæ“¾
         postProcess = GameObject.Find("postEffect").gameObject.GetComponent<PostProcessVolume>();
 
@@ -23,6 +29,11 @@ public class postEffect : MonoBehaviour
             if (item as Vignette)
             {
                 vignette = item as Vignette;
+            };
+
+            if (item as ColorGrading)
+            {
+                colGrad = item as ColorGrading;
             };
         }
     }
@@ -35,6 +46,11 @@ public class postEffect : MonoBehaviour
         if (vignette)
         {
             vignette.intensity.value = vigparam;
+        }
+
+        if(colGrad)
+        {
+            colGrad.postExposure.value = exposure;
         }
     }
 }
