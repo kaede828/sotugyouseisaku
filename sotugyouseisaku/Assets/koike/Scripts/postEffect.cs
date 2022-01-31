@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
+using UnityEngine.UI;
 
 public class postEffect : MonoBehaviour
 {
@@ -13,7 +14,9 @@ public class postEffect : MonoBehaviour
     public float exposure;//postExposureの値
     ColorGrading colGrad;
 
-
+    //明るさUI
+    [SerializeField]
+    private GameObject pauseSoundUI;
 
     //public GameObject postEffe;
     // Start is called before the first frame update
@@ -50,7 +53,9 @@ public class postEffect : MonoBehaviour
 
         if(colGrad)
         {
-            colGrad.postExposure.value = exposure;
+            //UIのばりゅーが変更されたらその値を入れる
+            colGrad.postExposure.value = pauseSoundUI.transform.GetChild(5).GetComponent<Slider>().value;
+            //colGrad.postExposure.value = exposure;
         }
     }
 }

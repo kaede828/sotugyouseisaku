@@ -59,7 +59,7 @@ public class ZombieSound : MonoBehaviour
         }
         else
         {
-            Debug.Log(gameObject);
+            //Debug.Log(gameObject);
         }
         IsFadeOut = false;
         FadeOutSeconds = 2.0f;
