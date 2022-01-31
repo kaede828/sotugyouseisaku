@@ -61,7 +61,7 @@ public class minimapPos : MonoBehaviour
         Textdisplay = Optext.GetComponent<TextDisplay>();
 
         p= GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-        Debug.Log("imageListの数" + imageList.Count);
+        //Debug.Log("imageListの数" + imageList.Count);
     }
 
     // Update is called once per frame
@@ -111,11 +111,10 @@ public class minimapPos : MonoBehaviour
             {
                 if(baturemoveflag)
                 {
-                    Debug.Log("imageListの数" + imageList.Count);
-                    for (int i = 0; i <= imageList.Count; i++)
+                    //Debug.Log("imageListの数" + imageList.Count);
+                    for (int i = 0; i < imageList.Count; i++)
                     {
-                        Debug.Log(i+"番目のオブジェクトの名前"+imageList[i].gameObject.name);
-                        a += 1;
+                        //Debug.Log(i+"番目のオブジェクトの名前"+imageList[i].gameObject.name);
                         if (imageList[i].gameObject.tag == "batu")
                         {
                             b += 1;
@@ -124,8 +123,6 @@ public class minimapPos : MonoBehaviour
                         }
                     }
                     baturemoveflag = false;
-                    Debug.Log("a" + a);
-                    Debug.Log("b" + b);
                 }
                 
 
@@ -145,14 +142,14 @@ public class minimapPos : MonoBehaviour
 
         if (value >= 99)
         {
-            Debug.Log("生成しました");
+            //Debug.Log("生成しました");
             //現在のプレイヤーアイコンの位置
             Vector3 trans = this.gameObject.GetComponent<RectTransform>().anchoredPosition3D;  
             //Debug.Log(trans);
             // ローカル座標にインスタンス生成
             var instance = Instantiate(batumark, transform);
             imageList.Add(instance.GetComponent<Image>());
-            Debug.Log("imageListの数" + imageList.Count);
+            //Debug.Log("imageListの数" + imageList.Count);
             instance.transform.parent = rootMap.transform;
             instance.GetComponent<RectTransform>().localPosition = trans;
             instance.SetActive(true);
