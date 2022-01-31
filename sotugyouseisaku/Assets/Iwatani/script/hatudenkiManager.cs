@@ -42,10 +42,14 @@ public class hatudenkiManager : MonoBehaviour
     GameObject canvasObject;
     GameObject sliderObject;
     bool cam = false;
+    bool cam2 = false;
     int ransu;
     int aCou = 0;
     public EventText eventText;//追加　発電機つけた時にテキスト表示用
     public EventText eventText2;//追加　発電機つけた時にテキスト表示用
+
+    [SerializeField]
+    Player player;
 
     public enum Floor//何回かで処理を分けるため
     {
@@ -120,6 +124,7 @@ public class hatudenkiManager : MonoBehaviour
             }
         }
         cam = true;
+        cam2 = true;
     }
 
     // Update is called once per frame
@@ -164,9 +169,10 @@ public class hatudenkiManager : MonoBehaviour
     private void Floor1Event()
     {
         //1階の発電機を一つ付けた時
-        if (hatudenkiHitList.Count == 3)
+        if (hatudenkiHitList.Count == 3 && cam2)
         {
             eventCamera.SetActive(true);
+            player.Isevent = true;
             StartCoroutine(DelayCoroutine(120, () =>
             {//柵を開ける
                 //door.SetActive(false);
@@ -174,15 +180,18 @@ public class hatudenkiManager : MonoBehaviour
             }));
             StartCoroutine(DelayCoroutine(240, () =>
             {
+                player.Isevent = false;
                 eventCamera.SetActive(false);
                 //追加　扉が開いた後の説明テキスト
                 eventText.SpecifiedTextNumber();//初めの発電機をつけた時にテキスト
             }));
+            cam2 = false;
         }
         //1階の発電機をすべて付けたら
         if (hatudenkiHitList.Count <= 0 && cam)
         {
             eventCamera2.SetActive(true);
+            player.Isevent = true;
             //camera2.depth = 1;
             StartCoroutine(DelayCoroutine(120, () =>
             {//鉄格子を消す
@@ -192,6 +201,7 @@ public class hatudenkiManager : MonoBehaviour
             }));
             StartCoroutine(DelayCoroutine(240, () =>
             {
+                player.Isevent = false;
                 eventCamera2.SetActive(false);
                 //camera2.depth = -1;
                 //追加　扉が開いた後の説明テキスト
@@ -207,6 +217,7 @@ public class hatudenkiManager : MonoBehaviour
         if (hatudenkiHitList.Count <= 0 && cam)
         {
             eventCamera.SetActive(true);
+            //player.IsEventTrue();
             //camera.depth = 1;
             StartCoroutine(DelayCoroutine(120, () =>
             {

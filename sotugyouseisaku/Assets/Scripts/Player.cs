@@ -130,6 +130,8 @@ public class Player : MonoBehaviour
 
     public Heal_Item healItem;
 
+    public bool Isevent;//イベント中操作不可能に
+
     // Start is called before the first frame update
     void Start()
     {
@@ -208,10 +210,14 @@ public class Player : MonoBehaviour
             StartCoroutine("EndingEvent");
         }
 
-        if ((!opend && director != null) || (bossevent && !bosseventend) || isEnding == true)
-        {//オープニング中、ボスイベント中、エンディング中は操作出来ないように
+        if ((!opend && director != null) ||
+            (bossevent && !bosseventend) ||
+            isEnding == true ||
+            Isevent)
+        {//オープニング中、ボスイベント中、エンディング中、イベント中は操作出来ないように
             return;
         }
+
         //　キャラクターの向きを変更する
         RotateChara();
         //　視点の向きを変える
@@ -280,7 +286,7 @@ public class Player : MonoBehaviour
 
         Death();
 
-        if(Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A))
         {
         }
 
@@ -353,23 +359,25 @@ public class Player : MonoBehaviour
             SceneManager.LoadScene("GameClear");
         }
 
-        if (collider.gameObject.tag == "2FStartCol"&&!is2FStart)
+        if (collider.gameObject.tag == "2FStartCol" && !is2FStart)
         {
             is2FStart = true;
+            Isevent = true;
             eventCamera.SetActive(true);
             fence2.SetActive(true);//2Fの柵を出す
-            StartCoroutine(DelayCoroutine(60, () =>
+            StartCoroutine(DelayCoroutine(120, () =>
             {//1Fと2Fの間を封鎖する
                 fence.UpFence();//1Fの柵を出す               
             }));
-            StartCoroutine(DelayCoroutine(180, () =>
+            StartCoroutine(DelayCoroutine(240, () =>
             {
+                Isevent = false;
                 eventCamera.SetActive(false);
                 //柵を閉じるカメラに変わった後テキスト
                 start2FText.SpecifiedTextNumber();//初めの発電機をつけた時にテキスト
             }));
         }
-        if (collider.gameObject.tag == "hatudenkiHit"|| collider.gameObject.tag == "2FhatudenkiHit")
+        if (collider.gameObject.tag == "hatudenkiHit" || collider.gameObject.tag == "2FhatudenkiHit")
         {
             hit = true;
         }
@@ -487,13 +495,13 @@ public class Player : MonoBehaviour
 
     void Heal()
     {
-            if (hp < 100 && healCount > 0 )
-            {
-                hp += heal;
-                post.vigparam -= 0.061f * 2;
-                Debug.Log("回復ストック" + healCount);
-                healCount -= 1;
-            } 
+        if (hp < 100 && healCount > 0)
+        {
+            hp += heal;
+            post.vigparam -= 0.061f * 2;
+            Debug.Log("回復ストック" + healCount);
+            healCount -= 1;
+        }
     }
 
     public void Endling()
@@ -510,6 +518,8 @@ public class Player : MonoBehaviour
 
         action?.Invoke();
     }
+
+
 }
 
 
