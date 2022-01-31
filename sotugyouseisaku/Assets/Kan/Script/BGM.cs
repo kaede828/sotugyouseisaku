@@ -27,7 +27,8 @@ public class BGM : MonoBehaviour
     {
         if(isBoss)
         {
-            audio.PlayOneShot(bossBGM);
+            audio.clip = bossBGM;
+            audio.Play();
             isBoss = false;
         }
 
