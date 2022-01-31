@@ -33,7 +33,8 @@ public class minimapPos : MonoBehaviour
     TextDisplay Textdisplay;
     Player p;
 
-
+    int a;
+    int b;
 
     void Start()
     {
@@ -60,6 +61,7 @@ public class minimapPos : MonoBehaviour
         Textdisplay = Optext.GetComponent<TextDisplay>();
 
         p= GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        Debug.Log("imageListの数" + imageList.Count);
     }
 
     // Update is called once per frame
@@ -109,15 +111,21 @@ public class minimapPos : MonoBehaviour
             {
                 if(baturemoveflag)
                 {
+                    Debug.Log("imageListの数" + imageList.Count);
                     for (int i = 0; i <= imageList.Count; i++)
                     {
+                        Debug.Log(i+"番目のオブジェクトの名前"+imageList[i].gameObject.name);
+                        a += 1;
                         if (imageList[i].gameObject.tag == "batu")
                         {
-                            Destroy(imageList[i].gameObject);
+                            b += 1;
+                            Destroy(imageList[i]);
                             imageList.Remove(imageList[i]);
                         }
                     }
                     baturemoveflag = false;
+                    Debug.Log("a" + a);
+                    Debug.Log("b" + b);
                 }
                 
 
@@ -144,6 +152,7 @@ public class minimapPos : MonoBehaviour
             // ローカル座標にインスタンス生成
             var instance = Instantiate(batumark, transform);
             imageList.Add(instance.GetComponent<Image>());
+            Debug.Log("imageListの数" + imageList.Count);
             instance.transform.parent = rootMap.transform;
             instance.GetComponent<RectTransform>().localPosition = trans;
             instance.SetActive(true);
@@ -176,6 +185,6 @@ public class minimapPos : MonoBehaviour
             //Debug.Log("発電機に当たってない");
         }
 
-        Debug.Log("value" + value);
+        //Debug.Log("value" + value);
     }
 }

@@ -21,12 +21,6 @@ public class minimapflag : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag=="1Fflag")
-        {
-            minimappos.nikaiimageflag = false;
-            minimappos.ikkaiimageflag = true;
-        }
-
         if (other.gameObject.tag=="2Fflag")
         {
             minimappos.ikkaiimageflag = false;
