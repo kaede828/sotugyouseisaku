@@ -18,6 +18,7 @@ public class TextDisplay : MonoBehaviour
     [SerializeField]float count;
     public bool opend;//オープニングが終わったかどうか
     public Player player;
+    public Transform door;
 
     void Start()
     {
@@ -57,6 +58,7 @@ public class TextDisplay : MonoBehaviour
             opend = true;
             opskiptext.enabled = false;
             player.OpEnd();
+            door.transform.eulerAngles = new Vector3(180, 360, 0);
         }
     }
 
